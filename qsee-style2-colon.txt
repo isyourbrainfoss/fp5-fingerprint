@@ -1,0 +1,2 @@
+===== STYLE2 =====
+[   21.906663] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=505 spi_bus=14 spidev=0 =====

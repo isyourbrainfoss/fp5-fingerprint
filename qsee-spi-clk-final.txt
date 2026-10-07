@@ -1,0 +1,7 @@
+[  129.394350] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[  129.649142] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[  129.668662] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[  129.684455] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x12a err=0xfffffffb rsp8=0x65746c61
+[  129.740108] qsee_fp: ION HIT dev-PROBE-100a ret=0 req0=0x8000100a rsp0=0x12a err=0xffffff33 rsp8=0x65746c61
+[  129.803794] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x12a err=0x0 rsp8=0x65746c61
+[  129.863312] qsee_fp: done

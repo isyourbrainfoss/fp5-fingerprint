@@ -1,0 +1,1650 @@
+[ 3631.919877] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 3631.919879] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 3631.919881] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 3631.919882] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 3631.919886] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3631.919887] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 3631.919887] qsee_fp: dev-LOGCAT-after-reinit LOGCONT end
+[ 3631.955258] qsee_fp: capture path done fdt_ok=1
+[ 3631.998383] qsee_fp: ION HIT dev-PWR-fingerwait ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3631.998394] qsee_fp: dev-PWR-fingerwait st=0x32a first8=2a030000 0026666f
+[ 3631.998399] qsee_fp: dev-PWR-fingerwait str[0]: &focaltech:ft93xx:core
+[ 3631.998402] qsee_fp: dev-PWR-fingerwait str[1]: ...TryReadSysIntFlag: 0x0
+[ 3631.998406] qsee_fp: dev-PWR-fingerwait str[2]: &focaltech:ft93xx:core
+[ 3631.998409] qsee_fp: dev-PWR-fingerwait str[3]: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3631.998412] qsee_fp: dev-PWR-fingerwait str[4]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3631.998416] qsee_fp: dev-PWR-fingerwait str[5]: focaltech:ta:config
+[ 3631.998419] qsee_fp: dev-PWR-fingerwait str[6]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3631.998422] qsee_fp: dev-PWR-fingerwait str[7]: focaltech:ta:config
+[ 3631.998425] qsee_fp: dev-PWR-fingerwait str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3631.998427] qsee_fp: dev-PWR-fingerwait str[9]: focaltech:ta:config
+[ 3631.998430] qsee_fp: dev-PWR-fingerwait str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3631.998433] qsee_fp: dev-PWR-fingerwait str[11]: focaltech:ta:config
+[ 3631.998436] qsee_fp: dev-PWR-fingerwait str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3631.998438] qsee_fp: dev-PWR-fingerwait str[13]: focaltech:ta:config
+[ 3631.998441] qsee_fp: dev-PWR-fingerwait str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3631.998444] qsee_fp: dev-PWR-fingerwait str[15]: focaltech:ta:config
+[ 3631.998446] qsee_fp: dev-PWR-fingerwait st=0x8000101e first8=1e100080 00000000
+[ 3631.998449] qsee_fp: dev-PWR-fingerwait str[0]: .22_0.0.3_001-20230214
+[ 3631.998452] qsee_fp: dev-PWR-fingerwait str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3631.998456] qsee_fp: dev-PWR-fingerwait str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3631.998482] qsee_fp: dev-PWR-fingerwait LOGCONT begin len=810
+[ 3631.998486] qsee_fp: dev-PWR-fingerwait LOG: &focaltech:ft93xx:core
+[ 3631.998489] qsee_fp: dev-PWR-fingerwait LOG: ...TryReadSysIntFlag: 0x0
+[ 3631.998491] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998493] qsee_fp: dev-PWR-fingerwait LOG: &focaltech:ft93xx:core
+[ 3631.998497] qsee_fp: dev-PWR-fingerwait LOG: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3631.998500] qsee_fp: dev-PWR-fingerwait LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3631.998502] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998504] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998508] qsee_fp: dev-PWR-fingerwait LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3631.998510] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998511] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998515] qsee_fp: dev-PWR-fingerwait LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3631.998517] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998519] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998523] qsee_fp: dev-PWR-fingerwait LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3631.998525] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998527] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998530] qsee_fp: dev-PWR-fingerwait LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3631.998532] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998534] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998537] qsee_fp: dev-PWR-fingerwait LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3631.998539] qsee_fp: dev-PWR-fingerwait LOG: !
+[ 3631.998541] qsee_fp: dev-PWR-fingerwait LOG: focaltech:ta:config
+[ 3631.998543] qsee_fp: dev-PWR-fingerwait LOGCONT end
+[ 3632.013311] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.013316] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.013321] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.013324] qsee_fp: dev-WMODE-fw str[1]: switch to 'SLEEP' mode.
+[ 3632.013326] qsee_fp: dev-WMODE-fw str[2]: &focaltech:ft93xx:core
+[ 3632.013329] qsee_fp: dev-WMODE-fw str[3]: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.013332] qsee_fp: dev-WMODE-fw str[4]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.013334] qsee_fp: dev-WMODE-fw str[5]: focaltech:ta:config
+[ 3632.013338] qsee_fp: dev-WMODE-fw str[6]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.013341] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.013344] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.013346] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.013349] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.013351] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.013355] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.013357] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.013360] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.013362] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.013364] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.013368] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.013371] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.013374] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.013400] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.013402] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.013405] qsee_fp: dev-WMODE-fw LOG: switch to 'SLEEP' mode.
+[ 3632.013407] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013409] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.013413] qsee_fp: dev-WMODE-fw LOG: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.013416] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.013418] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013420] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013424] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.013426] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013428] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013431] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.013433] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013435] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013438] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.013440] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013442] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013445] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.013447] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013448] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013452] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.013454] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.013455] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.013457] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.044432] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.044442] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.044448] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.044452] qsee_fp: dev-WMODE-fw str[1]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3632.044455] qsee_fp: dev-WMODE-fw str[2]: altech:ft93xx:core
+[ 3632.044458] qsee_fp: dev-WMODE-fw str[3]: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.044462] qsee_fp: dev-WMODE-fw str[4]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.044465] qsee_fp: dev-WMODE-fw str[5]: focaltech:ta:config
+[ 3632.044469] qsee_fp: dev-WMODE-fw str[6]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.044472] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.044476] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.044478] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.044481] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.044484] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.044488] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.044491] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.044494] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.044497] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.044499] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.044504] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.044507] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.044510] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.044537] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.044540] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.044543] qsee_fp: dev-WMODE-fw LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3632.044546] qsee_fp: dev-WMODE-fw LOG: altech:ft93xx:core
+[ 3632.044550] qsee_fp: dev-WMODE-fw LOG: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.044553] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.044555] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044557] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044562] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.044564] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044566] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044570] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.044572] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044574] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044579] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.044581] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044584] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044587] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.044589] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044591] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044595] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.044597] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.044599] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.044600] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.074415] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.074422] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.074428] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.074432] qsee_fp: dev-WMODE-fw str[1]: switch to 'FDT_UP_DETECT' mode.
+[ 3632.074435] qsee_fp: dev-WMODE-fw str[2]: altech:ft93xx:core
+[ 3632.074439] qsee_fp: dev-WMODE-fw str[3]: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.074442] qsee_fp: dev-WMODE-fw str[4]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.074446] qsee_fp: dev-WMODE-fw str[5]: focaltech:ta:config
+[ 3632.074450] qsee_fp: dev-WMODE-fw str[6]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.074453] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.074457] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.074460] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.074463] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.074466] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.074469] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.074472] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.074475] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.074478] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.074480] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.074484] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.074487] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.074491] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.074517] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.074520] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.074524] qsee_fp: dev-WMODE-fw LOG: switch to 'FDT_UP_DETECT' mode.
+[ 3632.074527] qsee_fp: dev-WMODE-fw LOG: altech:ft93xx:core
+[ 3632.074530] qsee_fp: dev-WMODE-fw LOG: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.074533] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.074536] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074539] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074544] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.074546] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074548] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074552] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.074554] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074556] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074561] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.074563] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074565] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074568] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.074570] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074572] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074575] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.074577] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.074579] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.074581] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.090533] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 3632.090545] qsee_fp: dev-WMODE-fw st=0x52a first8=2a050000 0026666f
+[ 3632.090553] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.090558] qsee_fp: dev-WMODE-fw str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.090563] qsee_fp: dev-WMODE-fw str[2]:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.090568] qsee_fp: dev-WMODE-fw str[3]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.090573] qsee_fp: dev-WMODE-fw str[4]: focaltech:ta:config
+[ 3632.090578] qsee_fp: dev-WMODE-fw str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.090582] qsee_fp: dev-WMODE-fw str[6]: focaltech:ta:config
+[ 3632.090587] qsee_fp: dev-WMODE-fw str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.090591] qsee_fp: dev-WMODE-fw str[8]: focaltech:ta:config
+[ 3632.090596] qsee_fp: dev-WMODE-fw str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.090600] qsee_fp: dev-WMODE-fw str[10]: focaltech:ta:config
+[ 3632.090605] qsee_fp: dev-WMODE-fw str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.090610] qsee_fp: dev-WMODE-fw str[12]: focaltech:ta:config
+[ 3632.090614] qsee_fp: dev-WMODE-fw str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.090616] qsee_fp: dev-WMODE-fw str[14]: focaltech:ta:config
+[ 3632.090620] qsee_fp: dev-WMODE-fw str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.090622] qsee_fp: dev-WMODE-fw str[16]: focaltech:ta:config
+[ 3632.090626] qsee_fp: dev-WMODE-fw str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.090628] qsee_fp: dev-WMODE-fw str[18]: focaltech:ta:config
+[ 3632.090632] qsee_fp: dev-WMODE-fw str[19]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.090634] qsee_fp: dev-WMODE-fw str[20]: focaltech:ta:config
+[ 3632.090637] qsee_fp: dev-WMODE-fw str[21]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.090640] qsee_fp: dev-WMODE-fw str[22]: focaltech:ta:config
+[ 3632.090643] qsee_fp: dev-WMODE-fw str[23]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3632.090645] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.090649] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.090653] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.090656] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.090683] qsee_fp: dev-WMODE-fw LOGCONT begin len=1322
+[ 3632.090686] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.090691] qsee_fp: dev-WMODE-fw LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.090693] qsee_fp: dev-WMODE-fw LOG:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.090696] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.090698] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090701] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090705] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.090707] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090710] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090714] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.090716] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090719] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090723] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.090725] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090728] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090731] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.090734] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090736] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090740] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.090742] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090744] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090748] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.090750] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090752] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090755] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.090757] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090759] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090762] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.090764] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090766] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090769] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.090771] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.090774] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.090777] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3632.090779] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.107549] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 3632.107559] qsee_fp: dev-WMODE-fw st=0x52a first8=2a050000 0026666f
+[ 3632.107566] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.107570] qsee_fp: dev-WMODE-fw str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.107574] qsee_fp: dev-WMODE-fw str[2]:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.107577] qsee_fp: dev-WMODE-fw str[3]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.107581] qsee_fp: dev-WMODE-fw str[4]: focaltech:ta:config
+[ 3632.107585] qsee_fp: dev-WMODE-fw str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.107588] qsee_fp: dev-WMODE-fw str[6]: focaltech:ta:config
+[ 3632.107591] qsee_fp: dev-WMODE-fw str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.107594] qsee_fp: dev-WMODE-fw str[8]: focaltech:ta:config
+[ 3632.107597] qsee_fp: dev-WMODE-fw str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.107600] qsee_fp: dev-WMODE-fw str[10]: focaltech:ta:config
+[ 3632.107603] qsee_fp: dev-WMODE-fw str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.107606] qsee_fp: dev-WMODE-fw str[12]: focaltech:ta:config
+[ 3632.107610] qsee_fp: dev-WMODE-fw str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.107612] qsee_fp: dev-WMODE-fw str[14]: focaltech:ta:config
+[ 3632.107616] qsee_fp: dev-WMODE-fw str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.107618] qsee_fp: dev-WMODE-fw str[16]: focaltech:ta:config
+[ 3632.107622] qsee_fp: dev-WMODE-fw str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.107624] qsee_fp: dev-WMODE-fw str[18]: focaltech:ta:config
+[ 3632.107627] qsee_fp: dev-WMODE-fw str[19]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.107630] qsee_fp: dev-WMODE-fw str[20]: focaltech:ta:config
+[ 3632.107633] qsee_fp: dev-WMODE-fw str[21]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.107636] qsee_fp: dev-WMODE-fw str[22]: focaltech:ta:config
+[ 3632.107640] qsee_fp: dev-WMODE-fw str[23]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3632.107642] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.107646] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.107649] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.107653] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.107678] qsee_fp: dev-WMODE-fw LOGCONT begin len=1322
+[ 3632.107681] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.107686] qsee_fp: dev-WMODE-fw LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.107689] qsee_fp: dev-WMODE-fw LOG:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.107692] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.107694] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107697] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107701] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.107703] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107706] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107710] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.107712] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107714] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107719] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.107722] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107724] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107728] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.107730] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107733] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107737] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.107739] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107741] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107745] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.107747] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107749] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107752] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.107755] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107757] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107760] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.107762] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107764] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107767] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.107770] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.107772] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.107775] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3632.107777] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.127279] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 3632.127290] qsee_fp: dev-WMODE-fw st=0x52a first8=2a050000 0026666f
+[ 3632.127302] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.127322] qsee_fp: dev-WMODE-fw str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.127335] qsee_fp: dev-WMODE-fw str[2]:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.127353] qsee_fp: dev-WMODE-fw str[3]: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.127363] qsee_fp: dev-WMODE-fw str[4]: focaltech:ta:config
+[ 3632.127385] qsee_fp: dev-WMODE-fw str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.127394] qsee_fp: dev-WMODE-fw str[6]: focaltech:ta:config
+[ 3632.127414] qsee_fp: dev-WMODE-fw str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.127424] qsee_fp: dev-WMODE-fw str[8]: focaltech:ta:config
+[ 3632.127444] qsee_fp: dev-WMODE-fw str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.127455] qsee_fp: dev-WMODE-fw str[10]: focaltech:ta:config
+[ 3632.127476] qsee_fp: dev-WMODE-fw str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.127485] qsee_fp: dev-WMODE-fw str[12]: focaltech:ta:config
+[ 3632.127507] qsee_fp: dev-WMODE-fw str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.127518] qsee_fp: dev-WMODE-fw str[14]: focaltech:ta:config
+[ 3632.127538] qsee_fp: dev-WMODE-fw str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.127547] qsee_fp: dev-WMODE-fw str[16]: focaltech:ta:config
+[ 3632.127568] qsee_fp: dev-WMODE-fw str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.127579] qsee_fp: dev-WMODE-fw str[18]: focaltech:ta:config
+[ 3632.127598] qsee_fp: dev-WMODE-fw str[19]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.127608] qsee_fp: dev-WMODE-fw str[20]: focaltech:ta:config
+[ 3632.127629] qsee_fp: dev-WMODE-fw str[21]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.127640] qsee_fp: dev-WMODE-fw str[22]: focaltech:ta:config
+[ 3632.127660] qsee_fp: dev-WMODE-fw str[23]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3632.127667] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.127680] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.127697] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.127716] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.128036] qsee_fp: dev-WMODE-fw LOGCONT begin len=1322
+[ 3632.128044] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.128061] qsee_fp: dev-WMODE-fw LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 3632.128072] qsee_fp: dev-WMODE-fw LOG:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 3632.128088] qsee_fp: dev-WMODE-fw LOG: amed 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 3632.128092] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128100] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128120] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.128125] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128132] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128150] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.128155] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128162] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128180] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.128184] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128191] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128210] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.128214] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128221] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128240] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.128245] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128253] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128271] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3632.128275] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128283] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128302] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3632.128307] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128315] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128331] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3632.128335] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128342] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128359] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3632.128364] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.128372] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.128390] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3632.128394] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.170548] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.170559] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.170573] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.170588] qsee_fp: dev-WMODE-fw str[1]: switch to 'MODE_GESTURE' mode.
+[ 3632.170600] qsee_fp: dev-WMODE-fw str[2]: &focaltech:ft93xx:core
+[ 3632.170613] qsee_fp: dev-WMODE-fw str[3]: gesture last work mode: 5
+[ 3632.170625] qsee_fp: dev-WMODE-fw str[4]: &focaltech:ft93xx:core
+[ 3632.170643] qsee_fp: dev-WMODE-fw str[5]: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.170650] qsee_fp: dev-WMODE-fw str[6]: alue.
+[ 3632.170661] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.170687] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.170700] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.170725] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.170737] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.170762] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.170774] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.170800] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.170812] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.170838] qsee_fp: dev-WMODE-fw str[16]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.170850] qsee_fp: dev-WMODE-fw str[17]: focaltech:ta:config
+[ 3632.170859] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.170875] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.170894] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.170917] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.171315] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.171325] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.171339] qsee_fp: dev-WMODE-fw LOG: switch to 'MODE_GESTURE' mode.
+[ 3632.171344] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171354] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.171366] qsee_fp: dev-WMODE-fw LOG: gesture last work mode: 5
+[ 3632.171370] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171380] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.171395] qsee_fp: dev-WMODE-fw LOG: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.171401] qsee_fp: dev-WMODE-fw LOG: alue.
+[ 3632.171406] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171415] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171439] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.171444] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171453] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171475] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.171481] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171490] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171512] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.171518] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171528] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171551] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.171557] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171566] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171590] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.171595] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.171604] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.171609] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.201077] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.201089] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.201102] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.201115] qsee_fp: dev-WMODE-fw str[1]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3632.201124] qsee_fp: dev-WMODE-fw str[2]: caltech:ft93xx:core
+[ 3632.201135] qsee_fp: dev-WMODE-fw str[3]: gesture last work mode: 5
+[ 3632.201146] qsee_fp: dev-WMODE-fw str[4]: &focaltech:ft93xx:core
+[ 3632.201160] qsee_fp: dev-WMODE-fw str[5]: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.201166] qsee_fp: dev-WMODE-fw str[6]: alue.
+[ 3632.201176] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.201196] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.201207] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.201225] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.201235] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.201255] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.201265] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.201284] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.201294] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.201314] qsee_fp: dev-WMODE-fw str[16]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.201324] qsee_fp: dev-WMODE-fw str[17]: focaltech:ta:config
+[ 3632.201332] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.201347] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.201363] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.201380] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.201652] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.201660] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.201672] qsee_fp: dev-WMODE-fw LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3632.201679] qsee_fp: dev-WMODE-fw LOG: caltech:ft93xx:core
+[ 3632.201688] qsee_fp: dev-WMODE-fw LOG: gesture last work mode: 5
+[ 3632.201693] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201701] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.201776] qsee_fp: dev-WMODE-fw LOG: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.201783] qsee_fp: dev-WMODE-fw LOG: alue.
+[ 3632.201788] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201796] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201813] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.201819] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201826] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201843] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.201848] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201856] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201873] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.201878] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201886] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201902] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.201908] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201915] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201933] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.201938] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.201946] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.201950] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.233102] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3632.233112] qsee_fp: dev-WMODE-fw st=0x32a first8=2a030000 0026666f
+[ 3632.233123] qsee_fp: dev-WMODE-fw str[0]: &focaltech:ft93xx:core
+[ 3632.233136] qsee_fp: dev-WMODE-fw str[1]: switch to 'GESTURE_UP_DETECT' mode.
+[ 3632.233144] qsee_fp: dev-WMODE-fw str[2]: caltech:ft93xx:core
+[ 3632.233154] qsee_fp: dev-WMODE-fw str[3]: gesture last work mode: 5
+[ 3632.233163] qsee_fp: dev-WMODE-fw str[4]: &focaltech:ft93xx:core
+[ 3632.233175] qsee_fp: dev-WMODE-fw str[5]: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.233181] qsee_fp: dev-WMODE-fw str[6]: alue.
+[ 3632.233190] qsee_fp: dev-WMODE-fw str[7]: focaltech:ta:config
+[ 3632.233208] qsee_fp: dev-WMODE-fw str[8]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.233216] qsee_fp: dev-WMODE-fw str[9]: focaltech:ta:config
+[ 3632.233233] qsee_fp: dev-WMODE-fw str[10]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.233242] qsee_fp: dev-WMODE-fw str[11]: focaltech:ta:config
+[ 3632.233260] qsee_fp: dev-WMODE-fw str[12]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.233269] qsee_fp: dev-WMODE-fw str[13]: focaltech:ta:config
+[ 3632.233287] qsee_fp: dev-WMODE-fw str[14]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.233295] qsee_fp: dev-WMODE-fw str[15]: focaltech:ta:config
+[ 3632.233314] qsee_fp: dev-WMODE-fw str[16]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.233323] qsee_fp: dev-WMODE-fw str[17]: focaltech:ta:config
+[ 3632.233330] qsee_fp: dev-WMODE-fw st=0x8000101f first8=1f100080 00000000
+[ 3632.233342] qsee_fp: dev-WMODE-fw str[0]: .22_0.0.3_001-20230214
+[ 3632.233356] qsee_fp: dev-WMODE-fw str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.233372] qsee_fp: dev-WMODE-fw str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.233638] qsee_fp: dev-WMODE-fw LOGCONT begin len=810
+[ 3632.233646] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.233656] qsee_fp: dev-WMODE-fw LOG: switch to 'GESTURE_UP_DETECT' mode.
+[ 3632.233662] qsee_fp: dev-WMODE-fw LOG: caltech:ft93xx:core
+[ 3632.233671] qsee_fp: dev-WMODE-fw LOG: gesture last work mode: 5
+[ 3632.233676] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233683] qsee_fp: dev-WMODE-fw LOG: &focaltech:ft93xx:core
+[ 3632.233694] qsee_fp: dev-WMODE-fw LOG: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.233699] qsee_fp: dev-WMODE-fw LOG: alue.
+[ 3632.233703] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233710] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233795] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3632.233800] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233807] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233822] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3632.233826] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233833] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233848] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3632.233853] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233859] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233875] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3632.233879] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233885] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233901] qsee_fp: dev-WMODE-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3632.233905] qsee_fp: dev-WMODE-fw LOG: !
+[ 3632.233912] qsee_fp: dev-WMODE-fw LOG: focaltech:ta:config
+[ 3632.233915] qsee_fp: dev-WMODE-fw LOGCONT end
+[ 3632.265071] qsee_fp: ION HIT dev-SCAN-fingerwait ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 3632.265083] qsee_fp: dev-SCAN-fingerwait st=0xde first8=de000000 0026666f
+[ 3632.265098] qsee_fp: dev-SCAN-fingerwait str[0]: &focaltech:ft93xx:core
+[ 3632.265115] qsee_fp: dev-SCAN-fingerwait str[1]: switch to 'GESTURE_UP_DETECT' mode.
+[ 3632.265126] qsee_fp: dev-SCAN-fingerwait str[2]: caltech:ft93xx:core
+[ 3632.265139] qsee_fp: dev-SCAN-fingerwait str[3]: gesture last work mode: 5
+[ 3632.265151] qsee_fp: dev-SCAN-fingerwait str[4]: &focaltech:ft93xx:core
+[ 3632.265169] qsee_fp: dev-SCAN-fingerwait str[5]: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.265177] qsee_fp: dev-SCAN-fingerwait str[6]: alue.
+[ 3632.265185] qsee_fp: dev-SCAN-fingerwait str[7]: foca
+[ 3632.265191] qsee_fp: dev-SCAN-fingerwait st=0x80001012 first8=12100080 30000000
+[ 3632.265223] qsee_fp: dev-SCAN-fingerwait str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3632.265247] qsee_fp: dev-SCAN-fingerwait str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3632.265647] qsee_fp: dev-SCAN-fingerwait LOGCONT begin len=222
+[ 3632.265657] qsee_fp: dev-SCAN-fingerwait LOG: &focaltech:ft93xx:core
+[ 3632.265672] qsee_fp: dev-SCAN-fingerwait LOG: switch to 'GESTURE_UP_DETECT' mode.
+[ 3632.265682] qsee_fp: dev-SCAN-fingerwait LOG: caltech:ft93xx:core
+[ 3632.265695] qsee_fp: dev-SCAN-fingerwait LOG: gesture last work mode: 5
+[ 3632.265701] qsee_fp: dev-SCAN-fingerwait LOG: !
+[ 3632.265712] qsee_fp: dev-SCAN-fingerwait LOG: &focaltech:ft93xx:core
+[ 3632.265837] qsee_fp: dev-SCAN-fingerwait LOG: switch to 'FDT_DOWN_DETECT for gesture' mode.
+[ 3632.265844] qsee_fp: dev-SCAN-fingerwait LOG: alue.
+[ 3632.265849] qsee_fp: dev-SCAN-fingerwait LOG: !
+[ 3632.265854] qsee_fp: dev-SCAN-fingerwait LOGCONT end
+[ 3632.265984] qsee_fp: fingerwait irq0=94
+[ 3632.265989] qsee_fp: waiting up to 25s for finger (IRQ/TA) FDT ok
+[ 3634.333643] qsee_fp: ION HIT dev-QEVENT-fw ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3634.333669] qsee_fp: dev-QEVENT-fw st=0x32a first8=2a030000 0026666f
+[ 3634.333682] qsee_fp: dev-QEVENT-fw str[0]: &focaltech:ft93xx:core
+[ 3634.333710] qsee_fp: dev-QEVENT-fw str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.333791] qsee_fp: dev-QEVENT-fw str[2]: &focaltech:ft93xx:core
+[ 3634.333804] qsee_fp: dev-QEVENT-fw str[3]: query event state: [unknow].
+[ 3634.333821] qsee_fp: dev-QEVENT-fw str[4]: focaltech:ta:config
+[ 3634.333865] qsee_fp: dev-QEVENT-fw str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3634.333887] qsee_fp: dev-QEVENT-fw str[6]: focaltech:ta:config
+[ 3634.333915] qsee_fp: dev-QEVENT-fw str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.333934] qsee_fp: dev-QEVENT-fw str[8]: focaltech:ta:config
+[ 3634.333966] qsee_fp: dev-QEVENT-fw str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.333986] qsee_fp: dev-QEVENT-fw str[10]: focaltech:ta:config
+[ 3634.334019] qsee_fp: dev-QEVENT-fw str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.334038] qsee_fp: dev-QEVENT-fw str[12]: focaltech:ta:config
+[ 3634.334070] qsee_fp: dev-QEVENT-fw str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.334088] qsee_fp: dev-QEVENT-fw str[14]: focaltech:ta:config
+[ 3634.334102] qsee_fp: dev-QEVENT-fw st=0x8000101c first8=1c100080 00000000
+[ 3634.334143] qsee_fp: dev-QEVENT-fw str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3634.334172] qsee_fp: dev-QEVENT-fw str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3634.334601] qsee_fp: dev-QEVENT-fw LOGCONT begin len=810
+[ 3634.334617] qsee_fp: dev-QEVENT-fw LOG: &focaltech:ft93xx:core
+[ 3634.334656] qsee_fp: dev-QEVENT-fw LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.334667] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334682] qsee_fp: dev-QEVENT-fw LOG: &focaltech:ft93xx:core
+[ 3634.334700] qsee_fp: dev-QEVENT-fw LOG: query event state: [unknow].
+[ 3634.334714] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334743] qsee_fp: dev-QEVENT-fw LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 3634.334754] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334767] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334796] qsee_fp: dev-QEVENT-fw LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.334807] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334821] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334849] qsee_fp: dev-QEVENT-fw LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.334860] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334873] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334902] qsee_fp: dev-QEVENT-fw LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.334914] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334928] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334958] qsee_fp: dev-QEVENT-fw LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.334968] qsee_fp: dev-QEVENT-fw LOG: !
+[ 3634.334982] qsee_fp: dev-QEVENT-fw LOG: focaltech:ta:config
+[ 3634.334992] qsee_fp: dev-QEVENT-fw LOGCONT end
+[ 3634.538063] qsee_fp: L2 IRQ rose 94->95 finger
+[ 3634.538096] qsee_fp: fingerwait done seen=1
+[ 3634.560103] qsee_fp: ION HIT dev-QEVENT2 ret=0 req0=0x8000101c rsp0=0x32a err=0xa rsp8=0x746c6163
+[ 3634.560127] qsee_fp: dev-QEVENT2 st=0x32a first8=2a030000 0026666f
+[ 3634.560153] qsee_fp: dev-QEVENT2 str[0]: &focaltech:ft93xx:core
+[ 3634.560195] qsee_fp: dev-QEVENT2 str[1]: interrupt type: 0x4(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.560216] qsee_fp: dev-QEVENT2 str[2]: &focaltech:ft93xx:core
+[ 3634.560239] qsee_fp: dev-QEVENT2 str[3]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.560259] qsee_fp: dev-QEVENT2 str[4]: &focaltech:ft93xx:core
+[ 3634.560280] qsee_fp: dev-QEVENT2 str[5]: query event state: [gesture leave].
+[ 3634.560299] qsee_fp: dev-QEVENT2 str[6]: threshold', use default value.
+[ 3634.560316] qsee_fp: dev-QEVENT2 str[7]: focaltech:ta:config
+[ 3634.560347] qsee_fp: dev-QEVENT2 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.560367] qsee_fp: dev-QEVENT2 str[9]: focaltech:ta:config
+[ 3634.560399] qsee_fp: dev-QEVENT2 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.560419] qsee_fp: dev-QEVENT2 str[11]: focaltech:ta:config
+[ 3634.560451] qsee_fp: dev-QEVENT2 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.560470] qsee_fp: dev-QEVENT2 str[13]: focaltech:ta:config
+[ 3634.560504] qsee_fp: dev-QEVENT2 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.560522] qsee_fp: dev-QEVENT2 str[15]: focaltech:ta:config
+[ 3634.560537] qsee_fp: dev-QEVENT2 st=0x8000101c first8=1c100080 00000000
+[ 3634.560578] qsee_fp: dev-QEVENT2 str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3634.560608] qsee_fp: dev-QEVENT2 str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3634.561035] qsee_fp: dev-QEVENT2 LOGCONT begin len=810
+[ 3634.561051] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:core
+[ 3634.561090] qsee_fp: dev-QEVENT2 LOG: interrupt type: 0x4(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.561102] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561117] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:core
+[ 3634.561137] qsee_fp: dev-QEVENT2 LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.561148] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561164] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:core
+[ 3634.561184] qsee_fp: dev-QEVENT2 LOG: query event state: [gesture leave].
+[ 3634.561201] qsee_fp: dev-QEVENT2 LOG: threshold', use default value.
+[ 3634.561211] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561225] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 3634.561254] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.561266] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561280] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 3634.561309] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.561320] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561334] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 3634.561364] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.561375] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561389] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 3634.561420] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.561431] qsee_fp: dev-QEVENT2 LOG: !
+[ 3634.561445] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 3634.561455] qsee_fp: dev-QEVENT2 LOGCONT end
+[ 3634.595974] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3634.595998] qsee_fp: dev-QFINGER st=0x32a first8=2a030000 0026666f
+[ 3634.596020] qsee_fp: dev-QFINGER str[0]: &focaltech:ft93xx:core
+[ 3634.596038] qsee_fp: dev-QFINGER str[1]: check finger status: release
+[ 3634.596064] qsee_fp: dev-QFINGER str[2]: own 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.596081] qsee_fp: dev-QFINGER str[3]: &focaltech:ft93xx:core
+[ 3634.596100] qsee_fp: dev-QFINGER str[4]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.596118] qsee_fp: dev-QFINGER str[5]: &focaltech:ft93xx:core
+[ 3634.596136] qsee_fp: dev-QFINGER str[6]: query event state: [gesture leave].
+[ 3634.596153] qsee_fp: dev-QFINGER str[7]: threshold', use default value.
+[ 3634.596168] qsee_fp: dev-QFINGER str[8]: focaltech:ta:config
+[ 3634.596193] qsee_fp: dev-QFINGER str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.596209] qsee_fp: dev-QFINGER str[10]: focaltech:ta:config
+[ 3634.596235] qsee_fp: dev-QFINGER str[11]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.596252] qsee_fp: dev-QFINGER str[12]: focaltech:ta:config
+[ 3634.596277] qsee_fp: dev-QFINGER str[13]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.596293] qsee_fp: dev-QFINGER str[14]: focaltech:ta:config
+[ 3634.596320] qsee_fp: dev-QFINGER str[15]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.596336] qsee_fp: dev-QFINGER str[16]: focaltech:ta:config
+[ 3634.596348] qsee_fp: dev-QFINGER st=0x8000101d first8=1d100080 00000000
+[ 3634.596382] qsee_fp: dev-QFINGER str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3634.596406] qsee_fp: dev-QFINGER str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3634.596725] qsee_fp: dev-QFINGER LOGCONT begin len=810
+[ 3634.596740] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 3634.596756] qsee_fp: dev-QFINGER LOG: check finger status: release
+[ 3634.596781] qsee_fp: dev-QFINGER LOG: own 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 3634.596792] qsee_fp: dev-QFINGER LOG: !
+[ 3634.596806] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 3634.596824] qsee_fp: dev-QFINGER LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.596834] qsee_fp: dev-QFINGER LOG: !
+[ 3634.596848] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 3634.596865] qsee_fp: dev-QFINGER LOG: query event state: [gesture leave].
+[ 3634.596880] qsee_fp: dev-QFINGER LOG: threshold', use default value.
+[ 3634.596890] qsee_fp: dev-QFINGER LOG: !
+[ 3634.596903] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 3634.596927] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.596938] qsee_fp: dev-QFINGER LOG: !
+[ 3634.596951] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 3634.596975] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.596986] qsee_fp: dev-QFINGER LOG: !
+[ 3634.596999] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 3634.597023] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.597034] qsee_fp: dev-QFINGER LOG: !
+[ 3634.597047] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 3634.597072] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.597083] qsee_fp: dev-QFINGER LOG: !
+[ 3634.597096] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 3634.597105] qsee_fp: dev-QFINGER LOGCONT end
+[ 3634.700473] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3634.700484] qsee_fp: dev-HEALTH-post-cap st=0x32a first8=2a030000 0026666f
+[ 3634.700496] qsee_fp: dev-HEALTH-post-cap str[0]: &focaltech:ft93xx:afe
+[ 3634.700509] qsee_fp: dev-HEALTH-post-cap str[1]: last:697 693 692 684   0   0   0   0
+[ 3634.700520] qsee_fp: dev-HEALTH-post-cap str[2]: &focaltech:ft93xx:afe
+[ 3634.700534] qsee_fp: dev-HEALTH-post-cap str[3]: curr:696 691 689 683 43474   0   0   0
+[ 3634.700544] qsee_fp: dev-HEALTH-post-cap str[4]: &focaltech:ft93xx:core
+[ 3634.700557] qsee_fp: dev-HEALTH-post-cap str[5]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.700563] qsee_fp: dev-HEALTH-post-cap str[6]: ode.
+[ 3634.700574] qsee_fp: dev-HEALTH-post-cap str[7]: &focaltech:ft93xx:core
+[ 3634.700587] qsee_fp: dev-HEALTH-post-cap str[8]: query event state: [gesture leave].
+[ 3634.700597] qsee_fp: dev-HEALTH-post-cap str[9]: threshold', use default value.
+[ 3634.700608] qsee_fp: dev-HEALTH-post-cap str[10]: focaltech:ta:config
+[ 3634.700628] qsee_fp: dev-HEALTH-post-cap str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.700639] qsee_fp: dev-HEALTH-post-cap str[12]: focaltech:ta:config
+[ 3634.700660] qsee_fp: dev-HEALTH-post-cap str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.700670] qsee_fp: dev-HEALTH-post-cap str[14]: focaltech:ta:config
+[ 3634.700691] qsee_fp: dev-HEALTH-post-cap str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.700700] qsee_fp: dev-HEALTH-post-cap str[16]: focaltech:ta:config
+[ 3634.700722] qsee_fp: dev-HEALTH-post-cap str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.700732] qsee_fp: dev-HEALTH-post-cap str[18]: focaltech:ta:config
+[ 3634.700739] qsee_fp: dev-HEALTH-post-cap st=0x80001016 first8=16100080 00000000
+[ 3634.700764] qsee_fp: dev-HEALTH-post-cap str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3634.700783] qsee_fp: dev-HEALTH-post-cap str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3634.701101] qsee_fp: dev-HEALTH-post-cap LOGCONT begin len=810
+[ 3634.701109] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:afe
+[ 3634.701121] qsee_fp: dev-HEALTH-post-cap LOG: last:697 693 692 684   0   0   0   0
+[ 3634.701125] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701132] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:afe
+[ 3634.701144] qsee_fp: dev-HEALTH-post-cap LOG: curr:696 691 689 683 43474   0   0   0
+[ 3634.701149] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701157] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:core
+[ 3634.701168] qsee_fp: dev-HEALTH-post-cap LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.701172] qsee_fp: dev-HEALTH-post-cap LOG: ode.
+[ 3634.701177] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701186] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:core
+[ 3634.701197] qsee_fp: dev-HEALTH-post-cap LOG: query event state: [gesture leave].
+[ 3634.701206] qsee_fp: dev-HEALTH-post-cap LOG: threshold', use default value.
+[ 3634.701210] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701217] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 3634.701235] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.701240] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701248] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 3634.701267] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.701271] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701279] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 3634.701298] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.701302] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701309] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 3634.701329] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.701333] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 3634.701341] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 3634.701344] qsee_fp: dev-HEALTH-post-cap LOGCONT end
+[ 3634.701348] qsee_fp: HEALTH after capture path er=0
+[ 3634.703061] qsee_fp: ION HIT dev-PRE_ENROLL2 ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 3634.703071] qsee_fp: dev-PRE_ENROLL2 st=0xde first8=de000000 0026666f
+[ 3634.703079] qsee_fp: dev-PRE_ENROLL2 str[0]: &focaltech:ft93xx:afe
+[ 3634.703083] qsee_fp: dev-PRE_ENROLL2 str[1]: last:697 693 692 684   0   0   0   0
+[ 3634.703088] qsee_fp: dev-PRE_ENROLL2 str[2]: &focaltech:ft93xx:afe
+[ 3634.703091] qsee_fp: dev-PRE_ENROLL2 str[3]: curr:696 691 689 683 43474   0   0   0
+[ 3634.703094] qsee_fp: dev-PRE_ENROLL2 str[4]: &focaltech:ft93xx:core
+[ 3634.703097] qsee_fp: dev-PRE_ENROLL2 str[5]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 3634.703100] qsee_fp: dev-PRE_ENROLL2 str[6]: ode.
+[ 3634.703102] qsee_fp: dev-PRE_ENROLL2 st=0x80002000 first8=00200080 08000000
+[ 3634.703109] qsee_fp: dev-PRE_ENROLL2 str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 3634.703112] qsee_fp: dev-PRE_ENROLL2 str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 3634.703138] qsee_fp: dev-PRE_ENROLL2 LOGCONT begin len=222
+[ 3634.703142] qsee_fp: dev-PRE_ENROLL2 LOG: &focaltech:ft93xx:afe
+[ 3634.703145] qsee_fp: dev-PRE_ENROLL2 LOG: last:697 693 692 684   0   0   0   0
+[ 3634.703148] qsee_fp: dev-PRE_ENROLL2 LOG: !
+[ 3634.703151] qsee_fp: dev-PRE_ENROLL2 LOG: &focaltech:ft93xx:afe
+[ 3634.703155] qsee_fp: dev-PRE_ENROLL2 LOG: curr:696 691 689 683 43474   0   0   0
+[ 3634.703157] qsee_fp: dev-PRE_ENROLL2 LOG: !
+[ 3634.703160] qsee_fp: dev-PRE_ENROLL2 LOG: &focaltech:ft93xx:core
+[ 3634.703164] qsee_fp: dev-PRE_ENROLL2 LOG: switch to 'GESTURE_DOWN_DETECT' mod
+[ 3634.703166] qsee_fp: dev-PRE_ENROLL2 LOGCONT end
+[ 3634.703168] qsee_fp: ENROLL attempt finger=1 challenge=0xf835ac93eb9deef1
+[ 3634.703932] qsee_fp: ION HIT dev-cap-enroll-0 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3634.703937] qsee_fp: dev-cap-enroll-0 st=0x52a first8=2a050000 00666f63
+[ 3634.703941] qsee_fp: dev-cap-enroll-0 str[0]: focaltech:image
+[ 3634.703944] qsee_fp: dev-cap-enroll-0 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3634.703948] qsee_fp: dev-cap-enroll-0 str[2]: focaltech:ta:core
+[ 3634.703951] qsee_fp: dev-cap-enroll-0 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3634.703954] qsee_fp: dev-cap-enroll-0 str[4]: ode.
+[ 3634.703957] qsee_fp: dev-cap-enroll-0 str[5]: &focaltech:ft93xx:core
+[ 3634.703960] qsee_fp: dev-cap-enroll-0 str[6]: query event state: [gesture leave].
+[ 3634.703963] qsee_fp: dev-cap-enroll-0 str[7]: threshold', use default value.
+[ 3634.703965] qsee_fp: dev-cap-enroll-0 str[8]: focaltech:ta:config
+[ 3634.703969] qsee_fp: dev-cap-enroll-0 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.703972] qsee_fp: dev-cap-enroll-0 str[10]: focaltech:ta:config
+[ 3634.703975] qsee_fp: dev-cap-enroll-0 str[11]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.703978] qsee_fp: dev-cap-enroll-0 str[12]: focaltech:ta:config
+[ 3634.703982] qsee_fp: dev-cap-enroll-0 str[13]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.703984] qsee_fp: dev-cap-enroll-0 str[14]: focaltech:ta:config
+[ 3634.703988] qsee_fp: dev-cap-enroll-0 str[15]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.703990] qsee_fp: dev-cap-enroll-0 str[16]: focaltech:ta:config
+[ 3634.703993] qsee_fp: dev-cap-enroll-0 str[17]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3634.703996] qsee_fp: dev-cap-enroll-0 str[18]: focaltech:ta:config
+[ 3634.703999] qsee_fp: dev-cap-enroll-0 str[19]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3634.704001] qsee_fp: dev-cap-enroll-0 str[20]: focaltech:ta:config
+[ 3634.704004] qsee_fp: dev-cap-enroll-0 str[21]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3634.704007] qsee_fp: dev-cap-enroll-0 str[22]: focaltech:ta:config
+[ 3634.704010] qsee_fp: dev-cap-enroll-0 str[23]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3634.704012] qsee_fp: dev-cap-enroll-0 str[24]: focaltech:ta:config
+[ 3634.704015] qsee_fp: dev-cap-enroll-0 str[25]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3634.704018] qsee_fp: dev-cap-enroll-0 st=0x80001013 first8=13100080 24000000
+[ 3634.704051] qsee_fp: dev-cap-enroll-0 str: (none printable)
+[ 3634.704053] qsee_fp: dev-cap-enroll-0 LOGCONT begin len=1322
+[ 3634.704055] qsee_fp: dev-cap-enroll-0 LOG: focaltech:image
+[ 3634.704059] qsee_fp: dev-cap-enroll-0 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3634.704062] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704064] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:core
+[ 3634.704068] qsee_fp: dev-cap-enroll-0 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3634.704070] qsee_fp: dev-cap-enroll-0 LOG: e.
+[ 3634.704072] qsee_fp: dev-cap-enroll-0 LOG: ode.
+[ 3634.704074] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704077] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:core
+[ 3634.704081] qsee_fp: dev-cap-enroll-0 LOG: query event state: [gesture leave].
+[ 3634.704083] qsee_fp: dev-cap-enroll-0 LOG: threshold', use default value.
+[ 3634.704085] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704087] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704090] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.704093] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704095] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704098] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.704101] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704103] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704106] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.704108] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704110] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704113] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.704116] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704118] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704121] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3634.704123] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704125] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704128] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3634.704130] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704133] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704135] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3634.704137] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704140] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704143] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3634.704145] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 3634.704147] qsee_fp: dev-cap-enroll-0 LOG: focaltech:ta:config
+[ 3634.704150] qsee_fp: dev-cap-enroll-0 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3634.704151] qsee_fp: dev-cap-enroll-0 LOGCONT end
+[ 3634.704153] qsee_fp: dev-cap-enroll-0 er=0 err=0xffffff37
+[ 3634.803847] qsee_fp: SEG dev-ENROLL-s0[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3634.803855] qsee_fp: dev-ENROLL-s0 st=0x32a first8=2a030000 00666f63
+[ 3634.803858] qsee_fp: dev-ENROLL-s0 str[0]: focaltech:ta:interface
+[ 3634.803860] qsee_fp: dev-ENROLL-s0 str[1]: new fid (= 1384666760) generated.
+[ 3634.803863] qsee_fp: dev-ENROLL-s0 str[2]: &focaltech:ft93xx:core
+[ 3634.803864] qsee_fp: dev-ENROLL-s0 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3634.803866] qsee_fp: dev-ENROLL-s0 str[4]: focaltech:ta:trans
+[ 3634.803869] qsee_fp: dev-ENROLL-s0 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3634.803871] qsee_fp: dev-ENROLL-s0 str[6]: query event state: [gesture leave].
+[ 3634.803872] qsee_fp: dev-ENROLL-s0 str[7]: threshold', use default value.
+[ 3634.803874] qsee_fp: dev-ENROLL-s0 str[8]: focaltech:ta:config
+[ 3634.803877] qsee_fp: dev-ENROLL-s0 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.803878] qsee_fp: dev-ENROLL-s0 str[10]: focaltech:ta:config
+[ 3634.803880] qsee_fp: dev-ENROLL-s0 str[11]: no key named 'algorithm.enro
+[ 3634.803881] qsee_fp: ENROLL sample 0 er=0 err=0x0
+[ 3634.960217] qsee_fp: ION HIT dev-cap-enroll-1 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3634.960229] qsee_fp: dev-cap-enroll-1 st=0x52a first8=2a050000 00666f63
+[ 3634.960235] qsee_fp: dev-cap-enroll-1 str[0]: focaltech:image
+[ 3634.960240] qsee_fp: dev-cap-enroll-1 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3634.960245] qsee_fp: dev-cap-enroll-1 str[2]: focaltech:ta:core
+[ 3634.960248] qsee_fp: dev-cap-enroll-1 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3634.960252] qsee_fp: dev-cap-enroll-1 str[4]: d memory or another piece of malloc memory.
+[ 3634.960255] qsee_fp: dev-cap-enroll-1 str[5]: query event state: [gesture leave].
+[ 3634.960258] qsee_fp: dev-cap-enroll-1 str[6]: threshold', use default value.
+[ 3634.960261] qsee_fp: dev-cap-enroll-1 str[7]: focaltech:ta:config
+[ 3634.960265] qsee_fp: dev-cap-enroll-1 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.960267] qsee_fp: dev-cap-enroll-1 str[9]: focaltech:ta:config
+[ 3634.960270] qsee_fp: dev-cap-enroll-1 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.960274] qsee_fp: dev-cap-enroll-1 str[11]: focaltech:ta:config
+[ 3634.960278] qsee_fp: dev-cap-enroll-1 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.960281] qsee_fp: dev-cap-enroll-1 str[13]: focaltech:ta:config
+[ 3634.960284] qsee_fp: dev-cap-enroll-1 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.960287] qsee_fp: dev-cap-enroll-1 str[15]: focaltech:ta:config
+[ 3634.960290] qsee_fp: dev-cap-enroll-1 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3634.960293] qsee_fp: dev-cap-enroll-1 str[17]: focaltech:ta:config
+[ 3634.960296] qsee_fp: dev-cap-enroll-1 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3634.960299] qsee_fp: dev-cap-enroll-1 str[19]: focaltech:ta:config
+[ 3634.960302] qsee_fp: dev-cap-enroll-1 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3634.960305] qsee_fp: dev-cap-enroll-1 str[21]: focaltech:ta:config
+[ 3634.960308] qsee_fp: dev-cap-enroll-1 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3634.960311] qsee_fp: dev-cap-enroll-1 str[23]: focaltech:ta:config
+[ 3634.960314] qsee_fp: dev-cap-enroll-1 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3634.960316] qsee_fp: dev-cap-enroll-1 st=0x80001013 first8=13100080 24000000
+[ 3634.960350] qsee_fp: dev-cap-enroll-1 str: (none printable)
+[ 3634.960351] qsee_fp: dev-cap-enroll-1 LOGCONT begin len=1322
+[ 3634.960354] qsee_fp: dev-cap-enroll-1 LOG: focaltech:image
+[ 3634.960359] qsee_fp: dev-cap-enroll-1 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3634.960361] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960364] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:core
+[ 3634.960368] qsee_fp: dev-cap-enroll-1 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3634.960371] qsee_fp: dev-cap-enroll-1 LOG: d memory or another piece of malloc memory.
+[ 3634.960374] qsee_fp: dev-cap-enroll-1 LOG: query event state: [gesture leave].
+[ 3634.960377] qsee_fp: dev-cap-enroll-1 LOG: threshold', use default value.
+[ 3634.960379] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960382] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960386] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3634.960389] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960391] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960396] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3634.960398] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960400] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960405] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3634.960407] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960409] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960414] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3634.960416] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960418] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960422] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3634.960424] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960427] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960430] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3634.960432] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960434] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960437] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3634.960440] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960442] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960445] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3634.960447] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 3634.960449] qsee_fp: dev-cap-enroll-1 LOG: focaltech:ta:config
+[ 3634.960452] qsee_fp: dev-cap-enroll-1 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3634.960454] qsee_fp: dev-cap-enroll-1 LOGCONT end
+[ 3634.960456] qsee_fp: dev-cap-enroll-1 er=0 err=0xffffff37
+[ 3635.062626] qsee_fp: SEG dev-ENROLL-s1[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3635.062657] qsee_fp: dev-ENROLL-s1 st=0x32a first8=2a030000 00666f63
+[ 3635.062672] qsee_fp: dev-ENROLL-s1 str[0]: focaltech:ta:interface
+[ 3635.062688] qsee_fp: dev-ENROLL-s1 str[1]: new fid (= 1338465130) generated.
+[ 3635.062701] qsee_fp: dev-ENROLL-s1 str[2]: &focaltech:ft93xx:core
+[ 3635.062717] qsee_fp: dev-ENROLL-s1 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.062729] qsee_fp: dev-ENROLL-s1 str[4]: focaltech:ta:trans
+[ 3635.062758] qsee_fp: dev-ENROLL-s1 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3635.062773] qsee_fp: dev-ENROLL-s1 str[6]: query event state: [gesture leave].
+[ 3635.062785] qsee_fp: dev-ENROLL-s1 str[7]: threshold', use default value.
+[ 3635.062797] qsee_fp: dev-ENROLL-s1 str[8]: focaltech:ta:config
+[ 3635.062822] qsee_fp: dev-ENROLL-s1 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.062835] qsee_fp: dev-ENROLL-s1 str[10]: focaltech:ta:config
+[ 3635.062849] qsee_fp: dev-ENROLL-s1 str[11]: no key named 'algorithm.enro
+[ 3635.062855] qsee_fp: ENROLL sample 1 er=0 err=0x0
+[ 3635.219547] qsee_fp: ION HIT dev-cap-enroll-2 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3635.219567] qsee_fp: dev-cap-enroll-2 st=0x52a first8=2a050000 00666f63
+[ 3635.219579] qsee_fp: dev-cap-enroll-2 str[0]: focaltech:image
+[ 3635.219599] qsee_fp: dev-cap-enroll-2 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.219609] qsee_fp: dev-cap-enroll-2 str[2]: focaltech:ta:core
+[ 3635.219628] qsee_fp: dev-cap-enroll-2 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.219642] qsee_fp: dev-cap-enroll-2 str[4]: d memory or another piece of malloc memory.
+[ 3635.219654] qsee_fp: dev-cap-enroll-2 str[5]: query event state: [gesture leave].
+[ 3635.219665] qsee_fp: dev-cap-enroll-2 str[6]: threshold', use default value.
+[ 3635.219675] qsee_fp: dev-cap-enroll-2 str[7]: focaltech:ta:config
+[ 3635.219693] qsee_fp: dev-cap-enroll-2 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.219703] qsee_fp: dev-cap-enroll-2 str[9]: focaltech:ta:config
+[ 3635.219723] qsee_fp: dev-cap-enroll-2 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.219734] qsee_fp: dev-cap-enroll-2 str[11]: focaltech:ta:config
+[ 3635.219752] qsee_fp: dev-cap-enroll-2 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.219762] qsee_fp: dev-cap-enroll-2 str[13]: focaltech:ta:config
+[ 3635.219782] qsee_fp: dev-cap-enroll-2 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.219792] qsee_fp: dev-cap-enroll-2 str[15]: focaltech:ta:config
+[ 3635.219810] qsee_fp: dev-cap-enroll-2 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.219820] qsee_fp: dev-cap-enroll-2 str[17]: focaltech:ta:config
+[ 3635.219839] qsee_fp: dev-cap-enroll-2 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.219851] qsee_fp: dev-cap-enroll-2 str[19]: focaltech:ta:config
+[ 3635.219868] qsee_fp: dev-cap-enroll-2 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.219878] qsee_fp: dev-cap-enroll-2 str[21]: focaltech:ta:config
+[ 3635.219896] qsee_fp: dev-cap-enroll-2 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.219906] qsee_fp: dev-cap-enroll-2 str[23]: focaltech:ta:config
+[ 3635.219925] qsee_fp: dev-cap-enroll-2 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3635.219931] qsee_fp: dev-cap-enroll-2 st=0x80001013 first8=13100080 24000000
+[ 3635.220228] qsee_fp: dev-cap-enroll-2 str: (none printable)
+[ 3635.220233] qsee_fp: dev-cap-enroll-2 LOGCONT begin len=1322
+[ 3635.220241] qsee_fp: dev-cap-enroll-2 LOG: focaltech:image
+[ 3635.220258] qsee_fp: dev-cap-enroll-2 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.220263] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220270] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:core
+[ 3635.220287] qsee_fp: dev-cap-enroll-2 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.220300] qsee_fp: dev-cap-enroll-2 LOG: d memory or another piece of malloc memory.
+[ 3635.220310] qsee_fp: dev-cap-enroll-2 LOG: query event state: [gesture leave].
+[ 3635.220320] qsee_fp: dev-cap-enroll-2 LOG: threshold', use default value.
+[ 3635.220325] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220333] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220350] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.220356] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220364] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220382] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.220388] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220396] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220414] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.220420] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220428] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220445] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.220451] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220458] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220474] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.220479] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220487] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220504] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.220510] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220518] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220533] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.220539] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220547] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220563] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.220569] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 3635.220577] qsee_fp: dev-cap-enroll-2 LOG: focaltech:ta:config
+[ 3635.220592] qsee_fp: dev-cap-enroll-2 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3635.220597] qsee_fp: dev-cap-enroll-2 LOGCONT end
+[ 3635.220602] qsee_fp: dev-cap-enroll-2 er=0 err=0xffffff37
+[ 3635.322765] qsee_fp: SEG dev-ENROLL-s2[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3635.322797] qsee_fp: dev-ENROLL-s2 st=0x32a first8=2a030000 00666f63
+[ 3635.322816] qsee_fp: dev-ENROLL-s2 str[0]: focaltech:ta:interface
+[ 3635.322834] qsee_fp: dev-ENROLL-s2 str[1]: new fid (= 1216237520) generated.
+[ 3635.322849] qsee_fp: dev-ENROLL-s2 str[2]: &focaltech:ft93xx:core
+[ 3635.322867] qsee_fp: dev-ENROLL-s2 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.322881] qsee_fp: dev-ENROLL-s2 str[4]: focaltech:ta:trans
+[ 3635.322912] qsee_fp: dev-ENROLL-s2 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3635.322929] qsee_fp: dev-ENROLL-s2 str[6]: query event state: [gesture leave].
+[ 3635.322943] qsee_fp: dev-ENROLL-s2 str[7]: threshold', use default value.
+[ 3635.322957] qsee_fp: dev-ENROLL-s2 str[8]: focaltech:ta:config
+[ 3635.322984] qsee_fp: dev-ENROLL-s2 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.322997] qsee_fp: dev-ENROLL-s2 str[10]: focaltech:ta:config
+[ 3635.323014] qsee_fp: dev-ENROLL-s2 str[11]: no key named 'algorithm.enro
+[ 3635.323021] qsee_fp: ENROLL sample 2 er=0 err=0x0
+[ 3635.481454] qsee_fp: ION HIT dev-PRE_ENROLL-mid ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 3635.481492] qsee_fp: dev-PRE_ENROLL-mid st=0xde first8=de000000 00666f63
+[ 3635.481513] qsee_fp: dev-PRE_ENROLL-mid str[0]: focaltech:ta:interface
+[ 3635.481534] qsee_fp: dev-PRE_ENROLL-mid str[1]: new fid (= 1216237520) generated.
+[ 3635.481550] qsee_fp: dev-PRE_ENROLL-mid str[2]: &focaltech:ft93xx:core
+[ 3635.481570] qsee_fp: dev-PRE_ENROLL-mid str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.481584] qsee_fp: dev-PRE_ENROLL-mid str[4]: focaltech:ta:trans
+[ 3635.481608] qsee_fp: dev-PRE_ENROLL-mid str[5]: The response data should be placed in shared memory
+[ 3635.481618] qsee_fp: dev-PRE_ENROLL-mid st=0x80002000 first8=00200080 08000000
+[ 3635.481637] qsee_fp: dev-PRE_ENROLL-mid str[0]: 6??lJ
+[ 3635.482195] qsee_fp: dev-PRE_ENROLL-mid LOGCONT begin len=222
+[ 3635.482212] qsee_fp: dev-PRE_ENROLL-mid LOG: focaltech:ta:interface
+[ 3635.482229] qsee_fp: dev-PRE_ENROLL-mid LOG: new fid (= 1216237520) generated.
+[ 3635.482237] qsee_fp: dev-PRE_ENROLL-mid LOG: !
+[ 3635.482250] qsee_fp: dev-PRE_ENROLL-mid LOG: &focaltech:ft93xx:core
+[ 3635.482266] qsee_fp: dev-PRE_ENROLL-mid LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.482274] qsee_fp: dev-PRE_ENROLL-mid LOG: !
+[ 3635.482286] qsee_fp: dev-PRE_ENROLL-mid LOG: focaltech:ta:trans
+[ 3635.482305] qsee_fp: dev-PRE_ENROLL-mid LOG: The response data should be placed in share
+[ 3635.482312] qsee_fp: dev-PRE_ENROLL-mid LOGCONT end
+[ 3635.483368] qsee_fp: ION HIT dev-cap-enroll-3 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3635.483386] qsee_fp: dev-cap-enroll-3 st=0x52a first8=2a050000 00666f63
+[ 3635.483404] qsee_fp: dev-cap-enroll-3 str[0]: focaltech:image
+[ 3635.483434] qsee_fp: dev-cap-enroll-3 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.483449] qsee_fp: dev-cap-enroll-3 str[2]: focaltech:ta:core
+[ 3635.483479] qsee_fp: dev-cap-enroll-3 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.483499] qsee_fp: dev-cap-enroll-3 str[4]: d memory or another piece of malloc memory.
+[ 3635.483516] qsee_fp: dev-cap-enroll-3 str[5]: query event state: [gesture leave].
+[ 3635.483531] qsee_fp: dev-cap-enroll-3 str[6]: threshold', use default value.
+[ 3635.483547] qsee_fp: dev-cap-enroll-3 str[7]: focaltech:ta:config
+[ 3635.483574] qsee_fp: dev-cap-enroll-3 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.483590] qsee_fp: dev-cap-enroll-3 str[9]: focaltech:ta:config
+[ 3635.483618] qsee_fp: dev-cap-enroll-3 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.483634] qsee_fp: dev-cap-enroll-3 str[11]: focaltech:ta:config
+[ 3635.483663] qsee_fp: dev-cap-enroll-3 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.483680] qsee_fp: dev-cap-enroll-3 str[13]: focaltech:ta:config
+[ 3635.483710] qsee_fp: dev-cap-enroll-3 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.483726] qsee_fp: dev-cap-enroll-3 str[15]: focaltech:ta:config
+[ 3635.483755] qsee_fp: dev-cap-enroll-3 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.483771] qsee_fp: dev-cap-enroll-3 str[17]: focaltech:ta:config
+[ 3635.483801] qsee_fp: dev-cap-enroll-3 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.483817] qsee_fp: dev-cap-enroll-3 str[19]: focaltech:ta:config
+[ 3635.483843] qsee_fp: dev-cap-enroll-3 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.483859] qsee_fp: dev-cap-enroll-3 str[21]: focaltech:ta:config
+[ 3635.483888] qsee_fp: dev-cap-enroll-3 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.483904] qsee_fp: dev-cap-enroll-3 str[23]: focaltech:ta:config
+[ 3635.483932] qsee_fp: dev-cap-enroll-3 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3635.483942] qsee_fp: dev-cap-enroll-3 st=0x80001013 first8=13100080 24000000
+[ 3635.484402] qsee_fp: dev-cap-enroll-3 str: (none printable)
+[ 3635.484409] qsee_fp: dev-cap-enroll-3 LOGCONT begin len=1322
+[ 3635.484420] qsee_fp: dev-cap-enroll-3 LOG: focaltech:image
+[ 3635.484446] qsee_fp: dev-cap-enroll-3 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.484454] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484467] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:core
+[ 3635.484493] qsee_fp: dev-cap-enroll-3 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.484512] qsee_fp: dev-cap-enroll-3 LOG: d memory or another piece of malloc memory.
+[ 3635.484528] qsee_fp: dev-cap-enroll-3 LOG: query event state: [gesture leave].
+[ 3635.484543] qsee_fp: dev-cap-enroll-3 LOG: threshold', use default value.
+[ 3635.484551] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484563] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484589] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.484598] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484611] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484637] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.484646] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484658] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484684] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.484693] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484705] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484732] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.484741] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484752] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484778] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.484786] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484798] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484825] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.484833] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484846] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484871] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.484880] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484891] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484916] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.484924] qsee_fp: dev-cap-enroll-3 LOG: !
+[ 3635.484936] qsee_fp: dev-cap-enroll-3 LOG: focaltech:ta:config
+[ 3635.484961] qsee_fp: dev-cap-enroll-3 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3635.484968] qsee_fp: dev-cap-enroll-3 LOGCONT end
+[ 3635.484975] qsee_fp: dev-cap-enroll-3 er=0 err=0xffffff37
+[ 3635.586976] qsee_fp: SEG dev-ENROLL-s3[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3635.587014] qsee_fp: dev-ENROLL-s3 st=0x32a first8=2a030000 00666f63
+[ 3635.587037] qsee_fp: dev-ENROLL-s3 str[0]: focaltech:ta:interface
+[ 3635.587059] qsee_fp: dev-ENROLL-s3 str[1]: new fid (= 1726321900) generated.
+[ 3635.587077] qsee_fp: dev-ENROLL-s3 str[2]: &focaltech:ft93xx:core
+[ 3635.587098] qsee_fp: dev-ENROLL-s3 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.587114] qsee_fp: dev-ENROLL-s3 str[4]: focaltech:ta:trans
+[ 3635.587149] qsee_fp: dev-ENROLL-s3 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3635.587169] qsee_fp: dev-ENROLL-s3 str[6]: query event state: [gesture leave].
+[ 3635.587187] qsee_fp: dev-ENROLL-s3 str[7]: threshold', use default value.
+[ 3635.587203] qsee_fp: dev-ENROLL-s3 str[8]: focaltech:ta:config
+[ 3635.587233] qsee_fp: dev-ENROLL-s3 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.587250] qsee_fp: dev-ENROLL-s3 str[10]: focaltech:ta:config
+[ 3635.587269] qsee_fp: dev-ENROLL-s3 str[11]: no key named 'algorithm.enro
+[ 3635.587279] qsee_fp: ENROLL sample 3 er=0 err=0x0
+[ 3635.744848] qsee_fp: ION HIT dev-cap-enroll-4 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3635.744883] qsee_fp: dev-cap-enroll-4 st=0x52a first8=2a050000 00666f63
+[ 3635.744905] qsee_fp: dev-cap-enroll-4 str[0]: focaltech:image
+[ 3635.744940] qsee_fp: dev-cap-enroll-4 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.744959] qsee_fp: dev-cap-enroll-4 str[2]: focaltech:ta:core
+[ 3635.744993] qsee_fp: dev-cap-enroll-4 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.745017] qsee_fp: dev-cap-enroll-4 str[4]: d memory or another piece of malloc memory.
+[ 3635.745039] qsee_fp: dev-cap-enroll-4 str[5]: query event state: [gesture leave].
+[ 3635.745058] qsee_fp: dev-cap-enroll-4 str[6]: threshold', use default value.
+[ 3635.745076] qsee_fp: dev-cap-enroll-4 str[7]: focaltech:ta:config
+[ 3635.745108] qsee_fp: dev-cap-enroll-4 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.745127] qsee_fp: dev-cap-enroll-4 str[9]: focaltech:ta:config
+[ 3635.745159] qsee_fp: dev-cap-enroll-4 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.745179] qsee_fp: dev-cap-enroll-4 str[11]: focaltech:ta:config
+[ 3635.745212] qsee_fp: dev-cap-enroll-4 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.745231] qsee_fp: dev-cap-enroll-4 str[13]: focaltech:ta:config
+[ 3635.745264] qsee_fp: dev-cap-enroll-4 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.745282] qsee_fp: dev-cap-enroll-4 str[15]: focaltech:ta:config
+[ 3635.745314] qsee_fp: dev-cap-enroll-4 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.745332] qsee_fp: dev-cap-enroll-4 str[17]: focaltech:ta:config
+[ 3635.745365] qsee_fp: dev-cap-enroll-4 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.745385] qsee_fp: dev-cap-enroll-4 str[19]: focaltech:ta:config
+[ 3635.745415] qsee_fp: dev-cap-enroll-4 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.745434] qsee_fp: dev-cap-enroll-4 str[21]: focaltech:ta:config
+[ 3635.745466] qsee_fp: dev-cap-enroll-4 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.745485] qsee_fp: dev-cap-enroll-4 str[23]: focaltech:ta:config
+[ 3635.745518] qsee_fp: dev-cap-enroll-4 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3635.745532] qsee_fp: dev-cap-enroll-4 st=0x80001013 first8=13100080 24000000
+[ 3635.746154] qsee_fp: dev-cap-enroll-4 str: (none printable)
+[ 3635.746166] qsee_fp: dev-cap-enroll-4 LOGCONT begin len=1322
+[ 3635.746181] qsee_fp: dev-cap-enroll-4 LOG: focaltech:image
+[ 3635.746211] qsee_fp: dev-cap-enroll-4 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3635.746222] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746235] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:core
+[ 3635.746264] qsee_fp: dev-cap-enroll-4 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3635.746284] qsee_fp: dev-cap-enroll-4 LOG: d memory or another piece of malloc memory.
+[ 3635.746302] qsee_fp: dev-cap-enroll-4 LOG: query event state: [gesture leave].
+[ 3635.746318] qsee_fp: dev-cap-enroll-4 LOG: threshold', use default value.
+[ 3635.746328] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746341] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746369] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.746380] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746394] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746421] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3635.746432] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746445] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746474] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3635.746485] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746498] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746527] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3635.746537] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746551] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746579] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3635.746589] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746603] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746632] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3635.746643] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746657] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746683] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3635.746694] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746708] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746736] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3635.746747] qsee_fp: dev-cap-enroll-4 LOG: !
+[ 3635.746761] qsee_fp: dev-cap-enroll-4 LOG: focaltech:ta:config
+[ 3635.746788] qsee_fp: dev-cap-enroll-4 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3635.746798] qsee_fp: dev-cap-enroll-4 LOGCONT end
+[ 3635.746807] qsee_fp: dev-cap-enroll-4 er=0 err=0xffffff37
+[ 3635.856703] qsee_fp: SEG dev-ENROLL-s4[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3635.856738] qsee_fp: dev-ENROLL-s4 st=0x32a first8=2a030000 00666f63
+[ 3635.856762] qsee_fp: dev-ENROLL-s4 str[0]: focaltech:ta:interface
+[ 3635.856782] qsee_fp: dev-ENROLL-s4 str[1]: new fid (= 2058302020) generated.
+[ 3635.856800] qsee_fp: dev-ENROLL-s4 str[2]: &focaltech:ft93xx:core
+[ 3635.856819] qsee_fp: dev-ENROLL-s4 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3635.856835] qsee_fp: dev-ENROLL-s4 str[4]: focaltech:ta:trans
+[ 3635.856864] qsee_fp: dev-ENROLL-s4 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3635.856883] qsee_fp: dev-ENROLL-s4 str[6]: query event state: [gesture leave].
+[ 3635.856900] qsee_fp: dev-ENROLL-s4 str[7]: threshold', use default value.
+[ 3635.856917] qsee_fp: dev-ENROLL-s4 str[8]: focaltech:ta:config
+[ 3635.856943] qsee_fp: dev-ENROLL-s4 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3635.856960] qsee_fp: dev-ENROLL-s4 str[10]: focaltech:ta:config
+[ 3635.856978] qsee_fp: dev-ENROLL-s4 str[11]: no key named 'algorithm.enro
+[ 3635.856990] qsee_fp: ENROLL sample 4 er=0 err=0x0
+[ 3636.012267] qsee_fp: ION HIT dev-cap-enroll-5 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3636.012305] qsee_fp: dev-cap-enroll-5 st=0x52a first8=2a050000 00666f63
+[ 3636.012328] qsee_fp: dev-cap-enroll-5 str[0]: focaltech:image
+[ 3636.012362] qsee_fp: dev-cap-enroll-5 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.012381] qsee_fp: dev-cap-enroll-5 str[2]: focaltech:ta:core
+[ 3636.012414] qsee_fp: dev-cap-enroll-5 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.012438] qsee_fp: dev-cap-enroll-5 str[4]: d memory or another piece of malloc memory.
+[ 3636.012460] qsee_fp: dev-cap-enroll-5 str[5]: query event state: [gesture leave].
+[ 3636.012480] qsee_fp: dev-cap-enroll-5 str[6]: threshold', use default value.
+[ 3636.012498] qsee_fp: dev-cap-enroll-5 str[7]: focaltech:ta:config
+[ 3636.012530] qsee_fp: dev-cap-enroll-5 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.012549] qsee_fp: dev-cap-enroll-5 str[9]: focaltech:ta:config
+[ 3636.012581] qsee_fp: dev-cap-enroll-5 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.012602] qsee_fp: dev-cap-enroll-5 str[11]: focaltech:ta:config
+[ 3636.012634] qsee_fp: dev-cap-enroll-5 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.012653] qsee_fp: dev-cap-enroll-5 str[13]: focaltech:ta:config
+[ 3636.012686] qsee_fp: dev-cap-enroll-5 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.012705] qsee_fp: dev-cap-enroll-5 str[15]: focaltech:ta:config
+[ 3636.012736] qsee_fp: dev-cap-enroll-5 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.012754] qsee_fp: dev-cap-enroll-5 str[17]: focaltech:ta:config
+[ 3636.012787] qsee_fp: dev-cap-enroll-5 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.012806] qsee_fp: dev-cap-enroll-5 str[19]: focaltech:ta:config
+[ 3636.012836] qsee_fp: dev-cap-enroll-5 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.012854] qsee_fp: dev-cap-enroll-5 str[21]: focaltech:ta:config
+[ 3636.012885] qsee_fp: dev-cap-enroll-5 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.012904] qsee_fp: dev-cap-enroll-5 str[23]: focaltech:ta:config
+[ 3636.012936] qsee_fp: dev-cap-enroll-5 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3636.012950] qsee_fp: dev-cap-enroll-5 st=0x80001013 first8=13100080 24000000
+[ 3636.013426] qsee_fp: dev-cap-enroll-5 str: (none printable)
+[ 3636.013435] qsee_fp: dev-cap-enroll-5 LOGCONT begin len=1322
+[ 3636.013450] qsee_fp: dev-cap-enroll-5 LOG: focaltech:image
+[ 3636.013481] qsee_fp: dev-cap-enroll-5 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.013491] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.013505] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:core
+[ 3636.013535] qsee_fp: dev-cap-enroll-5 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.013556] qsee_fp: dev-cap-enroll-5 LOG: d memory or another piece of malloc memory.
+[ 3636.013574] qsee_fp: dev-cap-enroll-5 LOG: query event state: [gesture leave].
+[ 3636.013592] qsee_fp: dev-cap-enroll-5 LOG: threshold', use default value.
+[ 3636.013603] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.013617] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.013646] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.013657] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.013672] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.013702] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.013973] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.013991] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014020] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.014030] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014044] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014073] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.014084] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014097] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014125] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.014135] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014149] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014178] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.014189] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014202] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014228] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.014238] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014252] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014279] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.014289] qsee_fp: dev-cap-enroll-5 LOG: !
+[ 3636.014303] qsee_fp: dev-cap-enroll-5 LOG: focaltech:ta:config
+[ 3636.014329] qsee_fp: dev-cap-enroll-5 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3636.014339] qsee_fp: dev-cap-enroll-5 LOGCONT end
+[ 3636.014347] qsee_fp: dev-cap-enroll-5 er=0 err=0xffffff37
+[ 3636.120100] qsee_fp: SEG dev-ENROLL-s5[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3636.120140] qsee_fp: dev-ENROLL-s5 st=0x32a first8=2a030000 00666f63
+[ 3636.120166] qsee_fp: dev-ENROLL-s5 str[0]: focaltech:ta:interface
+[ 3636.120189] qsee_fp: dev-ENROLL-s5 str[1]: new fid (= 1229502910) generated.
+[ 3636.120209] qsee_fp: dev-ENROLL-s5 str[2]: &focaltech:ft93xx:core
+[ 3636.120232] qsee_fp: dev-ENROLL-s5 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.120249] qsee_fp: dev-ENROLL-s5 str[4]: focaltech:ta:trans
+[ 3636.120286] qsee_fp: dev-ENROLL-s5 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3636.120308] qsee_fp: dev-ENROLL-s5 str[6]: query event state: [gesture leave].
+[ 3636.120327] qsee_fp: dev-ENROLL-s5 str[7]: threshold', use default value.
+[ 3636.120345] qsee_fp: dev-ENROLL-s5 str[8]: focaltech:ta:config
+[ 3636.120377] qsee_fp: dev-ENROLL-s5 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.120396] qsee_fp: dev-ENROLL-s5 str[10]: focaltech:ta:config
+[ 3636.120417] qsee_fp: dev-ENROLL-s5 str[11]: no key named 'algorithm.enro
+[ 3636.120429] qsee_fp: ENROLL sample 5 er=0 err=0x0
+[ 3636.277001] qsee_fp: ION HIT dev-PRE_ENROLL-mid ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 3636.277048] qsee_fp: dev-PRE_ENROLL-mid st=0xde first8=de000000 00666f63
+[ 3636.277073] qsee_fp: dev-PRE_ENROLL-mid str[0]: focaltech:ta:interface
+[ 3636.277096] qsee_fp: dev-PRE_ENROLL-mid str[1]: new fid (= 1229502910) generated.
+[ 3636.277115] qsee_fp: dev-PRE_ENROLL-mid str[2]: &focaltech:ft93xx:core
+[ 3636.277138] qsee_fp: dev-PRE_ENROLL-mid str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.277157] qsee_fp: dev-PRE_ENROLL-mid str[4]: focaltech:ta:trans
+[ 3636.277183] qsee_fp: dev-PRE_ENROLL-mid str[5]: The response data should be placed in shared memory
+[ 3636.277196] qsee_fp: dev-PRE_ENROLL-mid st=0x80002000 first8=00200080 08000000
+[ 3636.277225] qsee_fp: dev-PRE_ENROLL-mid str[0]: 6??l
+[ 3636.277685] qsee_fp: dev-PRE_ENROLL-mid LOGCONT begin len=222
+[ 3636.277703] qsee_fp: dev-PRE_ENROLL-mid LOG: focaltech:ta:interface
+[ 3636.277878] qsee_fp: dev-PRE_ENROLL-mid LOG: new fid (= 1229502910) generated.
+[ 3636.277890] qsee_fp: dev-PRE_ENROLL-mid LOG: !
+[ 3636.277905] qsee_fp: dev-PRE_ENROLL-mid LOG: &focaltech:ft93xx:core
+[ 3636.277924] qsee_fp: dev-PRE_ENROLL-mid LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.277934] qsee_fp: dev-PRE_ENROLL-mid LOG: !
+[ 3636.277947] qsee_fp: dev-PRE_ENROLL-mid LOG: focaltech:ta:trans
+[ 3636.277969] qsee_fp: dev-PRE_ENROLL-mid LOG: The response data should be placed in share
+[ 3636.277978] qsee_fp: dev-PRE_ENROLL-mid LOGCONT end
+[ 3636.279342] qsee_fp: ION HIT dev-cap-enroll-6 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3636.279364] qsee_fp: dev-cap-enroll-6 st=0x52a first8=2a050000 00666f63
+[ 3636.279387] qsee_fp: dev-cap-enroll-6 str[0]: focaltech:image
+[ 3636.279420] qsee_fp: dev-cap-enroll-6 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.279440] qsee_fp: dev-cap-enroll-6 str[2]: focaltech:ta:core
+[ 3636.279473] qsee_fp: dev-cap-enroll-6 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.279497] qsee_fp: dev-cap-enroll-6 str[4]: d memory or another piece of malloc memory.
+[ 3636.279518] qsee_fp: dev-cap-enroll-6 str[5]: query event state: [gesture leave].
+[ 3636.279537] qsee_fp: dev-cap-enroll-6 str[6]: threshold', use default value.
+[ 3636.279555] qsee_fp: dev-cap-enroll-6 str[7]: focaltech:ta:config
+[ 3636.279586] qsee_fp: dev-cap-enroll-6 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.279604] qsee_fp: dev-cap-enroll-6 str[9]: focaltech:ta:config
+[ 3636.279636] qsee_fp: dev-cap-enroll-6 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.279655] qsee_fp: dev-cap-enroll-6 str[11]: focaltech:ta:config
+[ 3636.279687] qsee_fp: dev-cap-enroll-6 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.279706] qsee_fp: dev-cap-enroll-6 str[13]: focaltech:ta:config
+[ 3636.279739] qsee_fp: dev-cap-enroll-6 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.279757] qsee_fp: dev-cap-enroll-6 str[15]: focaltech:ta:config
+[ 3636.279789] qsee_fp: dev-cap-enroll-6 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.279807] qsee_fp: dev-cap-enroll-6 str[17]: focaltech:ta:config
+[ 3636.279839] qsee_fp: dev-cap-enroll-6 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.279859] qsee_fp: dev-cap-enroll-6 str[19]: focaltech:ta:config
+[ 3636.279888] qsee_fp: dev-cap-enroll-6 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.279907] qsee_fp: dev-cap-enroll-6 str[21]: focaltech:ta:config
+[ 3636.279938] qsee_fp: dev-cap-enroll-6 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.279956] qsee_fp: dev-cap-enroll-6 str[23]: focaltech:ta:config
+[ 3636.279989] qsee_fp: dev-cap-enroll-6 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3636.280002] qsee_fp: dev-cap-enroll-6 st=0x80001013 first8=13100080 24000000
+[ 3636.280477] qsee_fp: dev-cap-enroll-6 str: (none printable)
+[ 3636.280486] qsee_fp: dev-cap-enroll-6 LOGCONT begin len=1322
+[ 3636.280500] qsee_fp: dev-cap-enroll-6 LOG: focaltech:image
+[ 3636.280530] qsee_fp: dev-cap-enroll-6 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.280541] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280555] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:core
+[ 3636.280585] qsee_fp: dev-cap-enroll-6 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.280606] qsee_fp: dev-cap-enroll-6 LOG: d memory or another piece of malloc memory.
+[ 3636.280623] qsee_fp: dev-cap-enroll-6 LOG: query event state: [gesture leave].
+[ 3636.280641] qsee_fp: dev-cap-enroll-6 LOG: threshold', use default value.
+[ 3636.280650] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280665] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280693] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.280705] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280719] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280748] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.280759] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280774] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280803] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.280814] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280828] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280857] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.280867] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280882] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280910] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.280921] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280935] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.280965] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.280976] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.280991] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.281018] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.281028] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.281042] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.281071] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.281081] qsee_fp: dev-cap-enroll-6 LOG: !
+[ 3636.281095] qsee_fp: dev-cap-enroll-6 LOG: focaltech:ta:config
+[ 3636.281123] qsee_fp: dev-cap-enroll-6 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3636.281132] qsee_fp: dev-cap-enroll-6 LOGCONT end
+[ 3636.281142] qsee_fp: dev-cap-enroll-6 er=0 err=0xffffff37
+[ 3636.383100] qsee_fp: SEG dev-ENROLL-s6[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3636.383140] qsee_fp: dev-ENROLL-s6 st=0x32a first8=2a030000 00666f63
+[ 3636.383165] qsee_fp: dev-ENROLL-s6 str[0]: focaltech:ta:interface
+[ 3636.383189] qsee_fp: dev-ENROLL-s6 str[1]: new fid (= 1342663360) generated.
+[ 3636.383208] qsee_fp: dev-ENROLL-s6 str[2]: &focaltech:ft93xx:core
+[ 3636.383230] qsee_fp: dev-ENROLL-s6 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.383249] qsee_fp: dev-ENROLL-s6 str[4]: focaltech:ta:trans
+[ 3636.383285] qsee_fp: dev-ENROLL-s6 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3636.383307] qsee_fp: dev-ENROLL-s6 str[6]: query event state: [gesture leave].
+[ 3636.383326] qsee_fp: dev-ENROLL-s6 str[7]: threshold', use default value.
+[ 3636.383345] qsee_fp: dev-ENROLL-s6 str[8]: focaltech:ta:config
+[ 3636.383376] qsee_fp: dev-ENROLL-s6 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.383395] qsee_fp: dev-ENROLL-s6 str[10]: focaltech:ta:config
+[ 3636.383416] qsee_fp: dev-ENROLL-s6 str[11]: no key named 'algorithm.enro
+[ 3636.383427] qsee_fp: ENROLL sample 6 er=0 err=0x0
+[ 3636.540285] qsee_fp: ION HIT dev-cap-enroll-7 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 3636.540325] qsee_fp: dev-cap-enroll-7 st=0x52a first8=2a050000 00666f63
+[ 3636.540349] qsee_fp: dev-cap-enroll-7 str[0]: focaltech:image
+[ 3636.540383] qsee_fp: dev-cap-enroll-7 str[1]: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.540402] qsee_fp: dev-cap-enroll-7 str[2]: focaltech:ta:core
+[ 3636.540435] qsee_fp: dev-cap-enroll-7 str[3]: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.540459] qsee_fp: dev-cap-enroll-7 str[4]: d memory or another piece of malloc memory.
+[ 3636.540480] qsee_fp: dev-cap-enroll-7 str[5]: query event state: [gesture leave].
+[ 3636.540501] qsee_fp: dev-cap-enroll-7 str[6]: threshold', use default value.
+[ 3636.540519] qsee_fp: dev-cap-enroll-7 str[7]: focaltech:ta:config
+[ 3636.540551] qsee_fp: dev-cap-enroll-7 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.540571] qsee_fp: dev-cap-enroll-7 str[9]: focaltech:ta:config
+[ 3636.540603] qsee_fp: dev-cap-enroll-7 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.540624] qsee_fp: dev-cap-enroll-7 str[11]: focaltech:ta:config
+[ 3636.540658] qsee_fp: dev-cap-enroll-7 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.540678] qsee_fp: dev-cap-enroll-7 str[13]: focaltech:ta:config
+[ 3636.540711] qsee_fp: dev-cap-enroll-7 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.540731] qsee_fp: dev-cap-enroll-7 str[15]: focaltech:ta:config
+[ 3636.540763] qsee_fp: dev-cap-enroll-7 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.540783] qsee_fp: dev-cap-enroll-7 str[17]: focaltech:ta:config
+[ 3636.540816] qsee_fp: dev-cap-enroll-7 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.540836] qsee_fp: dev-cap-enroll-7 str[19]: focaltech:ta:config
+[ 3636.540866] qsee_fp: dev-cap-enroll-7 str[20]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.540886] qsee_fp: dev-cap-enroll-7 str[21]: focaltech:ta:config
+[ 3636.540917] qsee_fp: dev-cap-enroll-7 str[22]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.540936] qsee_fp: dev-cap-enroll-7 str[23]: focaltech:ta:config
+[ 3636.540968] qsee_fp: dev-cap-enroll-7 str[24]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 3636.540982] qsee_fp: dev-cap-enroll-7 st=0x80001013 first8=13100080 24000000
+[ 3636.541458] qsee_fp: dev-cap-enroll-7 str: (none printable)
+[ 3636.541468] qsee_fp: dev-cap-enroll-7 LOGCONT begin len=1322
+[ 3636.541483] qsee_fp: dev-cap-enroll-7 LOG: focaltech:image
+[ 3636.541513] qsee_fp: dev-cap-enroll-7 LOG: error at ff_sensor_data_array_new[image.c:99]: assertion 'n > 0' failed.
+[ 3636.541524] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.541538] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:core
+[ 3636.541568] qsee_fp: dev-cap-enroll-7 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1201]: 'Null pointer'.
+[ 3636.541590] qsee_fp: dev-cap-enroll-7 LOG: d memory or another piece of malloc memory.
+[ 3636.541609] qsee_fp: dev-cap-enroll-7 LOG: query event state: [gesture leave].
+[ 3636.541626] qsee_fp: dev-cap-enroll-7 LOG: threshold', use default value.
+[ 3636.541637] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.541652] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.541681] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.541692] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.541706] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.541869] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 3636.541881] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.541896] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.541925] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.541935] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.541949] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.541978] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.541989] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.542002] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.542030] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.542041] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.542054] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.542083] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.542094] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.542107] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.542133] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 3636.542143] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.542157] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.542184] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 3636.542195] qsee_fp: dev-cap-enroll-7 LOG: !
+[ 3636.542208] qsee_fp: dev-cap-enroll-7 LOG: focaltech:ta:config
+[ 3636.542235] qsee_fp: dev-cap-enroll-7 LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default
+[ 3636.542244] qsee_fp: dev-cap-enroll-7 LOGCONT end
+[ 3636.542253] qsee_fp: dev-cap-enroll-7 er=0 err=0xffffff37
+[ 3636.646158] qsee_fp: SEG dev-ENROLL-s7[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 3636.646198] qsee_fp: dev-ENROLL-s7 st=0x32a first8=2a030000 00666f63
+[ 3636.646223] qsee_fp: dev-ENROLL-s7 str[0]: focaltech:ta:interface
+[ 3636.646247] qsee_fp: dev-ENROLL-s7 str[1]: new fid (= 1091061150) generated.
+[ 3636.646267] qsee_fp: dev-ENROLL-s7 str[2]: &focaltech:ft93xx:core
+[ 3636.646290] qsee_fp: dev-ENROLL-s7 str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.646308] qsee_fp: dev-ENROLL-s7 str[4]: focaltech:ta:trans
+[ 3636.646344] qsee_fp: dev-ENROLL-s7 str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 3636.646367] qsee_fp: dev-ENROLL-s7 str[6]: query event state: [gesture leave].
+[ 3636.646386] qsee_fp: dev-ENROLL-s7 str[7]: threshold', use default value.
+[ 3636.646405] qsee_fp: dev-ENROLL-s7 str[8]: focaltech:ta:config
+[ 3636.646437] qsee_fp: dev-ENROLL-s7 str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 3636.646456] qsee_fp: dev-ENROLL-s7 str[10]: focaltech:ta:config
+[ 3636.646476] qsee_fp: dev-ENROLL-s7 str[11]: no key named 'algorithm.enro
+[ 3636.646488] qsee_fp: ENROLL sample 7 er=0 err=0x0
+[ 3636.804730] qsee_fp: ION HIT dev-POST_ENROLL ret=0 req0=0x80002002 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 3636.804770] qsee_fp: dev-POST_ENROLL st=0xde first8=de000000 00666f63
+[ 3636.804794] qsee_fp: dev-POST_ENROLL str[0]: focaltech:ta:interface
+[ 3636.804818] qsee_fp: dev-POST_ENROLL str[1]: new fid (= 1091061150) generated.
+[ 3636.804838] qsee_fp: dev-POST_ENROLL str[2]: &focaltech:ft93xx:core
+[ 3636.804860] qsee_fp: dev-POST_ENROLL str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.804878] qsee_fp: dev-POST_ENROLL str[4]: focaltech:ta:trans
+[ 3636.804905] qsee_fp: dev-POST_ENROLL str[5]: The response data should be placed in shared memory
+[ 3636.804917] qsee_fp: dev-POST_ENROLL st=0x80002002 first8=02200080 00000000
+[ 3636.805394] qsee_fp: dev-POST_ENROLL str: (none printable)
+[ 3636.805403] qsee_fp: dev-POST_ENROLL LOGCONT begin len=222
+[ 3636.805419] qsee_fp: dev-POST_ENROLL LOG: focaltech:ta:interface
+[ 3636.805439] qsee_fp: dev-POST_ENROLL LOG: new fid (= 1091061150) generated.
+[ 3636.805449] qsee_fp: dev-POST_ENROLL LOG: !
+[ 3636.805465] qsee_fp: dev-POST_ENROLL LOG: &focaltech:ft93xx:core
+[ 3636.805484] qsee_fp: dev-POST_ENROLL LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.805494] qsee_fp: dev-POST_ENROLL LOG: !
+[ 3636.805508] qsee_fp: dev-POST_ENROLL LOG: focaltech:ta:trans
+[ 3636.805530] qsee_fp: dev-POST_ENROLL LOG: The response data should be placed in share
+[ 3636.805540] qsee_fp: dev-POST_ENROLL LOGCONT end
+[ 3636.859960] qsee_fp: ION HIT dev-ENUM-after-enroll ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 3636.859996] qsee_fp: dev-ENUM-after-enroll st=0xde first8=de000000 00666f63
+[ 3636.860020] qsee_fp: dev-ENUM-after-enroll str[0]: focaltech:ta:interface
+[ 3636.860044] qsee_fp: dev-ENUM-after-enroll str[1]: new fid (= 1091061150) generated.
+[ 3636.860064] qsee_fp: dev-ENUM-after-enroll str[2]: &focaltech:ft93xx:core
+[ 3636.860087] qsee_fp: dev-ENUM-after-enroll str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.860105] qsee_fp: dev-ENUM-after-enroll str[4]: focaltech:ta:trans
+[ 3636.860133] qsee_fp: dev-ENUM-after-enroll str[5]: The response data should be placed in shared memory
+[ 3636.860145] qsee_fp: dev-ENUM-after-enroll st=0x80001028 first8=28100080 00000000
+[ 3636.860623] qsee_fp: dev-ENUM-after-enroll str: (none printable)
+[ 3636.860633] qsee_fp: dev-ENUM-after-enroll LOGCONT begin len=222
+[ 3636.860650] qsee_fp: dev-ENUM-after-enroll LOG: focaltech:ta:interface
+[ 3636.860671] qsee_fp: dev-ENUM-after-enroll LOG: new fid (= 1091061150) generated.
+[ 3636.860682] qsee_fp: dev-ENUM-after-enroll LOG: !
+[ 3636.860697] qsee_fp: dev-ENUM-after-enroll LOG: &focaltech:ft93xx:core
+[ 3636.860717] qsee_fp: dev-ENUM-after-enroll LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.860728] qsee_fp: dev-ENUM-after-enroll LOG: !
+[ 3636.860743] qsee_fp: dev-ENUM-after-enroll LOG: focaltech:ta:trans
+[ 3636.860765] qsee_fp: dev-ENUM-after-enroll LOG: The response data should be placed in share
+[ 3636.860775] qsee_fp: dev-ENUM-after-enroll LOGCONT end
+[ 3636.919677] qsee_fp: ION HIT dev-AUTH ret=0 req0=0x80002008 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 3636.919708] qsee_fp: dev-AUTH st=0x42a first8=2a040000 00666f63
+[ 3636.919731] qsee_fp: dev-AUTH str[0]: focaltech:ta:interface
+[ 3636.919752] qsee_fp: dev-AUTH str[1]: enrollment is unexpected broken off.
+[ 3636.919768] qsee_fp: dev-AUTH str[2]: @focaltech:libfp
+[ 3636.919793] qsee_fp: dev-AUTH str[3]: focal_DestroyEnrollImage...g_enrollImage is empty, do nothing!
+[ 3636.919809] qsee_fp: dev-AUTH str[4]: @focaltech:libfp
+[ 3636.919833] qsee_fp: dev-AUTH str[5]: focal_DestroyImageTpl...tplNodeList is empty, do nothing!
+[ 3636.919849] qsee_fp: dev-AUTH str[6]: @focaltech:libfp
+[ 3636.919873] qsee_fp: dev-AUTH str[7]: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 3636.919889] qsee_fp: dev-AUTH str[8]: @focaltech:libfp
+[ 3636.919908] qsee_fp: dev-AUTH str[9]: focal_DelFinger...leave, ret = 0
+[ 3636.919924] qsee_fp: dev-AUTH str[10]: &focaltech:ft93xx:core
+[ 3636.919943] qsee_fp: dev-AUTH str[11]: check finger status: release
+[ 3636.919960] qsee_fp: dev-AUTH str[12]: &focaltech:ft93xx:core
+[ 3636.919979] qsee_fp: dev-AUTH str[13]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.919991] qsee_fp: dev-AUTH str[14]: nfig
+[ 3636.920017] qsee_fp: dev-AUTH str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.920033] qsee_fp: dev-AUTH str[16]: focaltech:ta:config
+[ 3636.920061] qsee_fp: dev-AUTH str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.920077] qsee_fp: dev-AUTH str[18]: focaltech:ta:config
+[ 3636.920103] qsee_fp: dev-AUTH str[19]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.920120] qsee_fp: dev-AUTH str[20]: focaltech:ta:config
+[ 3636.920147] qsee_fp: dev-AUTH str[21]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.920164] qsee_fp: dev-AUTH str[22]: focaltech:ta:config
+[ 3636.920182] qsee_fp: dev-AUTH str[23]: no key named 'algorithm.non
+[ 3636.920193] qsee_fp: dev-AUTH st=0x80002008 first8=08200080 00000000
+[ 3636.920549] qsee_fp: dev-AUTH str: (none printable)
+[ 3636.920557] qsee_fp: dev-AUTH LOGCONT begin len=1066
+[ 3636.920572] qsee_fp: dev-AUTH LOG: focaltech:ta:interface
+[ 3636.920590] qsee_fp: dev-AUTH LOG: enrollment is unexpected broken off.
+[ 3636.920599] qsee_fp: dev-AUTH LOG: !
+[ 3636.920612] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 3636.920634] qsee_fp: dev-AUTH LOG: focal_DestroyEnrollImage...g_enrollImage is empty, do nothing!
+[ 3636.920644] qsee_fp: dev-AUTH LOG: !
+[ 3636.920657] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 3636.920679] qsee_fp: dev-AUTH LOG: focal_DestroyImageTpl...tplNodeList is empty, do nothing!
+[ 3636.920689] qsee_fp: dev-AUTH LOG: !
+[ 3636.920701] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 3636.920724] qsee_fp: dev-AUTH LOG: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 3636.920734] qsee_fp: dev-AUTH LOG: !
+[ 3636.920747] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 3636.920764] qsee_fp: dev-AUTH LOG: focal_DelFinger...leave, ret = 0
+[ 3636.920774] qsee_fp: dev-AUTH LOG: !
+[ 3636.920788] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:core
+[ 3636.920804] qsee_fp: dev-AUTH LOG: check finger status: release
+[ 3636.920814] qsee_fp: dev-AUTH LOG: !
+[ 3636.920828] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:core
+[ 3636.920844] qsee_fp: dev-AUTH LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3636.920855] qsee_fp: dev-AUTH LOG: nfig
+[ 3636.920878] qsee_fp: dev-AUTH LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3636.920889] qsee_fp: dev-AUTH LOG: !
+[ 3636.920902] qsee_fp: dev-AUTH LOG: focaltech:ta:config
+[ 3636.920927] qsee_fp: dev-AUTH LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3636.920937] qsee_fp: dev-AUTH LOG: !
+[ 3636.920950] qsee_fp: dev-AUTH LOG: focaltech:ta:config
+[ 3636.920974] qsee_fp: dev-AUTH LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 3636.920984] qsee_fp: dev-AUTH LOG: !
+[ 3636.920997] qsee_fp: dev-AUTH LOG: focaltech:ta:config
+[ 3636.921022] qsee_fp: dev-AUTH LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 3636.921033] qsee_fp: dev-AUTH LOG: !
+[ 3636.921046] qsee_fp: dev-AUTH LOG: focaltech:ta:config
+[ 3636.921061] qsee_fp: dev-AUTH LOG: no key named 'algor
+[ 3636.921070] qsee_fp: dev-AUTH LOGCONT end
+[ 3636.921080] qsee_fp: AUTH er=0 err=0x0
+[ 3637.005354] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 3637.005363] qsee_fp: dev-HEALTH-final st=0x32a first8=2a030000 0026666f
+[ 3637.005370] qsee_fp: dev-HEALTH-final str[0]: &focaltech:ft93xx:afe
+[ 3637.005374] qsee_fp: dev-HEALTH-final str[1]: last:696 693 691 684   0   0   0   0
+[ 3637.005379] qsee_fp: dev-HEALTH-final str[2]: &focaltech:ft93xx:afe
+[ 3637.005383] qsee_fp: dev-HEALTH-final str[3]: curr:700 697 687 683 41741   0   0   0
+[ 3637.005387] qsee_fp: dev-HEALTH-final str[4]: &focaltech:ft93xx:core
+[ 3637.005391] qsee_fp: dev-HEALTH-final str[5]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3637.005395] qsee_fp: dev-HEALTH-final str[6]: oyImageTpl...tplNodeList is empty, do nothing!
+[ 3637.005399] qsee_fp: dev-HEALTH-final str[7]: @focaltech:libfp
+[ 3637.005403] qsee_fp: dev-HEALTH-final str[8]: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 3637.005406] qsee_fp: dev-HEALTH-final str[9]: @focaltech:libfp
+[ 3637.005408] qsee_fp: dev-HEALTH-final str[10]: focal_DelFinger...leave, ret = 0
+[ 3637.005411] qsee_fp: dev-HEALTH-final str[11]: &focaltech:ft93xx:core
+[ 3637.005413] qsee_fp: dev-HEALTH-final str[12]: check finger status: release
+[ 3637.005416] qsee_fp: dev-HEALTH-final str[13]: &focaltech:ft93xx:core
+[ 3637.005419] qsee_fp: dev-HEALTH-final str[14]: switch to 'FDT_DOWN_DETECT' mode.
+[ 3637.005421] qsee_fp: dev-HEALTH-final str[15]: nfig
+[ 3637.005424] qsee_fp: dev-HEALTH-final str[16]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3637.005427] qsee_fp: dev-HEALTH-final str[17]: focaltech:ta:config
+[ 3637.005430] qsee_fp: dev-HEALTH-final str[18]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3637.005432] qsee_fp: dev-HEALTH-final str[19]: focaltech:ta:config
+[ 3637.005435] qsee_fp: dev-HEALTH-final st=0x80001016 first8=16100080 00000000
+[ 3637.005466] qsee_fp: dev-HEALTH-final str: (none printable)
+[ 3637.005467] qsee_fp: dev-HEALTH-final LOGCONT begin len=810
+[ 3637.005470] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 3637.005473] qsee_fp: dev-HEALTH-final LOG: last:696 693 691 684   0   0   0   0
+[ 3637.005475] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005477] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 3637.005481] qsee_fp: dev-HEALTH-final LOG: curr:700 697 687 683 41741   0   0   0
+[ 3637.005483] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005486] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 3637.005489] qsee_fp: dev-HEALTH-final LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3637.005492] qsee_fp: dev-HEALTH-final LOG: oyImageTpl...tplNodeList is empty, do nothing!
+[ 3637.005494] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005496] qsee_fp: dev-HEALTH-final LOG: @focaltech:libfp
+[ 3637.005501] qsee_fp: dev-HEALTH-final LOG: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 3637.005503] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005505] qsee_fp: dev-HEALTH-final LOG: @focaltech:libfp
+[ 3637.005508] qsee_fp: dev-HEALTH-final LOG: focal_DelFinger...leave, ret = 0
+[ 3637.005510] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005512] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 3637.005515] qsee_fp: dev-HEALTH-final LOG: check finger status: release
+[ 3637.005517] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005519] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 3637.005522] qsee_fp: dev-HEALTH-final LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 3637.005523] qsee_fp: dev-HEALTH-final LOG: nfig
+[ 3637.005527] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 3637.005529] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005531] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 3637.005534] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 3637.005536] qsee_fp: dev-HEALTH-final LOG: !
+[ 3637.005538] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 3637.005540] qsee_fp: dev-HEALTH-final LOGCONT end
+[ 3637.005541] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[ 3637.005604] qsee_fp: device-TA probe+auth-path complete
+[ 3637.005607] qsee_fp: done

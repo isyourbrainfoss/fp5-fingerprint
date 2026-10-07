@@ -1,0 +1,11 @@
+[Unit]
+Description=FP5 fingerprint unlock on Phosh lock screen
+After=graphical-session.target
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/fp5-lock-watcher
+Restart=on-failure
+
+[Install]
+WantedBy=default.target

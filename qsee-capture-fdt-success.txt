@@ -1,0 +1,1644 @@
+[ 1336.828165] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:afe
+[ 1336.828167] qsee_fp: dev-cap-big-p0-112x88 LOG: set chip vio 1.8v success
+[ 1336.828168] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828169] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:afe
+[ 1336.828172] qsee_fp: dev-cap-big-p0-112x88 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1336.828173] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828175] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:afe
+[ 1336.828177] qsee_fp: dev-cap-big-p0-112x88 LOG: chip feature, io controlleable and open/short detectable
+[ 1336.828179] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828180] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:core
+[ 1336.828182] qsee_fp: dev-cap-big-p0-112x88 LOG: last time saved efc data: 144
+[ 1336.828183] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828184] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828186] qsee_fp: dev-cap-big-p0-112x88 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1336.828188] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828189] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828191] qsee_fp: dev-cap-big-p0-112x88 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1336.828192] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828194] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828195] qsee_fp: dev-cap-big-p0-112x88 LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1336.828196] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828198] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828199] qsee_fp: dev-cap-big-p0-112x88 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1336.828200] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828201] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828203] qsee_fp: dev-cap-big-p0-112x88 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1336.828204] qsee_fp: dev-cap-big-p0-112x88 LOG: !
+[ 1336.828205] qsee_fp: dev-cap-big-p0-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1336.828207] qsee_fp: dev-cap-big-p0-112x88 LOG: get fdt dac [succe
+[ 1336.828207] qsee_fp: dev-cap-big-p0-112x88 LOGCONT end
+[ 1336.828256] qsee_fp: dev-cap-big-p0-112x88 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1339.927867] qsee_fp: ION HIT dev-cap-meta-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1339.927874] qsee_fp: dev-cap-meta-p0-96x96 st=0x32a first8=2a030000 0026666f
+[ 1339.927877] qsee_fp: dev-cap-meta-p0-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1339.927880] qsee_fp: dev-cap-meta-p0-96x96 str[1]: set chip vio 1.8v success
+[ 1339.927882] qsee_fp: dev-cap-meta-p0-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1339.927884] qsee_fp: dev-cap-meta-p0-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1339.927886] qsee_fp: dev-cap-meta-p0-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1339.927888] qsee_fp: dev-cap-meta-p0-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1339.927889] qsee_fp: dev-cap-meta-p0-96x96 str[6]: &focaltech:ft93xx:core
+[ 1339.927891] qsee_fp: dev-cap-meta-p0-96x96 str[7]: last time saved efc data: 144
+[ 1339.927893] qsee_fp: dev-cap-meta-p0-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1339.927895] qsee_fp: dev-cap-meta-p0-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1339.927897] qsee_fp: dev-cap-meta-p0-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1339.927898] qsee_fp: dev-cap-meta-p0-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1339.927900] qsee_fp: dev-cap-meta-p0-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1339.927902] qsee_fp: dev-cap-meta-p0-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1339.927903] qsee_fp: dev-cap-meta-p0-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1339.927905] qsee_fp: dev-cap-meta-p0-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 703
+[ 1339.927907] qsee_fp: dev-cap-meta-p0-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1339.927909] qsee_fp: dev-cap-meta-p0-96x96 str[17]: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1339.927910] qsee_fp: dev-cap-meta-p0-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1339.927912] qsee_fp: dev-cap-meta-p0-96x96 str[19]: get fdt dac [success], aut
+[ 1339.927913] qsee_fp: dev-cap-meta-p0-96x96 st=0x80001013 first8=13100080 24000000
+[ 1339.927935] qsee_fp: dev-cap-meta-p0-96x96 str: (none printable)
+[ 1339.927936] qsee_fp: dev-cap-meta-p0-96x96 LOGCONT begin len=810
+[ 1339.927938] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1339.927940] qsee_fp: dev-cap-meta-p0-96x96 LOG: set chip vio 1.8v success
+[ 1339.927941] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927943] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1339.927946] qsee_fp: dev-cap-meta-p0-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1339.927947] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927948] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1339.927951] qsee_fp: dev-cap-meta-p0-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1339.927952] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927953] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:core
+[ 1339.927955] qsee_fp: dev-cap-meta-p0-96x96 LOG: last time saved efc data: 144
+[ 1339.927957] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927958] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927960] qsee_fp: dev-cap-meta-p0-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1339.927961] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927962] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927964] qsee_fp: dev-cap-meta-p0-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1339.927965] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927966] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927968] qsee_fp: dev-cap-meta-p0-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1339.927969] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927970] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927972] qsee_fp: dev-cap-meta-p0-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 703
+[ 1339.927973] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927974] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927976] qsee_fp: dev-cap-meta-p0-96x96 LOG: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1339.927977] qsee_fp: dev-cap-meta-p0-96x96 LOG: !
+[ 1339.927978] qsee_fp: dev-cap-meta-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1339.927979] qsee_fp: dev-cap-meta-p0-96x96 LOG: get fdt dac [succe
+[ 1339.927980] qsee_fp: dev-cap-meta-p0-96x96 LOGCONT end
+[ 1339.927981] qsee_fp: dev-cap-meta-p0-96x96 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1339.927988] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-96x96
+[ 1339.971004] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1339.971009] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1339.971012] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1339.971014] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1339.971017] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1339.971019] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1339.971021] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1339.971022] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1339.971023] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1339.971045] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1339.971046] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1339.971048] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1339.971050] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1339.971051] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1339.971052] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1339.971055] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1339.971056] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1339.971058] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1339.971060] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1339.971061] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1340.612102] qsee_fp: ION HIT dev-cap-big-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1340.612108] qsee_fp: dev-cap-big-p0-96x96 st=0x32a first8=2a030000 0026666f
+[ 1340.612112] qsee_fp: dev-cap-big-p0-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1340.612115] qsee_fp: dev-cap-big-p0-96x96 str[1]: set chip vio 1.8v success
+[ 1340.612118] qsee_fp: dev-cap-big-p0-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1340.612120] qsee_fp: dev-cap-big-p0-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1340.612121] qsee_fp: dev-cap-big-p0-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1340.612123] qsee_fp: dev-cap-big-p0-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1340.612125] qsee_fp: dev-cap-big-p0-96x96 str[6]: &focaltech:ft93xx:core
+[ 1340.612127] qsee_fp: dev-cap-big-p0-96x96 str[7]: last time saved efc data: 144
+[ 1340.612128] qsee_fp: dev-cap-big-p0-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1340.612130] qsee_fp: dev-cap-big-p0-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1340.612132] qsee_fp: dev-cap-big-p0-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1340.612134] qsee_fp: dev-cap-big-p0-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 692
+[ 1340.612136] qsee_fp: dev-cap-big-p0-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1340.612137] qsee_fp: dev-cap-big-p0-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 700
+[ 1340.612139] qsee_fp: dev-cap-big-p0-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1340.612141] qsee_fp: dev-cap-big-p0-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1340.612142] qsee_fp: dev-cap-big-p0-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1340.612144] qsee_fp: dev-cap-big-p0-96x96 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1340.612146] qsee_fp: dev-cap-big-p0-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1340.612147] qsee_fp: dev-cap-big-p0-96x96 str[19]: get fdt dac [success], aut
+[ 1340.612148] qsee_fp: dev-cap-big-p0-96x96 st=0x80001013 first8=13100080 24000000
+[ 1340.612171] qsee_fp: dev-cap-big-p0-96x96 str: (none printable)
+[ 1340.612172] qsee_fp: dev-cap-big-p0-96x96 LOGCONT begin len=810
+[ 1340.612173] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1340.612175] qsee_fp: dev-cap-big-p0-96x96 LOG: set chip vio 1.8v success
+[ 1340.612177] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612178] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1340.612180] qsee_fp: dev-cap-big-p0-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1340.612182] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612183] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:afe
+[ 1340.612186] qsee_fp: dev-cap-big-p0-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1340.612187] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612188] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:core
+[ 1340.612190] qsee_fp: dev-cap-big-p0-96x96 LOG: last time saved efc data: 144
+[ 1340.612191] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612192] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612195] qsee_fp: dev-cap-big-p0-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1340.612196] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612197] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612199] qsee_fp: dev-cap-big-p0-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 692
+[ 1340.612200] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612201] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612204] qsee_fp: dev-cap-big-p0-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1340.612205] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612206] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612208] qsee_fp: dev-cap-big-p0-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1340.612209] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612210] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612212] qsee_fp: dev-cap-big-p0-96x96 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1340.612213] qsee_fp: dev-cap-big-p0-96x96 LOG: !
+[ 1340.612214] qsee_fp: dev-cap-big-p0-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1340.612216] qsee_fp: dev-cap-big-p0-96x96 LOG: get fdt dac [succe
+[ 1340.612216] qsee_fp: dev-cap-big-p0-96x96 LOGCONT end
+[ 1340.612263] qsee_fp: dev-cap-big-p0-96x96 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1343.711999] qsee_fp: ION HIT dev-cap-meta-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1343.712007] qsee_fp: dev-cap-meta-p0-80x80 st=0x32a first8=2a030000 0026666f
+[ 1343.712010] qsee_fp: dev-cap-meta-p0-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1343.712012] qsee_fp: dev-cap-meta-p0-80x80 str[1]: set chip vio 1.8v success
+[ 1343.712014] qsee_fp: dev-cap-meta-p0-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1343.712017] qsee_fp: dev-cap-meta-p0-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1343.712019] qsee_fp: dev-cap-meta-p0-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1343.712021] qsee_fp: dev-cap-meta-p0-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1343.712023] qsee_fp: dev-cap-meta-p0-80x80 str[6]: &focaltech:ft93xx:core
+[ 1343.712025] qsee_fp: dev-cap-meta-p0-80x80 str[7]: last time saved efc data: 144
+[ 1343.712026] qsee_fp: dev-cap-meta-p0-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1343.712028] qsee_fp: dev-cap-meta-p0-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1343.712030] qsee_fp: dev-cap-meta-p0-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1343.712032] qsee_fp: dev-cap-meta-p0-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1343.712034] qsee_fp: dev-cap-meta-p0-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1343.712035] qsee_fp: dev-cap-meta-p0-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1343.712037] qsee_fp: dev-cap-meta-p0-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1343.712039] qsee_fp: dev-cap-meta-p0-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 703
+[ 1343.712040] qsee_fp: dev-cap-meta-p0-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1343.712042] qsee_fp: dev-cap-meta-p0-80x80 str[17]: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1343.712044] qsee_fp: dev-cap-meta-p0-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1343.712045] qsee_fp: dev-cap-meta-p0-80x80 str[19]: get fdt dac [success], aut
+[ 1343.712046] qsee_fp: dev-cap-meta-p0-80x80 st=0x80001013 first8=13100080 24000000
+[ 1343.712068] qsee_fp: dev-cap-meta-p0-80x80 str: (none printable)
+[ 1343.712069] qsee_fp: dev-cap-meta-p0-80x80 LOGCONT begin len=810
+[ 1343.712070] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1343.712072] qsee_fp: dev-cap-meta-p0-80x80 LOG: set chip vio 1.8v success
+[ 1343.712073] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712075] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1343.712078] qsee_fp: dev-cap-meta-p0-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1343.712079] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712080] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1343.712083] qsee_fp: dev-cap-meta-p0-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1343.712084] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712085] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:core
+[ 1343.712087] qsee_fp: dev-cap-meta-p0-80x80 LOG: last time saved efc data: 144
+[ 1343.712088] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712089] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712092] qsee_fp: dev-cap-meta-p0-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1343.712093] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712094] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712096] qsee_fp: dev-cap-meta-p0-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1343.712097] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712098] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712100] qsee_fp: dev-cap-meta-p0-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1343.712101] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712103] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712104] qsee_fp: dev-cap-meta-p0-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 703
+[ 1343.712105] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712107] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712108] qsee_fp: dev-cap-meta-p0-80x80 LOG: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1343.712110] qsee_fp: dev-cap-meta-p0-80x80 LOG: !
+[ 1343.712111] qsee_fp: dev-cap-meta-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1343.712112] qsee_fp: dev-cap-meta-p0-80x80 LOG: get fdt dac [succe
+[ 1343.712113] qsee_fp: dev-cap-meta-p0-80x80 LOGCONT end
+[ 1343.712114] qsee_fp: dev-cap-meta-p0-80x80 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1343.712121] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-80x80
+[ 1343.755466] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1343.755473] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1343.755476] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1343.755478] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1343.755480] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1343.755482] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1343.755484] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1343.755485] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1343.755486] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1343.755508] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1343.755509] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1343.755511] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1343.755513] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1343.755514] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1343.755515] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1343.755518] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1343.755519] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1343.755521] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1343.755523] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1343.755523] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1344.396166] qsee_fp: ION HIT dev-cap-big-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1344.396171] qsee_fp: dev-cap-big-p0-80x80 st=0x32a first8=2a030000 0026666f
+[ 1344.396174] qsee_fp: dev-cap-big-p0-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1344.396176] qsee_fp: dev-cap-big-p0-80x80 str[1]: set chip vio 1.8v success
+[ 1344.396178] qsee_fp: dev-cap-big-p0-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1344.396181] qsee_fp: dev-cap-big-p0-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1344.396182] qsee_fp: dev-cap-big-p0-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1344.396184] qsee_fp: dev-cap-big-p0-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1344.396186] qsee_fp: dev-cap-big-p0-80x80 str[6]: &focaltech:ft93xx:core
+[ 1344.396187] qsee_fp: dev-cap-big-p0-80x80 str[7]: last time saved efc data: 144
+[ 1344.396189] qsee_fp: dev-cap-big-p0-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1344.396191] qsee_fp: dev-cap-big-p0-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1344.396192] qsee_fp: dev-cap-big-p0-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1344.396194] qsee_fp: dev-cap-big-p0-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1344.396196] qsee_fp: dev-cap-big-p0-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1344.396198] qsee_fp: dev-cap-big-p0-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 700
+[ 1344.396199] qsee_fp: dev-cap-big-p0-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1344.396201] qsee_fp: dev-cap-big-p0-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 706
+[ 1344.396203] qsee_fp: dev-cap-big-p0-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1344.396204] qsee_fp: dev-cap-big-p0-80x80 str[17]: got fdt dac success: 127, middle: 706, lastmiddle: 700
+[ 1344.396206] qsee_fp: dev-cap-big-p0-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1344.396207] qsee_fp: dev-cap-big-p0-80x80 str[19]: get fdt dac [success], aut
+[ 1344.396208] qsee_fp: dev-cap-big-p0-80x80 st=0x80001013 first8=13100080 24000000
+[ 1344.396230] qsee_fp: dev-cap-big-p0-80x80 str: (none printable)
+[ 1344.396231] qsee_fp: dev-cap-big-p0-80x80 LOGCONT begin len=810
+[ 1344.396233] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1344.396234] qsee_fp: dev-cap-big-p0-80x80 LOG: set chip vio 1.8v success
+[ 1344.396236] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396237] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1344.396240] qsee_fp: dev-cap-big-p0-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1344.396241] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396242] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:afe
+[ 1344.396245] qsee_fp: dev-cap-big-p0-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1344.396246] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396248] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:core
+[ 1344.396250] qsee_fp: dev-cap-big-p0-80x80 LOG: last time saved efc data: 144
+[ 1344.396251] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396252] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396255] qsee_fp: dev-cap-big-p0-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1344.396256] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396257] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396259] qsee_fp: dev-cap-big-p0-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1344.396260] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396262] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396263] qsee_fp: dev-cap-big-p0-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1344.396265] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396266] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396268] qsee_fp: dev-cap-big-p0-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 706
+[ 1344.396269] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396270] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396271] qsee_fp: dev-cap-big-p0-80x80 LOG: got fdt dac success: 127, middle: 706, lastmiddle: 700
+[ 1344.396273] qsee_fp: dev-cap-big-p0-80x80 LOG: !
+[ 1344.396274] qsee_fp: dev-cap-big-p0-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1344.396275] qsee_fp: dev-cap-big-p0-80x80 LOG: get fdt dac [succe
+[ 1344.396276] qsee_fp: dev-cap-big-p0-80x80 LOGCONT end
+[ 1344.396323] qsee_fp: dev-cap-big-p0-80x80 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1344.473098] qsee_fp: ION HIT dev-INIT-after-fdt ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1344.473105] qsee_fp: dev-INIT-after-fdt st=0x42a first8=2a040000 00666f63
+[ 1344.473109] qsee_fp: dev-INIT-after-fdt str[0]: focaltech:ta:config
+[ 1344.473111] qsee_fp: dev-INIT-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.473114] qsee_fp: dev-INIT-after-fdt str[2]: focaltech:ta:config
+[ 1344.473116] qsee_fp: dev-INIT-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.473117] qsee_fp: dev-INIT-after-fdt str[4]: focaltech:ta:config
+[ 1344.473120] qsee_fp: dev-INIT-after-fdt str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1344.473121] qsee_fp: dev-INIT-after-fdt str[6]: focaltech:ta:config
+[ 1344.473123] qsee_fp: dev-INIT-after-fdt str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1344.473125] qsee_fp: dev-INIT-after-fdt str[8]: focaltech:ta:config
+[ 1344.473126] qsee_fp: dev-INIT-after-fdt str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1344.473128] qsee_fp: dev-INIT-after-fdt str[10]: focaltech:ta:config
+[ 1344.473130] qsee_fp: dev-INIT-after-fdt str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1344.473132] qsee_fp: dev-INIT-after-fdt str[12]: focaltech:ta:config
+[ 1344.473134] qsee_fp: dev-INIT-after-fdt str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1344.473135] qsee_fp: dev-INIT-after-fdt str[14]: focaltech:ta:config
+[ 1344.473137] qsee_fp: dev-INIT-after-fdt str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1344.473138] qsee_fp: dev-INIT-after-fdt str[16]: focaltech:ta:config
+[ 1344.473140] qsee_fp: dev-INIT-after-fdt str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1344.473142] qsee_fp: dev-INIT-after-fdt str[18]: focaltech:ta:config
+[ 1344.473143] qsee_fp: dev-INIT-after-fdt str[19]: no key named 'algorithm.non
+[ 1344.473144] qsee_fp: dev-INIT-after-fdt st=0x80001004 first8=04100080 c0000000
+[ 1344.473147] qsee_fp: dev-INIT-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1344.473149] qsee_fp: dev-INIT-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1344.473150] qsee_fp: dev-INIT-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1344.473168] qsee_fp: dev-INIT-after-fdt LOGCONT begin len=1066
+[ 1344.473170] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473173] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.473174] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473175] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473178] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.473179] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473180] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473183] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1344.473184] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473185] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473188] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1344.473189] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473190] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473193] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1344.473194] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473195] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473198] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1344.473199] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473200] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473202] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1344.473204] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473205] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473207] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1344.473208] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473209] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473211] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1344.473212] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1344.473213] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1344.473214] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algor
+[ 1344.473215] qsee_fp: dev-INIT-after-fdt LOGCONT end
+[ 1344.576803] qsee_fp: ION HIT dev-SYNC_CALIB-after-fdt ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1344.576811] qsee_fp: dev-SYNC_CALIB-after-fdt st=0xde first8=de000000 00666f63
+[ 1344.576814] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: focaltech:ta:config
+[ 1344.576817] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.576819] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: focaltech:ta:config
+[ 1344.576821] qsee_fp: dev-SYNC_CALIB-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.576823] qsee_fp: dev-SYNC_CALIB-after-fdt str[4]: foca
+[ 1344.576824] qsee_fp: dev-SYNC_CALIB-after-fdt st=0x8000100f first8=0f100080 00000000
+[ 1344.576827] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1344.576829] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1344.576831] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1344.576849] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT begin len=222
+[ 1344.576851] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1344.576854] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.576855] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1344.576856] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1344.576859] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.576860] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1344.576861] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT end
+[ 1344.631265] qsee_fp: ION HIT dev-LOGCAT-after-reinit ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1344.631272] qsee_fp: dev-LOGCAT-after-reinit st=0xde first8=de000000 00666f63
+[ 1344.631275] qsee_fp: dev-LOGCAT-after-reinit str[0]: focaltech:ta:config
+[ 1344.631278] qsee_fp: dev-LOGCAT-after-reinit str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.631280] qsee_fp: dev-LOGCAT-after-reinit str[2]: focaltech:ta:config
+[ 1344.631283] qsee_fp: dev-LOGCAT-after-reinit str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.631285] qsee_fp: dev-LOGCAT-after-reinit str[4]: foca
+[ 1344.631286] qsee_fp: dev-LOGCAT-after-reinit st=0x80001003 first8=03100080 00000000
+[ 1344.631289] qsee_fp: dev-LOGCAT-after-reinit str[0]: v1.1.22_0.0.3_001-20230214
+[ 1344.631291] qsee_fp: dev-LOGCAT-after-reinit str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1344.631293] qsee_fp: dev-LOGCAT-after-reinit str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1344.631311] qsee_fp: dev-LOGCAT-after-reinit LOGCONT begin len=222
+[ 1344.631313] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1344.631316] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1344.631317] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1344.631319] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1344.631321] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1344.631322] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1344.631323] qsee_fp: dev-LOGCAT-after-reinit LOGCONT end
+[ 1347.739114] qsee_fp: ION HIT dev-cap-meta-p1-112x88 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1347.739121] qsee_fp: dev-cap-meta-p1-112x88 st=0x42a first8=2a040000 0026666f
+[ 1347.739125] qsee_fp: dev-cap-meta-p1-112x88 str[0]: &focaltech:ft93xx:afe
+[ 1347.739127] qsee_fp: dev-cap-meta-p1-112x88 str[1]: set chip vio 1.8v fail, try again....
+[ 1347.739130] qsee_fp: dev-cap-meta-p1-112x88 str[2]: &focaltech:ft93xx:afe
+[ 1347.739131] qsee_fp: dev-cap-meta-p1-112x88 str[3]: set chip vio 1.8v fail, try again....
+[ 1347.739133] qsee_fp: dev-cap-meta-p1-112x88 str[4]: &focaltech:ft93xx:afe
+[ 1347.739135] qsee_fp: dev-cap-meta-p1-112x88 str[5]: set chip vio 1.8v fail, try again....
+[ 1347.739137] qsee_fp: dev-cap-meta-p1-112x88 str[6]: &focaltech:ft93xx:afe
+[ 1347.739138] qsee_fp: dev-cap-meta-p1-112x88 str[7]: set chip vio 1.8v fail, try again....
+[ 1347.739140] qsee_fp: dev-cap-meta-p1-112x88 str[8]: &focaltech:ft93xx:afe
+[ 1347.739141] qsee_fp: dev-cap-meta-p1-112x88 str[9]: set chip vio 1.8v fail, try again....
+[ 1347.739143] qsee_fp: dev-cap-meta-p1-112x88 str[10]: &focaltech:ft93xx:core
+[ 1347.739145] qsee_fp: dev-cap-meta-p1-112x88 str[11]: configure spi mode failed(0).
+[ 1347.739147] qsee_fp: dev-cap-meta-p1-112x88 str[12]: &focaltech:ft93xx:core
+[ 1347.739148] qsee_fp: dev-cap-meta-p1-112x88 str[13]: configure spi mode failed(0).
+[ 1347.739150] qsee_fp: dev-cap-meta-p1-112x88 str[14]: &focaltech:ft93xx:core
+[ 1347.739151] qsee_fp: dev-cap-meta-p1-112x88 str[15]: configure spi mode failed(0).
+[ 1347.739153] qsee_fp: dev-cap-meta-p1-112x88 str[16]: &focaltech:ft93xx:afe
+[ 1347.739155] qsee_fp: dev-cap-meta-p1-112x88 str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1347.739157] qsee_fp: dev-cap-meta-p1-112x88 str[18]: &focaltech:ft93xx:afe
+[ 1347.739159] qsee_fp: dev-cap-meta-p1-112x88 str[19]: chip feature, io controlleable and open/short detectable
+[ 1347.739160] qsee_fp: dev-cap-meta-p1-112x88 str[20]: &focaltech:ft93xx:core
+[ 1347.739162] qsee_fp: dev-cap-meta-p1-112x88 str[21]: last time saved efc data: 144
+[ 1347.739163] qsee_fp: dev-cap-meta-p1-112x88 str[22]: &focaltech:ft93xx:fdt
+[ 1347.739165] qsee_fp: dev-cap-meta-p1-112x88 str[23]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1347.739167] qsee_fp: dev-cap-meta-p1-112x88 str[24]: &focaltech:ft93xx:fdt
+[ 1347.739169] qsee_fp: dev-cap-meta-p1-112x88 str[25]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1347.739170] qsee_fp: dev-cap-meta-p1-112x88 str[26]: &focaltech:ft93xx:fdt
+[ 1347.739172] qsee_fp: dev-cap-meta-p1-112x88 str[27]: fdt calibration->try: 3, dac: 1
+[ 1347.739173] qsee_fp: dev-cap-meta-p1-112x88 st=0x80001013 first8=13100080 24000000
+[ 1347.739195] qsee_fp: dev-cap-meta-p1-112x88 str: (none printable)
+[ 1347.739197] qsee_fp: dev-cap-meta-p1-112x88 LOGCONT begin len=1066
+[ 1347.739198] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739201] qsee_fp: dev-cap-meta-p1-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1347.739202] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739203] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739205] qsee_fp: dev-cap-meta-p1-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1347.739207] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739208] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739210] qsee_fp: dev-cap-meta-p1-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1347.739211] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739212] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739214] qsee_fp: dev-cap-meta-p1-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1347.739215] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739217] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739219] qsee_fp: dev-cap-meta-p1-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1347.739220] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739221] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:core
+[ 1347.739223] qsee_fp: dev-cap-meta-p1-112x88 LOG: configure spi mode failed(0).
+[ 1347.739225] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739226] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:core
+[ 1347.739228] qsee_fp: dev-cap-meta-p1-112x88 LOG: configure spi mode failed(0).
+[ 1347.739229] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739231] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:core
+[ 1347.739232] qsee_fp: dev-cap-meta-p1-112x88 LOG: configure spi mode failed(0).
+[ 1347.739233] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739234] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739236] qsee_fp: dev-cap-meta-p1-112x88 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1347.739238] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739239] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1347.739240] qsee_fp: dev-cap-meta-p1-112x88 LOG: chip feature, io controlleable and open/short detectable
+[ 1347.739242] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739243] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:core
+[ 1347.739245] qsee_fp: dev-cap-meta-p1-112x88 LOG: last time saved efc data: 144
+[ 1347.739246] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739247] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1347.739249] qsee_fp: dev-cap-meta-p1-112x88 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1347.739250] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739251] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1347.739253] qsee_fp: dev-cap-meta-p1-112x88 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1347.739254] qsee_fp: dev-cap-meta-p1-112x88 LOG: !
+[ 1347.739255] qsee_fp: dev-cap-meta-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1347.739256] qsee_fp: dev-cap-meta-p1-112x88 LOG: fdt calibration->try: 3
+[ 1347.739257] qsee_fp: dev-cap-meta-p1-112x88 LOGCONT end
+[ 1347.739258] qsee_fp: dev-cap-meta-p1-112x88 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1347.739265] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p1-112x88
+[ 1347.784597] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1347.784610] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1347.784615] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1347.784619] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v fail, try again....
+[ 1347.784622] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1347.784625] qsee_fp: dev-LOGCAT-post-fdt str[3]: set chip vio 1.8v fail, try again....
+[ 1347.784627] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1347.784630] qsee_fp: dev-LOGCAT-post-fdt str[5]: set chip vio 1.8v fail, try again....
+[ 1347.784632] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1347.784665] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1347.784666] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1347.784669] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1347.784673] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v fail, try again....
+[ 1347.784675] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1347.784678] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1347.784682] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v fail, try again....
+[ 1347.784683] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1347.784685] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1347.784689] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v fail, try again..
+[ 1347.784690] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1348.424149] qsee_fp: ION HIT dev-cap-big-p1-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1348.424154] qsee_fp: dev-cap-big-p1-112x88 st=0x32a first8=2a030000 0026666f
+[ 1348.424157] qsee_fp: dev-cap-big-p1-112x88 str[0]: &focaltech:ft93xx:afe
+[ 1348.424159] qsee_fp: dev-cap-big-p1-112x88 str[1]: set chip vio 1.8v success
+[ 1348.424161] qsee_fp: dev-cap-big-p1-112x88 str[2]: &focaltech:ft93xx:afe
+[ 1348.424164] qsee_fp: dev-cap-big-p1-112x88 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1348.424165] qsee_fp: dev-cap-big-p1-112x88 str[4]: &focaltech:ft93xx:afe
+[ 1348.424167] qsee_fp: dev-cap-big-p1-112x88 str[5]: chip feature, io controlleable and open/short detectable
+[ 1348.424169] qsee_fp: dev-cap-big-p1-112x88 str[6]: &focaltech:ft93xx:core
+[ 1348.424171] qsee_fp: dev-cap-big-p1-112x88 str[7]: last time saved efc data: 144
+[ 1348.424172] qsee_fp: dev-cap-big-p1-112x88 str[8]: &focaltech:ft93xx:fdt
+[ 1348.424174] qsee_fp: dev-cap-big-p1-112x88 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1348.424176] qsee_fp: dev-cap-big-p1-112x88 str[10]: &focaltech:ft93xx:fdt
+[ 1348.424177] qsee_fp: dev-cap-big-p1-112x88 str[11]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1348.424179] qsee_fp: dev-cap-big-p1-112x88 str[12]: &focaltech:ft93xx:fdt
+[ 1348.424181] qsee_fp: dev-cap-big-p1-112x88 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1348.424182] qsee_fp: dev-cap-big-p1-112x88 str[14]: &focaltech:ft93xx:fdt
+[ 1348.424184] qsee_fp: dev-cap-big-p1-112x88 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1348.424185] qsee_fp: dev-cap-big-p1-112x88 str[16]: &focaltech:ft93xx:fdt
+[ 1348.424187] qsee_fp: dev-cap-big-p1-112x88 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1348.424188] qsee_fp: dev-cap-big-p1-112x88 str[18]: &focaltech:ft93xx:fdt
+[ 1348.424190] qsee_fp: dev-cap-big-p1-112x88 str[19]: get fdt dac [success], aut
+[ 1348.424191] qsee_fp: dev-cap-big-p1-112x88 st=0x80001013 first8=13100080 24000000
+[ 1348.424213] qsee_fp: dev-cap-big-p1-112x88 str: (none printable)
+[ 1348.424214] qsee_fp: dev-cap-big-p1-112x88 LOGCONT begin len=810
+[ 1348.424215] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1348.424217] qsee_fp: dev-cap-big-p1-112x88 LOG: set chip vio 1.8v success
+[ 1348.424218] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424220] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1348.424223] qsee_fp: dev-cap-big-p1-112x88 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1348.424224] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424226] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:afe
+[ 1348.424228] qsee_fp: dev-cap-big-p1-112x88 LOG: chip feature, io controlleable and open/short detectable
+[ 1348.424229] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424231] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:core
+[ 1348.424233] qsee_fp: dev-cap-big-p1-112x88 LOG: last time saved efc data: 144
+[ 1348.424234] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424235] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424238] qsee_fp: dev-cap-big-p1-112x88 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1348.424239] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424241] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424243] qsee_fp: dev-cap-big-p1-112x88 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1348.424244] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424245] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424246] qsee_fp: dev-cap-big-p1-112x88 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1348.424248] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424249] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424250] qsee_fp: dev-cap-big-p1-112x88 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1348.424251] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424253] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424254] qsee_fp: dev-cap-big-p1-112x88 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1348.424255] qsee_fp: dev-cap-big-p1-112x88 LOG: !
+[ 1348.424257] qsee_fp: dev-cap-big-p1-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1348.424258] qsee_fp: dev-cap-big-p1-112x88 LOG: get fdt dac [succe
+[ 1348.424259] qsee_fp: dev-cap-big-p1-112x88 LOGCONT end
+[ 1348.424307] qsee_fp: dev-cap-big-p1-112x88 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1351.524155] qsee_fp: ION HIT dev-cap-meta-p1-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1351.524162] qsee_fp: dev-cap-meta-p1-96x96 st=0x32a first8=2a030000 0026666f
+[ 1351.524165] qsee_fp: dev-cap-meta-p1-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1351.524167] qsee_fp: dev-cap-meta-p1-96x96 str[1]: set chip vio 1.8v success
+[ 1351.524170] qsee_fp: dev-cap-meta-p1-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1351.524172] qsee_fp: dev-cap-meta-p1-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1351.524173] qsee_fp: dev-cap-meta-p1-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1351.524175] qsee_fp: dev-cap-meta-p1-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1351.524177] qsee_fp: dev-cap-meta-p1-96x96 str[6]: &focaltech:ft93xx:core
+[ 1351.524179] qsee_fp: dev-cap-meta-p1-96x96 str[7]: last time saved efc data: 144
+[ 1351.524181] qsee_fp: dev-cap-meta-p1-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1351.524183] qsee_fp: dev-cap-meta-p1-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 668
+[ 1351.524184] qsee_fp: dev-cap-meta-p1-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1351.524186] qsee_fp: dev-cap-meta-p1-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1351.524188] qsee_fp: dev-cap-meta-p1-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1351.524190] qsee_fp: dev-cap-meta-p1-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 700
+[ 1351.524191] qsee_fp: dev-cap-meta-p1-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1351.524193] qsee_fp: dev-cap-meta-p1-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1351.524194] qsee_fp: dev-cap-meta-p1-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1351.524196] qsee_fp: dev-cap-meta-p1-96x96 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1351.524198] qsee_fp: dev-cap-meta-p1-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1351.524200] qsee_fp: dev-cap-meta-p1-96x96 str[19]: get fdt dac [success], aut
+[ 1351.524201] qsee_fp: dev-cap-meta-p1-96x96 st=0x80001013 first8=13100080 24000000
+[ 1351.524224] qsee_fp: dev-cap-meta-p1-96x96 str: (none printable)
+[ 1351.524224] qsee_fp: dev-cap-meta-p1-96x96 LOGCONT begin len=810
+[ 1351.524226] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1351.524228] qsee_fp: dev-cap-meta-p1-96x96 LOG: set chip vio 1.8v success
+[ 1351.524229] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524231] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1351.524234] qsee_fp: dev-cap-meta-p1-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1351.524235] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524236] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1351.524239] qsee_fp: dev-cap-meta-p1-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1351.524240] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524241] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:core
+[ 1351.524243] qsee_fp: dev-cap-meta-p1-96x96 LOG: last time saved efc data: 144
+[ 1351.524244] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524246] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524248] qsee_fp: dev-cap-meta-p1-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 668
+[ 1351.524249] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524250] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524252] qsee_fp: dev-cap-meta-p1-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1351.524253] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524255] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524256] qsee_fp: dev-cap-meta-p1-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1351.524257] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524259] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524260] qsee_fp: dev-cap-meta-p1-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1351.524261] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524262] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524264] qsee_fp: dev-cap-meta-p1-96x96 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1351.524266] qsee_fp: dev-cap-meta-p1-96x96 LOG: !
+[ 1351.524267] qsee_fp: dev-cap-meta-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1351.524268] qsee_fp: dev-cap-meta-p1-96x96 LOG: get fdt dac [succe
+[ 1351.524269] qsee_fp: dev-cap-meta-p1-96x96 LOGCONT end
+[ 1351.524270] qsee_fp: dev-cap-meta-p1-96x96 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1351.524277] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p1-96x96
+[ 1351.567019] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1351.567025] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1351.567029] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1351.567031] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1351.567034] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1351.567036] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1351.567037] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1351.567039] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1351.567040] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1351.567062] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1351.567063] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1351.567064] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1351.567067] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1351.567068] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1351.567069] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1351.567072] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1351.567073] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1351.567075] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1351.567076] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1351.567077] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1352.208086] qsee_fp: ION HIT dev-cap-big-p1-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1352.208092] qsee_fp: dev-cap-big-p1-96x96 st=0x32a first8=2a030000 0026666f
+[ 1352.208096] qsee_fp: dev-cap-big-p1-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1352.208098] qsee_fp: dev-cap-big-p1-96x96 str[1]: set chip vio 1.8v success
+[ 1352.208101] qsee_fp: dev-cap-big-p1-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1352.208103] qsee_fp: dev-cap-big-p1-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1352.208104] qsee_fp: dev-cap-big-p1-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1352.208106] qsee_fp: dev-cap-big-p1-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1352.208108] qsee_fp: dev-cap-big-p1-96x96 str[6]: &focaltech:ft93xx:core
+[ 1352.208110] qsee_fp: dev-cap-big-p1-96x96 str[7]: last time saved efc data: 144
+[ 1352.208112] qsee_fp: dev-cap-big-p1-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1352.208113] qsee_fp: dev-cap-big-p1-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 668
+[ 1352.208115] qsee_fp: dev-cap-big-p1-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1352.208117] qsee_fp: dev-cap-big-p1-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1352.208118] qsee_fp: dev-cap-big-p1-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1352.208120] qsee_fp: dev-cap-big-p1-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 698
+[ 1352.208122] qsee_fp: dev-cap-big-p1-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1352.208123] qsee_fp: dev-cap-big-p1-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1352.208125] qsee_fp: dev-cap-big-p1-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1352.208127] qsee_fp: dev-cap-big-p1-96x96 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1352.208128] qsee_fp: dev-cap-big-p1-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1352.208130] qsee_fp: dev-cap-big-p1-96x96 str[19]: get fdt dac [success], aut
+[ 1352.208131] qsee_fp: dev-cap-big-p1-96x96 st=0x80001013 first8=13100080 24000000
+[ 1352.208153] qsee_fp: dev-cap-big-p1-96x96 str: (none printable)
+[ 1352.208154] qsee_fp: dev-cap-big-p1-96x96 LOGCONT begin len=810
+[ 1352.208156] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1352.208158] qsee_fp: dev-cap-big-p1-96x96 LOG: set chip vio 1.8v success
+[ 1352.208159] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208161] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1352.208163] qsee_fp: dev-cap-big-p1-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1352.208165] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208166] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:afe
+[ 1352.208168] qsee_fp: dev-cap-big-p1-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1352.208169] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208171] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:core
+[ 1352.208173] qsee_fp: dev-cap-big-p1-96x96 LOG: last time saved efc data: 144
+[ 1352.208174] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208175] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208177] qsee_fp: dev-cap-big-p1-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 668
+[ 1352.208179] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208180] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208182] qsee_fp: dev-cap-big-p1-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1352.208183] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208184] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208186] qsee_fp: dev-cap-big-p1-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 698
+[ 1352.208187] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208189] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208190] qsee_fp: dev-cap-big-p1-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1352.208191] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208193] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208194] qsee_fp: dev-cap-big-p1-96x96 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1352.208195] qsee_fp: dev-cap-big-p1-96x96 LOG: !
+[ 1352.208197] qsee_fp: dev-cap-big-p1-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1352.208198] qsee_fp: dev-cap-big-p1-96x96 LOG: get fdt dac [succe
+[ 1352.208199] qsee_fp: dev-cap-big-p1-96x96 LOGCONT end
+[ 1352.208246] qsee_fp: dev-cap-big-p1-96x96 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1355.307743] qsee_fp: ION HIT dev-cap-meta-p1-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1355.307751] qsee_fp: dev-cap-meta-p1-80x80 st=0x32a first8=2a030000 0026666f
+[ 1355.307754] qsee_fp: dev-cap-meta-p1-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1355.307756] qsee_fp: dev-cap-meta-p1-80x80 str[1]: set chip vio 1.8v success
+[ 1355.307758] qsee_fp: dev-cap-meta-p1-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1355.307761] qsee_fp: dev-cap-meta-p1-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.307762] qsee_fp: dev-cap-meta-p1-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1355.307764] qsee_fp: dev-cap-meta-p1-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1355.307766] qsee_fp: dev-cap-meta-p1-80x80 str[6]: &focaltech:ft93xx:core
+[ 1355.307768] qsee_fp: dev-cap-meta-p1-80x80 str[7]: last time saved efc data: 144
+[ 1355.307769] qsee_fp: dev-cap-meta-p1-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1355.307771] qsee_fp: dev-cap-meta-p1-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 668
+[ 1355.307773] qsee_fp: dev-cap-meta-p1-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1355.307775] qsee_fp: dev-cap-meta-p1-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1355.307776] qsee_fp: dev-cap-meta-p1-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1355.307778] qsee_fp: dev-cap-meta-p1-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 698
+[ 1355.307780] qsee_fp: dev-cap-meta-p1-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1355.307781] qsee_fp: dev-cap-meta-p1-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1355.307783] qsee_fp: dev-cap-meta-p1-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1355.307785] qsee_fp: dev-cap-meta-p1-80x80 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1355.307786] qsee_fp: dev-cap-meta-p1-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1355.307788] qsee_fp: dev-cap-meta-p1-80x80 str[19]: get fdt dac [success], aut
+[ 1355.307789] qsee_fp: dev-cap-meta-p1-80x80 st=0x80001013 first8=13100080 24000000
+[ 1355.307810] qsee_fp: dev-cap-meta-p1-80x80 str: (none printable)
+[ 1355.307811] qsee_fp: dev-cap-meta-p1-80x80 LOGCONT begin len=810
+[ 1355.307813] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.307815] qsee_fp: dev-cap-meta-p1-80x80 LOG: set chip vio 1.8v success
+[ 1355.307816] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307818] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.307820] qsee_fp: dev-cap-meta-p1-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.307821] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307822] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.307825] qsee_fp: dev-cap-meta-p1-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1355.307826] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307827] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:core
+[ 1355.307829] qsee_fp: dev-cap-meta-p1-80x80 LOG: last time saved efc data: 144
+[ 1355.307830] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307831] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307834] qsee_fp: dev-cap-meta-p1-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 668
+[ 1355.307835] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307836] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307838] qsee_fp: dev-cap-meta-p1-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1355.307839] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307841] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307843] qsee_fp: dev-cap-meta-p1-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 698
+[ 1355.307844] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307845] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307847] qsee_fp: dev-cap-meta-p1-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1355.307849] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307850] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307852] qsee_fp: dev-cap-meta-p1-80x80 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1355.307854] qsee_fp: dev-cap-meta-p1-80x80 LOG: !
+[ 1355.307855] qsee_fp: dev-cap-meta-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.307856] qsee_fp: dev-cap-meta-p1-80x80 LOG: get fdt dac [succe
+[ 1355.307857] qsee_fp: dev-cap-meta-p1-80x80 LOGCONT end
+[ 1355.307858] qsee_fp: dev-cap-meta-p1-80x80 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1355.307865] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p1-80x80
+[ 1355.351142] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1355.351148] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1355.351152] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1355.351154] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1355.351156] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1355.351158] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.351160] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1355.351161] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1355.351162] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1355.351184] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1355.351185] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1355.351187] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1355.351189] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1355.351190] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1355.351192] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1355.351194] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.351195] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1355.351197] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1355.351199] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1355.351199] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1355.992073] qsee_fp: ION HIT dev-cap-big-p1-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1355.992079] qsee_fp: dev-cap-big-p1-80x80 st=0x32a first8=2a030000 0026666f
+[ 1355.992083] qsee_fp: dev-cap-big-p1-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1355.992084] qsee_fp: dev-cap-big-p1-80x80 str[1]: set chip vio 1.8v success
+[ 1355.992086] qsee_fp: dev-cap-big-p1-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1355.992089] qsee_fp: dev-cap-big-p1-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.992091] qsee_fp: dev-cap-big-p1-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1355.992093] qsee_fp: dev-cap-big-p1-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1355.992095] qsee_fp: dev-cap-big-p1-80x80 str[6]: &focaltech:ft93xx:core
+[ 1355.992096] qsee_fp: dev-cap-big-p1-80x80 str[7]: last time saved efc data: 144
+[ 1355.992098] qsee_fp: dev-cap-big-p1-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1355.992100] qsee_fp: dev-cap-big-p1-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1355.992101] qsee_fp: dev-cap-big-p1-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1355.992103] qsee_fp: dev-cap-big-p1-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1355.992105] qsee_fp: dev-cap-big-p1-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1355.992107] qsee_fp: dev-cap-big-p1-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 700
+[ 1355.992108] qsee_fp: dev-cap-big-p1-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1355.992110] qsee_fp: dev-cap-big-p1-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1355.992111] qsee_fp: dev-cap-big-p1-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1355.992113] qsee_fp: dev-cap-big-p1-80x80 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1355.992115] qsee_fp: dev-cap-big-p1-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1355.992116] qsee_fp: dev-cap-big-p1-80x80 str[19]: get fdt dac [success], aut
+[ 1355.992117] qsee_fp: dev-cap-big-p1-80x80 st=0x80001013 first8=13100080 24000000
+[ 1355.992140] qsee_fp: dev-cap-big-p1-80x80 str: (none printable)
+[ 1355.992141] qsee_fp: dev-cap-big-p1-80x80 LOGCONT begin len=810
+[ 1355.992142] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.992145] qsee_fp: dev-cap-big-p1-80x80 LOG: set chip vio 1.8v success
+[ 1355.992146] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992147] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.992150] qsee_fp: dev-cap-big-p1-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1355.992151] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992152] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:afe
+[ 1355.992155] qsee_fp: dev-cap-big-p1-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1355.992156] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992157] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:core
+[ 1355.992159] qsee_fp: dev-cap-big-p1-80x80 LOG: last time saved efc data: 144
+[ 1355.992160] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992162] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992164] qsee_fp: dev-cap-big-p1-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1355.992165] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992166] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992169] qsee_fp: dev-cap-big-p1-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1355.992170] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992171] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992173] qsee_fp: dev-cap-big-p1-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1355.992174] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992175] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992177] qsee_fp: dev-cap-big-p1-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1355.992178] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992180] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992181] qsee_fp: dev-cap-big-p1-80x80 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1355.992183] qsee_fp: dev-cap-big-p1-80x80 LOG: !
+[ 1355.992184] qsee_fp: dev-cap-big-p1-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1355.992185] qsee_fp: dev-cap-big-p1-80x80 LOG: get fdt dac [succe
+[ 1355.992186] qsee_fp: dev-cap-big-p1-80x80 LOGCONT end
+[ 1355.992233] qsee_fp: dev-cap-big-p1-80x80 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1356.068902] qsee_fp: ION HIT dev-INIT-after-fdt ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1356.068908] qsee_fp: dev-INIT-after-fdt st=0x42a first8=2a040000 00666f63
+[ 1356.068911] qsee_fp: dev-INIT-after-fdt str[0]: focaltech:ta:config
+[ 1356.068914] qsee_fp: dev-INIT-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.068916] qsee_fp: dev-INIT-after-fdt str[2]: focaltech:ta:config
+[ 1356.068918] qsee_fp: dev-INIT-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.068920] qsee_fp: dev-INIT-after-fdt str[4]: focaltech:ta:config
+[ 1356.068922] qsee_fp: dev-INIT-after-fdt str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1356.068924] qsee_fp: dev-INIT-after-fdt str[6]: focaltech:ta:config
+[ 1356.068926] qsee_fp: dev-INIT-after-fdt str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1356.068927] qsee_fp: dev-INIT-after-fdt str[8]: focaltech:ta:config
+[ 1356.068929] qsee_fp: dev-INIT-after-fdt str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1356.068931] qsee_fp: dev-INIT-after-fdt str[10]: focaltech:ta:config
+[ 1356.068933] qsee_fp: dev-INIT-after-fdt str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1356.068934] qsee_fp: dev-INIT-after-fdt str[12]: focaltech:ta:config
+[ 1356.068936] qsee_fp: dev-INIT-after-fdt str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1356.068938] qsee_fp: dev-INIT-after-fdt str[14]: focaltech:ta:config
+[ 1356.068940] qsee_fp: dev-INIT-after-fdt str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1356.068941] qsee_fp: dev-INIT-after-fdt str[16]: focaltech:ta:config
+[ 1356.068943] qsee_fp: dev-INIT-after-fdt str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1356.068945] qsee_fp: dev-INIT-after-fdt str[18]: focaltech:ta:config
+[ 1356.068946] qsee_fp: dev-INIT-after-fdt str[19]: no key named 'algorithm.non
+[ 1356.068947] qsee_fp: dev-INIT-after-fdt st=0x80001004 first8=04100080 c0000000
+[ 1356.068950] qsee_fp: dev-INIT-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1356.068953] qsee_fp: dev-INIT-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1356.068955] qsee_fp: dev-INIT-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1356.068974] qsee_fp: dev-INIT-after-fdt LOGCONT begin len=1066
+[ 1356.068975] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.068978] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.068979] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.068980] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.068983] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.068985] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.068986] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.068989] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1356.068990] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.068992] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.068994] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1356.068996] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.068997] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069000] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1356.069001] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.069002] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069005] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1356.069006] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.069007] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069009] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1356.069010] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.069012] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069013] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1356.069015] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.069016] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069018] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1356.069019] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1356.069020] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1356.069022] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algor
+[ 1356.069023] qsee_fp: dev-INIT-after-fdt LOGCONT end
+[ 1356.172109] qsee_fp: ION HIT dev-SYNC_CALIB-after-fdt ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1356.172117] qsee_fp: dev-SYNC_CALIB-after-fdt st=0xde first8=de000000 00666f63
+[ 1356.172121] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: focaltech:ta:config
+[ 1356.172123] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.172126] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: focaltech:ta:config
+[ 1356.172128] qsee_fp: dev-SYNC_CALIB-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.172129] qsee_fp: dev-SYNC_CALIB-after-fdt str[4]: foca
+[ 1356.172130] qsee_fp: dev-SYNC_CALIB-after-fdt st=0x8000100f first8=0f100080 00000000
+[ 1356.172133] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1356.172135] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1356.172137] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1356.172155] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT begin len=222
+[ 1356.172157] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1356.172160] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.172161] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1356.172162] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1356.172165] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.172166] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1356.172167] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT end
+[ 1356.228775] qsee_fp: ION HIT dev-LOGCAT-after-reinit ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1356.228783] qsee_fp: dev-LOGCAT-after-reinit st=0xde first8=de000000 00666f63
+[ 1356.228786] qsee_fp: dev-LOGCAT-after-reinit str[0]: focaltech:ta:config
+[ 1356.228789] qsee_fp: dev-LOGCAT-after-reinit str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.228791] qsee_fp: dev-LOGCAT-after-reinit str[2]: focaltech:ta:config
+[ 1356.228794] qsee_fp: dev-LOGCAT-after-reinit str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.228796] qsee_fp: dev-LOGCAT-after-reinit str[4]: foca
+[ 1356.228797] qsee_fp: dev-LOGCAT-after-reinit st=0x80001003 first8=03100080 00000000
+[ 1356.228800] qsee_fp: dev-LOGCAT-after-reinit str[0]: v1.1.22_0.0.3_001-20230214
+[ 1356.228803] qsee_fp: dev-LOGCAT-after-reinit str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1356.228805] qsee_fp: dev-LOGCAT-after-reinit str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1356.228823] qsee_fp: dev-LOGCAT-after-reinit LOGCONT begin len=222
+[ 1356.228825] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1356.228827] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1356.228829] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1356.228830] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1356.228833] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1356.228834] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1356.228835] qsee_fp: dev-LOGCAT-after-reinit LOGCONT end
+[ 1359.341899] qsee_fp: ION HIT dev-cap-meta-p2-112x88 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1359.341908] qsee_fp: dev-cap-meta-p2-112x88 st=0x42a first8=2a040000 0026666f
+[ 1359.341911] qsee_fp: dev-cap-meta-p2-112x88 str[0]: &focaltech:ft93xx:afe
+[ 1359.341913] qsee_fp: dev-cap-meta-p2-112x88 str[1]: set chip vio 1.8v fail, try again....
+[ 1359.341916] qsee_fp: dev-cap-meta-p2-112x88 str[2]: &focaltech:ft93xx:afe
+[ 1359.341918] qsee_fp: dev-cap-meta-p2-112x88 str[3]: set chip vio 1.8v success
+[ 1359.341920] qsee_fp: dev-cap-meta-p2-112x88 str[4]: &focaltech:ft93xx:core
+[ 1359.341922] qsee_fp: dev-cap-meta-p2-112x88 str[5]: configure spi mode failed(0).
+[ 1359.341923] qsee_fp: dev-cap-meta-p2-112x88 str[6]: &focaltech:ft93xx:core
+[ 1359.341925] qsee_fp: dev-cap-meta-p2-112x88 str[7]: configure spi mode failed(0).
+[ 1359.341926] qsee_fp: dev-cap-meta-p2-112x88 str[8]: &focaltech:ft93xx:core
+[ 1359.341928] qsee_fp: dev-cap-meta-p2-112x88 str[9]: configure spi mode failed(0).
+[ 1359.341929] qsee_fp: dev-cap-meta-p2-112x88 str[10]: &focaltech:ft93xx:afe
+[ 1359.341932] qsee_fp: dev-cap-meta-p2-112x88 str[11]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1359.341934] qsee_fp: dev-cap-meta-p2-112x88 str[12]: &focaltech:ft93xx:afe
+[ 1359.341936] qsee_fp: dev-cap-meta-p2-112x88 str[13]: chip feature, io controlleable and open/short detectable
+[ 1359.341938] qsee_fp: dev-cap-meta-p2-112x88 str[14]: &focaltech:ft93xx:core
+[ 1359.341940] qsee_fp: dev-cap-meta-p2-112x88 str[15]: last time saved efc data: 144
+[ 1359.341941] qsee_fp: dev-cap-meta-p2-112x88 str[16]: &focaltech:ft93xx:fdt
+[ 1359.341943] qsee_fp: dev-cap-meta-p2-112x88 str[17]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1359.341945] qsee_fp: dev-cap-meta-p2-112x88 str[18]: &focaltech:ft93xx:fdt
+[ 1359.341947] qsee_fp: dev-cap-meta-p2-112x88 str[19]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1359.341948] qsee_fp: dev-cap-meta-p2-112x88 str[20]: &focaltech:ft93xx:fdt
+[ 1359.341950] qsee_fp: dev-cap-meta-p2-112x88 str[21]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1359.341951] qsee_fp: dev-cap-meta-p2-112x88 str[22]: &focaltech:ft93xx:fdt
+[ 1359.341953] qsee_fp: dev-cap-meta-p2-112x88 str[23]: fdt calibration->try: 4, dac: 127, average: 703
+[ 1359.341955] qsee_fp: dev-cap-meta-p2-112x88 str[24]: &focaltech:ft93xx:fdt
+[ 1359.341957] qsee_fp: dev-cap-meta-p2-112x88 str[25]: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1359.341958] qsee_fp: dev-cap-meta-p2-112x88 str[26]: &focaltech:ft93xx:fdt
+[ 1359.341960] qsee_fp: dev-cap-meta-p2-112x88 str[27]: get fd
+[ 1359.341961] qsee_fp: dev-cap-meta-p2-112x88 st=0x80001013 first8=13100080 24000000
+[ 1359.341983] qsee_fp: dev-cap-meta-p2-112x88 str: (none printable)
+[ 1359.341984] qsee_fp: dev-cap-meta-p2-112x88 LOGCONT begin len=1066
+[ 1359.341985] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1359.341988] qsee_fp: dev-cap-meta-p2-112x88 LOG: set chip vio 1.8v fail, try again....
+[ 1359.341989] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.341990] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1359.341992] qsee_fp: dev-cap-meta-p2-112x88 LOG: set chip vio 1.8v success
+[ 1359.341993] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.341995] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:core
+[ 1359.341997] qsee_fp: dev-cap-meta-p2-112x88 LOG: configure spi mode failed(0).
+[ 1359.341998] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.341999] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:core
+[ 1359.342001] qsee_fp: dev-cap-meta-p2-112x88 LOG: configure spi mode failed(0).
+[ 1359.342002] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342003] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:core
+[ 1359.342005] qsee_fp: dev-cap-meta-p2-112x88 LOG: configure spi mode failed(0).
+[ 1359.342006] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342008] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1359.342010] qsee_fp: dev-cap-meta-p2-112x88 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1359.342012] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342013] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1359.342014] qsee_fp: dev-cap-meta-p2-112x88 LOG: chip feature, io controlleable and open/short detectable
+[ 1359.342016] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342017] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:core
+[ 1359.342018] qsee_fp: dev-cap-meta-p2-112x88 LOG: last time saved efc data: 144
+[ 1359.342020] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342021] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342023] qsee_fp: dev-cap-meta-p2-112x88 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1359.342024] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342025] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342027] qsee_fp: dev-cap-meta-p2-112x88 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1359.342028] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342029] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342031] qsee_fp: dev-cap-meta-p2-112x88 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1359.342032] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342033] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342034] qsee_fp: dev-cap-meta-p2-112x88 LOG: fdt calibration->try: 4, dac: 127, average: 703
+[ 1359.342036] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342037] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342039] qsee_fp: dev-cap-meta-p2-112x88 LOG: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1359.342040] qsee_fp: dev-cap-meta-p2-112x88 LOG: !
+[ 1359.342041] qsee_fp: dev-cap-meta-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1359.342042] qsee_fp: dev-cap-meta-p2-112x88 LOGCONT end
+[ 1359.342043] qsee_fp: dev-cap-meta-p2-112x88 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1359.342050] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p2-112x88
+[ 1359.384245] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1359.384254] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1359.384258] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1359.384261] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v fail, try again....
+[ 1359.384263] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1359.384266] qsee_fp: dev-LOGCAT-post-fdt str[3]: set chip vio 1.8v success
+[ 1359.384268] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:core
+[ 1359.384271] qsee_fp: dev-LOGCAT-post-fdt str[5]: configure spi mode failed(0).
+[ 1359.384273] qsee_fp: dev-LOGCAT-post-fdt str[6]: &focaltech:ft93xx:co
+[ 1359.384274] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1359.384298] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1359.384299] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1359.384301] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1359.384304] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v fail, try again....
+[ 1359.384306] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1359.384308] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1359.384310] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1359.384312] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1359.384314] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:core
+[ 1359.384316] qsee_fp: dev-LOGCAT-post-fdt LOG: configure spi mode failed(0).
+[ 1359.384318] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1359.384319] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:f
+[ 1359.384320] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1360.024108] qsee_fp: ION HIT dev-cap-big-p2-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1360.024114] qsee_fp: dev-cap-big-p2-112x88 st=0x32a first8=2a030000 0026666f
+[ 1360.024118] qsee_fp: dev-cap-big-p2-112x88 str[0]: &focaltech:ft93xx:afe
+[ 1360.024120] qsee_fp: dev-cap-big-p2-112x88 str[1]: set chip vio 1.8v success
+[ 1360.024123] qsee_fp: dev-cap-big-p2-112x88 str[2]: &focaltech:ft93xx:afe
+[ 1360.024125] qsee_fp: dev-cap-big-p2-112x88 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1360.024127] qsee_fp: dev-cap-big-p2-112x88 str[4]: &focaltech:ft93xx:afe
+[ 1360.024129] qsee_fp: dev-cap-big-p2-112x88 str[5]: chip feature, io controlleable and open/short detectable
+[ 1360.024131] qsee_fp: dev-cap-big-p2-112x88 str[6]: &focaltech:ft93xx:core
+[ 1360.024132] qsee_fp: dev-cap-big-p2-112x88 str[7]: last time saved efc data: 144
+[ 1360.024134] qsee_fp: dev-cap-big-p2-112x88 str[8]: &focaltech:ft93xx:fdt
+[ 1360.024136] qsee_fp: dev-cap-big-p2-112x88 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1360.024137] qsee_fp: dev-cap-big-p2-112x88 str[10]: &focaltech:ft93xx:fdt
+[ 1360.024139] qsee_fp: dev-cap-big-p2-112x88 str[11]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1360.024141] qsee_fp: dev-cap-big-p2-112x88 str[12]: &focaltech:ft93xx:fdt
+[ 1360.024143] qsee_fp: dev-cap-big-p2-112x88 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1360.024144] qsee_fp: dev-cap-big-p2-112x88 str[14]: &focaltech:ft93xx:fdt
+[ 1360.024146] qsee_fp: dev-cap-big-p2-112x88 str[15]: fdt calibration->try: 4, dac: 127, average: 705
+[ 1360.024147] qsee_fp: dev-cap-big-p2-112x88 str[16]: &focaltech:ft93xx:fdt
+[ 1360.024149] qsee_fp: dev-cap-big-p2-112x88 str[17]: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 1360.024151] qsee_fp: dev-cap-big-p2-112x88 str[18]: &focaltech:ft93xx:fdt
+[ 1360.024152] qsee_fp: dev-cap-big-p2-112x88 str[19]: get fdt dac [success], aut
+[ 1360.024153] qsee_fp: dev-cap-big-p2-112x88 st=0x80001013 first8=13100080 24000000
+[ 1360.024176] qsee_fp: dev-cap-big-p2-112x88 str: (none printable)
+[ 1360.024177] qsee_fp: dev-cap-big-p2-112x88 LOGCONT begin len=810
+[ 1360.024178] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1360.024180] qsee_fp: dev-cap-big-p2-112x88 LOG: set chip vio 1.8v success
+[ 1360.024181] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024183] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1360.024185] qsee_fp: dev-cap-big-p2-112x88 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1360.024187] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024188] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:afe
+[ 1360.024191] qsee_fp: dev-cap-big-p2-112x88 LOG: chip feature, io controlleable and open/short detectable
+[ 1360.024192] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024194] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:core
+[ 1360.024196] qsee_fp: dev-cap-big-p2-112x88 LOG: last time saved efc data: 144
+[ 1360.024197] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024198] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024200] qsee_fp: dev-cap-big-p2-112x88 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1360.024202] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024203] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024205] qsee_fp: dev-cap-big-p2-112x88 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1360.024206] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024207] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024209] qsee_fp: dev-cap-big-p2-112x88 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1360.024210] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024211] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024212] qsee_fp: dev-cap-big-p2-112x88 LOG: fdt calibration->try: 4, dac: 127, average: 705
+[ 1360.024213] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024215] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024216] qsee_fp: dev-cap-big-p2-112x88 LOG: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 1360.024218] qsee_fp: dev-cap-big-p2-112x88 LOG: !
+[ 1360.024219] qsee_fp: dev-cap-big-p2-112x88 LOG: &focaltech:ft93xx:fdt
+[ 1360.024220] qsee_fp: dev-cap-big-p2-112x88 LOG: get fdt dac [succe
+[ 1360.024221] qsee_fp: dev-cap-big-p2-112x88 LOGCONT end
+[ 1360.024270] qsee_fp: dev-cap-big-p2-112x88 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1363.131988] qsee_fp: ION HIT dev-cap-meta-p2-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1363.131996] qsee_fp: dev-cap-meta-p2-96x96 st=0x32a first8=2a030000 0026666f
+[ 1363.131999] qsee_fp: dev-cap-meta-p2-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1363.132001] qsee_fp: dev-cap-meta-p2-96x96 str[1]: set chip vio 1.8v success
+[ 1363.132003] qsee_fp: dev-cap-meta-p2-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1363.132005] qsee_fp: dev-cap-meta-p2-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.132007] qsee_fp: dev-cap-meta-p2-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1363.132009] qsee_fp: dev-cap-meta-p2-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1363.132011] qsee_fp: dev-cap-meta-p2-96x96 str[6]: &focaltech:ft93xx:core
+[ 1363.132012] qsee_fp: dev-cap-meta-p2-96x96 str[7]: last time saved efc data: 144
+[ 1363.132014] qsee_fp: dev-cap-meta-p2-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1363.132016] qsee_fp: dev-cap-meta-p2-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1363.132018] qsee_fp: dev-cap-meta-p2-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1363.132020] qsee_fp: dev-cap-meta-p2-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1363.132021] qsee_fp: dev-cap-meta-p2-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1363.132023] qsee_fp: dev-cap-meta-p2-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1363.132025] qsee_fp: dev-cap-meta-p2-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1363.132026] qsee_fp: dev-cap-meta-p2-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 703
+[ 1363.132028] qsee_fp: dev-cap-meta-p2-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1363.132030] qsee_fp: dev-cap-meta-p2-96x96 str[17]: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1363.132031] qsee_fp: dev-cap-meta-p2-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1363.132033] qsee_fp: dev-cap-meta-p2-96x96 str[19]: get fdt dac [success], aut
+[ 1363.132034] qsee_fp: dev-cap-meta-p2-96x96 st=0x80001013 first8=13100080 24000000
+[ 1363.132056] qsee_fp: dev-cap-meta-p2-96x96 str: (none printable)
+[ 1363.132057] qsee_fp: dev-cap-meta-p2-96x96 LOGCONT begin len=810
+[ 1363.132058] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.132060] qsee_fp: dev-cap-meta-p2-96x96 LOG: set chip vio 1.8v success
+[ 1363.132061] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132063] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.132066] qsee_fp: dev-cap-meta-p2-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.132067] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132068] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.132071] qsee_fp: dev-cap-meta-p2-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1363.132072] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132073] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:core
+[ 1363.132075] qsee_fp: dev-cap-meta-p2-96x96 LOG: last time saved efc data: 144
+[ 1363.132076] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132077] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132079] qsee_fp: dev-cap-meta-p2-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1363.132081] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132082] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132084] qsee_fp: dev-cap-meta-p2-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1363.132085] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132086] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132087] qsee_fp: dev-cap-meta-p2-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1363.132089] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132090] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132091] qsee_fp: dev-cap-meta-p2-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 703
+[ 1363.132093] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132094] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132095] qsee_fp: dev-cap-meta-p2-96x96 LOG: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1363.132097] qsee_fp: dev-cap-meta-p2-96x96 LOG: !
+[ 1363.132098] qsee_fp: dev-cap-meta-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.132099] qsee_fp: dev-cap-meta-p2-96x96 LOG: get fdt dac [succe
+[ 1363.132100] qsee_fp: dev-cap-meta-p2-96x96 LOGCONT end
+[ 1363.132101] qsee_fp: dev-cap-meta-p2-96x96 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1363.132108] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p2-96x96
+[ 1363.175155] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1363.175161] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1363.175164] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1363.175167] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1363.175168] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1363.175170] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.175172] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1363.175173] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1363.175174] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1363.175196] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1363.175197] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1363.175199] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1363.175201] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1363.175202] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1363.175204] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1363.175206] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.175208] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1363.175210] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1363.175213] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1363.175214] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1363.816172] qsee_fp: ION HIT dev-cap-big-p2-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1363.816178] qsee_fp: dev-cap-big-p2-96x96 st=0x32a first8=2a030000 0026666f
+[ 1363.816181] qsee_fp: dev-cap-big-p2-96x96 str[0]: &focaltech:ft93xx:afe
+[ 1363.816183] qsee_fp: dev-cap-big-p2-96x96 str[1]: set chip vio 1.8v success
+[ 1363.816186] qsee_fp: dev-cap-big-p2-96x96 str[2]: &focaltech:ft93xx:afe
+[ 1363.816188] qsee_fp: dev-cap-big-p2-96x96 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.816189] qsee_fp: dev-cap-big-p2-96x96 str[4]: &focaltech:ft93xx:afe
+[ 1363.816191] qsee_fp: dev-cap-big-p2-96x96 str[5]: chip feature, io controlleable and open/short detectable
+[ 1363.816193] qsee_fp: dev-cap-big-p2-96x96 str[6]: &focaltech:ft93xx:core
+[ 1363.816195] qsee_fp: dev-cap-big-p2-96x96 str[7]: last time saved efc data: 144
+[ 1363.816196] qsee_fp: dev-cap-big-p2-96x96 str[8]: &focaltech:ft93xx:fdt
+[ 1363.816198] qsee_fp: dev-cap-big-p2-96x96 str[9]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1363.816200] qsee_fp: dev-cap-big-p2-96x96 str[10]: &focaltech:ft93xx:fdt
+[ 1363.816202] qsee_fp: dev-cap-big-p2-96x96 str[11]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1363.816203] qsee_fp: dev-cap-big-p2-96x96 str[12]: &focaltech:ft93xx:fdt
+[ 1363.816205] qsee_fp: dev-cap-big-p2-96x96 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1363.816207] qsee_fp: dev-cap-big-p2-96x96 str[14]: &focaltech:ft93xx:fdt
+[ 1363.816208] qsee_fp: dev-cap-big-p2-96x96 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1363.816210] qsee_fp: dev-cap-big-p2-96x96 str[16]: &focaltech:ft93xx:fdt
+[ 1363.816212] qsee_fp: dev-cap-big-p2-96x96 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1363.816213] qsee_fp: dev-cap-big-p2-96x96 str[18]: &focaltech:ft93xx:fdt
+[ 1363.816215] qsee_fp: dev-cap-big-p2-96x96 str[19]: get fdt dac [success], aut
+[ 1363.816216] qsee_fp: dev-cap-big-p2-96x96 st=0x80001013 first8=13100080 24000000
+[ 1363.816238] qsee_fp: dev-cap-big-p2-96x96 str: (none printable)
+[ 1363.816239] qsee_fp: dev-cap-big-p2-96x96 LOGCONT begin len=810
+[ 1363.816241] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.816243] qsee_fp: dev-cap-big-p2-96x96 LOG: set chip vio 1.8v success
+[ 1363.816244] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816246] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.816248] qsee_fp: dev-cap-big-p2-96x96 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1363.816249] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816251] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:afe
+[ 1363.816253] qsee_fp: dev-cap-big-p2-96x96 LOG: chip feature, io controlleable and open/short detectable
+[ 1363.816254] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816256] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:core
+[ 1363.816258] qsee_fp: dev-cap-big-p2-96x96 LOG: last time saved efc data: 144
+[ 1363.816259] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816260] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816262] qsee_fp: dev-cap-big-p2-96x96 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1363.816263] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816265] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816266] qsee_fp: dev-cap-big-p2-96x96 LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1363.816267] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816269] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816271] qsee_fp: dev-cap-big-p2-96x96 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1363.816272] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816273] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816275] qsee_fp: dev-cap-big-p2-96x96 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1363.816276] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816277] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816279] qsee_fp: dev-cap-big-p2-96x96 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1363.816280] qsee_fp: dev-cap-big-p2-96x96 LOG: !
+[ 1363.816282] qsee_fp: dev-cap-big-p2-96x96 LOG: &focaltech:ft93xx:fdt
+[ 1363.816283] qsee_fp: dev-cap-big-p2-96x96 LOG: get fdt dac [succe
+[ 1363.816284] qsee_fp: dev-cap-big-p2-96x96 LOGCONT end
+[ 1363.816336] qsee_fp: dev-cap-big-p2-96x96 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1366.917138] qsee_fp: ION HIT dev-cap-meta-p2-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1366.917146] qsee_fp: dev-cap-meta-p2-80x80 st=0x32a first8=2a030000 0026666f
+[ 1366.917149] qsee_fp: dev-cap-meta-p2-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1366.917152] qsee_fp: dev-cap-meta-p2-80x80 str[1]: set chip vio 1.8v success
+[ 1366.917154] qsee_fp: dev-cap-meta-p2-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1366.917156] qsee_fp: dev-cap-meta-p2-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1366.917158] qsee_fp: dev-cap-meta-p2-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1366.917160] qsee_fp: dev-cap-meta-p2-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1366.917162] qsee_fp: dev-cap-meta-p2-80x80 str[6]: &focaltech:ft93xx:core
+[ 1366.917163] qsee_fp: dev-cap-meta-p2-80x80 str[7]: last time saved efc data: 144
+[ 1366.917165] qsee_fp: dev-cap-meta-p2-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1366.917167] qsee_fp: dev-cap-meta-p2-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 668
+[ 1366.917168] qsee_fp: dev-cap-meta-p2-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1366.917170] qsee_fp: dev-cap-meta-p2-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 694
+[ 1366.917172] qsee_fp: dev-cap-meta-p2-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1366.917173] qsee_fp: dev-cap-meta-p2-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 698
+[ 1366.917175] qsee_fp: dev-cap-meta-p2-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1366.917177] qsee_fp: dev-cap-meta-p2-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1366.917178] qsee_fp: dev-cap-meta-p2-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1366.917180] qsee_fp: dev-cap-meta-p2-80x80 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1366.917181] qsee_fp: dev-cap-meta-p2-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1366.917183] qsee_fp: dev-cap-meta-p2-80x80 str[19]: get fdt dac [success], aut
+[ 1366.917184] qsee_fp: dev-cap-meta-p2-80x80 st=0x80001013 first8=13100080 24000000
+[ 1366.917206] qsee_fp: dev-cap-meta-p2-80x80 str: (none printable)
+[ 1366.917207] qsee_fp: dev-cap-meta-p2-80x80 LOGCONT begin len=810
+[ 1366.917209] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1366.917211] qsee_fp: dev-cap-meta-p2-80x80 LOG: set chip vio 1.8v success
+[ 1366.917212] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917214] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1366.917216] qsee_fp: dev-cap-meta-p2-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1366.917218] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917220] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1366.917222] qsee_fp: dev-cap-meta-p2-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1366.917224] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917225] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:core
+[ 1366.917227] qsee_fp: dev-cap-meta-p2-80x80 LOG: last time saved efc data: 144
+[ 1366.917229] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917230] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917232] qsee_fp: dev-cap-meta-p2-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 668
+[ 1366.917233] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917234] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917236] qsee_fp: dev-cap-meta-p2-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 694
+[ 1366.917237] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917238] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917240] qsee_fp: dev-cap-meta-p2-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 698
+[ 1366.917241] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917242] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917244] qsee_fp: dev-cap-meta-p2-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1366.917245] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917246] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917248] qsee_fp: dev-cap-meta-p2-80x80 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1366.917249] qsee_fp: dev-cap-meta-p2-80x80 LOG: !
+[ 1366.917251] qsee_fp: dev-cap-meta-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1366.917252] qsee_fp: dev-cap-meta-p2-80x80 LOG: get fdt dac [succe
+[ 1366.917253] qsee_fp: dev-cap-meta-p2-80x80 LOGCONT end
+[ 1366.917254] qsee_fp: dev-cap-meta-p2-80x80 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1366.917260] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p2-80x80
+[ 1366.959190] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1366.959197] qsee_fp: dev-LOGCAT-post-fdt st=0xde first8=de000000 0026666f
+[ 1366.959201] qsee_fp: dev-LOGCAT-post-fdt str[0]: &focaltech:ft93xx:afe
+[ 1366.959203] qsee_fp: dev-LOGCAT-post-fdt str[1]: set chip vio 1.8v success
+[ 1366.959205] qsee_fp: dev-LOGCAT-post-fdt str[2]: &focaltech:ft93xx:afe
+[ 1366.959208] qsee_fp: dev-LOGCAT-post-fdt str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1366.959209] qsee_fp: dev-LOGCAT-post-fdt str[4]: &focaltech:ft93xx:afe
+[ 1366.959211] qsee_fp: dev-LOGCAT-post-fdt str[5]: chip feature, io controlleable 
+[ 1366.959212] qsee_fp: dev-LOGCAT-post-fdt st=0x80001003 first8=03100080 00000000
+[ 1366.959233] qsee_fp: dev-LOGCAT-post-fdt str: (none printable)
+[ 1366.959234] qsee_fp: dev-LOGCAT-post-fdt LOGCONT begin len=222
+[ 1366.959236] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1366.959239] qsee_fp: dev-LOGCAT-post-fdt LOG: set chip vio 1.8v success
+[ 1366.959240] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1366.959241] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1366.959244] qsee_fp: dev-LOGCAT-post-fdt LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1366.959245] qsee_fp: dev-LOGCAT-post-fdt LOG: !
+[ 1366.959246] qsee_fp: dev-LOGCAT-post-fdt LOG: &focaltech:ft93xx:afe
+[ 1366.959248] qsee_fp: dev-LOGCAT-post-fdt LOG: chip feature, io contro
+[ 1366.959249] qsee_fp: dev-LOGCAT-post-fdt LOGCONT end
+[ 1367.599125] qsee_fp: ION HIT dev-cap-big-p2-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1367.599132] qsee_fp: dev-cap-big-p2-80x80 st=0x32a first8=2a030000 0026666f
+[ 1367.599135] qsee_fp: dev-cap-big-p2-80x80 str[0]: &focaltech:ft93xx:afe
+[ 1367.599137] qsee_fp: dev-cap-big-p2-80x80 str[1]: set chip vio 1.8v success
+[ 1367.599140] qsee_fp: dev-cap-big-p2-80x80 str[2]: &focaltech:ft93xx:afe
+[ 1367.599142] qsee_fp: dev-cap-big-p2-80x80 str[3]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1367.599143] qsee_fp: dev-cap-big-p2-80x80 str[4]: &focaltech:ft93xx:afe
+[ 1367.599145] qsee_fp: dev-cap-big-p2-80x80 str[5]: chip feature, io controlleable and open/short detectable
+[ 1367.599147] qsee_fp: dev-cap-big-p2-80x80 str[6]: &focaltech:ft93xx:core
+[ 1367.599149] qsee_fp: dev-cap-big-p2-80x80 str[7]: last time saved efc data: 144
+[ 1367.599151] qsee_fp: dev-cap-big-p2-80x80 str[8]: &focaltech:ft93xx:fdt
+[ 1367.599152] qsee_fp: dev-cap-big-p2-80x80 str[9]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1367.599154] qsee_fp: dev-cap-big-p2-80x80 str[10]: &focaltech:ft93xx:fdt
+[ 1367.599156] qsee_fp: dev-cap-big-p2-80x80 str[11]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1367.599157] qsee_fp: dev-cap-big-p2-80x80 str[12]: &focaltech:ft93xx:fdt
+[ 1367.599159] qsee_fp: dev-cap-big-p2-80x80 str[13]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1367.599160] qsee_fp: dev-cap-big-p2-80x80 str[14]: &focaltech:ft93xx:fdt
+[ 1367.599162] qsee_fp: dev-cap-big-p2-80x80 str[15]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1367.599164] qsee_fp: dev-cap-big-p2-80x80 str[16]: &focaltech:ft93xx:fdt
+[ 1367.599166] qsee_fp: dev-cap-big-p2-80x80 str[17]: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1367.599167] qsee_fp: dev-cap-big-p2-80x80 str[18]: &focaltech:ft93xx:fdt
+[ 1367.599169] qsee_fp: dev-cap-big-p2-80x80 str[19]: get fdt dac [success], aut
+[ 1367.599170] qsee_fp: dev-cap-big-p2-80x80 st=0x80001013 first8=13100080 24000000
+[ 1367.599192] qsee_fp: dev-cap-big-p2-80x80 str: (none printable)
+[ 1367.599193] qsee_fp: dev-cap-big-p2-80x80 LOGCONT begin len=810
+[ 1367.599194] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1367.599196] qsee_fp: dev-cap-big-p2-80x80 LOG: set chip vio 1.8v success
+[ 1367.599197] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599199] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1367.599201] qsee_fp: dev-cap-big-p2-80x80 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1367.599202] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599204] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:afe
+[ 1367.599206] qsee_fp: dev-cap-big-p2-80x80 LOG: chip feature, io controlleable and open/short detectable
+[ 1367.599208] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599209] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:core
+[ 1367.599211] qsee_fp: dev-cap-big-p2-80x80 LOG: last time saved efc data: 144
+[ 1367.599212] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599214] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599216] qsee_fp: dev-cap-big-p2-80x80 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1367.599217] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599218] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599220] qsee_fp: dev-cap-big-p2-80x80 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1367.599221] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599223] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599225] qsee_fp: dev-cap-big-p2-80x80 LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1367.599226] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599227] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599228] qsee_fp: dev-cap-big-p2-80x80 LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1367.599229] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599231] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599232] qsee_fp: dev-cap-big-p2-80x80 LOG: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1367.599233] qsee_fp: dev-cap-big-p2-80x80 LOG: !
+[ 1367.599235] qsee_fp: dev-cap-big-p2-80x80 LOG: &focaltech:ft93xx:fdt
+[ 1367.599236] qsee_fp: dev-cap-big-p2-80x80 LOG: get fdt dac [succe
+[ 1367.599236] qsee_fp: dev-cap-big-p2-80x80 LOGCONT end
+[ 1367.599283] qsee_fp: dev-cap-big-p2-80x80 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1367.677892] qsee_fp: ION HIT dev-INIT-after-fdt ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1367.677899] qsee_fp: dev-INIT-after-fdt st=0x42a first8=2a040000 00666f63
+[ 1367.677902] qsee_fp: dev-INIT-after-fdt str[0]: focaltech:ta:config
+[ 1367.677905] qsee_fp: dev-INIT-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.677908] qsee_fp: dev-INIT-after-fdt str[2]: focaltech:ta:config
+[ 1367.677910] qsee_fp: dev-INIT-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.677912] qsee_fp: dev-INIT-after-fdt str[4]: focaltech:ta:config
+[ 1367.677914] qsee_fp: dev-INIT-after-fdt str[5]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1367.677915] qsee_fp: dev-INIT-after-fdt str[6]: focaltech:ta:config
+[ 1367.677918] qsee_fp: dev-INIT-after-fdt str[7]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.677919] qsee_fp: dev-INIT-after-fdt str[8]: focaltech:ta:config
+[ 1367.677921] qsee_fp: dev-INIT-after-fdt str[9]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.677922] qsee_fp: dev-INIT-after-fdt str[10]: focaltech:ta:config
+[ 1367.677925] qsee_fp: dev-INIT-after-fdt str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.677926] qsee_fp: dev-INIT-after-fdt str[12]: focaltech:ta:config
+[ 1367.677928] qsee_fp: dev-INIT-after-fdt str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.677929] qsee_fp: dev-INIT-after-fdt str[14]: focaltech:ta:config
+[ 1367.677931] qsee_fp: dev-INIT-after-fdt str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1367.677933] qsee_fp: dev-INIT-after-fdt str[16]: focaltech:ta:config
+[ 1367.677935] qsee_fp: dev-INIT-after-fdt str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1367.677936] qsee_fp: dev-INIT-after-fdt str[18]: focaltech:ta:config
+[ 1367.677938] qsee_fp: dev-INIT-after-fdt str[19]: no key named 'algorithm.non
+[ 1367.677939] qsee_fp: dev-INIT-after-fdt st=0x80001004 first8=04100080 c0000000
+[ 1367.677941] qsee_fp: dev-INIT-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1367.677943] qsee_fp: dev-INIT-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1367.677945] qsee_fp: dev-INIT-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1367.677963] qsee_fp: dev-INIT-after-fdt LOGCONT begin len=1066
+[ 1367.677965] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677968] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.677969] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677970] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677973] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.677974] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677976] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677979] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[ 1367.677980] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677982] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677984] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.677985] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677987] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677989] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.677991] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677992] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677994] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.677995] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.677996] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.677998] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.677999] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.678000] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.678002] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1367.678003] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.678004] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.678006] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1367.678008] qsee_fp: dev-INIT-after-fdt LOG: !
+[ 1367.678009] qsee_fp: dev-INIT-after-fdt LOG: focaltech:ta:config
+[ 1367.678010] qsee_fp: dev-INIT-after-fdt LOG: no key named 'algor
+[ 1367.678011] qsee_fp: dev-INIT-after-fdt LOGCONT end
+[ 1367.780203] qsee_fp: ION HIT dev-SYNC_CALIB-after-fdt ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1367.780211] qsee_fp: dev-SYNC_CALIB-after-fdt st=0xde first8=de000000 00666f63
+[ 1367.780214] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: focaltech:ta:config
+[ 1367.780216] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.780219] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: focaltech:ta:config
+[ 1367.780222] qsee_fp: dev-SYNC_CALIB-after-fdt str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.780223] qsee_fp: dev-SYNC_CALIB-after-fdt str[4]: foca
+[ 1367.780224] qsee_fp: dev-SYNC_CALIB-after-fdt st=0x8000100f first8=0f100080 00000000
+[ 1367.780227] qsee_fp: dev-SYNC_CALIB-after-fdt str[0]: v1.1.22_0.0.3_001-20230214
+[ 1367.780228] qsee_fp: dev-SYNC_CALIB-after-fdt str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1367.780230] qsee_fp: dev-SYNC_CALIB-after-fdt str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1367.780248] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT begin len=222
+[ 1367.780250] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1367.780253] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.780254] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1367.780256] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: focaltech:ta:config
+[ 1367.780258] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.780259] qsee_fp: dev-SYNC_CALIB-after-fdt LOG: !
+[ 1367.780260] qsee_fp: dev-SYNC_CALIB-after-fdt LOGCONT end
+[ 1367.836789] qsee_fp: ION HIT dev-LOGCAT-after-reinit ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1367.836797] qsee_fp: dev-LOGCAT-after-reinit st=0xde first8=de000000 00666f63
+[ 1367.836800] qsee_fp: dev-LOGCAT-after-reinit str[0]: focaltech:ta:config
+[ 1367.836802] qsee_fp: dev-LOGCAT-after-reinit str[1]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.836805] qsee_fp: dev-LOGCAT-after-reinit str[2]: focaltech:ta:config
+[ 1367.836807] qsee_fp: dev-LOGCAT-after-reinit str[3]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.836809] qsee_fp: dev-LOGCAT-after-reinit str[4]: foca
+[ 1367.836810] qsee_fp: dev-LOGCAT-after-reinit st=0x80001003 first8=03100080 00000000
+[ 1367.836813] qsee_fp: dev-LOGCAT-after-reinit str[0]: v1.1.22_0.0.3_001-20230214
+[ 1367.836816] qsee_fp: dev-LOGCAT-after-reinit str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1367.836818] qsee_fp: dev-LOGCAT-after-reinit str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1367.836837] qsee_fp: dev-LOGCAT-after-reinit LOGCONT begin len=222
+[ 1367.836839] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1367.836841] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[ 1367.836843] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1367.836844] qsee_fp: dev-LOGCAT-after-reinit LOG: focaltech:ta:config
+[ 1367.836847] qsee_fp: dev-LOGCAT-after-reinit LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[ 1367.836848] qsee_fp: dev-LOGCAT-after-reinit LOG: !
+[ 1367.836849] qsee_fp: dev-LOGCAT-after-reinit LOGCONT end
+[ 1367.870249] qsee_fp: capture path done fdt_ok=1
+[ 1367.930409] qsee_fp: ION HIT dev-QEVENT2 ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1367.930420] qsee_fp: dev-QEVENT2 st=0x42a first8=2a040000 0026666f
+[ 1367.930427] qsee_fp: dev-QEVENT2 str[0]: &focaltech:ft93xx:afe
+[ 1367.930431] qsee_fp: dev-QEVENT2 str[1]: got unnormal chip id (0x0000) at 0.
+[ 1367.930435] qsee_fp: dev-QEVENT2 str[2]: &focaltech:ft93xx:core
+[ 1367.930439] qsee_fp: dev-QEVENT2 str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1367.930441] qsee_fp: dev-QEVENT2 str[4]: &focaltech:ft93xx:core
+[ 1367.930444] qsee_fp: dev-QEVENT2 str[5]: query event state: [unknow].
+[ 1367.930447] qsee_fp: dev-QEVENT2 str[6]: coverage_threshold', use default value.
+[ 1367.930449] qsee_fp: dev-QEVENT2 str[7]: focaltech:ta:config
+[ 1367.930453] qsee_fp: dev-QEVENT2 str[8]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.930455] qsee_fp: dev-QEVENT2 str[9]: focaltech:ta:config
+[ 1367.930458] qsee_fp: dev-QEVENT2 str[10]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.930461] qsee_fp: dev-QEVENT2 str[11]: focaltech:ta:config
+[ 1367.930464] qsee_fp: dev-QEVENT2 str[12]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.930467] qsee_fp: dev-QEVENT2 str[13]: focaltech:ta:config
+[ 1367.930470] qsee_fp: dev-QEVENT2 str[14]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.930472] qsee_fp: dev-QEVENT2 str[15]: focaltech:ta:config
+[ 1367.930475] qsee_fp: dev-QEVENT2 str[16]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1367.930477] qsee_fp: dev-QEVENT2 str[17]: focaltech:ta:config
+[ 1367.930480] qsee_fp: dev-QEVENT2 str[18]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1367.930483] qsee_fp: dev-QEVENT2 str[19]: focaltech:ta:config
+[ 1367.930485] qsee_fp: dev-QEVENT2 str[20]: no key named 'algorithm.non
+[ 1367.930487] qsee_fp: dev-QEVENT2 st=0x8000101c first8=1c100080 00000000
+[ 1367.930491] qsee_fp: dev-QEVENT2 str[0]: .22_0.0.3_001-20230214
+[ 1367.930494] qsee_fp: dev-QEVENT2 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1367.930497] qsee_fp: dev-QEVENT2 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1367.930523] qsee_fp: dev-QEVENT2 LOGCONT begin len=1066
+[ 1367.930527] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:afe
+[ 1367.930530] qsee_fp: dev-QEVENT2 LOG: got unnormal chip id (0x0000) at 0.
+[ 1367.930532] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930534] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:core
+[ 1367.930538] qsee_fp: dev-QEVENT2 LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1367.930540] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930543] qsee_fp: dev-QEVENT2 LOG: &focaltech:ft93xx:core
+[ 1367.930546] qsee_fp: dev-QEVENT2 LOG: query event state: [unknow].
+[ 1367.930548] qsee_fp: dev-QEVENT2 LOG: coverage_threshold', use default value.
+[ 1367.930551] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930553] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930558] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.930559] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930561] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930566] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.930567] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930569] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930573] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.930575] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930577] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930580] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.930582] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930583] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930586] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1367.930588] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930590] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930593] qsee_fp: dev-QEVENT2 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1367.930595] qsee_fp: dev-QEVENT2 LOG: !
+[ 1367.930597] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:config
+[ 1367.930599] qsee_fp: dev-QEVENT2 LOG: no key named 'algor
+[ 1367.930600] qsee_fp: dev-QEVENT2 LOGCONT end
+[ 1367.965760] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1367.965768] qsee_fp: dev-QFINGER st=0x32a first8=2a030000 0026666f
+[ 1367.965773] qsee_fp: dev-QFINGER str[0]: &focaltech:ft93xx:core
+[ 1367.965777] qsee_fp: dev-QFINGER str[1]: check finger status: release
+[ 1367.965779] qsee_fp: dev-QFINGER str[2]: at 0.
+[ 1367.965782] qsee_fp: dev-QFINGER str[3]: &focaltech:ft93xx:core
+[ 1367.965786] qsee_fp: dev-QFINGER str[4]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1367.965789] qsee_fp: dev-QFINGER str[5]: &focaltech:ft93xx:core
+[ 1367.965791] qsee_fp: dev-QFINGER str[6]: query event state: [unknow].
+[ 1367.965794] qsee_fp: dev-QFINGER str[7]: coverage_threshold', use default value.
+[ 1367.965797] qsee_fp: dev-QFINGER str[8]: focaltech:ta:config
+[ 1367.965800] qsee_fp: dev-QFINGER str[9]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.965803] qsee_fp: dev-QFINGER str[10]: focaltech:ta:config
+[ 1367.965806] qsee_fp: dev-QFINGER str[11]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.965808] qsee_fp: dev-QFINGER str[12]: focaltech:ta:config
+[ 1367.965811] qsee_fp: dev-QFINGER str[13]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.965814] qsee_fp: dev-QFINGER str[14]: focaltech:ta:config
+[ 1367.965817] qsee_fp: dev-QFINGER str[15]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.965819] qsee_fp: dev-QFINGER str[16]: focaltech:ta:config
+[ 1367.965821] qsee_fp: dev-QFINGER st=0x8000101d first8=1d100080 00000000
+[ 1367.965825] qsee_fp: dev-QFINGER str[0]: .22_0.0.3_001-20230214
+[ 1367.965828] qsee_fp: dev-QFINGER str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1367.965831] qsee_fp: dev-QFINGER str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1367.965857] qsee_fp: dev-QFINGER LOGCONT begin len=810
+[ 1367.965860] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 1367.965863] qsee_fp: dev-QFINGER LOG: check finger status: release
+[ 1367.965865] qsee_fp: dev-QFINGER LOG: at 0.
+[ 1367.965867] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965869] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 1367.965873] qsee_fp: dev-QFINGER LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1367.965875] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965878] qsee_fp: dev-QFINGER LOG: &focaltech:ft93xx:core
+[ 1367.965881] qsee_fp: dev-QFINGER LOG: query event state: [unknow].
+[ 1367.965883] qsee_fp: dev-QFINGER LOG: coverage_threshold', use default value.
+[ 1367.965885] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965887] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 1367.965890] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1367.965892] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965894] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 1367.965899] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1367.965901] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965903] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 1367.965906] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1367.965908] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965910] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 1367.965914] qsee_fp: dev-QFINGER LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1367.965916] qsee_fp: dev-QFINGER LOG: !
+[ 1367.965917] qsee_fp: dev-QFINGER LOG: focaltech:ta:config
+[ 1367.965919] qsee_fp: dev-QFINGER LOGCONT end
+[ 1368.061068] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1368.061074] qsee_fp: dev-HEALTH-post-cap st=0x32a first8=2a030000 0026666f
+[ 1368.061079] qsee_fp: dev-HEALTH-post-cap str[0]: &focaltech:ft93xx:afe
+[ 1368.061081] qsee_fp: dev-HEALTH-post-cap str[1]: last:698 697 690 686   0   0   0   0
+[ 1368.061084] qsee_fp: dev-HEALTH-post-cap str[2]: &focaltech:ft93xx:afe
+[ 1368.061086] qsee_fp: dev-HEALTH-post-cap str[3]: curr:698 691 688 682 23445   0   0   0
+[ 1368.061088] qsee_fp: dev-HEALTH-post-cap str[4]: &focaltech:ft93xx:core
+[ 1368.061090] qsee_fp: dev-HEALTH-post-cap str[5]: switch to 'SLEEP' mode.
+[ 1368.061091] qsee_fp: dev-HEALTH-post-cap str[6]:  800=open/short)
+[ 1368.061093] qsee_fp: dev-HEALTH-post-cap str[7]: &focaltech:ft93xx:core
+[ 1368.061095] qsee_fp: dev-HEALTH-post-cap str[8]: query event state: [unknow].
+[ 1368.061097] qsee_fp: dev-HEALTH-post-cap str[9]: coverage_threshold', use default value.
+[ 1368.061099] qsee_fp: dev-HEALTH-post-cap str[10]: focaltech:ta:config
+[ 1368.061102] qsee_fp: dev-HEALTH-post-cap str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1368.061104] qsee_fp: dev-HEALTH-post-cap str[12]: focaltech:ta:config
+[ 1368.061106] qsee_fp: dev-HEALTH-post-cap str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1368.061108] qsee_fp: dev-HEALTH-post-cap str[14]: focaltech:ta:config
+[ 1368.061110] qsee_fp: dev-HEALTH-post-cap str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1368.061112] qsee_fp: dev-HEALTH-post-cap str[16]: focaltech:ta:config
+[ 1368.061114] qsee_fp: dev-HEALTH-post-cap str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1368.061115] qsee_fp: dev-HEALTH-post-cap str[18]: focaltech:ta:config
+[ 1368.061117] qsee_fp: dev-HEALTH-post-cap st=0x80001016 first8=16100080 00000000
+[ 1368.061119] qsee_fp: dev-HEALTH-post-cap str[0]: .22_0.0.3_001-20230214
+[ 1368.061121] qsee_fp: dev-HEALTH-post-cap str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1368.061124] qsee_fp: dev-HEALTH-post-cap str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1368.061143] qsee_fp: dev-HEALTH-post-cap LOGCONT begin len=810
+[ 1368.061145] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:afe
+[ 1368.061147] qsee_fp: dev-HEALTH-post-cap LOG: last:698 697 690 686   0   0   0   0
+[ 1368.061149] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061150] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:afe
+[ 1368.061153] qsee_fp: dev-HEALTH-post-cap LOG: curr:698 691 688 682 23445   0   0   0
+[ 1368.061154] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061156] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:core
+[ 1368.061159] qsee_fp: dev-HEALTH-post-cap LOG: switch to 'SLEEP' mode.
+[ 1368.061160] qsee_fp: dev-HEALTH-post-cap LOG:  800=open/short)
+[ 1368.061161] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061163] qsee_fp: dev-HEALTH-post-cap LOG: &focaltech:ft93xx:core
+[ 1368.061165] qsee_fp: dev-HEALTH-post-cap LOG: query event state: [unknow].
+[ 1368.061167] qsee_fp: dev-HEALTH-post-cap LOG: coverage_threshold', use default value.
+[ 1368.061168] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061169] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 1368.061172] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1368.061173] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061174] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 1368.061177] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1368.061179] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061180] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 1368.061183] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1368.061184] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061186] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 1368.061188] qsee_fp: dev-HEALTH-post-cap LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1368.061189] qsee_fp: dev-HEALTH-post-cap LOG: !
+[ 1368.061190] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:config
+[ 1368.061192] qsee_fp: dev-HEALTH-post-cap LOGCONT end
+[ 1368.061192] qsee_fp: HEALTH after capture path er=0
+[ 1368.061193] qsee_fp: skip_enroll=1 — not sending ENROLL (keeps TA alive)
+[ 1368.132773] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1368.132777] qsee_fp: dev-HEALTH-final st=0x32a first8=2a030000 0026666f
+[ 1368.132781] qsee_fp: dev-HEALTH-final str[0]: &focaltech:ft93xx:afe
+[ 1368.132783] qsee_fp: dev-HEALTH-final str[1]: last:695 693 690 684   0   0   0   0
+[ 1368.132786] qsee_fp: dev-HEALTH-final str[2]: &focaltech:ft93xx:afe
+[ 1368.132787] qsee_fp: dev-HEALTH-final str[3]: curr:694 696 692 686 35767   0   0   0
+[ 1368.132789] qsee_fp: dev-HEALTH-final str[4]: &focaltech:ft93xx:core
+[ 1368.132790] qsee_fp: dev-HEALTH-final str[5]: switch to 'SLEEP' mode.
+[ 1368.132792] qsee_fp: dev-HEALTH-final str[6]:  800=open/short)
+[ 1368.132793] qsee_fp: dev-HEALTH-final str[7]: &focaltech:ft93xx:core
+[ 1368.132795] qsee_fp: dev-HEALTH-final str[8]: query event state: [unknow].
+[ 1368.132797] qsee_fp: dev-HEALTH-final str[9]: coverage_threshold', use default value.
+[ 1368.132798] qsee_fp: dev-HEALTH-final str[10]: focaltech:ta:config
+[ 1368.132800] qsee_fp: dev-HEALTH-final str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1368.132802] qsee_fp: dev-HEALTH-final str[12]: focaltech:ta:config
+[ 1368.132804] qsee_fp: dev-HEALTH-final str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1368.132806] qsee_fp: dev-HEALTH-final str[14]: focaltech:ta:config
+[ 1368.132808] qsee_fp: dev-HEALTH-final str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1368.132809] qsee_fp: dev-HEALTH-final str[16]: focaltech:ta:config
+[ 1368.132811] qsee_fp: dev-HEALTH-final str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1368.132813] qsee_fp: dev-HEALTH-final str[18]: focaltech:ta:config
+[ 1368.132814] qsee_fp: dev-HEALTH-final st=0x80001016 first8=16100080 00000000
+[ 1368.132816] qsee_fp: dev-HEALTH-final str[0]: .22_0.0.3_001-20230214
+[ 1368.132818] qsee_fp: dev-HEALTH-final str[1]: v2.5.3.0-cdf0f80-230614@0928
+[ 1368.132820] qsee_fp: dev-HEALTH-final str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1368.132838] qsee_fp: dev-HEALTH-final LOGCONT begin len=810
+[ 1368.132839] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1368.132842] qsee_fp: dev-HEALTH-final LOG: last:695 693 690 684   0   0   0   0
+[ 1368.132843] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132844] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1368.132846] qsee_fp: dev-HEALTH-final LOG: curr:694 696 692 686 35767   0   0   0
+[ 1368.132847] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132849] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1368.132851] qsee_fp: dev-HEALTH-final LOG: switch to 'SLEEP' mode.
+[ 1368.132852] qsee_fp: dev-HEALTH-final LOG:  800=open/short)
+[ 1368.132853] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132854] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1368.132856] qsee_fp: dev-HEALTH-final LOG: query event state: [unknow].
+[ 1368.132857] qsee_fp: dev-HEALTH-final LOG: coverage_threshold', use default value.
+[ 1368.132858] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132860] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 1368.132861] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[ 1368.132863] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132864] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 1368.132866] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[ 1368.132867] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132868] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 1368.132870] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1368.132871] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132872] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 1368.132874] qsee_fp: dev-HEALTH-final LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1368.132875] qsee_fp: dev-HEALTH-final LOG: !
+[ 1368.132876] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:config
+[ 1368.132877] qsee_fp: dev-HEALTH-final LOGCONT end
+[ 1368.132878] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[ 1368.132926] qsee_fp: device-TA probe+auth-path complete
+[ 1368.132928] qsee_fp: done

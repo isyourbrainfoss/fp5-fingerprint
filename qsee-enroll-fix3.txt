@@ -1,0 +1,53 @@
+=== TRY 5/4 ===
+[  472.803478] qsee_fp: exit
+[  472.838727] qsee_fp: init
+[  472.862027] qsee_fp: ===== DEVICE TA id=5 aux=4 ion 0x78000/0x8040 cfg_len=633 spi_bus=14 spidev=0 =====
+[  472.863694] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  472.863712] qsee_fp: aux-base-205 ret=-22 st=0x0
+[  472.887383] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  472.887398] qsee_fp: aux-entry-1011 ret=-22 st=0x0
+[  472.911636] qsee_fp: big sess pa=0xff200000
+[  472.916018] qsee_fp: ION dev-base-205 ret=0 req0=0x205 rsp0=0xffffffff err=0x0
+[  472.919986] qsee_fp: ION dev-entry-1011 ret=0 req0=0x1011 rsp0=0xffffffff err=0x0
+[  472.923976] qsee_fp: ION dev-SYNC_CFG-100d ret=0 req0=0x100d rsp0=0xffffffff err=0x0
+[  472.942058] qsee_fp: ION dev-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff err=0x0
+[  472.962192] qsee_fp: ION dev-PROBE1-100a ret=0 req0=0x100a rsp0=0xffffffff err=0x0
+[  472.982273] qsee_fp: ION dev-PROBE2-100a ret=0 req0=0x100a rsp0=0xffffffff err=0x0
+[  473.002074] qsee_fp: ION dev-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff err=0x0
+[  473.022082] qsee_fp: ION dev-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff err=0x0
+[  473.042017] qsee_fp: ION dev-CHIP_INIT-1022 ret=0 req0=0x1022 rsp0=0xffffffff err=0x0
+[  473.062205] qsee_fp: ION dev-HEALTH-1016 ret=0 req0=0x1016 rsp0=0xffffffff err=0x0
+[  473.082328] qsee_fp: ION dev-PROBE-9391 ret=0 req0=0x100a rsp0=0xffffffff err=0x0
+[  473.086813] qsee_fp: ION dev-SET_GROUP-0 ret=0 req0=0x2007 rsp0=0xffffffff err=0x0
+[  473.125958] qsee_fp: ION dev-SET_GROUP-1 ret=0 req0=0x2007 rsp0=0xffffffff err=0x0
+[  473.166066] qsee_fp: ION dev-SET_GROUP-2 ret=0 req0=0x2007 rsp0=0xffffffff err=0x0
+[  473.206205] qsee_fp: ION dev-ENUM ret=0 req0=0x1028 rsp0=0xffffffff err=0x0
+[  473.226129] qsee_fp: ION dev-AUTH_ID ret=0 req0=0x1026 rsp0=0xffffffff err=0x0
+[  473.246122] qsee_fp: ION dev-SCAN ret=0 req0=0x1012 rsp0=0xffffffff err=0x0
+[  473.274041] qsee_fp: ION dev-QEVENT ret=0 req0=0x101c rsp0=0xffffffff err=0x0
+[  473.294135] qsee_fp: ION dev-SET_GROUP-store ret=0 req0=0x2007 rsp0=0xffffffff err=0x0
+[  473.333950] qsee_fp: ION dev-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[  473.357682] qsee_fp: PRE_ENROLL er=0 challenge=0x0 (c1=0 c2=0 c3=0)
+[  473.357700] qsee_fp: PRE req[0..31]: 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  473.357728] qsee_fp: PRE rsp[0..31]: ff ff ff ff 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  473.362162] qsee_fp: ION dev-ENROLL-plen0 ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[  473.385687] qsee_fp: ENROLL plen0 er=0
+[  473.390076] qsee_fp: ION dev-ENROLL-s0 ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[  473.390096] qsee_fp: dev-ENROLL-s0 er=0 (finger on sensor if waiting)
+[  473.803810] qsee_fp: ION dev-ENROLL-s1 ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[  473.803843] qsee_fp: dev-ENROLL-s1 er=0 (finger on sensor if waiting)
+[  474.219973] qsee_fp: ION dev-ENROLL-s2 ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[  474.220010] qsee_fp: dev-ENROLL-s2 er=0 (finger on sensor if waiting)
+[  474.636101] qsee_fp: ION dev-POST_ENROLL ret=0 req0=0x2002 rsp0=0xffffffff err=0x0
+[  474.636142] qsee_fp: POST_ENROLL er=0
+[  474.662029] qsee_fp: ION dev-SET_GROUP-after ret=0 req0=0x2007 rsp0=0xffffffff err=0x0
+[  474.690020] qsee_fp: ION dev-ENUM-after ret=0 req0=0x1028 rsp0=0xffffffff err=0x0
+[  474.710032] qsee_fp: ION dev-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0
+[  474.733854] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  474.733883] qsee_fp: ION fp-PRE_ENROLL ret=-22 req0=0x2000 rsp0=0x0 err=0x0
+[  474.758143] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  474.758166] qsee_fp: ION fp-ENROLL ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[  474.781842] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  474.781866] qsee_fp: ION fp-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[  474.805987] qsee_fp: device-TA probe+auth-path complete
+[  474.806002] qsee_fp: done

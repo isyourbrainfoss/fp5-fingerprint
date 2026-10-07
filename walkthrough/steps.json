@@ -1,0 +1,51 @@
+{
+  "version": 3.4,
+  "title": "FP5 register path (press OK)",
+  "matrix_stage": "M0-press-ok · optional Try register",
+  "session_root": "/var/tmp/fp-walkthrough",
+  "host_pull_hint": "scp -r fp5-pmos:/var/tmp/fp-walkthrough/SESSION dumps/pmos/",
+  "intro": "One press only. Water-drop = started. Ding + flash = PRESS ~1s. Shutter = LIFT. Then a quiet capture (may black the screen). We only need nz≠0 / frame raw. Black = hold Power.",
+  "steps": [
+    {
+      "id": "quiet_baseline",
+      "title": "1 — Quiet baseline",
+      "instruction": "Hands completely off the power-button sensor. We measure background IRQ rate.",
+      "action": "wait",
+      "duration_sec": 4,
+      "markers": ["QUIET_START", "QUIET_END"]
+    },
+    {
+      "id": "press_probe",
+      "title": "2 — Press probe (3 taps)",
+      "instruction": "On TAP NOW press the power-button FP firmly ~1s, then LIFT fully.",
+      "action": "presses",
+      "count": 3,
+      "markers": ["PROBE_START", "PROBE_END"]
+    },
+    {
+      "id": "register_hold",
+      "title": "3 — Register hold",
+      "instruction": "Get ready, then HOLD finger firmly for 5s (enroll-style).",
+      "action": "hold",
+      "duration_sec": 5,
+      "markers": ["REG_HOLD_START", "REG_HOLD_END"]
+    },
+    {
+      "id": "register_samples",
+      "title": "4 — Register samples (6×)",
+      "instruction": "Six enroll-style samples: TAP ~1s, full LIFT, slight angle change if comfortable. This is the practice path toward a template.",
+      "action": "presses",
+      "count": 6,
+      "markers": ["REG_SAMPLES_START", "REG_SAMPLES_END"]
+    },
+    {
+      "id": "quiet_after",
+      "title": "5 — Quiet after",
+      "instruction": "Hands off again so we can compare rates.",
+      "action": "wait",
+      "duration_sec": 4,
+      "markers": ["QUIET_AFTER_START", "QUIET_AFTER_END"]
+    }
+  ],
+  "outro": "Session saved. If you see PRESS OK, optional «Try register» runs TrustZone enroll once (finger on power-button). Not automatic."
+}

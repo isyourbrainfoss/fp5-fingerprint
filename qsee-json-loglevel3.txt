@@ -1,0 +1,50 @@
+[   59.024783] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x12a err=0x0 rsp8=0x65746c61
+[   59.024795] qsee_fp: dev-SYNC_CFG-100d st=0x12a first8=2a010000 00666f63
+[   59.024808] qsee_fp: dev-SYNC_CFG-100d str[0]: focaltech:ta:entry
+[   59.024824] qsee_fp: dev-SYNC_CFG-100d str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   59.024834] qsee_fp: dev-SYNC_CFG-100d str[2]: focaltech:ta:entry
+[   59.024853] qsee_fp: dev-SYNC_CFG-100d str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SYNC_CONFIG
+[   59.024863] qsee_fp: dev-SYNC_CFG-100d str[4]: focaltech:ta:trans
+[   59.024880] qsee_fp: dev-SYNC_CFG-100d str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   59.024890] qsee_fp: dev-SYNC_CFG-100d str[6]: focaltech:ta:trans
+[   59.024896] qsee_fp: dev-SYNC_CFG-100d LOGCONT begin len=298
+[   59.024904] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:entry
+[   59.024918] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   59.024924] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   59.024932] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:entry
+[   59.024949] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SYNC_CONFIG
+[   59.024954] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   59.024963] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:trans
+[   59.024979] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   59.024985] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   59.024993] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta
+[   59.024998] qsee_fp: dev-SYNC_CFG-100d LOGCONT end
+[   59.039876] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x12a err=0xfffffffb rsp8=0x65746c61
+[   59.039888] qsee_fp: dev-INIT_SPI-1006 st=0x12a first8=2a010000 00666f63
+[   59.039901] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:entry
+[   59.039917] qsee_fp: dev-INIT_SPI-1006 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   59.039927] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:entry
+[   59.039945] qsee_fp: dev-INIT_SPI-1006 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_SPI
+[   59.039955] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:trans
+[   59.039971] qsee_fp: dev-INIT_SPI-1006 str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   59.039981] qsee_fp: dev-INIT_SPI-1006 str[6]: focaltech:ta:trans
+[   59.040001] qsee_fp: dev-INIT_SPI-1006 HEX[000]: 2a 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[   59.040021] qsee_fp: dev-INIT_SPI-1006 HEX[032]: 00 00 00 00 00 74 72 75 73 74 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 38 39 2c 20 27 74 7a 5f 61 70 
+[   59.040040] qsee_fp: dev-INIT_SPI-1006 HEX[064]: 70 5f 63 6d 64 5f 68 61 6e 64 6c 65 72 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[   59.040060] qsee_fp: dev-INIT_SPI-1006 HEX[096]: 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 72 75 73 74 
+[   59.040079] qsee_fp: dev-INIT_SPI-1006 HEX[128]: 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 31 30 37 2c 20 6d 65 73 73 61 67 65 2d 3e 72 65 71 75 65 73 
+[   59.040099] qsee_fp: dev-INIT_SPI-1006 HEX[160]: 74 2e 63 6d 64 20 3d 20 46 46 5f 43 4d 44 5f 54 41 5f 49 4e 49 54 5f 53 50 49 00 21 01 00 00 00 
+[   59.040119] qsee_fp: dev-INIT_SPI-1006 HEX[192]: 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   59.040138] qsee_fp: dev-INIT_SPI-1006 HEX[224]: 74 72 75 73 74 6c 65 74 5f 74 72 61 6e 73 2e 63 3a 35 35 38 2c 20 27 66 66 5f 74 72 75 73 74 6c 
+[   59.040158] qsee_fp: dev-INIT_SPI-1006 HEX[256]: 65 74 5f 6d 65 73 73 61 67 65 5f 63 62 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[   59.040175] qsee_fp: dev-INIT_SPI-1006 HEX[288]: 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   59.040181] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=298
+[   59.040189] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:entry
+[   59.040203] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   59.040210] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[   59.040219] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:entry
+[   59.040236] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_SPI
+[   59.040243] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[   59.040251] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:trans
+[   59.040266] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   59.040271] qsee_fp: dev-INIT_SPI-1006 LOG: !

@@ -1,0 +1,89 @@
+=== SEG ENROLL ===
+[   42.423429] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   42.674814] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   43.192741] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   43.192746] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[   43.192750] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[   43.192752] qsee_fp: dev-HEALTH-1016 str[1]: last:695 693 692 684   0   0   0   0
+[   43.192755] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[   43.192757] qsee_fp: dev-HEALTH-1016 str[3]: curr:693 696 686 685 51419   0   0   0
+[   43.192760] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[   43.192762] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[   43.192764] qsee_fp: dev-HEALTH-1016 str[6]: tech:ta:config
+[   43.192767] qsee_fp: dev-HEALTH-1016 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   43.192769] qsee_fp: dev-HEALTH-1016 str[8]: focaltech:ta:config
+[   43.192772] qsee_fp: dev-HEALTH-1016 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   43.192773] qsee_fp: dev-HEALTH-1016 str[10]: focaltech:ta:config
+[   43.192776] qsee_fp: dev-HEALTH-1016 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   43.192777] qsee_fp: dev-HEALTH-1016 str[12]: focaltech:ta:config
+[   43.192779] qsee_fp: dev-HEALTH-1016 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   43.192781] qsee_fp: dev-HEALTH-1016 str[14]: focaltech:ta:config
+[   43.192783] qsee_fp: dev-HEALTH-1016 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   43.192784] qsee_fp: dev-HEALTH-1016 str[16]: focaltech:ta:config
+[   43.192785] qsee_fp: dev-HEALTH-1016 str[17]: no key named 'algorith
+[   43.192786] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[   43.192788] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   43.192790] qsee_fp: dev-HEALTH-1016 LOG: last:695 693 692 684   0   0   0   0
+[   43.192791] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192793] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   43.192795] qsee_fp: dev-HEALTH-1016 LOG: curr:693 696 686 685 51419   0   0   0
+[   43.192796] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192798] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[   43.192800] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[   43.192801] qsee_fp: dev-HEALTH-1016 LOG: tech:ta:config
+[   43.192804] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   43.192805] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192806] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   43.192809] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   43.192810] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192812] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   43.192815] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   43.192816] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192817] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   43.192820] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   43.192821] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192822] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   43.192824] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   43.192826] qsee_fp: dev-HEALTH-1016 LOG: !
+[   43.192827] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   43.192828] qsee_fp: dev-HEALTH-1016 LOG: no key named '
+[   43.192829] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[   43.427752] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x65746c61
+[   43.427762] qsee_fp: dev-PRE_ENROLL st=0xde first8=de000000 00666f63
+[   43.427772] qsee_fp: dev-PRE_ENROLL str[0]: focaltech:ta:interface
+[   43.427783] qsee_fp: dev-PRE_ENROLL str[1]: loading templates for gid = 0...
+[   43.427792] qsee_fp: dev-PRE_ENROLL str[2]: focaltech:ta:interface
+[   43.427802] qsee_fp: dev-PRE_ENROLL str[3]: there is 0 template loaded.
+[   43.427808] qsee_fp: dev-PRE_ENROLL str[4]: 9   0   0   0
+[   43.427816] qsee_fp: dev-PRE_ENROLL str[5]: &focaltech:ft93xx:core
+[   43.427825] qsee_fp: dev-PRE_ENROLL str[6]: switch to 'SLEEP' mode.
+[   43.427832] qsee_fp: dev-PRE_ENROLL str[7]: tech:ta:config
+[   43.427836] qsee_fp: dev-PRE_ENROLL LOGCONT begin len=222
+[   43.427843] qsee_fp: dev-PRE_ENROLL LOG: focaltech:ta:interface
+[   43.427852] qsee_fp: dev-PRE_ENROLL LOG: loading templates for gid = 0...
+[   43.427856] qsee_fp: dev-PRE_ENROLL LOG: !
+[   43.427863] qsee_fp: dev-PRE_ENROLL LOG: focaltech:ta:interface
+[   43.427871] qsee_fp: dev-PRE_ENROLL LOG: there is 0 template loaded.
+[   43.427877] qsee_fp: dev-PRE_ENROLL LOG: 9   0   0   0
+[   43.427881] qsee_fp: dev-PRE_ENROLL LOG: !
+[   43.427887] qsee_fp: dev-PRE_ENROLL LOG: &focaltech:ft93xx:core
+[   43.427895] qsee_fp: dev-PRE_ENROLL LOG: switch to 'SLEEP' mode.
+[   43.427900] qsee_fp: dev-PRE_ENROLL LOG: tech:ta:co
+[   43.427904] qsee_fp: dev-PRE_ENROLL LOGCONT end
+[   43.450725] qsee_fp: PRE_ENROLL er=0 challenge=0xbc0c8ffa25fcc85f (c1=bc0c8ffa25fcc85f c2=65746c61636f6600 c3=bc0c8ffa25fcc85f)
+[   43.450744] qsee_fp: PRE req[0..31]: 00 20 00 80 08 00 00 00 00 00 00 00 00 00 00 00 5f c8 fc 25 fa 8f 0c bc 2f 6c 69 62 2f 66 70 35
+[   43.450769] qsee_fp: PRE rsp[0..31]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00
+[   43.452273] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   43.452288] qsee_fp: SEG dev-ENROLL-seg[0] ret=-22 cmd=0x2001 chunk=74 rem_after=0 req0=0x1000 rsp0=0x0 err=0x0
+[   43.452297] qsee_fp: dev-ENROLL-seg er=-22
+[   43.452302] qsee_fp: trying segmented ENROLL wrapper on device if still alive
+[   43.452307] qsee_fp: ENROLL failed; skip POST to inspect if TA still alive
+[   43.452423] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   43.452432] qsee_fp: ION dev-HEALTH-after-enroll ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   43.452439] qsee_fp: HEALTH after ENROLL er=-22
+[   43.452550] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   43.474934] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   43.490976] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   43.519479] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[   43.547092] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[   43.599990] qsee_fp: done

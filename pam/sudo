@@ -1,0 +1,7 @@
+#%PAM-1.0
+# sudo-rs is linked to libpam. Fingerprint then password.
+auth     sufficient pam_fprintd.so max-tries=1 timeout=8
+auth     include    base-auth
+account  include    base-account
+password include    base-password
+session  include    base-session

@@ -1,0 +1,41 @@
+=== L2 evidence 2026-07-25T21:22:52+00:00 ===
+Linux fairphone-fp5 7.1.2 #1-postmarketos-qcom-sc7280 SMP PREEMPT Mon Jul 13 21:02:06 UTC  aarch64 Linux
+filename:       /tmp/focaltech_fp_life.ko
+description:    FocalTech FT9362 lab foothold (power/reset/IRQ/chardev, no QSEE)
+version:        0.1
+srcversion:     04888B0F40F1C9BC9E19562
+vermagic:       7.1.2 SMP preempt mod_unload aarch64
+parm:           tlmm_label:gpiochip label for TLMM (default f100000.pinctrl) (charp)
+parm:           use_sw_pdev:Register software platform device if no DT node (default true) (bool)
+parm:           vdd_gpio:TLMM GPIO for FP VDD enable (default 60) (int)
+parm:           reset_gpio:TLMM GPIO for FP RESET (default 35) (int)
+parm:           irq_gpio:TLMM GPIO for FP IRQ (default 34) (int)
+=== lsmod ===
+focaltech_fp_life      20480  0
+=== device ===
+crw-------    1 root     root      236,   0 Jul 25 21:22 /dev/focaltech_fp
+=== sysfs ===
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 /sys/class/focaltech_fp/focaltech_fp -> ../../devices/platform/focaltech_fp/focaltech_fp/focaltech_fp
+listen=1 vdd=1 irq_count=1
+=== read chardev ===
+irq_count=1 power=1 irq_en=1 inited=1
+=== IRQ before ===
+271:          5          0          0          0          0          0          0          0  msmgpio  34 Edge      focaltech_fp
+=== IRQ after re-listen ===
+271:          6          0          0          0          0          0          0          0  msmgpio  34 Edge      focaltech_fp
+=== dmesg probe ===
+[ 1222.507232] focaltech_fp: gpiod lookup on chip 'f100000.pinctrl' irq=34 reset=35 vdd=60
+[ 1222.507669] focaltech_fp focaltech_fp: SW gpiod claimed via lookup IRQ=34 RESET=35 VDD=60 chip=f100000.pinctrl
+[ 1222.507675] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 1222.580465] focaltech_fp focaltech_fp: RESET pulse done (left inactive/low)
+[ 1222.581396] focaltech_fp focaltech_fp: chardev /dev/focaltech_fp major 236 minor 0
+[ 1222.581401] focaltech_fp focaltech_fp: probe OK FT9362 life: IRQ gpio=34 line=271, RESET=35, VDD=60, /dev/focaltech_fp (listen via sysfs or ioctl)
+[ 1222.581430] focaltech_fp: software platform device registered
+[ 1222.671519] focaltech_fp focaltech_fp: RESET pulse done (left inactive/low)
+[ 1222.671582] focaltech_fp focaltech_fp: IRQ 271 ENABLED (listen)
+[ 1233.610815] focaltech_fp focaltech_fp: IRQ 271 DISABLED
+[ 1233.883563] focaltech_fp focaltech_fp: RESET pulse done (left inactive/low)
+[ 1233.883621] focaltech_fp focaltech_fp: IRQ 271 ENABLED (listen)
+=== dual-boot safety note ===
+no_qbootctl_used=1
+DONE

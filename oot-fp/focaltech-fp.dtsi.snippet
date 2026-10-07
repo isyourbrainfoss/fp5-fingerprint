@@ -1,0 +1,19 @@
+/*
+ * Optional DT snippet for Fairphone 5 FT9362 power-button FP.
+ * Not required for L2 when the OOT module uses software platform
+ * device + gpio_to_desc(IRQ=34, RESET=35, VDD=60).
+ *
+ * If adding to qcm6490-fairphone-fp5.dts (hybrid DTB only — never
+ * flash a full custom kernel image for this alone):
+ */
+
+/ {
+	focalfp_ft9362: fingerprint {
+		compatible = "focaltech,fp";
+		/* TLMM line offsets — consumer names match gpiod "irq"/"reset"/"vdd" */
+		irq-gpios = <&tlmm 34 GPIO_ACTIVE_HIGH>;
+		reset-gpios = <&tlmm 35 GPIO_ACTIVE_HIGH>;
+		vdd-gpios = <&tlmm 60 GPIO_ACTIVE_HIGH>;
+		status = "okay";
+	};
+};

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=FP Fingerprint
+Comment=Use this one. Power-button sensor. Does not unlock Phosh.
+Exec=/usr/local/bin/fp5-fp-lab
+Icon=fingerprint-symbolic
+Terminal=false
+Categories=Utility;HardwareSettings;
+Keywords=fingerprint;focaltech;ft9362;fp5;qsee;
+StartupNotify=true

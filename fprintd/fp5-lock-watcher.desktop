@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=FP5 fingerprint lock watcher
+Exec=/usr/local/bin/fp5-lock-watcher
+X-GNOME-AutoRestart=true
+OnlyShowIn=Phosh;GNOME;

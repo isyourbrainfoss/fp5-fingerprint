@@ -1,0 +1,26 @@
+=== STYLE2 ===
+[   59.608024] qsee_fp: ION dev-base-205 ret=-22 req0=0x205 rsp0=0x0 err=0x0
+[   59.608142] qsee_fp: ION dev-entry-1011 ret=-22 req0=0x1011 rsp0=0x0 err=0x0
+[   59.608256] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[   59.626750] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[   59.646723] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   59.662744] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   59.679596] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[   59.695237] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[   59.711220] qsee_fp: ION dev-CHIP_INIT-1023 ret=-22 req0=0x1023 rsp0=0x0 err=0x0
+[   59.727152] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   59.743108] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   59.744067] qsee_fp: dev-sm-PROBE ret=-22 st=0x0
+=== STYLE0 ===
+[   61.824858] qsee_fp: ION dev-base-205 ret=-22 req0=0x205 rsp0=0x0 err=0x0
+[   61.824987] qsee_fp: ION dev-entry-1011 ret=-22 req0=0x1011 rsp0=0x0 err=0x0
+[   61.825105] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[   61.842843] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[   61.862958] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   61.883613] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   61.899837] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[   61.915592] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[   61.935390] qsee_fp: ION dev-CHIP_INIT-1023 ret=-22 req0=0x1023 rsp0=0x0 err=0x0
+[   61.951050] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   61.967102] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   61.968442] qsee_fp: dev-sm-PROBE ret=-22 st=0x0

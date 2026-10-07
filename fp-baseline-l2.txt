@@ -1,0 +1,125 @@
+=== baseline 2026-07-25T21:15:16+00:00 ===
+Linux fairphone-fp5 7.1.2 #1-postmarketos-qcom-sc7280 SMP PREEMPT Mon Jul 13 21:02:06 UTC  aarch64 Linux
+ls: /dev/focal*: No such file or directory
+Module                  Size  Used by
+rfcomm                 98304  16
+algif_hash             16384  1
+algif_skcipher         16384  1
+st_nci_i2c             16384  0
+bnep                   32768  2
+st_nci                 36864  1 st_nci_i2c
+nci                    86016  1 st_nci
+nfc                   143360  2 nci,st_nci
+snd_usb_audio_qmi      36864  0
+q6usb                  12288  1
+snd_soc_sm8250         12288  4
+fastrpc                36864  0
+qcom_pd_mapper         28672  0
+snd_soc_qcom_offload_utils    12288  1 snd_soc_sm8250
+snd_soc_qcom_sdw       12288  1 snd_soc_sm8250
+snd_soc_qcom_common    12288  1 snd_soc_sm8250
+soc_usb                16384  3 snd_soc_qcom_offload_utils,q6usb,snd_usb_audio_qmi
+hci_uart               98304  0
+btqca                  24576  1 hci_uart
+snd_usb_audio         540672  2 soc_usb,snd_usb_audio_qmi
+btbcm                  24576  1 hci_uart
+snd_ump                32768  1 snd_usb_audio
+snd_hwdep              24576  1 snd_usb_audio
+bluetooth             983040  40 btqca,hci_uart,btbcm,bnep,rfcomm
+snd_usbmidi_lib        49152  1 snd_usb_audio
+ledtrig_pattern        16384  0
+qcom_iris             180224  0
+snd_rawmidi            45056  2 snd_usbmidi_lib,snd_ump
+ecdh_generic           16384  2 bluetooth
+ecc                    53248  1 ecdh_generic
+qcom_camss            626688  15
+ath11k_ahb             28672  0
+s5kjn1                 28672  0
+at24                   32768  0
+imx858                 28672  0
+dw9719                 12288  2
+videobuf2_dma_contig    24576  1 qcom_iris
+ath11k                499712  1 ath11k_ahb
+v4l2_cci               12288  3 s5kjn1,dw9719,imx858
+v4l2_mem2mem           49152  1 qcom_iris
+videobuf2_dma_sg       20480  1 qcom_camss
+mac80211             1347584  1 ath11k
+videobuf2_memops       16384  2 videobuf2_dma_contig,videobuf2_dma_sg
+snd_soc_aw88261        32768  2
+videobuf2_v4l2         36864  3 qcom_iris,qcom_camss,v4l2_mem2mem
+aw86927                20480  0
+snd_soc_aw88395_lib    57344  1 snd_soc_aw88261
+videobuf2_common       81920  7 qcom_iris,qcom_camss,videobuf2_dma_contig,videobuf2_v4l2,videobuf2_dma_sg,v4l2_mem2mem,videobuf2_memops
+cfg80211             1392640  2 ath11k,mac80211
+snd_soc_wcd938x       106496  1
+snd_soc_lpass_rx_macro   118784  1
+qcom_q6v5_pas          45056  1
+snd_soc_wcd938x_sdw    20480  1 snd_soc_wcd938x
+ipa                   286720  0
+snd_soc_lpass_va_macro    61440  3
+snd_soc_lpass_tx_macro   102400  2
+qcom_pil_info          12288  1 qcom_q6v5_pas
+soundwire_qcom         40960  1
+qcom_q6v5              16384  1 qcom_q6v5_pas
+snd_soc_lpass_macro_common    12288  3 snd_soc_lpass_va_macro,snd_soc_lpass_rx_macro,snd_soc_lpass_tx_macro
+rfkill                 40960  9 nfc,bluetooth,cfg80211
+snd_soc_wcd_common     16384  2 snd_soc_wcd938x_sdw,snd_soc_wcd938x
+regmap_sdw             12288  1 snd_soc_wcd938x_sdw
+libarc4                12288  1 mac80211
+snd_soc_wcd_classh     24576  1 snd_soc_wcd938x
+qcom_common            20480  2 ipa,qcom_q6v5_pas
+snd_soc_wcd_mbhc       36864  1 snd_soc_wcd938x
+binfmt_misc            24576  1
+tun                    65536  0
+nft_reject_inet        12288  1
+nf_reject_ipv6         24576  1 nft_reject_inet
+nf_reject_ipv4         12288  1 nft_reject_inet
+nft_reject             12288  1 nft_reject_inet
+nft_ct                 20480  3
+nf_conntrack          155648  1 nft_ct
+nf_defrag_ipv6         24576  1 nf_conntrack
+nf_defrag_ipv4         12288  1 nf_conntrack
+nf_tables             323584  121 nft_ct,nft_reject_inet,nft_reject
+nfnetlink              20480  1 nf_tables
+uhid                   20480  0
+fuse                  221184  5
+usb_f_ncm              32768  2
+u_ether                36864  1 usb_f_ncm
+goodix_berlin_spi      12288  0
+goodix_berlin_core     24576  1 goodix_berlin_spi
+panel_raydium_rm692e5    16384  0
+spi_geni_qcom          28672  0
+ptn36502               16384  4
+fsa4480                16384  4
+evdev                  24576  17
+libcomposite          102400  11 u_ether,usb_f_ncm
+--- interrupts (gpio/fp) ---
+148:          0          0          0          0          0          0          0          0  msmgpio  25 Edge      pm8008
+154:          0          0          0          0          0          0          0          0  msmgpio  31 Edge      99c000.serial:wakeup
+172:          0          0          0          0          0          0          0          0 spmi-gpio   5 Edge      Volume up
+173:          0          0          0          0          0          0          0          0  msmgpio 155 Edge      Hall Effect Sensor
+179:        552          0          0          0          0          0          0          0  msmgpio  81 Level     goodix-berlin
+189:          0          0          0          0          0          0          0          0  msmgpio 101 Edge      1-005a
+269:          1          0          0          0          0          0          0          0  msmgpio  41 Level     st_nci
+--- modules dir ---
+build
+extra
+kernel
+modules.alias
+modules.alias.bin
+modules.builtin
+modules.builtin.alias.bin
+modules.builtin.bin
+modules.builtin.modinfo
+modules.dep
+modules.dep.bin
+modules.devname
+modules.order
+modules.softdep
+modules.symbols
+modules.symbols.bin
+modules.weakdep
+ls: /lib/modules/7.1.2/build: No such file or directory
+linux-postmarketos-qcom-sc7280
+linux-postmarketos-qcom-sc7280-7.1.2-r0
+ls: /usr/src: No such file or directory

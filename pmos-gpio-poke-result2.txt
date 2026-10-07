@@ -1,0 +1,13 @@
+tlmm /dev/gpiochip4
+after VDD on, RESET low: VDD=on RESET=Value.INACTIVE IRQ=Value.INACTIVE
+--- RST high 20ms then low
+  after set Value.ACTIVE: VDD=on RESET=Value.ACTIVE IRQ=Value.INACTIVE
+  after set Value.INACTIVE: VDD=on RESET=Value.INACTIVE IRQ=Value.INACTIVE
+  IRQ high samples 0/100 over 1s (press power-btn FP now if you want)
+--- RST low 20ms then high
+  after set Value.INACTIVE: VDD=on RESET=Value.INACTIVE IRQ=Value.INACTIVE
+  after set Value.ACTIVE: VDD=on RESET=Value.ACTIVE IRQ=Value.INACTIVE
+  IRQ high samples 3/100 over 1s (press power-btn FP now if you want)
+=== 8s poll while VDD on RESET low — press side FP if available ===
+changes 0 final Value.INACTIVE
+DONE

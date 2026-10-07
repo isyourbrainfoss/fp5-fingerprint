@@ -1,0 +1,19 @@
+## Fresh boot enroll path (2026-07-27)
+
+### PASS (autonomous)
+- sn num: 0b0a6944171209070800fb120d1e1dff22
+- vio 1.8v success (PROBE + CAP after soft reboot)
+- CAPTURE soft-success, fdt_ok=1, got fdt dac success: 127
+- ENROLL start once, single new fid
+- cap-enroll-N er=0 ta_down=0
+- rem_seen=0 (true; fixed false-positive from config JSON)
+- AUTH broken off
+- HEALTH final er=0
+
+### FAIL without user
+- No frame raw / enrolling... / rem countdown
+- No AUTH match
+- Criterion 5: hold rear sensor via run-enroll-hold-finger.sh
+
+### Module
+artifacts/qsee-modules/qsee_fingerpr.ko quiet_send=1

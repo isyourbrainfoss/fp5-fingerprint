@@ -1,0 +1,148 @@
+=== ENROLL/AUTH ===
+[   23.999848] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   24.015651] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x0
+[   24.015660] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00000000
+[   24.015665] qsee_fp: dev-INIT_SPI-1006 str: (none printable)
+[   24.015667] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[   24.015672] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[   24.042913] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   24.068766] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   24.332473] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   24.332495] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   24.332530] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   24.385517] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   24.385539] qsee_fp: dev-INIT-1004 str[5]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   24.385542] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   24.385546] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   24.385550] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   24.385553] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   24.399856] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x0
+[   24.491506] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   24.516741] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   24.516745] qsee_fp: dev-SET_GROUP-0 st=0x32a first8=2a030000 00666f63
+[   24.516749] qsee_fp: dev-SET_GROUP-0 str[0]: focaltech:ta:interface
+[   24.516751] qsee_fp: dev-SET_GROUP-0 str[1]: loading templates for gid = 0...
+[   24.516754] qsee_fp: dev-SET_GROUP-0 str[2]: focaltech:ta:config
+[   24.516757] qsee_fp: dev-SET_GROUP-0 str[3]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.516759] qsee_fp: dev-SET_GROUP-0 str[4]: focaltech:ta:interface
+[   24.516761] qsee_fp: dev-SET_GROUP-0 str[5]: there is 0 template loaded.
+[   24.516777] qsee_fp: dev-SET_GROUP-0 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   24.516785] qsee_fp: dev-SET_GROUP-0 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   24.516793] qsee_fp: dev-SET_GROUP-0 HEX[064]: 20 30 2e 2e 2e 00 21 04 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 69 67 00 00 
+[   24.516801] qsee_fp: dev-SET_GROUP-0 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 6e 6f 20 6b 65 79 20 6e 61 6d 65 64 20 27 74 72 75 73 74 6c 65 
+[   24.516809] qsee_fp: dev-SET_GROUP-0 HEX[128]: 74 2e 65 6e 61 62 6c 65 5f 73 65 63 72 65 74 5f 64 61 74 61 5f 62 61 63 6b 75 70 27 2c 20 75 73 
+[   24.516818] qsee_fp: dev-SET_GROUP-0 HEX[160]: 65 20 64 65 66 61 75 6c 74 20 76 61 6c 75 65 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 
+[   24.516825] qsee_fp: dev-SET_GROUP-0 HEX[192]: 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 
+[   24.516833] qsee_fp: dev-SET_GROUP-0 HEX[224]: 20 74 65 6d 70 6c 61 74 65 20 6c 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516841] qsee_fp: dev-SET_GROUP-0 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516849] qsee_fp: dev-SET_GROUP-0 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516857] qsee_fp: dev-SET_GROUP-0 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516864] qsee_fp: dev-SET_GROUP-0 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516872] qsee_fp: dev-SET_GROUP-0 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516880] qsee_fp: dev-SET_GROUP-0 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516888] qsee_fp: dev-SET_GROUP-0 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516895] qsee_fp: dev-SET_GROUP-0 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.516896] qsee_fp: dev-SET_GROUP-0 LOGCONT begin len=810
+[   24.516898] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[   24.516900] qsee_fp: dev-SET_GROUP-0 LOG: loading templates for gid = 0...
+[   24.516901] qsee_fp: dev-SET_GROUP-0 LOG: !
+[   24.516903] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:config
+[   24.516907] qsee_fp: dev-SET_GROUP-0 LOG: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.516908] qsee_fp: dev-SET_GROUP-0 LOG: !
+[   24.516910] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[   24.516912] qsee_fp: dev-SET_GROUP-0 LOG: there is 0 template loaded.
+[   24.516922] qsee_fp: dev-SET_GROUP-0 LOGCONT end
+[   24.556646] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   24.556656] qsee_fp: dev-SET_GROUP-1 st=0x32a first8=2a030000 00666f63
+[   24.556661] qsee_fp: dev-SET_GROUP-1 str[0]: focaltech:ta:interface
+[   24.556664] qsee_fp: dev-SET_GROUP-1 str[1]: loading templates for gid = 0...
+[   24.556666] qsee_fp: dev-SET_GROUP-1 str[2]: focaltech:ta:config
+[   24.556670] qsee_fp: dev-SET_GROUP-1 str[3]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.556672] qsee_fp: dev-SET_GROUP-1 str[4]: focaltech:ta:interface
+[   24.556674] qsee_fp: dev-SET_GROUP-1 str[5]: there is 0 template loaded.
+[   24.556691] qsee_fp: dev-SET_GROUP-1 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   24.556699] qsee_fp: dev-SET_GROUP-1 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   24.556709] qsee_fp: dev-SET_GROUP-1 HEX[064]: 20 30 2e 2e 2e 00 21 04 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 69 67 00 00 
+[   24.556718] qsee_fp: dev-SET_GROUP-1 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 6e 6f 20 6b 65 79 20 6e 61 6d 65 64 20 27 74 72 75 73 74 6c 65 
+[   24.556727] qsee_fp: dev-SET_GROUP-1 HEX[128]: 74 2e 65 6e 61 62 6c 65 5f 73 65 63 72 65 74 5f 64 61 74 61 5f 62 61 63 6b 75 70 27 2c 20 75 73 
+[   24.556736] qsee_fp: dev-SET_GROUP-1 HEX[160]: 65 20 64 65 66 61 75 6c 74 20 76 61 6c 75 65 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 
+[   24.556745] qsee_fp: dev-SET_GROUP-1 HEX[192]: 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 
+[   24.556753] qsee_fp: dev-SET_GROUP-1 HEX[224]: 20 74 65 6d 70 6c 61 74 65 20 6c 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556761] qsee_fp: dev-SET_GROUP-1 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556770] qsee_fp: dev-SET_GROUP-1 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556778] qsee_fp: dev-SET_GROUP-1 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556786] qsee_fp: dev-SET_GROUP-1 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556794] qsee_fp: dev-SET_GROUP-1 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556802] qsee_fp: dev-SET_GROUP-1 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556810] qsee_fp: dev-SET_GROUP-1 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556819] qsee_fp: dev-SET_GROUP-1 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.556820] qsee_fp: dev-SET_GROUP-1 LOGCONT begin len=810
+[   24.556822] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[   24.556824] qsee_fp: dev-SET_GROUP-1 LOG: loading templates for gid = 0...
+[   24.556826] qsee_fp: dev-SET_GROUP-1 LOG: !
+[   24.556828] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:config
+[   24.556832] qsee_fp: dev-SET_GROUP-1 LOG: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.556833] qsee_fp: dev-SET_GROUP-1 LOG: !
+[   24.556835] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[   24.556838] qsee_fp: dev-SET_GROUP-1 LOG: there is 0 template loaded.
+[   24.556849] qsee_fp: dev-SET_GROUP-1 LOGCONT end
+[   24.593656] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   24.593667] qsee_fp: dev-SET_GROUP-2 st=0x32a first8=2a030000 00666f63
+[   24.593671] qsee_fp: dev-SET_GROUP-2 str[0]: focaltech:ta:interface
+[   24.593673] qsee_fp: dev-SET_GROUP-2 str[1]: loading templates for gid = 0...
+[   24.593675] qsee_fp: dev-SET_GROUP-2 str[2]: focaltech:ta:config
+[   24.593678] qsee_fp: dev-SET_GROUP-2 str[3]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.593680] qsee_fp: dev-SET_GROUP-2 str[4]: focaltech:ta:interface
+[   24.593681] qsee_fp: dev-SET_GROUP-2 str[5]: there is 0 template loaded.
+[   24.593695] qsee_fp: dev-SET_GROUP-2 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   24.593702] qsee_fp: dev-SET_GROUP-2 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   24.593709] qsee_fp: dev-SET_GROUP-2 HEX[064]: 20 30 2e 2e 2e 00 21 04 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 69 67 00 00 
+[   24.593716] qsee_fp: dev-SET_GROUP-2 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 6e 6f 20 6b 65 79 20 6e 61 6d 65 64 20 27 74 72 75 73 74 6c 65 
+[   24.593723] qsee_fp: dev-SET_GROUP-2 HEX[128]: 74 2e 65 6e 61 62 6c 65 5f 73 65 63 72 65 74 5f 64 61 74 61 5f 62 61 63 6b 75 70 27 2c 20 75 73 
+[   24.593730] qsee_fp: dev-SET_GROUP-2 HEX[160]: 65 20 64 65 66 61 75 6c 74 20 76 61 6c 75 65 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 
+[   24.593737] qsee_fp: dev-SET_GROUP-2 HEX[192]: 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 
+[   24.593743] qsee_fp: dev-SET_GROUP-2 HEX[224]: 20 74 65 6d 70 6c 61 74 65 20 6c 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593750] qsee_fp: dev-SET_GROUP-2 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593757] qsee_fp: dev-SET_GROUP-2 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593763] qsee_fp: dev-SET_GROUP-2 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593770] qsee_fp: dev-SET_GROUP-2 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593777] qsee_fp: dev-SET_GROUP-2 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593784] qsee_fp: dev-SET_GROUP-2 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593790] qsee_fp: dev-SET_GROUP-2 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593797] qsee_fp: dev-SET_GROUP-2 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.593798] qsee_fp: dev-SET_GROUP-2 LOGCONT begin len=810
+[   24.593800] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[   24.593802] qsee_fp: dev-SET_GROUP-2 LOG: loading templates for gid = 0...
+[   24.593803] qsee_fp: dev-SET_GROUP-2 LOG: !
+[   24.593805] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:config
+[   24.593808] qsee_fp: dev-SET_GROUP-2 LOG: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   24.593809] qsee_fp: dev-SET_GROUP-2 LOG: !
+[   24.593811] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[   24.593814] qsee_fp: dev-SET_GROUP-2 LOG: there is 0 template loaded.
+[   24.593822] qsee_fp: dev-SET_GROUP-2 LOGCONT end
+[   24.648086] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   24.648098] qsee_fp: dev-AUTH_ID st=0xde first8=de000000 00000000
+[   24.648104] qsee_fp: dev-AUTH_ID str: (none printable)
+[   24.648112] qsee_fp: dev-AUTH_ID HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648121] qsee_fp: dev-AUTH_ID HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648130] qsee_fp: dev-AUTH_ID HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648139] qsee_fp: dev-AUTH_ID HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648148] qsee_fp: dev-AUTH_ID HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648157] qsee_fp: dev-AUTH_ID HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648166] qsee_fp: dev-AUTH_ID HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648170] qsee_fp: dev-AUTH_ID HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   24.648171] qsee_fp: dev-AUTH_ID LOGCONT begin len=222
+[   24.648177] qsee_fp: dev-AUTH_ID LOGCONT end
+[   24.668435] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x0
+[   24.696086] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x0
+[   24.712812] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x0
+[   24.712821] qsee_fp: dev-PRE_ENROLL st=0xde first8=de000000 00000000
+[   24.712826] qsee_fp: dev-PRE_ENROLL str: (none printable)
+[   24.712827] qsee_fp: dev-PRE_ENROLL LOGCONT begin len=222
+[   24.712832] qsee_fp: dev-PRE_ENROLL LOGCONT end
+[   24.753376] qsee_fp: ION dev-ENROLL ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   24.787527] qsee_fp: ION dev-POST_ENROLL ret=-22 req0=0x2002 rsp0=0x0 err=0x0
+[   24.811447] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[   24.840069] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[   24.868850] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[   24.900283] qsee_fp: ION fp-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0

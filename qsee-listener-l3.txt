@@ -1,0 +1,11 @@
+L1
+[   98.232266] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[   98.232507] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[   98.434010] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   98.696049] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   98.696331] qsee_fp: probe_level=1 START only f32=4 fp=5
+L3
+[   98.772542] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[   98.772841] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[   98.772850] qsee_fp: FILE_SERVICE listener registered OK
+[   98.772856] qsee_fp: probe_level=2 listener-only done

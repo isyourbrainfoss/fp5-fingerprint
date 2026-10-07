@@ -1,0 +1,1 @@
+ls: /lib/firmware/qsee/{focal32,fingerpr}.mdt: No such file or directory

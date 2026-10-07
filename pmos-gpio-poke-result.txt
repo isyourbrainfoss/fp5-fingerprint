@@ -1,0 +1,22 @@
+OK: 2077.1 MiB in 1272 packages
+tlmm /dev/gpiochip4
+VDD=1 (on), RESET assert high briefly then low/high pulse
+reset sequence pulse_high_then_low
+  irq level Value.INACTIVE
+Traceback (most recent call last):
+  File "/tmp/pmos-fp-gpio-poke.py", line 75, in <module>
+    sys.exit(main())
+             ~~~~^^
+  File "/tmp/pmos-fp-gpio-poke.py", line 58, in main
+    for event in req.read_edge_events(timeout=0.2):
+                 ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TypeError: LineRequest.read_edge_events() got an unexpected keyword argument 'timeout'
+spi13.0
+/dev/gpiochip0
+/dev/gpiochip1
+/dev/gpiochip2
+/dev/gpiochip3
+/dev/gpiochip4
+/dev/gpiochip5
+=== irq 34 free? ===
+128:         34          0          0          0          0          0          0          0 pmic_arb 137429177 Edge      pm-adc5

@@ -1,0 +1,297 @@
+[   45.889977] qsee_fp: init
+[   45.906127] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=274 spi_bus=14 spidev=0 =====
+[   45.907538] qsee_fp: big sess pa=0xff200000
+[   45.909107] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x12a err=0xffffff35 rsp8=0x65746c61
+[   45.909117] qsee_fp: dev-base-205 st=0x12a first8=2a010000 00666f63
+[   45.909129] qsee_fp: dev-base-205 str[0]: focaltech:ta:entry
+[   45.909144] qsee_fp: dev-base-205 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.909154] qsee_fp: dev-base-205 str[2]: focaltech:ta:entry
+[   45.909173] qsee_fp: dev-base-205 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[   45.909183] qsee_fp: dev-base-205 str[4]: focaltech:ta:trans
+[   45.909199] qsee_fp: dev-base-205 str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   45.909208] qsee_fp: dev-base-205 str[6]: focaltech:ta:trans
+[   45.909224] qsee_fp: dev-base-205 HEX[000]: 2a 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[   45.909240] qsee_fp: dev-base-205 HEX[032]: 00 00 00 00 00 74 72 75 73 74 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 38 39 2c 20 27 74 7a 5f 61 70 
+[   45.909257] qsee_fp: dev-base-205 HEX[064]: 70 5f 63 6d 64 5f 68 61 6e 64 6c 65 72 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[   45.909273] qsee_fp: dev-base-205 HEX[096]: 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 72 75 73 74 
+[   45.909289] qsee_fp: dev-base-205 HEX[128]: 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 31 30 37 2c 20 6d 65 73 73 61 67 65 2d 3e 72 65 71 75 65 73 
+[   45.909305] qsee_fp: dev-base-205 HEX[160]: 74 2e 63 6d 64 20 3d 20 46 46 5f 43 4d 44 5f 54 41 5f 50 52 4f 42 45 5f 44 45 56 49 43 45 00 21 
+[   45.909321] qsee_fp: dev-base-205 HEX[192]: 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 00 
+[   45.909337] qsee_fp: dev-base-205 HEX[224]: 00 00 00 00 74 72 75 73 74 6c 65 74 5f 74 72 61 6e 73 2e 63 3a 35 35 38 2c 20 27 66 66 5f 74 72 
+[   45.909353] qsee_fp: dev-base-205 HEX[256]: 75 73 74 6c 65 74 5f 6d 65 73 73 61 67 65 5f 63 62 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 
+[   45.909367] qsee_fp: dev-base-205 HEX[288]: 6f 63 61 6c 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 
+[   45.909371] qsee_fp: dev-base-205 LOGCONT begin len=298
+[   45.909379] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[   45.909393] qsee_fp: dev-base-205 LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.909397] qsee_fp: dev-base-205 LOG: !
+[   45.909404] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[   45.909422] qsee_fp: dev-base-205 LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[   45.909426] qsee_fp: dev-base-205 LOG: !
+[   45.909433] qsee_fp: dev-base-205 LOG: focaltech:ta:trans
+[   45.909458] qsee_fp: dev-base-205 LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   45.909462] qsee_fp: dev-base-205 LOG: !
+[   45.909500] qsee_fp: dev-base-205 LOG: focaltech:t
+[   45.909503] qsee_fp: dev-base-205 LOGCONT end
+[   45.910530] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x12a err=0xff000feb rsp8=0x65746c61
+[   45.910540] qsee_fp: dev-entry-1011 st=0x12a first8=2a010000 00666f63
+[   45.910552] qsee_fp: dev-entry-1011 str[0]: focaltech:ta:entry
+[   45.910568] qsee_fp: dev-entry-1011 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.910578] qsee_fp: dev-entry-1011 str[2]: focaltech:ta:entry
+[   45.910596] qsee_fp: dev-entry-1011 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SET_KM_KEY
+[   45.910605] qsee_fp: dev-entry-1011 str[4]: focaltech:ta:entry
+[   45.910616] qsee_fp: dev-entry-1011 str[5]: keymaster identity: ''.
+[   45.910625] qsee_fp: dev-entry-1011 str[6]: focaltech:ta:entry
+[   45.910635] qsee_fp: dev-entry-1011 str[7]: encapsulated key da
+[   45.910652] qsee_fp: dev-entry-1011 HEX[000]: 2a 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[   45.910670] qsee_fp: dev-entry-1011 HEX[032]: 00 00 00 00 00 74 72 75 73 74 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 38 39 2c 20 27 74 7a 5f 61 70 
+[   45.910687] qsee_fp: dev-entry-1011 HEX[064]: 70 5f 63 6d 64 5f 68 61 6e 64 6c 65 72 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[   45.910703] qsee_fp: dev-entry-1011 HEX[096]: 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 72 75 73 74 
+[   45.910719] qsee_fp: dev-entry-1011 HEX[128]: 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 31 30 37 2c 20 6d 65 73 73 61 67 65 2d 3e 72 65 71 75 65 73 
+[   45.910735] qsee_fp: dev-entry-1011 HEX[160]: 74 2e 63 6d 64 20 3d 20 46 46 5f 43 4d 44 5f 54 41 5f 53 45 54 5f 4b 4d 5f 4b 45 59 00 21 03 00 
+[   45.910751] qsee_fp: dev-entry-1011 HEX[192]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[   45.910767] qsee_fp: dev-entry-1011 HEX[224]: 00 00 6b 65 79 6d 61 73 74 65 72 20 69 64 65 6e 74 69 74 79 3a 20 27 27 2e 00 21 03 00 00 00 66 
+[   45.910783] qsee_fp: dev-entry-1011 HEX[256]: 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 65 
+[   45.910797] qsee_fp: dev-entry-1011 HEX[288]: 6e 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 30 29 3a 00 
+[   45.910801] qsee_fp: dev-entry-1011 LOGCONT begin len=298
+[   45.910808] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   45.910822] qsee_fp: dev-entry-1011 LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.910826] qsee_fp: dev-entry-1011 LOG: !
+[   45.910833] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   45.910849] qsee_fp: dev-entry-1011 LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SET_KM_KEY
+[   45.910854] qsee_fp: dev-entry-1011 LOG: !
+[   45.910860] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   45.910870] qsee_fp: dev-entry-1011 LOG: keymaster identity: ''.
+[   45.910874] qsee_fp: dev-entry-1011 LOG: !
+[   45.910880] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   45.910888] qsee_fp: dev-entry-1011 LOG: encapsulate
+[   45.910891] qsee_fp: dev-entry-1011 LOGCONT end
+[   45.912056] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x12a err=0x0 rsp8=0x65746c61
+[   45.912065] qsee_fp: dev-SYNC_CFG-100d st=0x12a first8=2a010000 00666f63
+[   45.912076] qsee_fp: dev-SYNC_CFG-100d str[0]: focaltech:ta:entry
+[   45.912091] qsee_fp: dev-SYNC_CFG-100d str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.912100] qsee_fp: dev-SYNC_CFG-100d str[2]: focaltech:ta:entry
+[   45.912119] qsee_fp: dev-SYNC_CFG-100d str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SYNC_CONFIG
+[   45.912128] qsee_fp: dev-SYNC_CFG-100d str[4]: focaltech:ta:trans
+[   45.912144] qsee_fp: dev-SYNC_CFG-100d str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   45.912153] qsee_fp: dev-SYNC_CFG-100d str[6]: focaltech:ta:trans
+[   45.912158] qsee_fp: dev-SYNC_CFG-100d LOGCONT begin len=298
+[   45.912165] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:entry
+[   45.912179] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[   45.912183] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   45.912190] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:entry
+[   45.912207] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SYNC_CONFIG
+[   45.912211] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   45.912218] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:trans
+[   45.912233] qsee_fp: dev-SYNC_CFG-100d LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[   45.912237] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[   45.912243] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta
+[   45.912246] qsee_fp: dev-SYNC_CFG-100d LOGCONT end
+[   45.926861] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   45.926874] qsee_fp: dev-INIT_SPI-1006 st=0x42a first8=2a040000 00666f63
+[   45.926888] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:config
+[   45.926906] qsee_fp: dev-INIT_SPI-1006 str[1]: no key named 'device.spi_mode', use default value.
+[   45.956433] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x12a err=0x0 rsp8=0x746c6163
+[   45.956447] qsee_fp: dev-PROBE1-100a st=0x12a first8=2a010000 0026666f
+[   45.956462] qsee_fp: dev-PROBE1-100a str[0]: &focaltech:chip:ft9607
+[   45.956479] qsee_fp: dev-PROBE1-100a str[1]: ft9601.c:559, 'ft9601_probe_id' enter.
+[   45.956491] qsee_fp: dev-PROBE1-100a str[2]: &focaltech:ta:ft9607
+[   45.956509] qsee_fp: dev-PROBE1-100a str[3]: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   45.956520] qsee_fp: dev-PROBE1-100a str[4]: &focaltech:ta:ft9607
+[   45.956538] qsee_fp: dev-PROBE1-100a str[5]: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   45.956550] qsee_fp: dev-PROBE1-100a str[6]: &focaltech:ta:ft9607
+[   45.956560] qsee_fp: dev-PROBE1-100a str[7]: ft9601_interf
+[   45.956566] qsee_fp: dev-PROBE1-100a LOGCONT begin len=298
+[   45.956576] qsee_fp: dev-PROBE1-100a LOG: &focaltech:chip:ft9607
+[   45.956588] qsee_fp: dev-PROBE1-100a LOG: ft9601.c:559, 'ft9601_probe_id' enter.
+[   45.956594] qsee_fp: dev-PROBE1-100a LOG: !
+[   45.956603] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ta:ft9607
+[   45.956620] qsee_fp: dev-PROBE1-100a LOG: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   45.956627] qsee_fp: dev-PROBE1-100a LOG: !
+[   45.956637] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ta:ft9607
+[   45.956653] qsee_fp: dev-PROBE1-100a LOG: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   45.956659] qsee_fp: dev-PROBE1-100a LOG: !
+[   45.956668] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ta:ft9607
+[   45.956675] qsee_fp: dev-PROBE1-100a LOG: ft960
+[   45.956680] qsee_fp: dev-PROBE1-100a LOGCONT end
+[   45.978660] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x12a err=0x0 rsp8=0x746c6163
+[   45.978674] qsee_fp: dev-PROBE2-100a st=0x12a first8=2a010000 0026666f
+[   45.978689] qsee_fp: dev-PROBE2-100a str[0]: &focaltech:chip:ft9607
+[   45.978703] qsee_fp: dev-PROBE2-100a str[1]: ft9601.c:559, 'ft9601_probe_id' enter.
+[   45.978715] qsee_fp: dev-PROBE2-100a str[2]: &focaltech:ta:ft9607
+[   45.978732] qsee_fp: dev-PROBE2-100a str[3]: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   45.978743] qsee_fp: dev-PROBE2-100a str[4]: &focaltech:ta:ft9607
+[   45.978758] qsee_fp: dev-PROBE2-100a str[5]: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   45.978770] qsee_fp: dev-PROBE2-100a str[6]: &focaltech:ta:ft9607
+[   45.978781] qsee_fp: dev-PROBE2-100a str[7]: ft9601_interf
+[   45.978787] qsee_fp: dev-PROBE2-100a LOGCONT begin len=298
+[   45.978797] qsee_fp: dev-PROBE2-100a LOG: &focaltech:chip:ft9607
+[   45.978809] qsee_fp: dev-PROBE2-100a LOG: ft9601.c:559, 'ft9601_probe_id' enter.
+[   45.978815] qsee_fp: dev-PROBE2-100a LOG: !
+[   45.978824] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ta:ft9607
+[   45.978839] qsee_fp: dev-PROBE2-100a LOG: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   45.978845] qsee_fp: dev-PROBE2-100a LOG: !
+[   45.978854] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ta:ft9607
+[   45.978869] qsee_fp: dev-PROBE2-100a LOG: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   45.978875] qsee_fp: dev-PROBE2-100a LOG: !
+[   45.978884] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ta:ft9607
+[   45.978892] qsee_fp: dev-PROBE2-100a LOG: ft960
+[   45.978897] qsee_fp: dev-PROBE2-100a LOGCONT end
+[   46.248506] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   46.248512] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[   46.248515] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[   46.248517] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[   46.248519] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[   46.248521] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[   46.248523] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[   46.248525] qsee_fp: dev-INIT_DEV-100b str[5]: ft93xx.c:1676, 'ft93xx_get_serial_code' enter.
+[   46.248527] qsee_fp: dev-INIT_DEV-100b str[6]: &focaltech:ft93xx:afe
+[   46.248529] qsee_fp: dev-INIT_DEV-100b str[7]: ft93xx_afe.c:877, got foundry: nexchip
+[   46.248530] qsee_fp: dev-INIT_DEV-100b str[8]: &focaltech:ft93xx:core
+[   46.248532] qsee_fp: dev-INIT_DEV-100b str[9]: ft93xx.c:1497, 'ft93xx_get_chip_serial_num' enter.
+[   46.248534] qsee_fp: dev-INIT_DEV-100b str[10]: &focaltech:ft93xx:core
+[   46.248536] qsee_fp: dev-INIT_DEV-100b str[11]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   46.248537] qsee_fp: dev-INIT_DEV-100b str[12]: &focaltech:ft93xx:core
+[   46.248539] qsee_fp: dev-INIT_DEV-100b str[13]: ft93xx.c:1549, 'ft93xx_get_chip_serial_num' leave.
+[   46.248541] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:core
+[   46.248542] qsee_fp: dev-INIT_DEV-100b str[15]: Get serial: 9
+[   46.248543] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:core
+[   46.248545] qsee_fp: dev-INIT_DEV-100b str[17]: ft93xx.c:1701, 'ft93xx_get_serial_code' leave.
+[   46.248547] qsee_fp: dev-INIT_DEV-100b str[18]: focaltech:ta:file
+[   46.248549] qsee_fp: dev-INIT_DEV-100b str[19]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.
+[   46.248550] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[   46.248552] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   46.248554] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[   46.248555] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248556] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   46.248558] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[   46.248559] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248561] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248563] qsee_fp: dev-INIT_DEV-100b LOG: ft93xx.c:1676, 'ft93xx_get_serial_code' enter.
+[   46.248564] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248565] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   46.248568] qsee_fp: dev-INIT_DEV-100b LOG: ft93xx_afe.c:877, got foundry: nexchip
+[   46.248569] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248570] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248573] qsee_fp: dev-INIT_DEV-100b LOG: ft93xx.c:1497, 'ft93xx_get_chip_serial_num' enter.
+[   46.248574] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248575] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248577] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   46.248578] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248579] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248580] qsee_fp: dev-INIT_DEV-100b LOG: ft93xx.c:1549, 'ft93xx_get_chip_serial_num' leave.
+[   46.248582] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248583] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248584] qsee_fp: dev-INIT_DEV-100b LOG: Get serial: 9
+[   46.248585] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248586] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   46.248588] qsee_fp: dev-INIT_DEV-100b LOG: ft93xx.c:1701, 'ft93xx_get_serial_code' leave.
+[   46.248589] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   46.248590] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   46.248593] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_se
+[   46.248594] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[   46.297473] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   46.297479] qsee_fp: dev-INIT-1004 st=0x42a first8=2a040000 00666f63
+[   46.297483] qsee_fp: dev-INIT-1004 str[0]: focaltech:ta:config
+[   46.297485] qsee_fp: dev-INIT-1004 str[1]: no key named 'common.image_processing_cols', use default value.
+[   46.297487] qsee_fp: dev-INIT-1004 str[2]: focaltech:ta:config
+[   46.297489] qsee_fp: dev-INIT-1004 str[3]: no key named 'common.image_processing_rows', use default value.
+[   46.297490] qsee_fp: dev-INIT-1004 str[4]: focaltech:ta:config
+[   46.297492] qsee_fp: dev-INIT-1004 str[5]: no key named 'common.max_enrolling_fingers', use default value.
+[   46.297493] qsee_fp: dev-INIT-1004 str[6]: focaltech:ta:config
+[   46.297495] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   46.297497] qsee_fp: dev-INIT-1004 str[8]: focaltech:ta:config
+[   46.297499] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   46.297501] qsee_fp: dev-INIT-1004 str[10]: focaltech:ta:config
+[   46.297503] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   46.297504] qsee_fp: dev-INIT-1004 str[12]: focaltech:ta:config
+[   46.297506] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   46.297507] qsee_fp: dev-INIT-1004 str[14]: focaltech:ta:config
+[   46.297509] qsee_fp: dev-INIT-1004 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   46.297511] qsee_fp: dev-INIT-1004 str[16]: focaltech:ta:config
+[   46.297513] qsee_fp: dev-INIT-1004 str[17]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   46.297514] qsee_fp: dev-INIT-1004 str[18]: focaltech:ta:config
+[   46.297515] qsee_fp: dev-INIT-1004 str[19]: no key named '
+[   46.367326] qsee_fp: ION HIT dev-CHIP_INIT-1023 ret=0 req0=0x80001023 rsp0=0x12a err=0x0 rsp8=0x746c6163
+[   46.367331] qsee_fp: dev-CHIP_INIT-1023 st=0x12a first8=2a010000 0026666f
+[   46.367335] qsee_fp: dev-CHIP_INIT-1023 str[0]: &focaltech:ft93xx:core
+[   46.367337] qsee_fp: dev-CHIP_INIT-1023 str[1]: ft93xx.c:580, 'ft93xx_chip_paramter_init' enter.
+[   46.367340] qsee_fp: dev-CHIP_INIT-1023 str[2]: &focaltech:ft93xx:core
+[   46.367341] qsee_fp: dev-CHIP_INIT-1023 str[3]: chip id before sleep 0x0
+[   46.367343] qsee_fp: dev-CHIP_INIT-1023 str[4]: &focaltech:ft93xx:fdt
+[   46.367345] qsee_fp: dev-CHIP_INIT-1023 str[5]: ft93xx_fdt.c:158, 'ft93xx_fdt_mode_init' enter.
+[   46.367347] qsee_fp: dev-CHIP_INIT-1023 str[6]: &focaltech:ft93xx:afe
+[   46.367348] qsee_fp: dev-CHIP_INIT-1023 str[7]: ft93xx_afe.c:1070, 'ft93xx_set_scan_
+[   46.367349] qsee_fp: dev-CHIP_INIT-1023 LOGCONT begin len=298
+[   46.367351] qsee_fp: dev-CHIP_INIT-1023 LOG: &focaltech:ft93xx:core
+[   46.367353] qsee_fp: dev-CHIP_INIT-1023 LOG: ft93xx.c:580, 'ft93xx_chip_paramter_init' enter.
+[   46.367354] qsee_fp: dev-CHIP_INIT-1023 LOG: !
+[   46.367356] qsee_fp: dev-CHIP_INIT-1023 LOG: &focaltech:ft93xx:core
+[   46.367358] qsee_fp: dev-CHIP_INIT-1023 LOG: chip id before sleep 0x0
+[   46.367359] qsee_fp: dev-CHIP_INIT-1023 LOG: !
+[   46.367360] qsee_fp: dev-CHIP_INIT-1023 LOG: &focaltech:ft93xx:fdt
+[   46.367362] qsee_fp: dev-CHIP_INIT-1023 LOG: ft93xx_fdt.c:158, 'ft93xx_fdt_mode_init' enter.
+[   46.367363] qsee_fp: dev-CHIP_INIT-1023 LOG: !
+[   46.367364] qsee_fp: dev-CHIP_INIT-1023 LOG: &focaltech:ft93xx:afe
+[   46.367367] qsee_fp: dev-CHIP_INIT-1023 LOG: ft93xx_afe.c:1070, 'ft93xx_s
+[   46.367367] qsee_fp: dev-CHIP_INIT-1023 LOGCONT end
+[   46.453799] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x12a err=0x0 rsp8=0x746c6163
+[   46.453807] qsee_fp: dev-HEALTH-1016 st=0x12a first8=2a010000 0026666f
+[   46.453810] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:core
+[   46.453813] qsee_fp: dev-HEALTH-1016 str[1]: ft93xx.c:658, 'ft93xx_check_alive' enter.
+[   46.453815] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:fdt
+[   46.453817] qsee_fp: dev-HEALTH-1016 str[3]: open short read data: 0x4
+[   46.453818] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:afe
+[   46.453820] qsee_fp: dev-HEALTH-1016 str[5]: ft93xx_afe.c:492, 'ft93xx_fdt_esd_manual_check' enter.
+[   46.453822] qsee_fp: dev-HEALTH-1016 str[6]: &focaltech:ft93xx:fdt
+[   46.453823] qsee_fp: dev-HEALTH-1016 str[7]: ft93xx_fdt.c:535, 'ft93xx_fdt_manua
+[   46.453824] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=298
+[   46.453826] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[   46.453828] qsee_fp: dev-HEALTH-1016 LOG: ft93xx.c:658, 'ft93xx_check_alive' enter.
+[   46.453829] qsee_fp: dev-HEALTH-1016 LOG: !
+[   46.453831] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:fdt
+[   46.453833] qsee_fp: dev-HEALTH-1016 LOG: open short read data: 0x4
+[   46.453834] qsee_fp: dev-HEALTH-1016 LOG: !
+[   46.453835] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   46.453838] qsee_fp: dev-HEALTH-1016 LOG: ft93xx_afe.c:492, 'ft93xx_fdt_esd_manual_check' enter.
+[   46.453839] qsee_fp: dev-HEALTH-1016 LOG: !
+[   46.453840] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:fdt
+[   46.453842] qsee_fp: dev-HEALTH-1016 LOG: ft93xx_fdt.c:535, 'ft93xx_f
+[   46.453843] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[   46.478240] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0x12a err=0xfffffff5 rsp8=0x746c6163
+[   46.478249] qsee_fp: dev-PROBE-9391 st=0x12a first8=2a010000 0026666f
+[   46.478253] qsee_fp: dev-PROBE-9391 str[0]: &focaltech:chip:ft9607
+[   46.478255] qsee_fp: dev-PROBE-9391 str[1]: ft9601.c:559, 'ft9601_probe_id' enter.
+[   46.478258] qsee_fp: dev-PROBE-9391 str[2]: &focaltech:ta:ft9607
+[   46.478261] qsee_fp: dev-PROBE-9391 str[3]: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   46.478262] qsee_fp: dev-PROBE-9391 str[4]: &focaltech:ta:ft9607
+[   46.478264] qsee_fp: dev-PROBE-9391 str[5]: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   46.478266] qsee_fp: dev-PROBE-9391 str[6]: &focaltech:ta:ft9607
+[   46.478267] qsee_fp: dev-PROBE-9391 str[7]: ft9601_interf
+[   46.478274] qsee_fp: dev-PROBE-9391 HEX[000]: 2a 01 00 00 00 26 66 6f 63 61 6c 74 65 63 68 3a 63 68 69 70 3a 66 74 39 36 30 37 00 00 00 00 00 
+[   46.478281] qsee_fp: dev-PROBE-9391 HEX[032]: 00 00 00 00 00 66 74 39 36 30 31 2e 63 3a 35 35 39 2c 20 27 66 74 39 36 30 31 5f 70 72 6f 62 65 
+[   46.478289] qsee_fp: dev-PROBE-9391 HEX[064]: 5f 69 64 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 26 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 66 
+[   46.478295] qsee_fp: dev-PROBE-9391 HEX[096]: 74 39 36 30 37 00 00 00 00 00 00 00 00 00 00 00 00 66 74 39 36 30 31 5f 69 6e 74 65 72 66 61 63 
+[   46.478302] qsee_fp: dev-PROBE-9391 HEX[128]: 65 2e 63 3a 31 37 34 2c 20 27 5f 66 74 39 36 30 31 5f 72 65 61 64 5f 72 65 67 69 73 74 65 72 27 
+[   46.478309] qsee_fp: dev-PROBE-9391 HEX[160]: 20 65 6e 74 65 72 2e 00 21 01 00 00 00 26 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 66 74 39 36 30 
+[   46.478316] qsee_fp: dev-PROBE-9391 HEX[192]: 37 00 00 00 00 00 00 00 00 00 00 00 00 66 74 39 36 30 31 5f 69 6e 74 65 72 66 61 63 65 2e 63 3a 
+[   46.478323] qsee_fp: dev-PROBE-9391 HEX[224]: 31 32 32 2c 20 27 5f 66 74 39 36 30 31 5f 72 65 61 64 5f 73 72 61 6d 27 20 65 6e 74 65 72 2e 00 
+[   46.478330] qsee_fp: dev-PROBE-9391 HEX[256]: 21 01 00 00 00 26 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 66 74 39 36 30 37 00 00 00 00 00 00 00 
+[   46.478336] qsee_fp: dev-PROBE-9391 HEX[288]: 00 00 00 00 00 66 74 39 36 30 31 5f 69 6e 74 65 72 66 61 63 65 2e 63 3a 31 35 
+[   46.478337] qsee_fp: dev-PROBE-9391 LOGCONT begin len=298
+[   46.478338] qsee_fp: dev-PROBE-9391 LOG: &focaltech:chip:ft9607
+[   46.478341] qsee_fp: dev-PROBE-9391 LOG: ft9601.c:559, 'ft9601_probe_id' enter.
+[   46.478342] qsee_fp: dev-PROBE-9391 LOG: !
+[   46.478344] qsee_fp: dev-PROBE-9391 LOG: &focaltech:ta:ft9607
+[   46.478346] qsee_fp: dev-PROBE-9391 LOG: ft9601_interface.c:174, '_ft9601_read_register' enter.
+[   46.478347] qsee_fp: dev-PROBE-9391 LOG: !
+[   46.478349] qsee_fp: dev-PROBE-9391 LOG: &focaltech:ta:ft9607
+[   46.478352] qsee_fp: dev-PROBE-9391 LOG: ft9601_interface.c:122, '_ft9601_read_sram' enter.
+[   46.478353] qsee_fp: dev-PROBE-9391 LOG: !
+[   46.478354] qsee_fp: dev-PROBE-9391 LOG: &focaltech:ta:ft9607
+[   46.478356] qsee_fp: dev-PROBE-9391 LOG: ft960
+[   46.478357] qsee_fp: dev-PROBE-9391 LOGCONT end
+[   46.527421] qsee_fp: HIT dev-sm-PROBE ret=0
+[   46.527427] qsee_fp: dev-sm-PROBE st=0x0 first8=00000000 00000000
+[   46.527433] qsee_fp: dev-sm-PROBE str: (none printable)
+[   46.527486] qsee_fp: device-TA probe complete
+[   46.527488] qsee_fp: done

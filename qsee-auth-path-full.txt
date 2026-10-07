@@ -1,0 +1,521 @@
+[   16.486140] qsee_probe_fp5: starting (force_pdev=1)
+[   16.486398] qcom_qseecom qcom_qseecom: setting up client for qcom.tz.uefisecapp
+[   16.486528] qsee_probe_fp5: registered platform device qcom_qseecom
+[   16.486530] qsee_probe_fp5: --- TZ app lookup (already-resident apps only) ---
+[   16.486647] qsee_probe_fp5: LOOKUP qcom.tz.uefisecapp   -> app_id=0x2 (2) OK
+[   16.486691] qsee_probe_fp5: LOOKUP uefisecapp           -> not loaded (-ENOENT)
+[   16.486707] efivars: Registered efivars operations
+[   16.486720] qsee_probe_fp5: LOOKUP fingerpr             -> not loaded (-ENOENT)
+[   16.486752] qsee_probe_fp5: LOOKUP focal32              -> not loaded (-ENOENT)
+[   16.486810] qsee_probe_fp5: LOOKUP fingerprint          -> not loaded (-ENOENT)
+[   16.486838] qsee_probe_fp5: LOOKUP keymaster64          -> app_id=0x1 (1) OK
+[   16.486867] qsee_probe_fp5: LOOKUP keymaster            -> not loaded (-ENOENT)
+[   16.486892] qsee_probe_fp5: LOOKUP widevine             -> not loaded (-ENOENT)
+[   16.486920] qsee_probe_fp5: LOOKUP rtic                 -> not loaded (-ENOENT)
+[   16.486946] qsee_probe_fp5: LOOKUP smplap64             -> not loaded (-ENOENT)
+[   16.486970] qsee_probe_fp5: LOOKUP qseecom_sample       -> not loaded (-ENOENT)
+[   16.486971] qsee_probe_fp5: --- lookup done ---
+[   16.486971] qsee_probe_fp5: next: modprobe qcom_qseecom; check dmesg for uefisecapp client
+[   16.489676] focaltech_fp: gpiod lookup on chip 'f100000.pinctrl' irq=34 reset=35 vdd=60
+[   16.489684] focaltech_fp: SPI pinmux map registered (gpio56-59 / qup16)
+[   16.489997] focaltech_fp focaltech_fp: SW gpiod claimed via lookup IRQ=34 RESET=35 VDD=60 chip=f100000.pinctrl
+[   16.490004] focaltech_fp focaltech_fp: VDD OFF (gpio consumer)
+[   16.507176] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[   16.614565] focaltech_fp focaltech_fp: RESET sequence done (left HIGH / run, Android-matched)
+[   16.614883] focaltech_fp focaltech_fp: SPI SE14 clocks acquired (se=ok m_ahb=ok s_ahb=ok pinctrl=ok)
+[   16.616120] focaltech_fp focaltech_fp: QUP ICC enabled (core=ok cfg=ok)
+[   16.616138] sc7280-pinctrl f100000.pinctrl: error -EINVAL: pin-56 (focaltech_fp)
+[   16.616156] sc7280-pinctrl f100000.pinctrl: error -EINVAL: could not request pin 56 (GPIO_56) from group gpio56 on device f100000.pinctrl
+[   16.616169] focaltech_fp focaltech_fp: error -EINVAL: Error applying setting, reverse things back
+[   16.616181] focaltech_fp focaltech_fp: pinctrl select spi: -22 (will try TLMM MMIO)
+[   16.616189] focaltech_fp focaltech_fp: SPI_CLK ENABLED (wrap1 SE6 / bus 14, icc=1)
+[   16.618652] focaltech_fp focaltech_fp: chardev /dev/focaltech_fp major 236 minor 0
+[   16.618669] focaltech_fp focaltech_fp: probe OK FT9362 life: IRQ gpio=34 line=271, RESET=35, VDD=60, /dev/focaltech_fp (listen via sysfs or ioctl)
+[   16.618750] focaltech_fp: software platform device registered
+[   16.684382] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   17.624895] qsee_fp: init
+[   17.686192] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   17.824544] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   18.058933] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   18.059168] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=344 spi_bus=14 spidev=0 =====
+[   18.059940] qsee_fp: big sess pa=0xff200000
+[   18.060689] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[   18.060693] qsee_fp: dev-base-205 st=0x22a first8=2a020000 00666f63
+[   18.060697] qsee_fp: dev-base-205 str[0]: focaltech:ta:base
+[   18.060700] qsee_fp: dev-base-205 str[1]: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[   18.060702] qsee_fp: dev-base-205 str[2]: focaltech:ta:base
+[   18.060704] qsee_fp: dev-base-205 str[3]: TEE environment checking...
+[   18.060706] qsee_fp: dev-base-205 str[4]: focaltech:ta:base
+[   18.060708] qsee_fp: dev-base-205 str[5]: testing timing...0(0)ms.
+[   18.060710] qsee_fp: dev-base-205 str[6]: focaltech:ta:base
+[   18.060712] qsee_fp: dev-base-205 str[7]: testing msleep(50)...50ms.
+[   18.060713] qsee_fp: dev-base-205 str[8]: focaltech:ta:base
+[   18.060715] qsee_fp: dev-base-205 str[9]: TA is successfully created.
+[   18.060717] qsee_fp: dev-base-205 str[10]: focaltech:ta:entry
+[   18.060720] qsee_fp: dev-base-205 str[11]: QSEE TA is ready.
+[   18.060729] qsee_fp: dev-base-205 HEX[000]: 2a 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 
+[   18.060737] qsee_fp: dev-base-205 HEX[032]: 00 00 00 00 00 76 65 72 73 69 6f 6e 3a 20 27 76 32 2e 35 2e 33 2e 30 2d 63 64 66 30 66 38 30 2d 
+[   18.060745] qsee_fp: dev-base-205 HEX[064]: 32 33 30 36 31 34 40 30 39 32 38 27 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[   18.060753] qsee_fp: dev-base-205 HEX[096]: 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 45 45 20 65 6e 76 69 72 6f 6e 6d 65 
+[   18.060760] qsee_fp: dev-base-205 HEX[128]: 6e 74 20 63 68 65 63 6b 69 6e 67 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 
+[   18.060767] qsee_fp: dev-base-205 HEX[160]: 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 74 69 6d 69 
+[   18.060773] qsee_fp: dev-base-205 HEX[192]: 6e 67 2e 2e 2e 30 28 30 29 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[   18.060780] qsee_fp: dev-base-205 HEX[224]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 6d 73 6c 65 65 70 
+[   18.060786] qsee_fp: dev-base-205 HEX[256]: 28 35 30 29 2e 2e 2e 35 30 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[   18.060793] qsee_fp: dev-base-205 HEX[288]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 41 20 69 73 20 73 75 63 63 65 73 73 66 
+[   18.060799] qsee_fp: dev-base-205 HEX[320]: 75 6c 6c 79 20 63 72 65 61 74 65 64 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[   18.060805] qsee_fp: dev-base-205 HEX[352]: 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 51 53 45 45 20 54 41 20 69 73 20 72 65 
+[   18.060812] qsee_fp: dev-base-205 HEX[384]: 61 64 79 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.060818] qsee_fp: dev-base-205 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.060824] qsee_fp: dev-base-205 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.060831] qsee_fp: dev-base-205 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.060832] qsee_fp: dev-base-205 LOGCONT begin len=554
+[   18.060834] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   18.060836] qsee_fp: dev-base-205 LOG: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[   18.060837] qsee_fp: dev-base-205 LOG: !
+[   18.060838] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   18.060840] qsee_fp: dev-base-205 LOG: TEE environment checking...
+[   18.060841] qsee_fp: dev-base-205 LOG: !
+[   18.060843] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   18.060845] qsee_fp: dev-base-205 LOG: testing timing...0(0)ms.
+[   18.060846] qsee_fp: dev-base-205 LOG: !
+[   18.060847] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   18.060850] qsee_fp: dev-base-205 LOG: testing msleep(50)...50ms.
+[   18.060851] qsee_fp: dev-base-205 LOG: !
+[   18.060852] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   18.060854] qsee_fp: dev-base-205 LOG: TA is successfully created.
+[   18.060855] qsee_fp: dev-base-205 LOG: !
+[   18.060856] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[   18.060858] qsee_fp: dev-base-205 LOG: QSEE TA is ready.
+[   18.060861] qsee_fp: dev-base-205 LOGCONT end
+[   18.061481] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[   18.061484] qsee_fp: dev-entry-1011 st=0x32a first8=2a030000 00666f63
+[   18.061487] qsee_fp: dev-entry-1011 str[0]: focaltech:ta:entry
+[   18.061488] qsee_fp: dev-entry-1011 str[1]: keymaster identity: ''.
+[   18.061490] qsee_fp: dev-entry-1011 str[2]: focaltech:ta:entry
+[   18.061492] qsee_fp: dev-entry-1011 str[3]: encapsulated key data (0):
+[   18.061493] qsee_fp: dev-entry-1011 str[4]: focaltech:ta:entry
+[   18.061494] qsee_fp: dev-entry-1011 str[5]: decapsulated key data (32):
+[   18.061496] qsee_fp: dev-entry-1011 str[6]: focaltech:util
+[   18.061498] qsee_fp: dev-entry-1011 str[7]: 0000  00 00 00 00 00 00 00 00  |........|
+[   18.061499] qsee_fp: dev-entry-1011 str[8]: focaltech:util
+[   18.061501] qsee_fp: dev-entry-1011 str[9]: 0008  00 00 00 00 00 00 00 00  |........|
+[   18.061502] qsee_fp: dev-entry-1011 str[10]: focaltech:util
+[   18.061504] qsee_fp: dev-entry-1011 str[11]: 0010  00 00 00 00 00 00 00 00  |........|
+[   18.061505] qsee_fp: dev-entry-1011 str[12]: focaltech:util
+[   18.061507] qsee_fp: dev-entry-1011 str[13]: 0018  00 00 00 00 00 00 00 00  |........|
+[   18.061516] qsee_fp: dev-entry-1011 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[   18.061522] qsee_fp: dev-entry-1011 HEX[032]: 00 00 00 00 00 6b 65 79 6d 61 73 74 65 72 20 69 64 65 6e 74 69 74 79 3a 20 27 27 2e 00 21 03 00 
+[   18.061529] qsee_fp: dev-entry-1011 HEX[064]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.061535] qsee_fp: dev-entry-1011 HEX[096]: 00 00 65 6e 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 30 29 3a 00 21 03 00 
+[   18.061541] qsee_fp: dev-entry-1011 HEX[128]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.061548] qsee_fp: dev-entry-1011 HEX[160]: 00 00 64 65 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 33 32 29 3a 00 21 02 
+[   18.061554] qsee_fp: dev-entry-1011 HEX[192]: 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.061561] qsee_fp: dev-entry-1011 HEX[224]: 00 00 00 30 30 30 30 20 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 
+[   18.061567] qsee_fp: dev-entry-1011 HEX[256]: 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 
+[   18.061574] qsee_fp: dev-entry-1011 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 30 30 38 20 20 30 30 20 30 30 20 30 30 
+[   18.061580] qsee_fp: dev-entry-1011 HEX[320]: 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 
+[   18.061586] qsee_fp: dev-entry-1011 HEX[352]: 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.061593] qsee_fp: dev-entry-1011 HEX[384]: 00 30 30 31 30 20 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 
+[   18.061599] qsee_fp: dev-entry-1011 HEX[416]: 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 
+[   18.061606] qsee_fp: dev-entry-1011 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 30 31 38 20 20 30 30 20 30 30 20 30 30 20 30 
+[   18.061612] qsee_fp: dev-entry-1011 HEX[480]: 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 de 00 00 00 00 00 
+[   18.061613] qsee_fp: dev-entry-1011 LOGCONT begin len=810
+[   18.061614] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   18.061616] qsee_fp: dev-entry-1011 LOG: keymaster identity: ''.
+[   18.061617] qsee_fp: dev-entry-1011 LOG: !
+[   18.061619] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   18.061621] qsee_fp: dev-entry-1011 LOG: encapsulated key data (0):
+[   18.061622] qsee_fp: dev-entry-1011 LOG: !
+[   18.061623] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   18.061625] qsee_fp: dev-entry-1011 LOG: decapsulated key data (32):
+[   18.061626] qsee_fp: dev-entry-1011 LOG: !
+[   18.061627] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   18.061629] qsee_fp: dev-entry-1011 LOG: 0000  00 00 00 00 00 00 00 00  |........|
+[   18.061630] qsee_fp: dev-entry-1011 LOG: !
+[   18.061631] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   18.061632] qsee_fp: dev-entry-1011 LOG: 0008  00 00 00 00 00 00 00 00  |........|
+[   18.061634] qsee_fp: dev-entry-1011 LOG: !
+[   18.061634] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   18.061636] qsee_fp: dev-entry-1011 LOG: 0010  00 00 00 00 00 00 00 00  |........|
+[   18.061637] qsee_fp: dev-entry-1011 LOG: !
+[   18.061638] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   18.061639] qsee_fp: dev-entry-1011 LOG: 0018  00 00 00 00 00 00 00 00  |........|
+[   18.061644] qsee_fp: dev-entry-1011 LOGCONT end
+[   18.062235] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   18.062238] qsee_fp: dev-SYNC_CFG-100d st=0x42a first8=2a040000 00666f63
+[   18.062240] qsee_fp: dev-SYNC_CFG-100d str[0]: focaltech:ta:config
+[   18.062242] qsee_fp: dev-SYNC_CFG-100d str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   18.062244] qsee_fp: dev-SYNC_CFG-100d str[2]: focaltech:ta:config
+[   18.062246] qsee_fp: dev-SYNC_CFG-100d str[3]: configurations is synced to TA.
+[   18.062247] qsee_fp: dev-SYNC_CFG-100d str[4]: focaltech:ta:config
+[   18.062249] qsee_fp: dev-SYNC_CFG-100d str[5]: no key named 'extension.health_check_timing', use default value.
+[   18.062250] qsee_fp: dev-SYNC_CFG-100d str[6]: focaltech:ta:config
+[   18.062252] qsee_fp: dev-SYNC_CFG-100d str[7]: no key named 'device.gesturing_mode', use default value.
+[   18.062253] qsee_fp: dev-SYNC_CFG-100d str[8]: focaltech:ta:config
+[   18.062255] qsee_fp: dev-SYNC_CFG-100d str[9]: no key named 'device.spi_capture_bps', use default value.
+[   18.062256] qsee_fp: dev-SYNC_CFG-100d str[10]: focaltech:ta:config
+[   18.062258] qsee_fp: dev-SYNC_CFG-100d str[11]: no key named 'device.burst_acquisition_num', use default value.
+[   18.062260] qsee_fp: dev-SYNC_CFG-100d str[12]: focaltech:ta:config
+[   18.062261] qsee_fp: dev-SYNC_CFG-100d str[13]: no key named 'device.enable_hw_reset_b4_scanning', use default value.
+[   18.062263] qsee_fp: dev-SYNC_CFG-100d str[14]: focaltech:ta:config
+[   18.062265] qsee_fp: dev-SYNC_CFG-100d str[15]: no key named 'driver.keycode_simulation', use default value.
+[   18.062266] qsee_fp: dev-SYNC_CFG-100d str[16]: focaltech:ta:config
+[   18.062268] qsee_fp: dev-SYNC_CFG-100d str[17]: no key named 'extension.enable_fast_screen_unlock', use default value.
+[   18.062269] qsee_fp: dev-SYNC_CFG-100d str[18]: focaltech:ta:config
+[   18.062271] qsee_fp: dev-SYNC_CFG-100d str[19]: no key named 'common.max_pre_processing_rescan_times', use default value.
+[   18.062272] qsee_fp: dev-SYNC_CFG-100d str[20]: focaltech:ta:config
+[   18.079339] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x0
+[   18.079346] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00000000
+[   18.079350] qsee_fp: dev-INIT_SPI-1006 str: (none printable)
+[   18.079351] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[   18.079355] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[   18.110510] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   18.110517] qsee_fp: dev-PROBE1-100a st=0x32a first8=2a030000 00666f63
+[   18.110520] qsee_fp: dev-PROBE1-100a str[0]: focaltech:ta:device
+[   18.110522] qsee_fp: dev-PROBE1-100a str[1]: registering chips...
+[   18.110524] qsee_fp: dev-PROBE1-100a str[2]: focaltech:ta:config
+[   18.110526] qsee_fp: dev-PROBE1-100a str[3]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110527] qsee_fp: dev-PROBE1-100a str[4]: focaltech:ta:config
+[   18.110530] qsee_fp: dev-PROBE1-100a str[5]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110531] qsee_fp: dev-PROBE1-100a str[6]: focaltech:ta:config
+[   18.110533] qsee_fp: dev-PROBE1-100a str[7]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110535] qsee_fp: dev-PROBE1-100a str[8]: &focaltech:ft93xx:afe
+[   18.110537] qsee_fp: dev-PROBE1-100a str[9]: set chip vio 1.8v success
+[   18.110541] qsee_fp: dev-PROBE1-100a LOGCONT begin len=810
+[   18.110543] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:device
+[   18.110544] qsee_fp: dev-PROBE1-100a LOG: registering chips...
+[   18.110545] qsee_fp: dev-PROBE1-100a LOG: !
+[   18.110547] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   18.110550] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110551] qsee_fp: dev-PROBE1-100a LOG: !
+[   18.110553] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   18.110555] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110557] qsee_fp: dev-PROBE1-100a LOG: !
+[   18.110558] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   18.110560] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   18.110561] qsee_fp: dev-PROBE1-100a LOG: !
+[   18.110563] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[   18.110564] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v success
+[   18.110570] qsee_fp: dev-PROBE1-100a LOGCONT end
+[   18.135458] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   18.135467] qsee_fp: dev-PROBE2-100a st=0x32a first8=2a030000 0026666f
+[   18.135471] qsee_fp: dev-PROBE2-100a str[0]: &focaltech:ft93xx:afe
+[   18.135473] qsee_fp: dev-PROBE2-100a str[1]: set chip vio 1.8v success
+[   18.135481] qsee_fp: dev-PROBE2-100a LOGCONT begin len=810
+[   18.135482] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[   18.135484] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v success
+[   18.135493] qsee_fp: dev-PROBE2-100a LOGCONT end
+[   18.374893] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   18.374902] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[   18.374906] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[   18.374908] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[   18.374911] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[   18.374912] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[   18.374914] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[   18.374916] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   18.374918] qsee_fp: dev-INIT_DEV-100b str[6]: focaltech:ta:file
+[   18.374921] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   18.374923] qsee_fp: dev-INIT_DEV-100b str[8]: focaltech:ta:file
+[   18.374925] qsee_fp: dev-INIT_DEV-100b str[9]: error at ff_file_open[file.c:83]: 'I/O error'.
+[   18.374926] qsee_fp: dev-INIT_DEV-100b str[10]: focaltech:ta:device
+[   18.374929] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   18.374930] qsee_fp: dev-INIT_DEV-100b str[12]: focaltech:efc
+[   18.374932] qsee_fp: dev-INIT_DEV-100b str[13]: efc data not exist, skip.
+[   18.374934] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:afe
+[   18.374936] qsee_fp: dev-INIT_DEV-100b str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   18.374937] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:afe
+[   18.374939] qsee_fp: dev-INIT_DEV-100b str[17]: chip feature, io controlleable and
+[   18.374940] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[   18.374942] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   18.374943] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[   18.374945] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374946] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   18.374948] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[   18.374949] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374951] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   18.374953] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   18.374954] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374955] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   18.374958] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERI
+[   18.374959] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374960] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   18.374963] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:83]: 'I/O error'.
+[   18.374964] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374965] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   18.374968] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   18.374969] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374970] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:efc
+[   18.374973] qsee_fp: dev-INIT_DEV-100b LOG: efc data not exist, skip.
+[   18.374974] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374975] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   18.374977] qsee_fp: dev-INIT_DEV-100b LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   18.374978] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   18.374980] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   18.374981] qsee_fp: dev-INIT_DEV-100b LOG: chip feature, io controlle
+[   18.374982] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[   18.426907] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   18.426917] qsee_fp: dev-INIT-1004 st=0x42a first8=2a040000 00666f63
+[   18.426921] qsee_fp: dev-INIT-1004 str[0]: focaltech:ta:config
+[   18.426923] qsee_fp: dev-INIT-1004 str[1]: no key named 'common.image_processing_cols', use default value.
+[   18.426926] qsee_fp: dev-INIT-1004 str[2]: focaltech:ta:config
+[   18.426928] qsee_fp: dev-INIT-1004 str[3]: no key named 'common.image_processing_rows', use default value.
+[   18.426930] qsee_fp: dev-INIT-1004 str[4]: focaltech:ta:config
+[   18.426932] qsee_fp: dev-INIT-1004 str[5]: no key named 'common.max_enrolling_fingers', use default value.
+[   18.426933] qsee_fp: dev-INIT-1004 str[6]: focaltech:ta:config
+[   18.426936] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   18.426937] qsee_fp: dev-INIT-1004 str[8]: focaltech:ta:config
+[   18.426940] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   18.426941] qsee_fp: dev-INIT-1004 str[10]: focaltech:ta:config
+[   18.426944] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   18.426946] qsee_fp: dev-INIT-1004 str[12]: focaltech:ta:config
+[   18.426948] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   18.426950] qsee_fp: dev-INIT-1004 str[14]: focaltech:ta:config
+[   18.426952] qsee_fp: dev-INIT-1004 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   18.426954] qsee_fp: dev-INIT-1004 str[16]: focaltech:ta:config
+[   18.426956] qsee_fp: dev-INIT-1004 str[17]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   18.426958] qsee_fp: dev-INIT-1004 str[18]: focaltech:ta:config
+[   18.426959] qsee_fp: dev-INIT-1004 str[19]: no key named '
+[   18.443599] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x0
+[   18.443608] qsee_fp: dev-CHIP_INIT-1022 st=0xde first8=de000000 00000000
+[   18.443614] qsee_fp: dev-CHIP_INIT-1022 str: (none printable)
+[   18.443615] qsee_fp: dev-CHIP_INIT-1022 LOGCONT begin len=222
+[   18.443621] qsee_fp: dev-CHIP_INIT-1022 LOGCONT end
+[   18.542752] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   18.542761] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[   18.542764] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[   18.542766] qsee_fp: dev-HEALTH-1016 str[1]: last:696 692 687 686   0   0   0   0
+[   18.542768] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[   18.542770] qsee_fp: dev-HEALTH-1016 str[3]: curr:694 694 691 684 61917   0   0   0
+[   18.542772] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[   18.542774] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[   18.542780] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[   18.542782] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   18.542784] qsee_fp: dev-HEALTH-1016 LOG: last:696 692 687 686   0   0   0   0
+[   18.542785] qsee_fp: dev-HEALTH-1016 LOG: !
+[   18.542787] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   18.542789] qsee_fp: dev-HEALTH-1016 LOG: curr:694 694 691 684 61917   0   0   0
+[   18.542790] qsee_fp: dev-HEALTH-1016 LOG: !
+[   18.542792] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[   18.542794] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[   18.542801] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[   18.565222] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0xde err=0xfffffff5 rsp8=0x0
+[   18.565231] qsee_fp: dev-PROBE-9391 st=0xde first8=de000000 00000000
+[   18.565235] qsee_fp: dev-PROBE-9391 str: (none printable)
+[   18.565242] qsee_fp: dev-PROBE-9391 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565250] qsee_fp: dev-PROBE-9391 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565257] qsee_fp: dev-PROBE-9391 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565264] qsee_fp: dev-PROBE-9391 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565271] qsee_fp: dev-PROBE-9391 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565278] qsee_fp: dev-PROBE-9391 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565284] qsee_fp: dev-PROBE-9391 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565288] qsee_fp: dev-PROBE-9391 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.565289] qsee_fp: dev-PROBE-9391 LOGCONT begin len=222
+[   18.565293] qsee_fp: dev-PROBE-9391 LOGCONT end
+[   18.566123] qsee_fp: ION HIT dev-SET_GROUP ret=0 req0=0x80002007 rsp0=0x42a err=0xfffffffe rsp8=0x65746c61
+[   18.566128] qsee_fp: dev-SET_GROUP st=0x42a first8=2a040000 00666f63
+[   18.566131] qsee_fp: dev-SET_GROUP str[0]: focaltech:ta:config
+[   18.566133] qsee_fp: dev-SET_GROUP str[1]: no key named 'common.max_enrolling_fingers', use default value.
+[   18.566135] qsee_fp: dev-SET_GROUP str[2]: focaltech:ta:interface
+[   18.566137] qsee_fp: dev-SET_GROUP str[3]: loading templates for gid = 0...
+[   18.566139] qsee_fp: dev-SET_GROUP str[4]: focaltech:ta:config
+[   18.566141] qsee_fp: dev-SET_GROUP str[5]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   18.566143] qsee_fp: dev-SET_GROUP str[6]: focaltech:ta:interface
+[   18.566144] qsee_fp: dev-SET_GROUP str[7]: there is 0 template loaded.
+[   18.566146] qsee_fp: dev-SET_GROUP str[8]: focaltech:ta:config
+[   18.566148] qsee_fp: dev-SET_GROUP str[9]: no key named 'trustlet.enable_fingerprint_payment', use default value.
+[   18.587426] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   18.587434] qsee_fp: dev-ENUM st=0xde first8=de000000 00000000
+[   18.587439] qsee_fp: dev-ENUM str: (none printable)
+[   18.587446] qsee_fp: dev-ENUM HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587452] qsee_fp: dev-ENUM HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587460] qsee_fp: dev-ENUM HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587466] qsee_fp: dev-ENUM HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587473] qsee_fp: dev-ENUM HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587480] qsee_fp: dev-ENUM HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587486] qsee_fp: dev-ENUM HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587490] qsee_fp: dev-ENUM HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.587491] qsee_fp: dev-ENUM LOGCONT begin len=222
+[   18.587495] qsee_fp: dev-ENUM LOGCONT end
+[   18.603744] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   18.603753] qsee_fp: dev-AUTH_ID st=0xde first8=de000000 00000000
+[   18.603759] qsee_fp: dev-AUTH_ID str: (none printable)
+[   18.603766] qsee_fp: dev-AUTH_ID HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603773] qsee_fp: dev-AUTH_ID HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603780] qsee_fp: dev-AUTH_ID HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603786] qsee_fp: dev-AUTH_ID HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603793] qsee_fp: dev-AUTH_ID HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603800] qsee_fp: dev-AUTH_ID HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603806] qsee_fp: dev-AUTH_ID HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603810] qsee_fp: dev-AUTH_ID HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.603811] qsee_fp: dev-AUTH_ID LOGCONT begin len=222
+[   18.603814] qsee_fp: dev-AUTH_ID LOGCONT end
+[   18.619356] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.619364] qsee_fp: dev-WMODE-0 st=0xde first8=de000000 00000000
+[   18.619368] qsee_fp: dev-WMODE-0 str: (none printable)
+[   18.619375] qsee_fp: dev-WMODE-0 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619383] qsee_fp: dev-WMODE-0 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619390] qsee_fp: dev-WMODE-0 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619396] qsee_fp: dev-WMODE-0 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619403] qsee_fp: dev-WMODE-0 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619410] qsee_fp: dev-WMODE-0 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619416] qsee_fp: dev-WMODE-0 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619420] qsee_fp: dev-WMODE-0 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.619421] qsee_fp: dev-WMODE-0 LOGCONT begin len=222
+[   18.619425] qsee_fp: dev-WMODE-0 LOGCONT end
+[   18.635278] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.635286] qsee_fp: dev-WMODE-1 st=0xde first8=de000000 00000000
+[   18.635291] qsee_fp: dev-WMODE-1 str: (none printable)
+[   18.635299] qsee_fp: dev-WMODE-1 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635307] qsee_fp: dev-WMODE-1 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635314] qsee_fp: dev-WMODE-1 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635321] qsee_fp: dev-WMODE-1 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635328] qsee_fp: dev-WMODE-1 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635334] qsee_fp: dev-WMODE-1 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635341] qsee_fp: dev-WMODE-1 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635344] qsee_fp: dev-WMODE-1 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.635345] qsee_fp: dev-WMODE-1 LOGCONT begin len=222
+[   18.635349] qsee_fp: dev-WMODE-1 LOGCONT end
+[   18.647339] qsee_fp: ION HIT dev-WMODE-2 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.647346] qsee_fp: dev-WMODE-2 st=0xde first8=de000000 00000000
+[   18.647351] qsee_fp: dev-WMODE-2 str: (none printable)
+[   18.647358] qsee_fp: dev-WMODE-2 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647365] qsee_fp: dev-WMODE-2 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647372] qsee_fp: dev-WMODE-2 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647379] qsee_fp: dev-WMODE-2 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647386] qsee_fp: dev-WMODE-2 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647393] qsee_fp: dev-WMODE-2 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647400] qsee_fp: dev-WMODE-2 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647403] qsee_fp: dev-WMODE-2 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.647404] qsee_fp: dev-WMODE-2 LOGCONT begin len=222
+[   18.647408] qsee_fp: dev-WMODE-2 LOGCONT end
+[   18.659877] qsee_fp: ION HIT dev-WMODE-3 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.659898] qsee_fp: dev-WMODE-3 st=0xde first8=de000000 00000000
+[   18.659937] qsee_fp: dev-WMODE-3 str: (none printable)
+[   18.659951] qsee_fp: dev-WMODE-3 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.659965] qsee_fp: dev-WMODE-3 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.659980] qsee_fp: dev-WMODE-3 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.659994] qsee_fp: dev-WMODE-3 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.660009] qsee_fp: dev-WMODE-3 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.660023] qsee_fp: dev-WMODE-3 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.660037] qsee_fp: dev-WMODE-3 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.660045] qsee_fp: dev-WMODE-3 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.660049] qsee_fp: dev-WMODE-3 LOGCONT begin len=222
+[   18.660083] qsee_fp: dev-WMODE-3 LOGCONT end
+[   18.671969] qsee_fp: ION HIT dev-WMODE-4 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.671999] qsee_fp: dev-WMODE-4 st=0xde first8=de000000 00000000
+[   18.672039] qsee_fp: dev-WMODE-4 str: (none printable)
+[   18.672054] qsee_fp: dev-WMODE-4 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672069] qsee_fp: dev-WMODE-4 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672085] qsee_fp: dev-WMODE-4 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672099] qsee_fp: dev-WMODE-4 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672114] qsee_fp: dev-WMODE-4 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672128] qsee_fp: dev-WMODE-4 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672142] qsee_fp: dev-WMODE-4 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672151] qsee_fp: dev-WMODE-4 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.672154] qsee_fp: dev-WMODE-4 LOGCONT begin len=222
+[   18.672188] qsee_fp: dev-WMODE-4 LOGCONT end
+[   18.683972] qsee_fp: ION HIT dev-WMODE-5 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.683994] qsee_fp: dev-WMODE-5 st=0xde first8=de000000 00000000
+[   18.684032] qsee_fp: dev-WMODE-5 str: (none printable)
+[   18.684046] qsee_fp: dev-WMODE-5 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684060] qsee_fp: dev-WMODE-5 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684075] qsee_fp: dev-WMODE-5 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684089] qsee_fp: dev-WMODE-5 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684103] qsee_fp: dev-WMODE-5 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684117] qsee_fp: dev-WMODE-5 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684131] qsee_fp: dev-WMODE-5 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684141] qsee_fp: dev-WMODE-5 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.684145] qsee_fp: dev-WMODE-5 LOGCONT begin len=222
+[   18.684178] qsee_fp: dev-WMODE-5 LOGCONT end
+[   18.686287] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   18.695831] qsee_fp: ION HIT dev-WMODE-6 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.695853] qsee_fp: dev-WMODE-6 st=0xde first8=de000000 00000000
+[   18.695891] qsee_fp: dev-WMODE-6 str: (none printable)
+[   18.695905] qsee_fp: dev-WMODE-6 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695920] qsee_fp: dev-WMODE-6 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695935] qsee_fp: dev-WMODE-6 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695949] qsee_fp: dev-WMODE-6 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695964] qsee_fp: dev-WMODE-6 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695978] qsee_fp: dev-WMODE-6 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.695992] qsee_fp: dev-WMODE-6 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.696000] qsee_fp: dev-WMODE-6 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.696004] qsee_fp: dev-WMODE-6 LOGCONT begin len=222
+[   18.696037] qsee_fp: dev-WMODE-6 LOGCONT end
+[   18.707922] qsee_fp: ION HIT dev-WMODE-7 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.707944] qsee_fp: dev-WMODE-7 st=0xde first8=de000000 00000000
+[   18.707981] qsee_fp: dev-WMODE-7 str: (none printable)
+[   18.707995] qsee_fp: dev-WMODE-7 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708009] qsee_fp: dev-WMODE-7 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708024] qsee_fp: dev-WMODE-7 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708038] qsee_fp: dev-WMODE-7 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708053] qsee_fp: dev-WMODE-7 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708067] qsee_fp: dev-WMODE-7 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708081] qsee_fp: dev-WMODE-7 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708090] qsee_fp: dev-WMODE-7 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.708094] qsee_fp: dev-WMODE-7 LOGCONT begin len=222
+[   18.708127] qsee_fp: dev-WMODE-7 LOGCONT end
+[   18.719897] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x0
+[   18.719920] qsee_fp: dev-SCAN st=0xde first8=de000000 00000000
+[   18.719957] qsee_fp: dev-SCAN str: (none printable)
+[   18.719961] qsee_fp: dev-SCAN LOGCONT begin len=222
+[   18.719994] qsee_fp: dev-SCAN LOGCONT end
+[   18.743394] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.743404] qsee_fp: dev-QFINGER st=0xde first8=de000000 00000000
+[   18.743409] qsee_fp: dev-QFINGER str: (none printable)
+[   18.743417] qsee_fp: dev-QFINGER HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743424] qsee_fp: dev-QFINGER HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743432] qsee_fp: dev-QFINGER HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743438] qsee_fp: dev-QFINGER HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743446] qsee_fp: dev-QFINGER HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743452] qsee_fp: dev-QFINGER HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743459] qsee_fp: dev-QFINGER HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743463] qsee_fp: dev-QFINGER HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   18.743464] qsee_fp: dev-QFINGER LOGCONT begin len=222
+[   18.743467] qsee_fp: dev-QFINGER LOGCONT end
+[   18.759411] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x0
+[   18.759419] qsee_fp: dev-QEVENT st=0xde first8=de000000 00000000
+[   18.759425] qsee_fp: dev-QEVENT str: (none printable)
+[   18.759427] qsee_fp: dev-QEVENT LOGCONT begin len=222
+[   18.759432] qsee_fp: dev-QEVENT LOGCONT end
+[   18.777655] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   18.777690] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[   18.798538] qsee_fp: device-TA probe+auth-path complete
+[   18.798545] qsee_fp: done
+[   19.083574] dw9719 17-000e: Error writing reg 0x0002: -6
+[   19.331883] Bluetooth: RFCOMM TTY layer initialized
+[   19.331895] Bluetooth: RFCOMM socket layer initialized
+[   19.331904] Bluetooth: RFCOMM ver 1.11
+[   19.687078] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   20.659904] dw9719 17-000e: Error writing reg 0x0002: -6
+[   20.688042] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   21.689403] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   22.690227] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   23.691463] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   24.695506] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   25.697032] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   26.612520] amba 7740000.etm: deferred probe pending: (reason unknown)
+[   26.612541] amba 7040000.etm: deferred probe pending: (reason unknown)
+[   26.612546] amba 7140000.etm: deferred probe pending: (reason unknown)
+[   26.612552] amba 7240000.etm: deferred probe pending: (reason unknown)
+[   26.612558] amba 7340000.etm: deferred probe pending: (reason unknown)
+[   26.612563] amba 7440000.etm: deferred probe pending: (reason unknown)
+[   26.612569] amba 7540000.etm: deferred probe pending: (reason unknown)
+[   26.612574] amba 7640000.etm: deferred probe pending: (reason unknown)
+[   26.612591] gcc-sc7280 100000.clock-controller: sync_state() pending due to e1000000.framebuffer
+[   26.612611] gcc-sc7280 100000.clock-controller: sync_state() pending due to 3d6a000.gmu
+[   26.612618] gpu_cc-sc7280 3d90000.clock-controller: sync_state() pending due to 3d6a000.gmu
+[   26.697644] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   27.697847] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   28.699140] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   28.828022] wlan0: authenticate with 3c:37:86:2a:c9:3b (local address=ea:be:a6:7f:34:ff)
+[   28.828049] wlan0: send auth to 3c:37:86:2a:c9:3b (try 1/3)
+[   28.836942] wlan0: authenticated
+[   28.843846] wlan0: associate with 3c:37:86:2a:c9:3b (try 1/3)
+[   28.846860] wlan0: RX AssocResp from 3c:37:86:2a:c9:3b (capab=0x11 status=0 aid=2)
+[   28.855483] wlan0: associated
+[   29.699772] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   30.700514] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   31.714224] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   32.752984] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened
+[   33.786764] qcom_q6v5_pas 3700000.remoteproc: Handover signaled, but it already happened

@@ -1,0 +1,54 @@
+=== KEY HITS ===
+[   25.935656] focaltech_fp focaltech_fp: SPI_CLK ENABLED (wrap1 SE6 / bus 14, icc=1)
+[   25.938798] focaltech_fp focaltech_fp: probe OK FT9362 life: IRQ gpio=34 line=271, RESET=35, VDD=60, /dev/focaltech_fp (listen via sysfs or ioctl)
+[   27.152606] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   27.407041] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   27.407307] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=900 spi_bus=14 spidev=0 =====
+[   27.408462] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[   27.409266] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[   27.410125] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x52a err=0x0 rsp8=0x65746c61
+[   27.467186] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0xffffff33 rsp8=0x65746c61
+[   27.487565] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x52a err=0xfffffffb rsp8=0x65746c61
+[   27.548097] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x22a err=0xffffff33 rsp8=0x65746c61
+[   27.568003] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x52a err=0xffffffff rsp8=0x65746c61
+[   27.587438] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x52a err=0xffffffff rsp8=0x65746c61
+[   27.607811] qsee_fp: ION HIT dev-CHIP_INIT-1023 ret=0 req0=0x80001023 rsp0=0xde err=0xffffffff rsp8=0x0
+[   27.624005] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x0
+[   27.640180] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0x22a err=0xfffffff5 rsp8=0x65746c61
+=== INIT_SPI FULL ===
+[   27.487565] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x52a err=0xfffffffb rsp8=0x65746c61
+[   27.487573] qsee_fp: dev-INIT_SPI-1006 st=0x52a first8=2a050000 00666f63
+[   27.487577] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:config
+[   27.487579] qsee_fp: dev-INIT_SPI-1006 str[1]: error at __config_get_node[config.c:84]: 'Null pointer'.
+[   27.487582] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:config
+[   27.487584] qsee_fp: dev-INIT_SPI-1006 str[3]: no key named 'driver.spi_bus_num', use default value.
+[   27.487585] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:spi
+[   27.487587] qsee_fp: dev-INIT_SPI-1006 str[5]: attaching to QSEE_SPI_DEVICE_1 (QUP0 SE 0)...
+[   27.487589] qsee_fp: dev-INIT_SPI-1006 str[6]: focaltech:ta:config
+[   27.487591] qsee_fp: dev-INIT_SPI-1006 str[7]: error at __config_get_node[config.c:84]: 'Null pointer'.
+[   27.487592] qsee_fp: dev-INIT_SPI-1006 str[8]: focaltech:ta:config
+[   27.487594] qsee_fp: dev-INIT_SPI-1006 str[9]: no key named 'driver.spi_c_s_num', use default value.
+[   27.487596] qsee_fp: dev-INIT_SPI-1006 str[10]: focaltech:ta:config
+[   27.487598] qsee_fp: dev-INIT_SPI-1006 str[11]: error at __config_get_node[config.c:84]: 'Null pointer'.
+[   27.487599] qsee_fp: dev-INIT_SPI-1006 str[12]: focaltech:ta:config
+[   27.487601] qsee_fp: dev-INIT_SPI-1006 str[13]: no key named 'device.spi_default_bps', use default value.
+[   27.487603] qsee_fp: dev-INIT_SPI-1006 str[14]: focaltech:ta:spi
+[   27.487604] qsee_fp: dev-INIT_SPI-1006 str[15]: spi max speed: 4800000 bps.
+[   27.487605] qsee_fp: dev-INIT_SPI-1006 str[16]: focaltech:ta:config
+[   27.487607] qsee_fp: dev-INIT_SPI-1006 str[17]: error at __config_get_node[config.c:84]: 'Null pointer'.
+[   27.487608] qsee_fp: dev-INIT_SPI-1006 str[18]: focaltech:ta:config
+[   27.487610] qsee_fp: dev-INIT_SPI-1006 str[19]: no key named 'device.spi_mode', use default value.
+[   27.487612] qsee_fp: dev-INIT_SPI-1006 str[20]: focaltech:ta:spi
+[   27.487613] qsee_fp: dev-INIT_SPI-1006 str[21]: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[   27.487615] qsee_fp: dev-INIT_SPI-1006 str[22]: focaltech:ta:spi
+[   27.487616] qsee_fp: dev-INIT_SPI-1006 str[23]: error a
+[   27.548122] qsee_fp: dev-PROBE2-100a str[3]: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[   27.548127] qsee_fp: dev-PROBE2-100a str[5]: error at __open_spi[spi.c:76]: 'I/O error'.
+[   27.548295] qsee_fp: dev-PROBE2-100a LOG: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[   27.548301] qsee_fp: dev-PROBE2-100a LOG: error at __open_spi[spi.c:76]: 'I/O error'.
+[   27.640203] qsee_fp: dev-PROBE-9391 str[3]: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[   27.640206] qsee_fp: dev-PROBE-9391 str[5]: error at __open_spi[spi.c:76]: 'I/O error'.
+[   27.640363] qsee_fp: dev-PROBE-9391 LOG: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[   27.640368] qsee_fp: dev-PROBE-9391 LOG: error at __open_spi[spi.c:76]: 'I/O error'.
+=== HEX INIT ===
+=== SYNC LOGS ===

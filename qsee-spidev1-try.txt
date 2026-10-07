@@ -1,0 +1,4 @@
+[  121.224797] qsee_fp: START focal32 ret=-22 res=0xfffffffffffffed3 id=0x0
+[  121.224938] qsee_fp: START focal32 -22
+[  121.274488] qsee_fp: START fingerpr ret=-22 res=0xfffffffffffffed3 id=0x0
+[  121.274705] qsee_fp: START fingerpr -22 (device path may still work)

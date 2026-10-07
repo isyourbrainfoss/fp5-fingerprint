@@ -1,0 +1,8 @@
+#!/bin/sh
+# Launcher: prefer installed share path, else repo-relative.
+export PYTHONUNBUFFERED=1
+if [ -f /usr/local/share/fp5-fp-walkthrough/fp-walkthrough.py ]; then
+  exec python3 /usr/local/share/fp5-fp-walkthrough/fp-walkthrough.py "$@"
+fi
+HERE=$(CDPATH= cd -- "$(dirname "$0")" && pwd)
+exec python3 "$HERE/fp-walkthrough.py" "$@"

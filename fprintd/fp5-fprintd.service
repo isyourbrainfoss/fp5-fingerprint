@@ -1,0 +1,14 @@
+[Unit]
+Description=Fairphone 5 fingerprint daemon (fprintd API)
+Documentation=file:///usr/local/share/fp5-fp-walkthrough
+After=dbus.service
+Conflicts=fprintd.service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/fp5-fprintd
+Restart=on-failure
+RestartSec=1
+
+[Install]
+WantedBy=multi-user.target

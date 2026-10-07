@@ -1,0 +1,1367 @@
+[ 7115.925475] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.925479] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.925482] Call trace:
+[ 7115.925483]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.925487]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.925492]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.925495]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.925499]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.925502]  probe_device_ta+0x1e8/0x1ab4 [qsee_fingerpr]
+[ 7115.925505]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.925509]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.925512]  do_one_initcall+0x9c/0x45c
+[ 7115.925515]  do_init_module+0x64/0x25c
+[ 7115.925517]  load_module+0x11a4/0x1300
+[ 7115.925520]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.925522]  invoke_syscall+0x6c/0x130
+[ 7115.925527]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.925531]  do_el0_svc+0x2c/0x3c
+[ 7115.925535]  el0_svc+0x4c/0x1ac
+[ 7115.925539]  el0t_64_sync_handler+0x88/0x134
+[ 7115.925543]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.925546] ---[ end trace 0000000000000000 ]---
+[ 7115.925547] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.925549] qsee_fp: aux-base-205 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.925552] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.925562] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.925570] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925579] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925588] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925590] qsee_fp: FS cmd=514 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/sw_calib.dat'
+[ 7115.925593] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.925602] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.925611] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925619] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925628] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925637] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925645] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925654] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925663] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925672] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.925674] qsee_fp: FS ree '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.925682] qsee_fp: FS open ok fd=2 '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.926776] ------------[ cut here ]------------
+[ 7115.926779] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.926784] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.926847]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.926863] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.926866] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.926867] Hardware name: Fairphone 5 (DT)
+[ 7115.926868] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.926870] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.926874] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.926877] sp : ffff800080282ed0
+[ 7115.926878] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.926882] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.926885] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.926889] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.926893] x17: ffffa79f32806130 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.926896] x14: ffffa79f32816b50 x13: 0000000000000a3f x12: ffff800080282ee0
+[ 7115.926900] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.926905] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.926908] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.926912] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.926915] Call trace:
+[ 7115.926916]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.926920]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.926924]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.926928]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.926932]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.926935]  probe_device_ta+0x1e8/0x1ab4 [qsee_fingerpr]
+[ 7115.926938]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.926942]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.926946]  do_one_initcall+0x9c/0x45c
+[ 7115.926948]  do_init_module+0x64/0x25c
+[ 7115.926951]  load_module+0x11a4/0x1300
+[ 7115.926954]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.926956]  invoke_syscall+0x6c/0x130
+[ 7115.926960]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.926965]  do_el0_svc+0x2c/0x3c
+[ 7115.926969]  el0_svc+0x4c/0x1ac
+[ 7115.926973]  el0t_64_sync_handler+0x88/0x134
+[ 7115.926977]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.926979] ---[ end trace 0000000000000000 ]---
+[ 7115.926981] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.926983] qsee_fp: aux-base-205 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.926987] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.926996] qsee_fp: LSTNR[000]: 0e 02 00 00 02 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.927004] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927013] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927022] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927024] qsee_fp: FS cmd=526 size=0 flags=0x0 path='\x02'
+[ 7115.927026] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.927035] qsee_fp: LSTNR[000]: 0e 02 00 00 02 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.927044] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927053] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927062] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927070] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927079] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927088] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927097] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927106] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.927109] qsee_fp: FS readfd fd=2 len=256 n=0
+[ 7115.928228] ------------[ cut here ]------------
+[ 7115.928230] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.928237] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.928302]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.928317] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.928320] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.928321] Hardware name: Fairphone 5 (DT)
+[ 7115.928322] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.928324] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.928328] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.928331] sp : ffff800080282ed0
+[ 7115.928332] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.928336] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.928339] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.928343] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.928347] x17: ffffa79f328066d0 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.928350] x14: ffffa79f32816b50 x13: 0000000000000a7b x12: ffff800080282ee0
+[ 7115.928354] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.928357] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.928361] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.928364] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.928368] Call trace:
+[ 7115.928369]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.928373]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.928377]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.928380]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.928384]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.928387]  probe_device_ta+0x1e8/0x1ab4 [qsee_fingerpr]
+[ 7115.928391]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.928394]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.928397]  do_one_initcall+0x9c/0x45c
+[ 7115.928400]  do_init_module+0x64/0x25c
+[ 7115.928403]  load_module+0x11a4/0x1300
+[ 7115.928405]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.928408]  invoke_syscall+0x6c/0x130
+[ 7115.928412]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.928416]  do_el0_svc+0x2c/0x3c
+[ 7115.928421]  el0_svc+0x4c/0x1ac
+[ 7115.928424]  el0t_64_sync_handler+0x88/0x134
+[ 7115.928428]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.928431] ---[ end trace 0000000000000000 ]---
+[ 7115.928447] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.928450] qsee_fp: aux-base-205 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.928453] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.928463] qsee_fp: LSTNR[000]: 09 02 00 00 02 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.928471] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928480] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928489] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928491] qsee_fp: FS cmd=521 size=0 flags=0x0 path='\x02'
+[ 7115.928494] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.928503] qsee_fp: LSTNR[000]: 09 02 00 00 02 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.928512] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928520] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928529] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928538] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928547] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928555] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928564] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.928573] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929658] ------------[ cut here ]------------
+[ 7115.929661] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.929667] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.929730]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.929745] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.929748] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.929749] Hardware name: Fairphone 5 (DT)
+[ 7115.929750] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.929752] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.929756] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.929759] sp : ffff800080282ed0
+[ 7115.929760] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.929764] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.929767] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.929771] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.929775] x17: 3020303020303020 x16: 3030203030203030 x15: 0000000000000003
+[ 7115.929778] x14: ffffa79f32816b50 x13: 0000000000000ab6 x12: ffff800080282ee0
+[ 7115.929782] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.929787] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.929791] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.929794] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.929798] Call trace:
+[ 7115.929799]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.929803]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.929807]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.929811]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.929814]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.929818]  probe_device_ta+0x1e8/0x1ab4 [qsee_fingerpr]
+[ 7115.929821]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.929824]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.929828]  do_one_initcall+0x9c/0x45c
+[ 7115.929830]  do_init_module+0x64/0x25c
+[ 7115.929833]  load_module+0x11a4/0x1300
+[ 7115.929836]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.929839]  invoke_syscall+0x6c/0x130
+[ 7115.929843]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.929848]  do_el0_svc+0x2c/0x3c
+[ 7115.929852]  el0_svc+0x4c/0x1ac
+[ 7115.929856]  el0t_64_sync_handler+0x88/0x134
+[ 7115.929859]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.929862] ---[ end trace 0000000000000000 ]---
+[ 7115.929863] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.929865] qsee_fp: aux-base-205 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.929869] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.929878] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.929886] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929895] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929904] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929906] qsee_fp: FS cmd=540 size=0 flags=0x0 path='\xfe\xff\xff\xff'
+[ 7115.929909] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.929918] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.929927] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929935] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929944] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929954] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929962] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929971] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929980] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929989] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.929991] qsee_fp: FS close fd=-2
+[ 7115.931579] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x0 type=0xee01 data=0x5
+[ 7115.931584] qsee_fp: aux-base-205 ret=0 st=0xffffffff
+[ 7115.959675] ------------[ cut here ]------------
+[ 7115.959682] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.959695] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.959797]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.959820] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.959825] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.959827] Hardware name: Fairphone 5 (DT)
+[ 7115.959829] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.959832] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.959837] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.959841] sp : ffff800080282f90
+[ 7115.959843] x29: ffff800080282fc0 x28: 0000000000000048 x27: 0000000000000033
+[ 7115.959848] x26: ffff80008f8a45c0 x25: ffff80008f37f000 x24: ffff800080283660
+[ 7115.959852] x23: 0000000000000004 x22: ffffa79f32a82000 x21: ffff800080283030
+[ 7115.959857] x20: 0000000000000000 x19: ffff800080283008 x18: ffff8000802a1080
+[ 7115.959861] x17: 0000000000000000 x16: ffff000095b8c4c0 x15: 0000000000000000
+[ 7115.959865] x14: 0000000000000000 x13: 0000000000000001 x12: 000000000000003c
+[ 7115.959870] x11: 0000000000000012 x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.959874] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.959878] x5 : 0000000081801000 x4 : 0000000000000000 x3 : 0000000000000000
+[ 7115.959882] x2 : 0000000000000001 x1 : fffffdffc256e300 x0 : ffffa79f32a82dd0
+[ 7115.959887] Call trace:
+[ 7115.959888]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.959894]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.959902]  app_send_ex+0xb0/0xdc0 [qsee_fingerpr]
+[ 7115.959906]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.959911]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.959915]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.959920]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.959924]  do_one_initcall+0x9c/0x45c
+[ 7115.959928]  do_init_module+0x64/0x25c
+[ 7115.959932]  load_module+0x11a4/0x1300
+[ 7115.959936]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.959939]  invoke_syscall+0x6c/0x130
+[ 7115.959945]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.959951]  do_el0_svc+0x2c/0x3c
+[ 7115.959955]  el0_svc+0x4c/0x1ac
+[ 7115.959962]  el0t_64_sync_handler+0x88/0x134
+[ 7115.959966]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.959970] ---[ end trace 0000000000000000 ]---
+[ 7115.959972] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.959980] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.959992] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 65 72 
+[ 7115.960002] qsee_fp: LSTNR[032]: 73 69 73 74 5f 73 74 6f 72 61 67 65 2e 62 69 6e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960012] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960022] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960024] qsee_fp: FS cmd=527 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/persist_storage.bin'
+[ 7115.960028] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.960038] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 65 72 
+[ 7115.960048] qsee_fp: LSTNR[032]: 73 69 73 74 5f 73 74 6f 72 61 67 65 2e 62 69 6e 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960057] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960067] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960076] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960086] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960095] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960104] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960114] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.960116] qsee_fp: FS ree '/var/lib/fp5-fp/persist_storage.bin'
+[ 7115.960132] qsee_fp: FS mkdir/create done '/var/lib/fp5-fp/persist_storage.bin'
+[ 7115.961128] ------------[ cut here ]------------
+[ 7115.961131] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.961139] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.961227]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.961248] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.961253] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.961255] Hardware name: Fairphone 5 (DT)
+[ 7115.961256] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.961260] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.961265] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.961270] sp : ffff800080282ed0
+[ 7115.961271] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.961276] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.961281] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.961286] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.961291] x17: 622e656761726f74 x16: 735f747369737265 x15: 0000000000000003
+[ 7115.961295] x14: ffffa79f32816b50 x13: 0000000000000b2f x12: ffff800080282ee0
+[ 7115.961300] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.961305] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.961310] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.961315] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.961320] Call trace:
+[ 7115.961321]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.961327]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.961333]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.961338]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.961343]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.961347]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.961352]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.961356]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.961361]  do_one_initcall+0x9c/0x45c
+[ 7115.961364]  do_init_module+0x64/0x25c
+[ 7115.961369]  load_module+0x11a4/0x1300
+[ 7115.961372]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.961376]  invoke_syscall+0x6c/0x130
+[ 7115.961382]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.961388]  do_el0_svc+0x2c/0x3c
+[ 7115.961393]  el0_svc+0x4c/0x1ac
+[ 7115.961399]  el0t_64_sync_handler+0x88/0x134
+[ 7115.961404]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.961407] ---[ end trace 0000000000000000 ]---
+[ 7115.961410] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.961413] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.961420] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.961432] qsee_fp: LSTNR[000]: 0f 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961443] qsee_fp: LSTNR[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961454] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961465] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961468] qsee_fp: FS cmd=527 size=0 flags=0x0 path='(empty)'
+[ 7115.961472] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.961483] qsee_fp: LSTNR[000]: 0f 02 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961494] qsee_fp: LSTNR[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961505] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961515] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961525] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961535] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961545] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961555] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.961565] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962377] ------------[ cut here ]------------
+[ 7115.962379] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.962387] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.962470]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.962491] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.962496] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.962497] Hardware name: Fairphone 5 (DT)
+[ 7115.962499] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.962502] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.962507] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.962512] sp : ffff800080282ed0
+[ 7115.962513] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.962518] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.962523] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.962528] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.962532] x17: 3020303020303020 x16: 3030203030203030 x15: 0000000000000003
+[ 7115.962537] x14: ffffa79f32816b50 x13: 0000000000000b6a x12: ffff800080282ee0
+[ 7115.962542] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.962547] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.962552] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.962556] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.962561] Call trace:
+[ 7115.962563]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.962568]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.962574]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.962578]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.962583]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.962588]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.962592]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.962597]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.962601]  do_one_initcall+0x9c/0x45c
+[ 7115.962604]  do_init_module+0x64/0x25c
+[ 7115.962608]  load_module+0x11a4/0x1300
+[ 7115.962612]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.962615]  invoke_syscall+0x6c/0x130
+[ 7115.962621]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.962627]  do_el0_svc+0x2c/0x3c
+[ 7115.962632]  el0_svc+0x4c/0x1ac
+[ 7115.962639]  el0t_64_sync_handler+0x88/0x134
+[ 7115.962644]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.962647] ---[ end trace 0000000000000000 ]---
+[ 7115.962649] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.962652] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.962657] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.962668] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 00 00 00 00 
+[ 7115.962678] qsee_fp: LSTNR[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962688] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962698] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962700] qsee_fp: FS cmd=527 size=0 flags=0x0 path='/data/vendor/misc/qti_fp'
+[ 7115.962704] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.962715] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 00 00 00 00 
+[ 7115.962725] qsee_fp: LSTNR[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962735] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962745] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962755] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962765] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962775] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962785] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962795] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.962798] qsee_fp: FS ree '/var/lib/fp5-fp'
+[ 7115.962800] qsee_fp: FS mkdir/create done '/var/lib/fp5-fp'
+[ 7115.963593] ------------[ cut here ]------------
+[ 7115.963595] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.963603] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.963687]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.963709] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.963713] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.963714] Hardware name: Fairphone 5 (DT)
+[ 7115.963716] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.963719] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.963724] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.963729] sp : ffff800080282ed0
+[ 7115.963731] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.963735] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.963740] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.963745] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.963750] x17: ffffa79f328082f0 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.963754] x14: ffffa79f32816b50 x13: 0000000000000ba7 x12: ffff800080282ee0
+[ 7115.963759] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.963764] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.963769] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.963773] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.963778] Call trace:
+[ 7115.963780]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.963785]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.963791]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.963795]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.963800]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.963804]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.963809]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.963814]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.963818]  do_one_initcall+0x9c/0x45c
+[ 7115.963821]  do_init_module+0x64/0x25c
+[ 7115.963825]  load_module+0x11a4/0x1300
+[ 7115.963829]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.963832]  invoke_syscall+0x6c/0x130
+[ 7115.963838]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.963843]  do_el0_svc+0x2c/0x3c
+[ 7115.963849]  el0_svc+0x4c/0x1ac
+[ 7115.963854]  el0t_64_sync_handler+0x88/0x134
+[ 7115.963860]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.963863] ---[ end trace 0000000000000000 ]---
+[ 7115.963866] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.963869] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.963873] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.963884] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 73 66 
+[ 7115.963895] qsee_fp: LSTNR[032]: 2f 70 73 66 5f 63 61 6c 69 62 72 61 74 69 6f 6e 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963905] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963915] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963917] qsee_fp: FS cmd=514 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/psf/psf_calibration.dat'
+[ 7115.963921] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.963932] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 73 66 
+[ 7115.963942] qsee_fp: LSTNR[032]: 2f 70 73 66 5f 63 61 6c 69 62 72 61 74 69 6f 6e 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963952] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963962] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963973] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963982] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.963993] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.964003] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.964013] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.964015] qsee_fp: FS ree '/var/lib/fp5-fp/psf/psf_calibration.dat'
+[ 7115.964024] qsee_fp: FS open '/var/lib/fp5-fp/psf/psf_calibration.dat' err=-2
+[ 7115.964951] ------------[ cut here ]------------
+[ 7115.964953] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.964961] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.965044]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.965064] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.965068] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.965070] Hardware name: Fairphone 5 (DT)
+[ 7115.965072] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.965074] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.965079] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.965084] sp : ffff800080282ed0
+[ 7115.965085] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.965090] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.965095] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.965100] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.965105] x17: 2d3d727265202774 x16: 61642e6e6f697461 x15: 0000000000000003
+[ 7115.965109] x14: ffffa79f32816b50 x13: 0000000000000be4 x12: ffff800080282ee0
+[ 7115.965115] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.965120] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.965124] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.965129] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.965134] Call trace:
+[ 7115.965135]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.965141]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.965146]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.965151]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.965155]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.965160]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.965165]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.965169]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.965174]  do_one_initcall+0x9c/0x45c
+[ 7115.965177]  do_init_module+0x64/0x25c
+[ 7115.965181]  load_module+0x11a4/0x1300
+[ 7115.965184]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.965188]  invoke_syscall+0x6c/0x130
+[ 7115.965193]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.965200]  do_el0_svc+0x2c/0x3c
+[ 7115.965205]  el0_svc+0x4c/0x1ac
+[ 7115.965211]  el0t_64_sync_handler+0x88/0x134
+[ 7115.965216]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.965219] ---[ end trace 0000000000000000 ]---
+[ 7115.965221] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.965224] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.965228] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.965240] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 73 66 
+[ 7115.965251] qsee_fp: LSTNR[032]: 2f 70 73 66 5f 63 61 6c 69 62 72 61 74 69 6f 6e 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965260] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965270] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965273] qsee_fp: FS cmd=540 size=0 flags=0x0 path='\xfe\xff\xff\xffa/vendor/misc/qti_fp/psf/psf_calibration.dat'
+[ 7115.965277] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.965288] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 70 73 66 
+[ 7115.965298] qsee_fp: LSTNR[032]: 2f 70 73 66 5f 63 61 6c 69 62 72 61 74 69 6f 6e 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965308] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965318] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965328] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965338] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965348] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965358] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965368] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.965370] qsee_fp: FS close fd=-2
+[ 7115.966165] ------------[ cut here ]------------
+[ 7115.966167] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.966174] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.966257]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.966278] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.966282] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.966284] Hardware name: Fairphone 5 (DT)
+[ 7115.966286] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.966288] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.966293] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.966298] sp : ffff800080282ed0
+[ 7115.966299] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.966304] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.966309] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.966313] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.966318] x17: ffffa79f32808e00 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.966323] x14: ffffa79f32816b50 x13: 0000000000000c20 x12: ffff800080282ee0
+[ 7115.966328] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.966333] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.966338] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.966342] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.966347] Call trace:
+[ 7115.966349]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.966354]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.966359]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.966364]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.966368]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.966373]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.966378]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.966382]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.966387]  do_one_initcall+0x9c/0x45c
+[ 7115.966390]  do_init_module+0x64/0x25c
+[ 7115.966394]  load_module+0x11a4/0x1300
+[ 7115.966398]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.966401]  invoke_syscall+0x6c/0x130
+[ 7115.966406]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.966412]  do_el0_svc+0x2c/0x3c
+[ 7115.966418]  el0_svc+0x4c/0x1ac
+[ 7115.966423]  el0t_64_sync_handler+0x88/0x134
+[ 7115.966428]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.966431] ---[ end trace 0000000000000000 ]---
+[ 7115.966433] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.966436] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.966440] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.966451] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.966461] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966471] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966481] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966484] qsee_fp: FS cmd=514 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/sw_calib.dat'
+[ 7115.966488] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.966499] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.966509] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966519] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966529] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966539] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966550] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966560] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966570] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966580] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.966582] qsee_fp: FS ree '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.966591] qsee_fp: FS open ok fd=3 '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.967365] ------------[ cut here ]------------
+[ 7115.967368] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.967375] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.967459]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.967480] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.967484] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.967485] Hardware name: Fairphone 5 (DT)
+[ 7115.967487] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.967490] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.967495] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.967499] sp : ffff800080282ed0
+[ 7115.967501] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.967506] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.967510] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.967515] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.967520] x17: 00000000c006287d x16: 00000000c006287d x15: 0000000000000003
+[ 7115.967526] x14: ffffa79f32816b50 x13: 0000000000000c5d x12: ffff800080282ee0
+[ 7115.967530] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.967536] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.967541] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.967545] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.967550] Call trace:
+[ 7115.967552]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.967557]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.967562]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.967567]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.967571]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.967576]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.967580]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.967585]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.967589]  do_one_initcall+0x9c/0x45c
+[ 7115.967593]  do_init_module+0x64/0x25c
+[ 7115.967597]  load_module+0x11a4/0x1300
+[ 7115.967600]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.967604]  invoke_syscall+0x6c/0x130
+[ 7115.967609]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.967615]  do_el0_svc+0x2c/0x3c
+[ 7115.967621]  el0_svc+0x4c/0x1ac
+[ 7115.967626]  el0t_64_sync_handler+0x88/0x134
+[ 7115.967632]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.967635] ---[ end trace 0000000000000000 ]---
+[ 7115.967637] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.967639] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.967643] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.967654] qsee_fp: LSTNR[000]: 0e 02 00 00 03 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.967664] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967674] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967684] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967687] qsee_fp: FS cmd=526 size=0 flags=0x0 path='\x03'
+[ 7115.967691] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.967701] qsee_fp: LSTNR[000]: 0e 02 00 00 03 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.967712] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967722] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967732] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967742] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967752] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967763] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967773] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967783] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.967788] qsee_fp: FS readfd fd=3 len=256 n=0
+[ 7115.968733] ------------[ cut here ]------------
+[ 7115.968736] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.968744] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.968831]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.968852] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.968856] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.968858] Hardware name: Fairphone 5 (DT)
+[ 7115.968859] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.968862] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.968867] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.968871] sp : ffff800080282ed0
+[ 7115.968873] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.968878] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.968883] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.968888] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.968892] x17: ffffa79f328099a0 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.968897] x14: ffffa79f32816b50 x13: 0000000000000c99 x12: ffff800080282ee0
+[ 7115.968902] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.968907] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.968912] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.968917] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.968922] Call trace:
+[ 7115.968923]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.968929]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.968934]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.968939]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.968943]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.968948]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.968952]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.968957]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.968961]  do_one_initcall+0x9c/0x45c
+[ 7115.968965]  do_init_module+0x64/0x25c
+[ 7115.968969]  load_module+0x11a4/0x1300
+[ 7115.968972]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.968975]  invoke_syscall+0x6c/0x130
+[ 7115.968981]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.968987]  do_el0_svc+0x2c/0x3c
+[ 7115.968992]  el0_svc+0x4c/0x1ac
+[ 7115.968998]  el0t_64_sync_handler+0x88/0x134
+[ 7115.969003]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.969006] ---[ end trace 0000000000000000 ]---
+[ 7115.969008] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.969011] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.969015] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.969026] qsee_fp: LSTNR[000]: 09 02 00 00 03 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.969036] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969047] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969057] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969060] qsee_fp: FS cmd=521 size=0 flags=0x0 path='\x03'
+[ 7115.969063] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.969074] qsee_fp: LSTNR[000]: 09 02 00 00 03 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.969084] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969094] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969104] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969114] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969124] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969134] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969144] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969154] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.969903] ------------[ cut here ]------------
+[ 7115.969905] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.969913] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.969994]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.970014] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.970018] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.970020] Hardware name: Fairphone 5 (DT)
+[ 7115.970021] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.970024] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.970029] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.970033] sp : ffff800080282ed0
+[ 7115.970035] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.970039] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.970044] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.970049] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.970054] x17: 3020303020303020 x16: 3030203030203030 x15: 0000000000000003
+[ 7115.970058] x14: ffffa79f32816b50 x13: 0000000000000cd4 x12: ffff800080282ee0
+[ 7115.970064] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.970069] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.970073] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.970078] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.970083] Call trace:
+[ 7115.970085]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.970090]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.970095]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.970100]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.970105]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.970109]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.970114]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.970118]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.970123]  do_one_initcall+0x9c/0x45c
+[ 7115.970126]  do_init_module+0x64/0x25c
+[ 7115.970130]  load_module+0x11a4/0x1300
+[ 7115.970133]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.970137]  invoke_syscall+0x6c/0x130
+[ 7115.970142]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.970148]  do_el0_svc+0x2c/0x3c
+[ 7115.970153]  el0_svc+0x4c/0x1ac
+[ 7115.970159]  el0t_64_sync_handler+0x88/0x134
+[ 7115.970164]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.970167] ---[ end trace 0000000000000000 ]---
+[ 7115.970169] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.970171] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.970175] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.970186] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.970196] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970206] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970216] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970219] qsee_fp: FS cmd=540 size=0 flags=0x0 path='\xfe\xff\xff\xff'
+[ 7115.970222] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.970233] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.970243] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970254] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970264] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970273] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970283] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970294] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970304] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970314] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.970316] qsee_fp: FS close fd=-2
+[ 7115.971495] ------------[ cut here ]------------
+[ 7115.971497] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.971506] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.971605]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.971625] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.971629] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.971631] Hardware name: Fairphone 5 (DT)
+[ 7115.971632] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.971635] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.971640] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.971644] sp : ffff800080282ed0
+[ 7115.971646] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.971651] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.971656] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.971660] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.971665] x17: 00000000c006287d x16: 00000000c006287d x15: 0000000000000003
+[ 7115.971671] x14: ffffa79f32816b50 x13: 0000000000000d10 x12: ffff800080282ee0
+[ 7115.971676] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.971680] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.971685] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.971690] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.971695] Call trace:
+[ 7115.971697]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.971702]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.971707]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.971712]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.971716]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.971721]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.971725]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.971730]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.971735]  do_one_initcall+0x9c/0x45c
+[ 7115.971738]  do_init_module+0x64/0x25c
+[ 7115.971742]  load_module+0x11a4/0x1300
+[ 7115.971746]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.971749]  invoke_syscall+0x6c/0x130
+[ 7115.971755]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.971760]  do_el0_svc+0x2c/0x3c
+[ 7115.971766]  el0_svc+0x4c/0x1ac
+[ 7115.971771]  el0t_64_sync_handler+0x88/0x134
+[ 7115.971776]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.971780] ---[ end trace 0000000000000000 ]---
+[ 7115.971782] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.971784] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.971789] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.971800] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 71 66 70 
+[ 7115.971811] qsee_fp: LSTNR[032]: 5f 63 6f 6e 66 69 67 75 72 61 74 69 6f 6e 5f 6f 75 74 70 75 74 2e 74 78 74 00 00 00 00 00 00 00 
+[ 7115.971821] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971830] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971833] qsee_fp: FS cmd=527 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/qfp_configuration_output.txt'
+[ 7115.971838] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.971848] qsee_fp: LSTNR[000]: 0f 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 71 66 70 
+[ 7115.971858] qsee_fp: LSTNR[032]: 5f 63 6f 6e 66 69 67 75 72 61 74 69 6f 6e 5f 6f 75 74 70 75 74 2e 74 78 74 00 00 00 00 00 00 00 
+[ 7115.971868] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971878] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971888] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971898] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971908] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971918] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971928] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.971931] qsee_fp: FS ree '/var/lib/fp5-fp/qfp_configuration_output.txt'
+[ 7115.971942] qsee_fp: FS mkdir/create done '/var/lib/fp5-fp/qfp_configuration_output.txt'
+[ 7115.972809] ------------[ cut here ]------------
+[ 7115.972812] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.972819] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.972902]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.972923] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.972926] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.972928] Hardware name: Fairphone 5 (DT)
+[ 7115.972929] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.972932] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.972937] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.972941] sp : ffff800080282ed0
+[ 7115.972943] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.972948] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.972953] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.972957] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.972962] x17: 6e6f697461727567 x16: 69666e6f635f7066 x15: 0000000000000003
+[ 7115.972967] x14: ffffa79f32816b50 x13: 0000000000000d4d x12: ffff800080282ee0
+[ 7115.972971] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.972976] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.972981] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.972985] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.972990] Call trace:
+[ 7115.972991]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.972997]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.973002]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.973006]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.973011]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.973016]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.973020]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.973025]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.973029]  do_one_initcall+0x9c/0x45c
+[ 7115.973032]  do_init_module+0x64/0x25c
+[ 7115.973036]  load_module+0x11a4/0x1300
+[ 7115.973040]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.973043]  invoke_syscall+0x6c/0x130
+[ 7115.973049]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.973054]  do_el0_svc+0x2c/0x3c
+[ 7115.973060]  el0_svc+0x4c/0x1ac
+[ 7115.973065]  el0t_64_sync_handler+0x88/0x134
+[ 7115.973070]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.973073] ---[ end trace 0000000000000000 ]---
+[ 7115.973076] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.973078] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.973082] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.973093] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.973103] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973114] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973124] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973127] qsee_fp: FS cmd=514 size=0 flags=0x0 path='/data/vendor/misc/qti_fp/sw_calib.dat'
+[ 7115.973130] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.973141] qsee_fp: LSTNR[000]: 02 02 00 00 2f 64 61 74 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.973151] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973161] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973171] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973181] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973192] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973202] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973212] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973223] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.973225] qsee_fp: FS ree '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.973233] qsee_fp: FS open ok fd=4 '/var/lib/fp5-fp/sw_calib.dat'
+[ 7115.973954] ------------[ cut here ]------------
+[ 7115.973957] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.973964] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.974046]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.974066] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.974070] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.974071] Hardware name: Fairphone 5 (DT)
+[ 7115.974073] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.974076] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.974080] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.974085] sp : ffff800080282ed0
+[ 7115.974086] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.974091] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.974096] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.974101] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.974105] x17: ffffa79f3280b080 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.974110] x14: ffffa79f32816b50 x13: 0000000000000d8a x12: ffff800080282ee0
+[ 7115.974115] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.974120] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.974124] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.974129] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.974134] Call trace:
+[ 7115.974135]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.974140]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.974146]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.974150]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.974155]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.974159]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.974164]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.974169]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.974173]  do_one_initcall+0x9c/0x45c
+[ 7115.974176]  do_init_module+0x64/0x25c
+[ 7115.974180]  load_module+0x11a4/0x1300
+[ 7115.974184]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.974187]  invoke_syscall+0x6c/0x130
+[ 7115.974193]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.974198]  do_el0_svc+0x2c/0x3c
+[ 7115.974204]  el0_svc+0x4c/0x1ac
+[ 7115.974209]  el0t_64_sync_handler+0x88/0x134
+[ 7115.974214]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.974217] ---[ end trace 0000000000000000 ]---
+[ 7115.974219] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.974222] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.974226] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.974237] qsee_fp: LSTNR[000]: 0e 02 00 00 04 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.974247] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974257] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974266] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974269] qsee_fp: FS cmd=526 size=0 flags=0x0 path='\x04'
+[ 7115.974273] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.974283] qsee_fp: LSTNR[000]: 0e 02 00 00 04 00 00 00 61 2f 76 65 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.974294] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974304] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974314] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974324] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974334] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974344] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974354] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974364] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.974368] qsee_fp: FS readfd fd=4 len=256 n=0
+[ 7115.975091] ------------[ cut here ]------------
+[ 7115.975093] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.975100] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.975183]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.975203] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.975206] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.975208] Hardware name: Fairphone 5 (DT)
+[ 7115.975210] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.975212] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.975217] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.975221] sp : ffff800080282ed0
+[ 7115.975223] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.975228] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.975233] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.975237] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.975242] x17: ffffa79f3280b608 x16: 0000000000000002 x15: 0000000000000003
+[ 7115.975246] x14: ffffa79f32816b50 x13: 0000000000000dc6 x12: ffff800080282ee0
+[ 7115.975251] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.975256] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.975261] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.975265] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.975270] Call trace:
+[ 7115.975272]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.975277]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.975282]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.975287]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.975292]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.975296]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.975301]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.975306]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.975310]  do_one_initcall+0x9c/0x45c
+[ 7115.975313]  do_init_module+0x64/0x25c
+[ 7115.975317]  load_module+0x11a4/0x1300
+[ 7115.975321]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.975324]  invoke_syscall+0x6c/0x130
+[ 7115.975330]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.975335]  do_el0_svc+0x2c/0x3c
+[ 7115.975341]  el0_svc+0x4c/0x1ac
+[ 7115.975346]  el0t_64_sync_handler+0x88/0x134
+[ 7115.975352]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.975355] ---[ end trace 0000000000000000 ]---
+[ 7115.975357] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.975359] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.975363] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.975374] qsee_fp: LSTNR[000]: 09 02 00 00 04 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.975384] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975395] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975405] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975408] qsee_fp: FS cmd=521 size=0 flags=0x0 path='\x04'
+[ 7115.975411] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.975422] qsee_fp: LSTNR[000]: 09 02 00 00 04 00 00 00 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.975432] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975442] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975452] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975462] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975472] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975482] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975492] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.975503] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976243] ------------[ cut here ]------------
+[ 7115.976245] WARNING: drivers/firmware/qcom/qcom_scm.c:2140 at qcom_scm_qseecom_call+0x140/0x1b4, CPU#7: insmod/6767
+[ 7115.976253] Modules linked in: qsee_fingerpr(OE+) focaltech_fp_life(OE) rfcomm algif_hash algif_skcipher st_nci_i2c(OE) bnep st_nci(OE) nci(OE) nfc(OE) snd_usb_audio_qmi q6usb snd_soc_sm8250 snd_soc_qcom_offload_utils snd_soc_qcom_sdw snd_soc_qcom_common soc_usb snd_usb_audio hci_uart btqca btbcm snd_ump qcom_pd_mapper fastrpc snd_hwdep bluetooth snd_usbmidi_lib snd_rawmidi ledtrig_pattern ecdh_generic ecc qcom_iris qcom_camss dw9719 videobuf2_dma_contig at24 ath11k_ahb s5kjn1 imx858 videobuf2_dma_sg v4l2_mem2mem ath11k aw86927 v4l2_cci videobuf2_memops snd_soc_aw88261 videobuf2_v4l2 mac80211 snd_soc_aw88395_lib videobuf2_common qcom_q6v5_pas cfg80211 ipa qcom_pil_info qcom_q6v5 snd_soc_lpass_va_macro snd_soc_lpass_tx_macro snd_soc_wcd938x snd_soc_lpass_rx_macro soundwire_qcom snd_soc_wcd938x_sdw qcom_common snd_soc_lpass_macro_common rfkill snd_soc_wcd_common libarc4 regmap_sdw snd_soc_wcd_classh snd_soc_wcd_mbhc binfmt_misc tun nft_reject_inet nf_reject_ipv6 nf_reject_ipv4 nft_reject nft_ct nf_conntrack
+[ 7115.976336]  nf_defrag_ipv6 nf_defrag_ipv4 nf_tables nfnetlink uhid fuse usb_f_ncm u_ether goodix_berlin_spi goodix_berlin_core panel_raydium_rm692e5 ptn36502 fsa4480 spi_geni_qcom evdev libcomposite [last unloaded: qsee_fingerpr(OE)]
+[ 7115.976355] CPU: 7 UID: 0 PID: 6767 Comm: insmod Tainted: G        W  OE       7.1.2 #1-postmarketos-qcom-sc7280 PREEMPT 
+[ 7115.976359] Tainted: [W]=WARN, [O]=OOT_MODULE, [E]=UNSIGNED_MODULE
+[ 7115.976361] Hardware name: Fairphone 5 (DT)
+[ 7115.976362] pstate: 60400005 (nZCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[ 7115.976365] pc : qcom_scm_qseecom_call+0x140/0x1b4
+[ 7115.976370] lr : qcom_scm_qseecom_call+0xc0/0x1b4
+[ 7115.976374] sp : ffff800080282ed0
+[ 7115.976375] x29: ffff800080282f00 x28: ffffa79ec26ec18b x27: ffffa79ec26ebd5f
+[ 7115.976380] x26: ffffa79ec26ec50d x25: 000000000000000a x24: ffffa79ec26ec81c
+[ 7115.976385] x23: ffffa79ec26e7000 x22: ffffa79f32a82000 x21: ffff800080282f60
+[ 7115.976390] x20: 0000000000000000 x19: ffff800080282f48 x18: ffff8000802a1088
+[ 7115.976395] x17: 3020303020303020 x16: 3030203030203030 x15: 0000000000000003
+[ 7115.976399] x14: ffffa79f32816b50 x13: 0000000000000e01 x12: ffff800080282ee0
+[ 7115.976404] x11: 000000000000000a x10: 0000000000000000 x9 : ffff000080344100
+[ 7115.976409] x8 : 0000000000000001 x7 : 0000000000000000 x6 : 0000000000000000
+[ 7115.976413] x5 : 0000000000000000 x4 : ffff800080282e58 x3 : 000000000000000a
+[ 7115.976418] x2 : 000000000000ee02 x1 : 0000000000000001 x0 : ffffa79f32a82dd0
+[ 7115.976423] Call trace:
+[ 7115.976424]  qcom_scm_qseecom_call+0x140/0x1b4 (P)
+[ 7115.976429]  inv+0x24/0x34 [qsee_fingerpr]
+[ 7115.976434]  listener_respond+0x88/0xf8 [qsee_fingerpr]
+[ 7115.976439]  app_send_ex+0xa88/0xdc0 [qsee_fingerpr]
+[ 7115.976444]  send_sep+0x148/0x1a4 [qsee_fingerpr]
+[ 7115.976448]  probe_device_ta+0x290/0x1ab4 [qsee_fingerpr]
+[ 7115.976453]  probe_fingerpr+0x3c/0x40 [qsee_fingerpr]
+[ 7115.976457]  init_module+0x26c/0xf3c [qsee_fingerpr]
+[ 7115.976462]  do_one_initcall+0x9c/0x45c
+[ 7115.976465]  do_init_module+0x64/0x25c
+[ 7115.976469]  load_module+0x11a4/0x1300
+[ 7115.976473]  __arm64_sys_finit_module+0x248/0x3b0
+[ 7115.976476]  invoke_syscall+0x6c/0x130
+[ 7115.976481]  el0_svc_common.llvm.843320263568099783+0x9c/0xf4
+[ 7115.976487]  do_el0_svc+0x2c/0x3c
+[ 7115.976493]  el0_svc+0x4c/0x1ac
+[ 7115.976498]  el0t_64_sync_handler+0x88/0x134
+[ 7115.976503]  el0t_64_sync+0x1a0/0x1a4
+[ 7115.976506] ---[ end trace 0000000000000000 ]---
+[ 7115.976520] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[ 7115.976523] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[ 7115.976527] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[ 7115.976538] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.976548] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976558] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976569] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976571] qsee_fp: FS cmd=540 size=0 flags=0x0 path='\xfe\xff\xff\xff'
+[ 7115.976575] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[ 7115.976585] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[ 7115.976595] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976605] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976615] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976625] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976635] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976645] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976655] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976665] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[ 7115.976668] qsee_fp: FS close fd=-2
+[ 7115.977903] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x0 type=0xee01 data=0x5
+[ 7115.977911] qsee_fp: aux-entry-1011 ret=0 st=0xffffffff
+[ 7116.004994] qsee_fp: big sess pa=0xff400000
+[ 7116.006788] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0xde err=0xffffff35 rsp8=0x0
+[ 7116.008114] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[ 7116.011147] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 7116.037339] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7116.069331] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7116.069452] qsee_fp: dev-PROBE1-100a MARK: vio 1.8v success
+[ 7116.096461] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7116.096585] qsee_fp: dev-PROBE2-100a MARK: vio 1.8v success
+[ 7116.348497] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[ 7116.348579] qsee_fp: dev-INIT_DEV-100b MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 7116.877437] qsee_fp: ION HIT dev-LOGCAT-post-initdev ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7116.877519] qsee_fp: dev-LOGCAT-post-initdev MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 7118.382145] qsee_fp: ION HIT dev-LOGCAT-post-initdev2 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7118.382230] qsee_fp: dev-LOGCAT-post-initdev2 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 7118.895198] qsee_fp: ION HIT dev-LOGCAT1-1003 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7118.895290] qsee_fp: dev-LOGCAT1-1003 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 7118.913581] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7118.913684] qsee_fp: dev-CHIP_INIT-1022 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 7118.970911] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 7119.174647] qsee_fp: ION HIT dev-LOGCAT2-1003 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7119.193946] qsee_fp: ION HIT dev-SYNC_CALIB-100f ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7119.213450] qsee_fp: ION HIT dev-SYNC_STATS-100e ret=0 req0=0x8000100e rsp0=0x32a err=0x0 rsp8=0x65746c61
+[ 7119.281857] qsee_fp: ION HIT dev-DEAD_PIXEL-1020 ret=0 req0=0x80001020 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7119.301354] qsee_fp: ION HIT dev-FP_IS_TYPE-1021 ret=0 req0=0x80001021 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7119.403548] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7119.422533] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 7119.459460] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 7119.494621] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 7119.530315] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7119.545402] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7119.577523] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7119.625080] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7119.625204] qsee_fp: dev-QEVENT MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7119.641841] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7119.641934] qsee_fp: dev-PRE_ENROLL MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7119.642350] qsee_fp: PRE_ENROLL er=0 challenge=0x6dfb89c89c8e3e95 skip_enroll=0
+[ 7119.682138] qsee_fp: ION HIT dev-PWR1 ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7119.725119] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7119.727217] qsee_fp: WMODE 0 er=0 err=0x0
+[ 7119.764044] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7119.766705] qsee_fp: WMODE 1 er=0 err=0x0
+[ 7119.785564] qsee_fp: ION HIT dev-WMODE-5 ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7119.789934] qsee_fp: WMODE 5 er=0 err=0x0
+[ 7119.826913] qsee_fp: ION HIT dev-SCAN2 ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7119.827618] qsee_fp: SCAN2 er=0
+[ 7119.861946] qsee_fp: ION HIT dev-cap-zero ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 7119.866461] qsee_fp: cap-zero er=0 err=0xffffff37
+[ 7119.921916] qsee_fp: ION HIT dev-LOGCAT-after-cap0 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7123.025527] qsee_fp: ION HIT dev-cap-meta-p0-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7123.025555] qsee_fp: dev-cap-meta-p0-112x88 MARK: vio 1.8v success
+[ 7123.025819] qsee_fp: dev-cap-meta-p0-112x88 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 7123.025861] qsee_fp: dev-cap-meta-p0-112x88 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7123.025867] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-112x88
+[ 7123.069072] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 7123.069100] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 7123.710466] qsee_fp: ION HIT dev-cap-big-p0-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7123.710492] qsee_fp: dev-cap-big-p0-112x88 MARK: vio 1.8v success
+[ 7123.710753] qsee_fp: dev-cap-big-p0-112x88 MARK: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 7123.710844] qsee_fp: dev-cap-big-p0-112x88 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7126.810079] qsee_fp: ION HIT dev-cap-meta-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7126.810107] qsee_fp: dev-cap-meta-p0-96x96 MARK: vio 1.8v success
+[ 7126.810372] qsee_fp: dev-cap-meta-p0-96x96 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 7126.810416] qsee_fp: dev-cap-meta-p0-96x96 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7126.810423] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-96x96
+[ 7126.853269] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 7126.853298] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 7127.501499] qsee_fp: ION HIT dev-cap-big-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7127.501526] qsee_fp: dev-cap-big-p0-96x96 MARK: vio 1.8v success
+[ 7127.501820] qsee_fp: dev-cap-big-p0-96x96 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 7127.501875] qsee_fp: dev-cap-big-p0-96x96 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7130.624069] qsee_fp: ION HIT dev-cap-meta-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7130.624098] qsee_fp: dev-cap-meta-p0-80x80 MARK: vio 1.8v success
+[ 7130.624371] qsee_fp: dev-cap-meta-p0-80x80 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 7130.624412] qsee_fp: dev-cap-meta-p0-80x80 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7130.624419] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-80x80
+[ 7130.669904] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 7130.669933] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 7131.332360] qsee_fp: ION HIT dev-cap-big-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.332386] qsee_fp: dev-cap-big-p0-80x80 MARK: vio 1.8v success
+[ 7131.332643] qsee_fp: dev-cap-big-p0-80x80 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 7131.332735] qsee_fp: dev-cap-big-p0-80x80 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 7131.412383] qsee_fp: ION HIT dev-INIT-after-fdt ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 7131.519190] qsee_fp: ION HIT dev-SYNC_CALIB-after-fdt ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 7131.573421] qsee_fp: ION HIT dev-LOGCAT-after-reinit ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 7131.608513] qsee_fp: capture path done fdt_ok=1
+[ 7131.650524] qsee_fp: ION HIT dev-PWR-fingerwait ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.664479] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.696900] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.729102] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.745043] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7131.761879] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7131.781861] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7131.825214] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.857984] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.893957] qsee_fp: ION HIT dev-WMODE-fw ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7131.923475] qsee_fp: ION HIT dev-SCAN-fingerwait ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7131.924277] qsee_fp: fingerwait irq0=36084
+[ 7131.924519] qsee_fp: waiting up to 20s for finger (IRQ/TA) FDT ok
+[ 7132.960880] qsee_fp: ION HIT dev-QEVENT-fw ret=0 req0=0x8000101c rsp0=0x32a err=0xb rsp8=0x746c6163
+[ 7132.961044] qsee_fp: dev-QEVENT-fw MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7132.984097] qsee_fp: ION HIT dev-QFINGER-fw ret=0 req0=0x8000101d rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.029573] qsee_fp: ION HIT dev-QEVENT-fw ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.029734] qsee_fp: dev-QEVENT-fw MARK: interrupt type: 0x1000(1=idle 2=down 4=up 8=man 10=inv 20=data 4
+[ 7134.050154] qsee_fp: ION HIT dev-QFINGER-fw ret=0 req0=0x8000101d rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.665725] qsee_fp: L2 IRQ sustained 36084->36087 finger
+[ 7134.665758] qsee_fp: fingerwait done seen=1
+[ 7134.688593] qsee_fp: ION HIT dev-QEVENT2 ret=0 req0=0x8000101c rsp0=0x32a err=0xa rsp8=0x746c6163
+[ 7134.688740] qsee_fp: dev-QEVENT2 MARK: interrupt type: 0x1004(1=idle 2=down 4=up 8=man 10=inv 20=data 4
+[ 7134.724651] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.828973] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.829406] qsee_fp: HEALTH after capture path er=0
+[ 7134.829899] qsee_fp: ION HIT dev-PRE_ENROLL2 ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7134.830004] qsee_fp: ENROLL attempt finger=1 challenge=0x3e7f82285dc58745
+[ 7134.830071] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7134.830091] qsee_fp: L2 vdd+spiclk reassert before enroll
+[ 7134.867796] qsee_fp: ION HIT dev-SYNC-pre-enroll ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 7134.911785] qsee_fp: ION HIT dev-PWR-enroll ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7134.933624] qsee_fp: ION HIT dev-WMODE-5-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7134.986971] qsee_fp: SEG dev-ENROLL-start[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 7134.986985] qsee_fp: dev-ENROLL-start st=0x32a first8=2a030000 00666f63
+[ 7134.986991] qsee_fp: dev-ENROLL-start str[0]: focaltech:ta:interface
+[ 7134.986995] qsee_fp: dev-ENROLL-start str[1]: new fid (= 1098773550) generated.
+[ 7134.987000] qsee_fp: dev-ENROLL-start str[2]: &focaltech:ft93xx:core
+[ 7134.987002] qsee_fp: dev-ENROLL-start str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 7134.987005] qsee_fp: dev-ENROLL-start str[4]: focaltech:ta:trans
+[ 7134.987010] qsee_fp: dev-ENROLL-start str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 7134.987013] qsee_fp: dev-ENROLL-start str[6]: alue.
+[ 7134.987017] qsee_fp: dev-ENROLL-start str[7]: focaltech:ta:config
+[ 7134.987020] qsee_fp: dev-ENROLL-start str[8]: no key named 'device.gesturing_mode', use default value.
+[ 7134.987024] qsee_fp: dev-ENROLL-start str[9]: focaltech:ta:config
+[ 7134.987027] qsee_fp: dev-ENROLL-start str[10]: no key named 'device.enable_hw_reset_b4_scanning', use default value.
+[ 7134.987030] qsee_fp: dev-ENROLL-start str[11]: focaltech:ta:config
+[ 7134.987033] qsee_fp: ENROLL start er=0 err=0x0 (expect one new fid)
+[ 7134.987469] qsee_fp: ION HIT dev-WMODE-5-post-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 7135.025336] qsee_fp: ION HIT dev-SCAN-enroll-loop ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7135.048597] qsee_fp: *** HOLD FINGER NOW — 8 CAP samples (~64s) ***
+[ 7135.048607] qsee_fp: *** PRESS/LIFT finger sample 0/8 ***
+[ 7135.048738] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7136.095636] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7136.095800] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7137.154584] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7137.155001] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7138.213596] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7138.214013] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7139.274594] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7139.275011] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7140.333763] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7140.334181] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7141.383748] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7141.384166] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7142.433574] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7142.433737] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7143.493983] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7143.494298] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7143.497479] qsee_fp: sample 0 no IRQ/DOWN — skip CAP
+[ 7143.497494] qsee_fp: *** PRESS/LIFT finger sample 1/8 ***
+[ 7143.497641] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7144.553589] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7144.554006] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7145.614833] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7145.615248] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7146.674593] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7146.675010] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7147.723755] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7147.724174] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7148.770583] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7148.770745] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7149.829680] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7149.830038] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7150.889582] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7150.890000] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7151.949597] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7151.950016] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7151.953519] qsee_fp: sample 1 no IRQ/DOWN — skip CAP
+[ 7151.953534] qsee_fp: *** PRESS/LIFT finger sample 2/8 ***
+[ 7151.953720] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7153.009602] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7153.010020] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7154.059780] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7154.060199] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7155.104644] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7155.104809] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7156.162724] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7156.163141] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7157.222579] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7157.222998] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7158.281194] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7158.281528] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7159.335175] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7159.335510] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7160.384879] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7160.385297] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7160.388785] qsee_fp: sample 2 no IRQ/DOWN — skip CAP
+[ 7160.388799] qsee_fp: *** PRESS/LIFT finger sample 3/8 ***
+[ 7160.388984] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7161.432585] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7161.432748] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7162.490606] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7162.491024] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7163.549586] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7163.550005] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7164.608584] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7164.609002] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7165.668580] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7165.668997] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7166.720880] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7166.721298] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7167.769605] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7167.769770] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7168.829590] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7168.830007] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7168.833487] qsee_fp: sample 3 no IRQ/DOWN — skip CAP
+[ 7168.833501] qsee_fp: *** PRESS/LIFT finger sample 4/8 ***
+[ 7168.833672] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7169.888596] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7169.889012] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7170.950576] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7170.950993] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7172.008589] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7172.009007] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7173.060912] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7173.061330] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7174.108581] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7174.108745] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7175.164588] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7175.165006] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7176.225606] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7176.226026] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7177.290600] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7177.291019] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7177.294518] qsee_fp: sample 4 no IRQ/DOWN — skip CAP
+[ 7177.294533] qsee_fp: *** PRESS/LIFT finger sample 5/8 ***
+[ 7177.294718] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7178.349643] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7178.350059] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7179.399778] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7179.400197] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7180.446596] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7180.446760] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7181.506691] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7181.507096] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7182.565691] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7182.566109] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7183.625459] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7183.625810] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7184.685590] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7184.686008] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7185.736881] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7185.737300] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7185.740806] qsee_fp: sample 5 no IRQ/DOWN — skip CAP
+[ 7185.740820] qsee_fp: *** PRESS/LIFT finger sample 6/8 ***
+[ 7185.741004] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7186.786647] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7186.786811] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7187.846581] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7187.846998] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7188.905586] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7188.906005] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7189.964584] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7189.965003] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7191.025646] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7191.026065] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7192.076963] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7192.077381] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7193.126577] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7193.126739] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7194.185584] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7194.186001] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7194.189685] qsee_fp: sample 6 no IRQ/DOWN — skip CAP
+[ 7194.189698] qsee_fp: *** PRESS/LIFT finger sample 7/8 ***
+[ 7194.189868] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 7195.245614] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7195.246034] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7196.305598] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7196.306016] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7197.365582] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7197.365999] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7198.415837] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 7198.416254] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7199.462580] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7199.462743] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7200.522581] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7200.522999] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7201.581589] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7201.582006] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7202.642593] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 7202.643009] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7202.646486] qsee_fp: sample 7 no IRQ/DOWN — skip CAP
+[ 7202.646500] qsee_fp: enroll sample loop done rem_seen=0
+[ 7202.647814] qsee_fp: ION HIT dev-POST_ENROLL ret=0 req0=0x80002002 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 7202.648212] qsee_fp: dev-POST_ENROLL MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7202.707270] qsee_fp: ION HIT dev-ENUM-after-enroll ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 7202.707603] qsee_fp: dev-ENUM-after-enroll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 7202.770603] qsee_fp: ION HIT dev-AUTH ret=0 req0=0x80002008 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 7202.770846] qsee_fp: dev-AUTH MARK: broken off.
+[ 7202.774458] qsee_fp: AUTH er=0 err=0x0 rem_seen=0
+[ 7202.858682] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 7202.859059] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[ 7202.859116] qsee_fp: device-TA probe+auth-path complete
+[ 7202.859118] qsee_fp: done

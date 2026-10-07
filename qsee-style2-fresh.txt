@@ -1,0 +1,16 @@
+=== RESULTS ===
+[   21.735430] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   22.080925] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   22.081201] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=505 spi_bus=14 spidev=0 =====
+[   22.082322] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[   22.083073] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[   22.084775] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[   22.100531] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[   22.117047] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   22.136572] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   22.152581] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[   22.174233] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[   22.189466] qsee_fp: ION dev-CHIP_INIT-1023 ret=-22 req0=0x1023 rsp0=0x0 err=0x0
+[   22.206452] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   22.221347] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   22.229158] qsee_fp: dev-sm-PROBE ret=-22 st=0x0

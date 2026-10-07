@@ -1,0 +1,43 @@
+qsee_fingerpr          20480  0
+qsee_probe_fp5         12288  0
+[   58.812487] qsee_fp: init
+[   58.827371] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=377 spi_bus=14 spidev=0 =====
+[   58.828395] qsee_fp: big sess pa=0xff200000
+[   58.828670] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.828677] qsee_fp: ION dev-base-205 ret=-22 req0=0x205 rsp0=0x0 err=0x0
+[   58.828791] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.828793] qsee_fp: ION dev-entry-1011 ret=-22 req0=0x1011 rsp0=0x0 err=0x0
+[   58.828904] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.828906] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[   58.843176] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.843183] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[   58.858889] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.858898] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   58.875253] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.875263] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   58.895106] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.895121] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[   58.911445] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.911458] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[   58.930845] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.930855] qsee_fp: ION dev-CHIP_INIT-1023 ret=-22 req0=0x1023 rsp0=0x0 err=0x0
+[   58.946919] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.946946] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   58.962901] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.962918] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   58.964013] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   58.964036] qsee_fp: dev-sm-PROBE ret=-22 st=0x0
+[   58.964361] qsee_fp: device-TA probe complete
+[   58.964370] qsee_fp: done
+[   66.292877] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=378 spi_bus=14 spidev=0 =====
+[   66.294759] qsee_fp: ION dev-base-205 ret=-22 req0=0x205 rsp0=0x0 err=0x0
+[   66.294885] qsee_fp: ION dev-entry-1011 ret=-22 req0=0x1011 rsp0=0x0 err=0x0
+[   66.295010] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[   66.309271] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[   66.325279] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   66.341170] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[   66.357090] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[   66.373066] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[   66.389115] qsee_fp: ION dev-CHIP_INIT-1023 ret=-22 req0=0x1023 rsp0=0x0 err=0x0
+[   66.404894] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   66.421041] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0

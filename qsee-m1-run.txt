@@ -1,0 +1,52 @@
+=== Linux fairphone-fp5 7.1.2 #1-postmarketos-qcom-sc7280 SMP PREEMPT Mon Jul 13 21:02:06 UTC  aarch64 Linux ===
+=== insmod probe ===
+=== modprobe stock qcom_qseecom stack ===
+=== lsmod ===
+qsee_probe_fp5         12288  0
+=== sysfs ===
+/sys/devices/platform/qcom_qseecom
+/sys/devices/platform/qcom_qseecom/qcom_qseecom.uefisecapp.0
+/sys/bus/platform/devices/qcom_qseecom
+/sys/bus/platform/drivers/qcom_qseecom
+/sys/bus/platform/drivers/qcom_qseecom/qcom_qseecom
+/sys/bus/auxiliary/devices/qcom_qseecom.uefisecapp.0
+/sys/bus/auxiliary/drivers/qcom_qseecom_uefisecapp
+/sys/bus/auxiliary/drivers/qcom_qseecom_uefisecapp/qcom_qseecom.uefisecapp.0
+/sys/module/qsee_probe_fp5
+/sys/module/qcom_qseecom_uefisecapp
+/sys/module/qcom_qseecom_uefisecapp/drivers/auxiliary:qcom_qseecom_uefisecapp
+lrwxrwxrwx    1 root     root             0 Jul 26 07:36 qcom_qseecom -> ../../../devices/platform/qcom_qseecom
+total 0
+drwxr-xr-x    2 root     root             0 Jan  1  1970 .
+drwxr-xr-x    4 root     root             0 Jan  1  1970 ..
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 aux_bridge.aux_bridge.0 -> ../../../devices/platform/soc@0/88e8000.phy/aux_bridge.aux_bridge.0
+lrwxrwxrwx    1 root     root             0 Jul 25 21:02 aux_bridge.aux_bridge.1 -> ../../../devices/platform/soc@0/9c0000.geniqup/990000.i2c/i2c-4/4-001a/aux_bridge.aux_bridge.1
+lrwxrwxrwx    1 root     root             0 Jul 25 21:02 aux_hpd_bridge.dp_hpd_bridge.0 -> ../../../devices/platform/pmic-glink/pmic_glink.altmode.0/aux_hpd_bridge.dp_hpd_bridge.0
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 pmic_glink.altmode.0 -> ../../../devices/platform/pmic-glink/pmic_glink.altmode.0
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 pmic_glink.power-supply.0 -> ../../../devices/platform/pmic-glink/pmic_glink.power-supply.0
+lrwxrwxrwx    1 root     root             0 Jan  1  1970 pmic_glink.ucsi.0 -> ../../../devices/platform/pmic-glink/pmic_glink.ucsi.0
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 q6usb.qc-usb-audio-offload.0 -> ../../../devices/platform/soc@0/3700000.remoteproc/remoteproc/remoteproc1/3700000.remoteproc:glink-edge/3700000.remoteproc:glink-edge.apr_audio_svc.-1.-1/aprsvc:service:4:4/3700000.remoteproc:glink-edge:apr:service@4:usbd/q6usb.qc-usb-audio-offload.0
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 qcom_common.pd-mapper.0 -> ../../../devices/platform/soc@0/4080000.remoteproc/remoteproc/remoteproc0/qcom_common.pd-mapper.0
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 qcom_common.pd-mapper.1 -> ../../../devices/platform/soc@0/3700000.remoteproc/remoteproc/remoteproc1/qcom_common.pd-mapper.1
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 qcom_common.pd-mapper.2 -> ../../../devices/platform/soc@0/8a00000.remoteproc/remoteproc/remoteproc2/qcom_common.pd-mapper.2
+lrwxrwxrwx    1 root     root             0 Jul 25 21:22 qcom_common.pd-mapper.3 -> ../../../devices/platform/soc@0/a300000.remoteproc/remoteproc/remoteproc3/qcom_common.pd-mapper.3
+lrwxrwxrwx    1 root     root             0 Jul 26 07:36 qcom_qseecom.uefisecapp.0 -> ../../../devices/platform/qcom_qseecom/qcom_qseecom.uefisecapp.0
+=== dmesg ===
+[38026.453896] qsee_probe_fp5: starting (force_pdev=1)
+[38026.454479] qcom_qseecom qcom_qseecom: setting up client for qcom.tz.uefisecapp
+[38026.454611] qsee_probe_fp5: registered platform device qcom_qseecom
+[38026.454616] qsee_probe_fp5: --- TZ app lookup (already-resident apps only) ---
+[38026.454690] qsee_probe_fp5: LOOKUP qcom.tz.uefisecapp   -> app_id=0x2 (2) OK
+[38026.454747] qsee_probe_fp5: LOOKUP uefisecapp           -> not loaded (-ENOENT)
+[38026.454799] qsee_probe_fp5: LOOKUP fingerpr             -> not loaded (-ENOENT)
+[38026.454848] qsee_probe_fp5: LOOKUP focal32              -> not loaded (-ENOENT)
+[38026.454901] qsee_probe_fp5: LOOKUP fingerprint          -> not loaded (-ENOENT)
+[38026.454955] qsee_probe_fp5: LOOKUP keymaster64          -> app_id=0x1 (1) OK
+[38026.455007] qsee_probe_fp5: LOOKUP keymaster            -> not loaded (-ENOENT)
+[38026.455058] qsee_probe_fp5: LOOKUP widevine             -> not loaded (-ENOENT)
+[38026.455110] qsee_probe_fp5: LOOKUP rtic                 -> not loaded (-ENOENT)
+[38026.455160] qsee_probe_fp5: LOOKUP smplap64             -> not loaded (-ENOENT)
+[38026.455228] qsee_probe_fp5: LOOKUP qseecom_sample       -> not loaded (-ENOENT)
+[38026.455232] qsee_probe_fp5: --- lookup done ---
+[38026.455236] qsee_probe_fp5: next: modprobe qcom_qseecom; check dmesg for uefisecapp client
+=== DONE enable-qsee-probe ===

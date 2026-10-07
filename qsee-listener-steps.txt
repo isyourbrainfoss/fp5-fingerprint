@@ -1,0 +1,13 @@
+insmod: ERROR: could not load module /tmp/qsee_probe_fp5.ko: No such file or directory
+L2_OK
+[   84.223090] qsee_fp: init
+[   84.245309] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[   84.245550] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[   84.245557] qsee_fp: FILE_SERVICE listener registered OK
+[   84.245561] qsee_fp: probe_level=2 listener-only done
+L1_OK
+[   84.325499] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[   84.325753] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[   84.531042] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   84.788075] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   84.788339] qsee_fp: probe_level=1 START only f32=4 fp=5

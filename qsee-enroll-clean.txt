@@ -1,0 +1,466 @@
+=== CLEAN ENROLL ===
+[   46.243107] qsee_fp: init
+[   46.467884] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   46.728226] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   46.728515] qsee_fp: ===== DEVICE TA id=4 aux=5 ion 0x78000/0x8040 cfg_len=633 spi_bus=14 spidev=0 =====
+[   46.731149] qsee_fp: aux-base-205 ret=0 st=0xffffffff
+[   46.757627] qsee_fp: aux-entry-1011 ret=0 st=0xffffffff
+[   46.779971] qsee_fp: big sess pa=0xff200000
+[   46.780813] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[   46.780820] qsee_fp: dev-base-205 st=0x22a first8=2a020000 00666f63
+[   46.780825] qsee_fp: dev-base-205 str[0]: focaltech:ta:base
+[   46.780828] qsee_fp: dev-base-205 str[1]: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[   46.780831] qsee_fp: dev-base-205 str[2]: focaltech:ta:base
+[   46.780834] qsee_fp: dev-base-205 str[3]: TEE environment checking...
+[   46.780836] qsee_fp: dev-base-205 str[4]: focaltech:ta:base
+[   46.780839] qsee_fp: dev-base-205 str[5]: testing timing...0(0)ms.
+[   46.780841] qsee_fp: dev-base-205 str[6]: focaltech:ta:base
+[   46.780842] qsee_fp: dev-base-205 str[7]: testing msleep(50)...50ms.
+[   46.780844] qsee_fp: dev-base-205 str[8]: focaltech:ta:base
+[   46.780847] qsee_fp: dev-base-205 str[9]: TA is successfully created.
+[   46.780850] qsee_fp: dev-base-205 str[10]: focaltech:ta:entry
+[   46.780854] qsee_fp: dev-base-205 str[11]: QSEE TA is ready.
+[   46.780866] qsee_fp: dev-base-205 HEX[000]: 2a 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 
+[   46.780875] qsee_fp: dev-base-205 HEX[032]: 00 00 00 00 00 76 65 72 73 69 6f 6e 3a 20 27 76 32 2e 35 2e 33 2e 30 2d 63 64 66 30 66 38 30 2d 
+[   46.780884] qsee_fp: dev-base-205 HEX[064]: 32 33 30 36 31 34 40 30 39 32 38 27 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[   46.780893] qsee_fp: dev-base-205 HEX[096]: 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 45 45 20 65 6e 76 69 72 6f 6e 6d 65 
+[   46.780901] qsee_fp: dev-base-205 HEX[128]: 6e 74 20 63 68 65 63 6b 69 6e 67 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 
+[   46.780911] qsee_fp: dev-base-205 HEX[160]: 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 74 69 6d 69 
+[   46.780919] qsee_fp: dev-base-205 HEX[192]: 6e 67 2e 2e 2e 30 28 30 29 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[   46.780928] qsee_fp: dev-base-205 HEX[224]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 6d 73 6c 65 65 70 
+[   46.780936] qsee_fp: dev-base-205 HEX[256]: 28 35 30 29 2e 2e 2e 35 30 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[   46.780945] qsee_fp: dev-base-205 HEX[288]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 41 20 69 73 20 73 75 63 63 65 73 73 66 
+[   46.780953] qsee_fp: dev-base-205 HEX[320]: 75 6c 6c 79 20 63 72 65 61 74 65 64 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[   46.780962] qsee_fp: dev-base-205 HEX[352]: 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 51 53 45 45 20 54 41 20 69 73 20 72 65 
+[   46.780970] qsee_fp: dev-base-205 HEX[384]: 61 64 79 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.780979] qsee_fp: dev-base-205 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.780987] qsee_fp: dev-base-205 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.780996] qsee_fp: dev-base-205 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.780997] qsee_fp: dev-base-205 LOGCONT begin len=554
+[   46.781000] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   46.781002] qsee_fp: dev-base-205 LOG: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[   46.781004] qsee_fp: dev-base-205 LOG: !
+[   46.781006] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   46.781009] qsee_fp: dev-base-205 LOG: TEE environment checking...
+[   46.781011] qsee_fp: dev-base-205 LOG: !
+[   46.781012] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   46.781016] qsee_fp: dev-base-205 LOG: testing timing...0(0)ms.
+[   46.781017] qsee_fp: dev-base-205 LOG: !
+[   46.781019] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   46.781022] qsee_fp: dev-base-205 LOG: testing msleep(50)...50ms.
+[   46.781023] qsee_fp: dev-base-205 LOG: !
+[   46.781025] qsee_fp: dev-base-205 LOG: focaltech:ta:base
+[   46.781027] qsee_fp: dev-base-205 LOG: TA is successfully created.
+[   46.781029] qsee_fp: dev-base-205 LOG: !
+[   46.781031] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[   46.781032] qsee_fp: dev-base-205 LOG: QSEE TA is ready.
+[   46.781036] qsee_fp: dev-base-205 LOGCONT end
+[   46.781524] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[   46.781527] qsee_fp: dev-entry-1011 st=0x32a first8=2a030000 00666f63
+[   46.781530] qsee_fp: dev-entry-1011 str[0]: focaltech:ta:entry
+[   46.781532] qsee_fp: dev-entry-1011 str[1]: keymaster identity: ''.
+[   46.781534] qsee_fp: dev-entry-1011 str[2]: focaltech:ta:entry
+[   46.781536] qsee_fp: dev-entry-1011 str[3]: encapsulated key data (0):
+[   46.781538] qsee_fp: dev-entry-1011 str[4]: focaltech:ta:entry
+[   46.781540] qsee_fp: dev-entry-1011 str[5]: decapsulated key data (32):
+[   46.781542] qsee_fp: dev-entry-1011 str[6]: focaltech:util
+[   46.781545] qsee_fp: dev-entry-1011 str[7]: 0000  00 00 00 00 00 00 00 00  |........|
+[   46.781547] qsee_fp: dev-entry-1011 str[8]: focaltech:util
+[   46.781549] qsee_fp: dev-entry-1011 str[9]: 0008  00 00 00 00 00 00 00 00  |........|
+[   46.781551] qsee_fp: dev-entry-1011 str[10]: focaltech:util
+[   46.781553] qsee_fp: dev-entry-1011 str[11]: 0010  00 00 00 00 00 00 00 00  |........|
+[   46.781555] qsee_fp: dev-entry-1011 str[12]: focaltech:util
+[   46.781557] qsee_fp: dev-entry-1011 str[13]: 0018  00 00 00 00 00 00 00 00  |........|
+[   46.781570] qsee_fp: dev-entry-1011 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[   46.781579] qsee_fp: dev-entry-1011 HEX[032]: 00 00 00 00 00 6b 65 79 6d 61 73 74 65 72 20 69 64 65 6e 74 69 74 79 3a 20 27 27 2e 00 21 03 00 
+[   46.781587] qsee_fp: dev-entry-1011 HEX[064]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.781596] qsee_fp: dev-entry-1011 HEX[096]: 00 00 65 6e 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 30 29 3a 00 21 03 00 
+[   46.781604] qsee_fp: dev-entry-1011 HEX[128]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.781613] qsee_fp: dev-entry-1011 HEX[160]: 00 00 64 65 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 33 32 29 3a 00 21 02 
+[   46.781622] qsee_fp: dev-entry-1011 HEX[192]: 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.781630] qsee_fp: dev-entry-1011 HEX[224]: 00 00 00 30 30 30 30 20 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 
+[   46.781639] qsee_fp: dev-entry-1011 HEX[256]: 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 
+[   46.781647] qsee_fp: dev-entry-1011 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 30 30 38 20 20 30 30 20 30 30 20 30 30 
+[   46.781655] qsee_fp: dev-entry-1011 HEX[320]: 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 
+[   46.781663] qsee_fp: dev-entry-1011 HEX[352]: 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   46.781672] qsee_fp: dev-entry-1011 HEX[384]: 00 30 30 31 30 20 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 
+[   46.781680] qsee_fp: dev-entry-1011 HEX[416]: 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 21 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 75 74 69 6c 00 00 
+[   46.781689] qsee_fp: dev-entry-1011 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 30 30 31 38 20 20 30 30 20 30 30 20 30 30 20 30 
+[   46.781697] qsee_fp: dev-entry-1011 HEX[480]: 30 20 30 30 20 30 30 20 30 30 20 30 30 20 20 7c 2e 2e 2e 2e 2e 2e 2e 2e 7c 00 de 00 00 00 00 00 
+[   46.781698] qsee_fp: dev-entry-1011 LOGCONT begin len=810
+[   46.781700] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   46.781702] qsee_fp: dev-entry-1011 LOG: keymaster identity: ''.
+[   46.781704] qsee_fp: dev-entry-1011 LOG: !
+[   46.781706] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   46.781707] qsee_fp: dev-entry-1011 LOG: encapsulated key data (0):
+[   46.781709] qsee_fp: dev-entry-1011 LOG: !
+[   46.781710] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[   46.781713] qsee_fp: dev-entry-1011 LOG: decapsulated key data (32):
+[   46.781714] qsee_fp: dev-entry-1011 LOG: !
+[   46.781716] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   46.781718] qsee_fp: dev-entry-1011 LOG: 0000  00 00 00 00 00 00 00 00  |........|
+[   46.781720] qsee_fp: dev-entry-1011 LOG: !
+[   46.781721] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   46.781723] qsee_fp: dev-entry-1011 LOG: 0008  00 00 00 00 00 00 00 00  |........|
+[   46.781725] qsee_fp: dev-entry-1011 LOG: !
+[   46.781726] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   46.781728] qsee_fp: dev-entry-1011 LOG: 0010  00 00 00 00 00 00 00 00  |........|
+[   46.781729] qsee_fp: dev-entry-1011 LOG: !
+[   46.781731] qsee_fp: dev-entry-1011 LOG: focaltech:util
+[   46.781733] qsee_fp: dev-entry-1011 LOG: 0018  00 00 00 00 00 00 00 00  |........|
+[   46.781738] qsee_fp: dev-entry-1011 LOGCONT end
+[   46.782300] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   46.782303] qsee_fp: dev-SYNC_CFG-100d st=0x42a first8=2a040000 00666f63
+[   46.782307] qsee_fp: dev-SYNC_CFG-100d str[0]: focaltech:ta:config
+[   46.782310] qsee_fp: dev-SYNC_CFG-100d str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   46.782313] qsee_fp: dev-SYNC_CFG-100d str[2]: focaltech:ta:config
+[   46.782315] qsee_fp: dev-SYNC_CFG-100d str[3]: configurations is synced to TA.
+[   46.782317] qsee_fp: dev-SYNC_CFG-100d str[4]: focaltech:ta:config
+[   46.782319] qsee_fp: dev-SYNC_CFG-100d str[5]: no key named 'extension.health_check_timing', use default value.
+[   46.782321] qsee_fp: dev-SYNC_CFG-100d str[6]: focaltech:ta:config
+[   46.782323] qsee_fp: dev-SYNC_CFG-100d str[7]: no key named 'device.gesturing_mode', use default value.
+[   46.782326] qsee_fp: dev-SYNC_CFG-100d str[8]: focaltech:ta:config
+[   46.782328] qsee_fp: dev-SYNC_CFG-100d str[9]: no key named 'device.spi_capture_bps', use default value.
+[   46.782330] qsee_fp: dev-SYNC_CFG-100d str[10]: focaltech:ta:config
+[   46.782333] qsee_fp: dev-SYNC_CFG-100d str[11]: no key named 'device.burst_acquisition_num', use default value.
+[   46.782335] qsee_fp: dev-SYNC_CFG-100d str[12]: focaltech:ta:config
+[   46.782337] qsee_fp: dev-SYNC_CFG-100d str[13]: no key named 'device.enable_hw_reset_b4_scanning', use default value.
+[   46.782339] qsee_fp: dev-SYNC_CFG-100d str[14]: focaltech:ta:config
+[   46.782341] qsee_fp: dev-SYNC_CFG-100d str[15]: no key named 'driver.keycode_simulation', use default value.
+[   46.782343] qsee_fp: dev-SYNC_CFG-100d str[16]: focaltech:ta:config
+[   46.782346] qsee_fp: dev-SYNC_CFG-100d str[17]: no key named 'extension.enable_fast_screen_unlock', use default value.
+[   46.782348] qsee_fp: dev-SYNC_CFG-100d str[18]: focaltech:ta:config
+[   46.782350] qsee_fp: dev-SYNC_CFG-100d str[19]: no key named 'common.max_pre_processing_rescan_times', use default value.
+[   46.782352] qsee_fp: dev-SYNC_CFG-100d str[20]: focaltech:ta:config
+[   46.795889] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x0
+[   46.795897] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00000000
+[   46.795903] qsee_fp: dev-INIT_SPI-1006 str: (none printable)
+[   46.795905] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[   46.795910] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[   46.824152] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   46.824163] qsee_fp: dev-PROBE1-100a st=0x32a first8=2a030000 00666f63
+[   46.824172] qsee_fp: dev-PROBE1-100a str[0]: focaltech:ta:device
+[   46.824177] qsee_fp: dev-PROBE1-100a str[1]: registering chips...
+[   46.824182] qsee_fp: dev-PROBE1-100a str[2]: focaltech:ta:config
+[   46.824187] qsee_fp: dev-PROBE1-100a str[3]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824192] qsee_fp: dev-PROBE1-100a str[4]: focaltech:ta:config
+[   46.824197] qsee_fp: dev-PROBE1-100a str[5]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824202] qsee_fp: dev-PROBE1-100a str[6]: focaltech:ta:config
+[   46.824207] qsee_fp: dev-PROBE1-100a str[7]: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824212] qsee_fp: dev-PROBE1-100a str[8]: &focaltech:ft93xx:afe
+[   46.824216] qsee_fp: dev-PROBE1-100a str[9]: set chip vio 1.8v success
+[   46.824225] qsee_fp: dev-PROBE1-100a LOGCONT begin len=810
+[   46.824229] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:device
+[   46.824233] qsee_fp: dev-PROBE1-100a LOG: registering chips...
+[   46.824237] qsee_fp: dev-PROBE1-100a LOG: !
+[   46.824241] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   46.824246] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824250] qsee_fp: dev-PROBE1-100a LOG: !
+[   46.824254] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   46.824259] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824262] qsee_fp: dev-PROBE1-100a LOG: !
+[   46.824264] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:config
+[   46.824268] qsee_fp: dev-PROBE1-100a LOG: error at __config_get_string[config.c:139]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[   46.824271] qsee_fp: dev-PROBE1-100a LOG: !
+[   46.824273] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[   46.824276] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v success
+[   46.824283] qsee_fp: dev-PROBE1-100a LOGCONT end
+[   46.847276] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   46.847287] qsee_fp: dev-PROBE2-100a st=0x32a first8=2a030000 0026666f
+[   46.847298] qsee_fp: dev-PROBE2-100a str[0]: &focaltech:ft93xx:afe
+[   46.847308] qsee_fp: dev-PROBE2-100a str[1]: set chip vio 1.8v success
+[   46.847416] qsee_fp: dev-PROBE2-100a LOGCONT begin len=810
+[   46.847422] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[   46.847431] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v success
+[   46.847536] qsee_fp: dev-PROBE2-100a LOGCONT end
+[   47.103368] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   47.103373] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[   47.103376] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[   47.103379] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[   47.103381] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[   47.103384] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[   47.103385] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[   47.103388] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   47.103389] qsee_fp: dev-INIT_DEV-100b str[6]: focaltech:ta:file
+[   47.103392] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   47.103394] qsee_fp: dev-INIT_DEV-100b str[8]: focaltech:ta:file
+[   47.103396] qsee_fp: dev-INIT_DEV-100b str[9]: error at ff_file_open[file.c:83]: 'I/O error'.
+[   47.103398] qsee_fp: dev-INIT_DEV-100b str[10]: focaltech:ta:device
+[   47.103400] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   47.103402] qsee_fp: dev-INIT_DEV-100b str[12]: focaltech:efc
+[   47.103404] qsee_fp: dev-INIT_DEV-100b str[13]: efc data not exist, skip.
+[   47.103406] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:afe
+[   47.103407] qsee_fp: dev-INIT_DEV-100b str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   47.103409] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:afe
+[   47.103410] qsee_fp: dev-INIT_DEV-100b str[17]: chip feature, io controlleable and
+[   47.103411] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[   47.103413] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   47.103414] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[   47.103416] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103417] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   47.103419] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[   47.103420] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103422] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   47.103424] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   47.103425] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103426] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   47.103429] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERI
+[   47.103430] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103431] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   47.103434] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:83]: 'I/O error'.
+[   47.103435] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103436] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   47.103438] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   47.103439] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103440] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:efc
+[   47.103442] qsee_fp: dev-INIT_DEV-100b LOG: efc data not exist, skip.
+[   47.103443] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103445] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   47.103446] qsee_fp: dev-INIT_DEV-100b LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   47.103448] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   47.103449] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   47.103450] qsee_fp: dev-INIT_DEV-100b LOG: chip feature, io controlle
+[   47.103451] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[   47.151353] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   47.151359] qsee_fp: dev-INIT-1004 st=0x42a first8=2a040000 00666f63
+[   47.151363] qsee_fp: dev-INIT-1004 str[0]: focaltech:ta:config
+[   47.151366] qsee_fp: dev-INIT-1004 str[1]: no key named 'common.image_processing_cols', use default value.
+[   47.151369] qsee_fp: dev-INIT-1004 str[2]: focaltech:ta:config
+[   47.151371] qsee_fp: dev-INIT-1004 str[3]: no key named 'common.image_processing_rows', use default value.
+[   47.151373] qsee_fp: dev-INIT-1004 str[4]: focaltech:ta:config
+[   47.151375] qsee_fp: dev-INIT-1004 str[5]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   47.151376] qsee_fp: dev-INIT-1004 str[6]: focaltech:ta:config
+[   47.151378] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   47.151380] qsee_fp: dev-INIT-1004 str[8]: focaltech:ta:config
+[   47.151382] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   47.151383] qsee_fp: dev-INIT-1004 str[10]: focaltech:ta:config
+[   47.151386] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   47.151387] qsee_fp: dev-INIT-1004 str[12]: focaltech:ta:config
+[   47.151389] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   47.151390] qsee_fp: dev-INIT-1004 str[14]: focaltech:ta:config
+[   47.151392] qsee_fp: dev-INIT-1004 str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   47.151393] qsee_fp: dev-INIT-1004 str[16]: focaltech:ta:config
+[   47.151395] qsee_fp: dev-INIT-1004 str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   47.151397] qsee_fp: dev-INIT-1004 str[18]: focaltech:ta:config
+[   47.167213] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x0
+[   47.167217] qsee_fp: dev-CHIP_INIT-1022 st=0xde first8=de000000 00000000
+[   47.167221] qsee_fp: dev-CHIP_INIT-1022 str: (none printable)
+[   47.167222] qsee_fp: dev-CHIP_INIT-1022 LOGCONT begin len=222
+[   47.167225] qsee_fp: dev-CHIP_INIT-1022 LOGCONT end
+[   47.256291] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   47.256297] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[   47.256300] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[   47.256302] qsee_fp: dev-HEALTH-1016 str[1]: last:694 692 689 682   0   0   0   0
+[   47.256304] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[   47.256306] qsee_fp: dev-HEALTH-1016 str[3]: curr:695 694 688 684 49212   0   0   0
+[   47.256308] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[   47.256310] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[   47.256316] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[   47.256318] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   47.256320] qsee_fp: dev-HEALTH-1016 LOG: last:694 692 689 682   0   0   0   0
+[   47.256321] qsee_fp: dev-HEALTH-1016 LOG: !
+[   47.256323] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   47.256325] qsee_fp: dev-HEALTH-1016 LOG: curr:695 694 688 684 49212   0   0   0
+[   47.256326] qsee_fp: dev-HEALTH-1016 LOG: !
+[   47.256327] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[   47.256329] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[   47.256337] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[   47.276389] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0xde err=0xfffffff5 rsp8=0x0
+[   47.276392] qsee_fp: dev-PROBE-9391 st=0xde first8=de000000 00000000
+[   47.276395] qsee_fp: dev-PROBE-9391 str: (none printable)
+[   47.276402] qsee_fp: dev-PROBE-9391 HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276409] qsee_fp: dev-PROBE-9391 HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276416] qsee_fp: dev-PROBE-9391 HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276423] qsee_fp: dev-PROBE-9391 HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276430] qsee_fp: dev-PROBE-9391 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276437] qsee_fp: dev-PROBE-9391 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276443] qsee_fp: dev-PROBE-9391 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276447] qsee_fp: dev-PROBE-9391 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.276447] qsee_fp: dev-PROBE-9391 LOGCONT begin len=222
+[   47.276451] qsee_fp: dev-PROBE-9391 LOGCONT end
+[   47.277188] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   47.277191] qsee_fp: dev-SET_GROUP-0 st=0x32a first8=2a030000 00666f63
+[   47.277194] qsee_fp: dev-SET_GROUP-0 str[0]: focaltech:ta:interface
+[   47.277196] qsee_fp: dev-SET_GROUP-0 str[1]: loading templates for gid = 0...
+[   47.277198] qsee_fp: dev-SET_GROUP-0 str[2]: focaltech:ta:interface
+[   47.277200] qsee_fp: dev-SET_GROUP-0 str[3]: there is 0 template loaded.
+[   47.277215] qsee_fp: dev-SET_GROUP-0 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   47.277224] qsee_fp: dev-SET_GROUP-0 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   47.277232] qsee_fp: dev-SET_GROUP-0 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[   47.277241] qsee_fp: dev-SET_GROUP-0 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[   47.277249] qsee_fp: dev-SET_GROUP-0 HEX[128]: 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277255] qsee_fp: dev-SET_GROUP-0 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277262] qsee_fp: dev-SET_GROUP-0 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277269] qsee_fp: dev-SET_GROUP-0 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277276] qsee_fp: dev-SET_GROUP-0 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277283] qsee_fp: dev-SET_GROUP-0 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277289] qsee_fp: dev-SET_GROUP-0 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277296] qsee_fp: dev-SET_GROUP-0 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277303] qsee_fp: dev-SET_GROUP-0 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277309] qsee_fp: dev-SET_GROUP-0 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277316] qsee_fp: dev-SET_GROUP-0 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277323] qsee_fp: dev-SET_GROUP-0 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.277324] qsee_fp: dev-SET_GROUP-0 LOGCONT begin len=810
+[   47.277325] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[   47.277328] qsee_fp: dev-SET_GROUP-0 LOG: loading templates for gid = 0...
+[   47.277329] qsee_fp: dev-SET_GROUP-0 LOG: !
+[   47.277330] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[   47.277332] qsee_fp: dev-SET_GROUP-0 LOG: there is 0 template loaded.
+[   47.277341] qsee_fp: dev-SET_GROUP-0 LOGCONT end
+[   47.311671] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   47.311675] qsee_fp: dev-SET_GROUP-1 st=0x32a first8=2a030000 00666f63
+[   47.311679] qsee_fp: dev-SET_GROUP-1 str[0]: focaltech:ta:interface
+[   47.311682] qsee_fp: dev-SET_GROUP-1 str[1]: loading templates for gid = 0...
+[   47.311685] qsee_fp: dev-SET_GROUP-1 str[2]: focaltech:ta:interface
+[   47.311687] qsee_fp: dev-SET_GROUP-1 str[3]: there is 0 template loaded.
+[   47.311700] qsee_fp: dev-SET_GROUP-1 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   47.311707] qsee_fp: dev-SET_GROUP-1 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   47.311714] qsee_fp: dev-SET_GROUP-1 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[   47.311721] qsee_fp: dev-SET_GROUP-1 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[   47.311727] qsee_fp: dev-SET_GROUP-1 HEX[128]: 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311734] qsee_fp: dev-SET_GROUP-1 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311740] qsee_fp: dev-SET_GROUP-1 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311746] qsee_fp: dev-SET_GROUP-1 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311753] qsee_fp: dev-SET_GROUP-1 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311760] qsee_fp: dev-SET_GROUP-1 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311766] qsee_fp: dev-SET_GROUP-1 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311773] qsee_fp: dev-SET_GROUP-1 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311779] qsee_fp: dev-SET_GROUP-1 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311786] qsee_fp: dev-SET_GROUP-1 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311792] qsee_fp: dev-SET_GROUP-1 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311799] qsee_fp: dev-SET_GROUP-1 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.311800] qsee_fp: dev-SET_GROUP-1 LOGCONT begin len=810
+[   47.311801] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[   47.311803] qsee_fp: dev-SET_GROUP-1 LOG: loading templates for gid = 0...
+[   47.311804] qsee_fp: dev-SET_GROUP-1 LOG: !
+[   47.311805] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[   47.311807] qsee_fp: dev-SET_GROUP-1 LOG: there is 0 template loaded.
+[   47.311815] qsee_fp: dev-SET_GROUP-1 LOGCONT end
+[   47.347532] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   47.347538] qsee_fp: dev-SET_GROUP-2 st=0x32a first8=2a030000 00666f63
+[   47.347542] qsee_fp: dev-SET_GROUP-2 str[0]: focaltech:ta:interface
+[   47.347544] qsee_fp: dev-SET_GROUP-2 str[1]: loading templates for gid = 0...
+[   47.347546] qsee_fp: dev-SET_GROUP-2 str[2]: focaltech:ta:interface
+[   47.347548] qsee_fp: dev-SET_GROUP-2 str[3]: there is 0 template loaded.
+[   47.347562] qsee_fp: dev-SET_GROUP-2 HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   47.347570] qsee_fp: dev-SET_GROUP-2 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   47.347577] qsee_fp: dev-SET_GROUP-2 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[   47.347583] qsee_fp: dev-SET_GROUP-2 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[   47.347591] qsee_fp: dev-SET_GROUP-2 HEX[128]: 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347598] qsee_fp: dev-SET_GROUP-2 HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347604] qsee_fp: dev-SET_GROUP-2 HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347611] qsee_fp: dev-SET_GROUP-2 HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347618] qsee_fp: dev-SET_GROUP-2 HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347625] qsee_fp: dev-SET_GROUP-2 HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347632] qsee_fp: dev-SET_GROUP-2 HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347638] qsee_fp: dev-SET_GROUP-2 HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347645] qsee_fp: dev-SET_GROUP-2 HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347651] qsee_fp: dev-SET_GROUP-2 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347658] qsee_fp: dev-SET_GROUP-2 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347664] qsee_fp: dev-SET_GROUP-2 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.347665] qsee_fp: dev-SET_GROUP-2 LOGCONT begin len=810
+[   47.347667] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[   47.347668] qsee_fp: dev-SET_GROUP-2 LOG: loading templates for gid = 0...
+[   47.347669] qsee_fp: dev-SET_GROUP-2 LOG: !
+[   47.347671] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[   47.347673] qsee_fp: dev-SET_GROUP-2 LOG: there is 0 template loaded.
+[   47.347681] qsee_fp: dev-SET_GROUP-2 LOGCONT end
+[   47.383200] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   47.383206] qsee_fp: dev-ENUM st=0xde first8=de000000 00000000
+[   47.383211] qsee_fp: dev-ENUM str: (none printable)
+[   47.383220] qsee_fp: dev-ENUM HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383229] qsee_fp: dev-ENUM HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383239] qsee_fp: dev-ENUM HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383248] qsee_fp: dev-ENUM HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383258] qsee_fp: dev-ENUM HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383265] qsee_fp: dev-ENUM HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383272] qsee_fp: dev-ENUM HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383275] qsee_fp: dev-ENUM HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.383276] qsee_fp: dev-ENUM LOGCONT begin len=222
+[   47.383280] qsee_fp: dev-ENUM LOGCONT end
+[   47.399488] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   47.399495] qsee_fp: dev-AUTH_ID st=0xde first8=de000000 00000000
+[   47.399499] qsee_fp: dev-AUTH_ID str: (none printable)
+[   47.399506] qsee_fp: dev-AUTH_ID HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399513] qsee_fp: dev-AUTH_ID HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399520] qsee_fp: dev-AUTH_ID HEX[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399528] qsee_fp: dev-AUTH_ID HEX[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399535] qsee_fp: dev-AUTH_ID HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399542] qsee_fp: dev-AUTH_ID HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399549] qsee_fp: dev-AUTH_ID HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399552] qsee_fp: dev-AUTH_ID HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.399553] qsee_fp: dev-AUTH_ID LOGCONT begin len=222
+[   47.399557] qsee_fp: dev-AUTH_ID LOGCONT end
+[   47.415762] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x0
+[   47.415769] qsee_fp: dev-SCAN st=0xde first8=de000000 00000000
+[   47.415774] qsee_fp: dev-SCAN str: (none printable)
+[   47.415775] qsee_fp: dev-SCAN LOGCONT begin len=222
+[   47.415780] qsee_fp: dev-SCAN LOGCONT end
+[   47.440208] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x0
+[   47.440216] qsee_fp: dev-QEVENT st=0xde first8=de000000 00000000
+[   47.440222] qsee_fp: dev-QEVENT str: (none printable)
+[   47.440225] qsee_fp: dev-QEVENT LOGCONT begin len=222
+[   47.440231] qsee_fp: dev-QEVENT LOGCONT end
+[   47.456577] qsee_fp: ION HIT dev-SET_GROUP-store ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[   47.456589] qsee_fp: dev-SET_GROUP-store st=0x32a first8=2a030000 00666f63
+[   47.456597] qsee_fp: dev-SET_GROUP-store str[0]: focaltech:ta:interface
+[   47.456604] qsee_fp: dev-SET_GROUP-store str[1]: loading templates for gid = 0...
+[   47.456609] qsee_fp: dev-SET_GROUP-store str[2]: focaltech:ta:interface
+[   47.456614] qsee_fp: dev-SET_GROUP-store str[3]: there is 0 template loaded.
+[   47.456640] qsee_fp: dev-SET_GROUP-store HEX[000]: 2a 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[   47.456657] qsee_fp: dev-SET_GROUP-store HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[   47.456672] qsee_fp: dev-SET_GROUP-store HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[   47.456684] qsee_fp: dev-SET_GROUP-store HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[   47.456695] qsee_fp: dev-SET_GROUP-store HEX[128]: 6f 61 64 65 64 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456706] qsee_fp: dev-SET_GROUP-store HEX[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456718] qsee_fp: dev-SET_GROUP-store HEX[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456728] qsee_fp: dev-SET_GROUP-store HEX[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456739] qsee_fp: dev-SET_GROUP-store HEX[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456750] qsee_fp: dev-SET_GROUP-store HEX[288]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456761] qsee_fp: dev-SET_GROUP-store HEX[320]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456771] qsee_fp: dev-SET_GROUP-store HEX[352]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456783] qsee_fp: dev-SET_GROUP-store HEX[384]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456794] qsee_fp: dev-SET_GROUP-store HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456805] qsee_fp: dev-SET_GROUP-store HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456817] qsee_fp: dev-SET_GROUP-store HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   47.456819] qsee_fp: dev-SET_GROUP-store LOGCONT begin len=810
+[   47.456822] qsee_fp: dev-SET_GROUP-store LOG: focaltech:ta:interface
+[   47.456825] qsee_fp: dev-SET_GROUP-store LOG: loading templates for gid = 0...
+[   47.456827] qsee_fp: dev-SET_GROUP-store LOG: !
+[   47.456830] qsee_fp: dev-SET_GROUP-store LOG: focaltech:ta:interface
+[   47.456833] qsee_fp: dev-SET_GROUP-store LOG: there is 0 template loaded.
+[   47.456845] qsee_fp: dev-SET_GROUP-store LOGCONT end
+[   47.493050] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x0
+[   47.493061] qsee_fp: dev-PRE_ENROLL st=0xde first8=de000000 00000000
+[   47.493068] qsee_fp: dev-PRE_ENROLL str: (none printable)
+[   47.493070] qsee_fp: dev-PRE_ENROLL LOGCONT begin len=222
+[   47.493076] qsee_fp: dev-PRE_ENROLL LOGCONT end
+[   47.516456] qsee_fp: PRE_ENROLL er=0 challenge=0x62d010b2883e811f (c1=62d010b2883e811f c2=0 c3=62d010b2883e811f)
+[   47.516485] qsee_fp: PRE req[0..31]: 00 20 00 80 08 00 00 00 00 00 00 00 00 00 00 00 1f 81 3e 88 b2 10 d0 62 00 00 00 00 00 00 00 00
+[   47.516510] qsee_fp: PRE rsp[0..31]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   47.519050] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   47.519064] qsee_fp: ION dev-ENROLL-plen0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   47.542923] qsee_fp: ENROLL plen0 er=-22
+[   47.543114] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   47.543141] qsee_fp: ION dev-ENROLL-s0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   47.543148] qsee_fp: dev-ENROLL-s0 er=-22 (finger on sensor if waiting)
+[   47.951478] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   47.951514] qsee_fp: ION dev-ENROLL-s1 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   47.951523] qsee_fp: dev-ENROLL-s1 er=-22 (finger on sensor if waiting)
+[   48.367662] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   48.367702] qsee_fp: ION dev-ENROLL-s2 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   48.367714] qsee_fp: dev-ENROLL-s2 er=-22 (finger on sensor if waiting)
+[   48.783326] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   48.783371] qsee_fp: ION dev-POST_ENROLL ret=-22 req0=0x2002 rsp0=0x0 err=0x0
+[   48.783387] qsee_fp: POST_ENROLL er=-22
+[   48.807193] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   48.807216] qsee_fp: ION dev-SET_GROUP-after ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[   48.830970] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   48.830992] qsee_fp: ION dev-ENUM-after ret=-22 req0=0x1028 rsp0=0x0 err=0x0
+[   48.847003] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   48.847025] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[   48.875795] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[   48.903219] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[   48.931215] qsee_fp: ION fp-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0
+[   48.955176] qsee_fp: device-TA probe+auth-path complete
+[   48.955190] qsee_fp: done

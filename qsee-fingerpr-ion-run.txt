@@ -1,0 +1,58 @@
+[  709.473631] qsee_fp: init
+[  709.492448] qsee_fp: ===== fingerpr id=5 (base f32=4) ion 0x78000/0x8040 =====
+[  709.495178] qsee_fp: HIT f32-warmup ret=0
+[  709.495191] qsee_fp: f32-warmup st=0xde first8=de000000 00000000
+[  709.497009] qsee_fp: HIT f32-km ret=0
+[  709.497020] qsee_fp: f32-km st=0x32a first8=2a030000 00666f63
+[  709.497093] qsee_fp: f32-km str: focaltech:ta:entry|keymaster identity: ''.|focaltech:ta:entry|encapsulated key data (0):|focaltech:ta:entry|decapsulated key data (32):|focaltech:util|0000  00 
+[  709.498193] qsee_fp: big sess pa=0xff200000 sz=0x80040
+[  709.498304] qsee_fp: REGION pa=0xff200000 sz=0x80040 ret=-22 res=0x0
+[  709.502179] qsee_fp: ION HIT ion-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.502190] qsee_fp: ion-INIT-1004 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.502215] qsee_fp: req-side st=0x1004 first8=04100000 00000000
+[  709.504719] qsee_fp: ION HIT ion-CREATE-1001 ret=0 req0=0x1001 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.504734] qsee_fp: ion-CREATE-1001 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.504764] qsee_fp: req-side st=0x1001 first8=01100000 00000000
+[  709.507719] qsee_fp: ION HIT ion-SEGMENTED-1000 ret=0 req0=0x1000 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.507732] qsee_fp: ion-SEGMENTED-1000 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.507762] qsee_fp: req-side st=0x1000 first8=00100000 00000000
+[  709.510318] qsee_fp: ION HIT ion-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.510330] qsee_fp: ion-INIT_SPI-1006 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.510357] qsee_fp: req-side st=0x1006 first8=06100000 00000000
+[  709.512966] qsee_fp: ION HIT ion-PROBE-100a ret=0 req0=0x100a rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.512977] qsee_fp: ion-PROBE-100a st=0xffffffff first8=ffffffff eeeeeeee
+[  709.513005] qsee_fp: req-side st=0x100a first8=0a100000 01000000
+[  709.515369] qsee_fp: ION HIT ion-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.515379] qsee_fp: ion-INIT_DEV-100b st=0xffffffff first8=ffffffff eeeeeeee
+[  709.515407] qsee_fp: req-side st=0x100b first8=0b100000 00000000
+[  709.517915] qsee_fp: ION HIT ion-CHIP_INIT-1023 ret=0 req0=0x1023 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.517926] qsee_fp: ion-CHIP_INIT-1023 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.517952] qsee_fp: req-side st=0x1023 first8=23100000 00000000
+[  709.520302] qsee_fp: ION HIT ion-HEALTH-1016 ret=0 req0=0x1016 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.520312] qsee_fp: ion-HEALTH-1016 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.520339] qsee_fp: req-side st=0x1016 first8=16100000 04000000
+[  709.522426] qsee_fp: ION HIT ion-SET_KM-1011 ret=0 req0=0x1011 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.522435] qsee_fp: ion-SET_KM-1011 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.522460] qsee_fp: req-side st=0x1011 first8=11100000 00000000
+[  709.524843] qsee_fp: ION HIT ion-VER205-205 ret=0 req0=0x205 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.524852] qsee_fp: ion-VER205-205 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.524878] qsee_fp: req-side st=0x205 first8=05020000 02000000
+[  709.526904] qsee_fp: ION HIT ion-FREE-1005 ret=0 req0=0x1005 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.526914] qsee_fp: ion-FREE-1005 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.526939] qsee_fp: req-side st=0x1005 first8=05100000 00000000
+[  709.529168] qsee_fp: ION HIT ion-SYNC_CFG-100d ret=0 req0=0x100d rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.529178] qsee_fp: ion-SYNC_CFG-100d st=0xffffffff first8=ffffffff eeeeeeee
+[  709.529203] qsee_fp: req-side st=0x100d first8=0d100000 00000000
+[  709.531232] qsee_fp: ION HIT ion-START_SCAN-1012 ret=0 req0=0x1012 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.531242] qsee_fp: ion-START_SCAN-1012 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.531267] qsee_fp: req-side st=0x1012 first8=12100000 30000000
+[  709.533962] qsee_fp: ION HIT ion-TA_1022-1022 ret=0 req0=0x1022 rsp0=0xffffffff req8=0x0 rsp8=0xeeeeeeee
+[  709.533972] qsee_fp: ion-TA_1022-1022 st=0xffffffff first8=ffffffff eeeeeeee
+[  709.533980] qsee_fp: req-side st=0x1022 first8=22100000 00000000
+[  709.535849] qsee_fp: CUS 1k-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  709.537991] qsee_fp: CUS 840-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  709.539722] qsee_fp: CUS sm-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  709.541742] qsee_fp: CUS sm-VER ret=0 req0=0x205 rsp0=0xffffffff
+[  709.544107] qsee_fp: sep-INIT ret=0 st=0xffffffff
+[  709.544213] qsee_fp: fingerpr probe complete
+[  709.544216] qsee_fp: done

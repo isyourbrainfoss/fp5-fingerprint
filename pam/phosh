@@ -1,0 +1,8 @@
+#%PAM-1.0
+# Fingerprint via fprintd (fp5-fprintd). Timeout so PIN is not delayed forever.
+# Phosh 0.56 starts this stack on PIN submit; lock-watcher covers finger-only.
+auth     sufficient pam_fprintd.so max-tries=1 timeout=8
+auth     include    base-auth
+account  include    base-account
+password include    base-password
+session  include    base-session

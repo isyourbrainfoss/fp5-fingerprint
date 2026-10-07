@@ -1,0 +1,41 @@
+=== PLAN VERIFICATION ===
+2026-07-27T05:19:50+02:00
+scp artifacts/qsee-modules/qsee_fingerpr.ko lab/fingerprint/run-enroll-hold-finger.sh fp5-pmos:/tmp/
+ssh fp5-pmos 'sudo sh /tmp/run-enroll-hold-finger.sh'
+dmesg | grep -E 'frame raw|enrolling\.|rem = |rem_seen=1|AUTH|broken'
+agent: cannot press power-button FP sensor — criterion 5 applies
+
+sn_num=5
+soft_success=2
+fdt_ok=1
+img_calib=19
+enroll_start=1
+force_cap=8
+cap_vio_ok=8
+frame_raw=0
+enrolling=0
+rem_eq=0
+rem_seen1=0
+broken=1
+health=1
+qbootctl_active=False
+
+STEP1_PASS=True
+STEP2_PASS=True
+STEP2_IMG_CALIB=True
+STEP3_MATCH=False
+STEP3_CRITERION5=True
+STEP4_PASS=True
+
+STEP3 gating artifact: lab/fingerprint/BLOCKER-ENROLL-AUTH.md
+Exact missing action: Hold/lift power-button FP on each *** PRESS/LIFT finger sample N ***
+Why agent cannot: no physical access to the fingerprint sensor
+Success if user: frame raw | enrolling... rem | rem_seen=1 | AUTH without broken off
+EXCERPT: [ 4990.774254] qsee_fp: dev-INIT_DEV-100b MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+EXCERPT: [ 5003.242642] qsee_fp: capture path done fdt_ok=1
+EXCERPT: [ 5003.511433] qsee_fp: ENROLL start er=0 err=0x0 (expect one new fid)
+EXCERPT: [ 5007.020018] qsee_fp: dev-WMODE-5-post-warmup MARK: img calibration->try: 1, AVG DAC_Temp:120, ucLastDAC:120, usMidd
+EXCERPT: [ 5007.079023] qsee_fp: *** HOLD FINGER NOW — 8 CAP samples (~40s) force_cap=1 ***
+EXCERPT: [ 5101.084336] qsee_fp: enroll sample loop done rem_seen=0
+EXCERPT: [ 5101.201545] qsee_fp: dev-AUTH MARK: broken off.
+EXCERPT: [ 5101.279743] qsee_fp: HEALTH final er=0 (TA alive if 0)

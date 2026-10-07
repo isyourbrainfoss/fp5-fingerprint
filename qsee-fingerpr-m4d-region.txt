@@ -1,0 +1,36 @@
+[  136.332300] qsee_fp: init
+[  136.486360] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[  136.582697] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[  136.582952] qsee_fp: ===== fingerpr id=5 (base f32=4) ion 0x78000/0x8040 =====
+[  136.584019] qsee_fp: HIT f32-warmup ret=0
+[  136.584022] qsee_fp: f32-warmup st=0x22a first8=2a020000 00666f63
+[  136.584031] qsee_fp: f32-warmup str: focaltech:ta:base|version: 'v2.5.3.0-cdf0f80-230614@0928'.|focaltech:ta:base|TEE environment checking...|focaltech:ta:base|testing timing...0(0)ms.|focaltech:ta
+[  136.585348] qsee_fp: HIT f32-km ret=0
+[  136.585351] qsee_fp: f32-km st=0x32a first8=2a030000 00666f63
+[  136.585359] qsee_fp: f32-km str: focaltech:ta:entry|keymaster identity: ''.|focaltech:ta:entry|encapsulated key data (0):|focaltech:ta:entry|decapsulated key data (32):|focaltech:util|0000  00 
+[  136.585597] qsee_fp: big sess pa=0xff200000 sz=0x80040
+[  136.585642] qsee_fp: REGION 2v-addr-sz ret=-22 res=0x0 type=0xee01 data=0x4
+[  136.585666] qsee_fp: REGION 2v-sz-addr ret=-22 res=0x0 type=0xee01 data=0x4
+[  136.585688] qsee_fp: REGION 3v-id-addr-sz ret=-12 res=0x0 type=0xee01 data=0x4
+[  136.585708] qsee_fp: REGION 2v-addr-1M ret=-22 res=0x0 type=0xee01 data=0x4
+[  136.588179] qsee_fp: ION ion-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff
+[  136.590184] qsee_fp: ION ion-CREATE-1001 ret=0 req0=0x1001 rsp0=0xffffffff
+[  136.592252] qsee_fp: ION ion-SEGMENTED-1000 ret=0 req0=0x1000 rsp0=0xffffffff
+[  136.594169] qsee_fp: ION ion-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff
+[  136.596204] qsee_fp: ION ion-PROBE-100a ret=0 req0=0x100a rsp0=0xffffffff
+[  136.598108] qsee_fp: ION ion-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff
+[  136.600050] qsee_fp: ION ion-CHIP_INIT-1023 ret=0 req0=0x1023 rsp0=0xffffffff
+[  136.601958] qsee_fp: ION ion-HEALTH-1016 ret=0 req0=0x1016 rsp0=0xffffffff
+[  136.603994] qsee_fp: ION ion-SET_KM-1011 ret=0 req0=0x1011 rsp0=0xffffffff
+[  136.605452] qsee_fp: ION ion-VER205-205 ret=0 req0=0x205 rsp0=0xffffffff
+[  136.606879] qsee_fp: ION ion-FREE-1005 ret=0 req0=0x1005 rsp0=0xffffffff
+[  136.608671] qsee_fp: ION ion-SYNC_CFG-100d ret=0 req0=0x100d rsp0=0xffffffff
+[  136.610290] qsee_fp: ION ion-START_SCAN-1012 ret=0 req0=0x1012 rsp0=0xffffffff
+[  136.612043] qsee_fp: ION ion-TA_1022-1022 ret=0 req0=0x1022 rsp0=0xffffffff
+[  136.613654] qsee_fp: CUS 1k-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  136.615039] qsee_fp: CUS 840-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  136.616679] qsee_fp: CUS sm-INIT ret=0 req0=0x1004 rsp0=0xffffffff
+[  136.618062] qsee_fp: CUS sm-VER ret=0 req0=0x205 rsp0=0xffffffff
+[  136.620681] qsee_fp: sep-INIT ret=0 st=0xffffffff
+[  136.620737] qsee_fp: fingerpr probe complete
+[  136.620739] qsee_fp: done

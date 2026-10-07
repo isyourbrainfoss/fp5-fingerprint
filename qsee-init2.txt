@@ -1,0 +1,1578 @@
+[  942.230200] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x1 type=0xee02 data=0xa
+[  942.230202] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[  942.230210] qsee_fp: LSTNR blocked dump 128 bytes pa=0xff200000
+[  942.230220] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[  942.230230] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230240] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230249] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230251] qsee_fp: FS cmd=540 size=0 flags=0x0 path='\xfe\xff\xff\xff'
+[  942.230256] qsee_fp: LSTNR fs-req dump 288 bytes pa=0xff200000
+[  942.230265] qsee_fp: LSTNR[000]: 1c 02 00 00 fe ff ff ff 00 00 00 00 6e 64 6f 72 2f 6d 69 73 63 2f 71 74 69 5f 66 70 2f 73 77 5f 
+[  942.230275] qsee_fp: LSTNR[032]: 63 61 6c 69 62 2e 64 61 74 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230284] qsee_fp: LSTNR[064]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230293] qsee_fp: LSTNR[096]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230302] qsee_fp: LSTNR[128]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230311] qsee_fp: LSTNR[160]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230320] qsee_fp: LSTNR[192]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230329] qsee_fp: LSTNR[224]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230338] qsee_fp: LSTNR[256]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  942.230340] qsee_fp: FS close fd=-2
+[  942.232056] qsee_fp: listener_respond lid=10 status=0 ret=0 result=0x0 type=0xee01 data=0x5
+[  942.232062] qsee_fp: aux-entry-1011 ret=0 st=0xffffffff
+[  942.255756] qsee_fp: big sess pa=0xff400000
+[  942.257204] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0xde err=0xffffff35 rsp8=0x0
+[  942.257214] qsee_fp: dev-base-205 st=0xde first8=de000000 00000000
+[  942.257259] qsee_fp: dev-base-205 str: (none printable)
+[  942.257264] qsee_fp: dev-base-205 st=0x80000205 first8=05020080 04000000
+[  942.257617] qsee_fp: dev-base-205 str: (none printable)
+[  942.257621] qsee_fp: dev-base-205 LOGCONT begin len=222
+[  942.257662] qsee_fp: dev-base-205 LOGCONT end
+[  942.258417] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[  942.258428] qsee_fp: dev-entry-1011 st=0x32a first8=2a030000 00666f63
+[  942.258440] qsee_fp: dev-entry-1011 str[0]: focaltech:ta:entry
+[  942.258451] qsee_fp: dev-entry-1011 str[1]: keymaster identity: ''.
+[  942.258460] qsee_fp: dev-entry-1011 str[2]: focaltech:ta:entry
+[  942.258470] qsee_fp: dev-entry-1011 str[3]: encapsulated key data (0):
+[  942.258480] qsee_fp: dev-entry-1011 str[4]: focaltech:ta:entry
+[  942.258491] qsee_fp: dev-entry-1011 str[5]: decapsulated key data (32):
+[  942.258591] qsee_fp: dev-entry-1011 st=0x80001011 first8=11100080 00000000
+[  942.258904] qsee_fp: dev-entry-1011 str: (none printable)
+[  942.258907] qsee_fp: dev-entry-1011 LOGCONT begin len=810
+[  942.258915] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[  942.258925] qsee_fp: dev-entry-1011 LOG: keymaster identity: ''.
+[  942.258929] qsee_fp: dev-entry-1011 LOG: !
+[  942.258935] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[  942.258945] qsee_fp: dev-entry-1011 LOG: encapsulated key data (0):
+[  942.258949] qsee_fp: dev-entry-1011 LOG: !
+[  942.258956] qsee_fp: dev-entry-1011 LOG: focaltech:ta:entry
+[  942.258966] qsee_fp: dev-entry-1011 LOG: decapsulated key data (32):
+[  942.259063] qsee_fp: dev-entry-1011 LOGCONT end
+[  942.260205] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[  942.260214] qsee_fp: dev-SYNC_CFG-100d st=0x42a first8=2a040000 00666f63
+[  942.260225] qsee_fp: dev-SYNC_CFG-100d str[0]: focaltech:ta:config
+[  942.260242] qsee_fp: dev-SYNC_CFG-100d str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[  942.260251] qsee_fp: dev-SYNC_CFG-100d str[2]: focaltech:ta:config
+[  942.260262] qsee_fp: dev-SYNC_CFG-100d str[3]: configurations is synced to TA.
+[  942.260271] qsee_fp: dev-SYNC_CFG-100d str[4]: focaltech:ta:config
+[  942.260288] qsee_fp: dev-SYNC_CFG-100d str[5]: no key named 'extension.health_check_timing', use default value.
+[  942.260297] qsee_fp: dev-SYNC_CFG-100d str[6]: focaltech:ta:config
+[  942.260312] qsee_fp: dev-SYNC_CFG-100d str[7]: no key named 'device.gesturing_mode', use default value.
+[  942.260321] qsee_fp: dev-SYNC_CFG-100d str[8]: focaltech:ta:config
+[  942.260336] qsee_fp: dev-SYNC_CFG-100d str[9]: no key named 'device.spi_capture_bps', use default value.
+[  942.260345] qsee_fp: dev-SYNC_CFG-100d str[10]: focaltech:ta:config
+[  942.260363] qsee_fp: dev-SYNC_CFG-100d str[11]: no key named 'device.burst_acquisition_num', use default value.
+[  942.260372] qsee_fp: dev-SYNC_CFG-100d str[12]: focaltech:ta:config
+[  942.260390] qsee_fp: dev-SYNC_CFG-100d str[13]: no key named 'device.enable_hw_reset_b4_scanning', use default value.
+[  942.260399] qsee_fp: dev-SYNC_CFG-100d str[14]: focaltech:ta:config
+[  942.260415] qsee_fp: dev-SYNC_CFG-100d str[15]: no key named 'driver.keycode_simulation', use default value.
+[  942.260424] qsee_fp: dev-SYNC_CFG-100d str[16]: focaltech:ta:config
+[  942.260442] qsee_fp: dev-SYNC_CFG-100d str[17]: no key named 'extension.enable_fast_screen_unlock', use default value.
+[  942.260451] qsee_fp: dev-SYNC_CFG-100d str[18]: focaltech:ta:config
+[  942.260469] qsee_fp: dev-SYNC_CFG-100d str[19]: no key named 'common.max_pre_processing_rescan_times', use default value.
+[  942.260478] qsee_fp: dev-SYNC_CFG-100d str[20]: focaltech:ta:config
+[  942.260493] qsee_fp: dev-SYNC_CFG-100d str[21]: no key named 'common.max_authentication_rescan_tim
+[  942.260498] qsee_fp: dev-SYNC_CFG-100d st=0x8000100d first8=0d100080 00000000
+[  942.260603] qsee_fp: dev-SYNC_CFG-100d str[0]: {"driver":{"enable_spidev":false,"spi_bus_num":14,"spi_c_s_num":0,"spi_on_demand":true},"device":{"preferred_device_id":37841,"spi_default_bps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power
+[  942.260611] qsee_fp: dev-SYNC_CFG-100d str[1]: _b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"common":{"max_enrolling_finge
+[  942.260620] qsee_fp: dev-SYNC_CFG-100d str[2]: rs":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"enable_logcat_trustlet":true,
+[  942.260627] qsee_fp: dev-SYNC_CFG-100d str[3]: "enable_trustlet_native_log":true}}
+[  942.260888] qsee_fp: dev-SYNC_CFG-100d LOGCONT begin len=1066
+[  942.260896] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.260912] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[  942.260916] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.260922] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.260933] qsee_fp: dev-SYNC_CFG-100d LOG: configurations is synced to TA.
+[  942.260936] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.260943] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.260958] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'extension.health_check_timing', use default value.
+[  942.260962] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.260969] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.260983] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'device.gesturing_mode', use default value.
+[  942.260987] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.260994] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261008] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'device.spi_capture_bps', use default value.
+[  942.261012] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261019] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261034] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'device.burst_acquisition_num', use default value.
+[  942.261038] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261045] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261062] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'device.enable_hw_reset_b4_scanning', use default value.
+[  942.261066] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261073] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261088] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'driver.keycode_simulation', use default value.
+[  942.261092] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261099] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261115] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'extension.enable_fast_screen_unlock', use default value.
+[  942.261120] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261127] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261144] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'common.max_pre_processing_rescan_times', use default value.
+[  942.261148] qsee_fp: dev-SYNC_CFG-100d LOG: !
+[  942.261155] qsee_fp: dev-SYNC_CFG-100d LOG: focaltech:ta:config
+[  942.261168] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'common.max_authentication_re
+[  942.261172] qsee_fp: dev-SYNC_CFG-100d LOGCONT end
+[  942.277730] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  942.277741] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00666f63
+[  942.277752] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:config
+[  942.277770] qsee_fp: dev-INIT_SPI-1006 str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[  942.277780] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:config
+[  942.277792] qsee_fp: dev-INIT_SPI-1006 str[3]: configurations is synced to TA.
+[  942.277802] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:config
+[  942.277813] qsee_fp: dev-INIT_SPI-1006 str[5]: no key named 'extensio
+[  942.277817] qsee_fp: dev-INIT_SPI-1006 st=0x80001006 first8=06100080 00000000
+[  942.277935] qsee_fp: dev-INIT_SPI-1006 str[0]: {"driver":{"enable_spidev":false,"spi_bus_num":14,"spi_c_s_num":0,"spi_on_demand":true},"device":{"preferred_device_id":37841,"spi_default_bps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power
+[  942.277944] qsee_fp: dev-INIT_SPI-1006 str[1]: _b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"common":{"max_enrolling_finge
+[  942.277953] qsee_fp: dev-INIT_SPI-1006 str[2]: rs":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"enable_logcat_trustlet":true,
+[  942.277960] qsee_fp: dev-INIT_SPI-1006 str[3]: "enable_trustlet_native_log":true}}
+[  942.278201] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[  942.278209] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  942.278225] qsee_fp: dev-INIT_SPI-1006 LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[  942.278229] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  942.278236] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  942.278247] qsee_fp: dev-INIT_SPI-1006 LOG: configurations is synced to TA.
+[  942.278251] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  942.278259] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  942.278268] qsee_fp: dev-INIT_SPI-1006 LOG: no key named '
+[  942.278272] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[  942.351659] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x42a err=0xffffff33 rsp8=0x746c6163
+[  942.351668] qsee_fp: dev-PROBE1-100a st=0x42a first8=2a040000 0026666f
+[  942.351676] qsee_fp: dev-PROBE1-100a str[0]: &focaltech:ft93xx:afe
+[  942.351680] qsee_fp: dev-PROBE1-100a str[1]: set chip vio 1.8v fail, try again....
+[  942.351684] qsee_fp: dev-PROBE1-100a str[2]: &focaltech:ft93xx:afe
+[  942.351688] qsee_fp: dev-PROBE1-100a str[3]: set chip vio 1.8v fail, try again....
+[  942.351691] qsee_fp: dev-PROBE1-100a str[4]: &focaltech:ft93xx:afe
+[  942.351695] qsee_fp: dev-PROBE1-100a str[5]: set chip vio 1.8v fail, try again....
+[  942.351698] qsee_fp: dev-PROBE1-100a str[6]: &focaltech:ft93xx:afe
+[  942.351702] qsee_fp: dev-PROBE1-100a str[7]: set chip vio 1.8v fail, try again....
+[  942.351705] qsee_fp: dev-PROBE1-100a str[8]: &focaltech:ft93xx:afe
+[  942.351708] qsee_fp: dev-PROBE1-100a str[9]: set chip vio 1.8v fail, try again....
+[  942.351712] qsee_fp: dev-PROBE1-100a str[10]: &focaltech:ft93xx:core
+[  942.351716] qsee_fp: dev-PROBE1-100a str[11]: configure spi mode failed(0).
+[  942.351720] qsee_fp: dev-PROBE1-100a str[12]: &focaltech:ft93xx:core
+[  942.351723] qsee_fp: dev-PROBE1-100a str[13]: configure spi mode failed(0).
+[  942.351727] qsee_fp: dev-PROBE1-100a str[14]: &focaltech:ft93xx:core
+[  942.351730] qsee_fp: dev-PROBE1-100a str[15]: configure spi mode failed(0).
+[  942.351732] qsee_fp: dev-PROBE1-100a str[16]: &focaltech:ft93xx:core
+[  942.351735] qsee_fp: dev-PROBE1-100a str[17]: got undesired device id: 0x0000
+[  942.351737] qsee_fp: dev-PROBE1-100a str[18]: &focaltech:ft93xx:core
+[  942.351740] qsee_fp: dev-PROBE1-100a str[19]: got undesired device id: 0x0000
+[  942.351742] qsee_fp: dev-PROBE1-100a str[20]: &focaltech:ft93xx:core
+[  942.351744] qsee_fp: dev-PROBE1-100a str[21]: got undesired device id: 0x0000
+[  942.351746] qsee_fp: dev-PROBE1-100a str[22]: &focaltech:ft9362:core
+[  942.351749] qsee_fp: dev-PROBE1-100a str[23]: configure spi mode failed(0).
+[  942.351751] qsee_fp: dev-PROBE1-100a str[24]: &focaltech:ft9362:core
+[  942.351753] qsee_fp: dev-PROBE1-100a str[25]: configure spi mode failed(0).
+[  942.351756] qsee_fp: dev-PROBE1-100a str[26]: &focaltech:ft9362:core
+[  942.351758] qsee_fp: dev-PROBE1-100a str[27]: configure spi mode failed(0).
+[  942.351760] qsee_fp: dev-PROBE1-100a str[28]: focaltech:ta:device
+[  942.351763] qsee_fp: dev-PROBE1-100a str[29]: error at ff_device_probe[device.c:102]: failed to pro
+[  942.351765] qsee_fp: dev-PROBE1-100a st=0x8000100a first8=0a100080 3c000000
+[  942.351780] qsee_fp: dev-PROBE1-100a str[0]: "driver":{"enable_spidev":false,"spi_bus_num":14,"spi_c_s_num":0,"spi_on_demand":true},"device":{"preferred_device_id":37841,"spi_default_bps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power_
+[  942.351782] qsee_fp: dev-PROBE1-100a str[1]: b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"common":{"max_enrolling_finger
+[  942.351785] qsee_fp: dev-PROBE1-100a str[2]: s":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"enable_logcat_trustlet":true,"
+[  942.351787] qsee_fp: dev-PROBE1-100a str[3]: enable_trustlet_native_log":true}}
+[  942.351808] qsee_fp: dev-PROBE1-100a LOGCONT begin len=1066
+[  942.351811] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[  942.351815] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v fail, try again....
+[  942.351817] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351819] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[  942.351822] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v fail, try again....
+[  942.351824] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351826] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[  942.351830] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v fail, try again....
+[  942.351832] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351834] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[  942.351837] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v fail, try again....
+[  942.351839] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351841] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:afe
+[  942.351844] qsee_fp: dev-PROBE1-100a LOG: set chip vio 1.8v fail, try again....
+[  942.351846] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351848] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351850] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351852] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351854] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351856] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351858] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351860] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351862] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351864] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351865] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351868] qsee_fp: dev-PROBE1-100a LOG: got undesired device id: 0x0000
+[  942.351870] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351871] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351874] qsee_fp: dev-PROBE1-100a LOG: got undesired device id: 0x0000
+[  942.351876] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351877] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft93xx:core
+[  942.351880] qsee_fp: dev-PROBE1-100a LOG: got undesired device id: 0x0000
+[  942.351882] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351884] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft9362:core
+[  942.351886] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351887] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351889] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft9362:core
+[  942.351892] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351894] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351896] qsee_fp: dev-PROBE1-100a LOG: &focaltech:ft9362:core
+[  942.351898] qsee_fp: dev-PROBE1-100a LOG: configure spi mode failed(0).
+[  942.351900] qsee_fp: dev-PROBE1-100a LOG: !
+[  942.351901] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:device
+[  942.351904] qsee_fp: dev-PROBE1-100a LOG: error at ff_device_probe[device.c:102]: faile
+[  942.351906] qsee_fp: dev-PROBE1-100a LOGCONT end
+[  942.377421] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[  942.377426] qsee_fp: dev-PROBE2-100a st=0x32a first8=2a030000 0026666f
+[  942.377430] qsee_fp: dev-PROBE2-100a str[0]: &focaltech:ft93xx:afe
+[  942.377432] qsee_fp: dev-PROBE2-100a str[1]: set chip vio 1.8v success
+[  942.377433] qsee_fp: dev-PROBE2-100a str[2]:  again....
+[  942.377436] qsee_fp: dev-PROBE2-100a str[3]: &focaltech:ft93xx:afe
+[  942.377439] qsee_fp: dev-PROBE2-100a str[4]: set chip vio 1.8v fail, try again....
+[  942.377440] qsee_fp: dev-PROBE2-100a str[5]: &focaltech:ft93xx:afe
+[  942.377442] qsee_fp: dev-PROBE2-100a str[6]: set chip vio 1.8v fail, try again....
+[  942.377443] qsee_fp: dev-PROBE2-100a str[7]: &focaltech:ft93xx:afe
+[  942.377445] qsee_fp: dev-PROBE2-100a str[8]: set chip vio 1.8v fail, try again....
+[  942.377446] qsee_fp: dev-PROBE2-100a str[9]: &focaltech:ft93xx:afe
+[  942.377448] qsee_fp: dev-PROBE2-100a str[10]: set chip vio 1.8v fail, try again....
+[  942.377449] qsee_fp: dev-PROBE2-100a str[11]: &focaltech:ft93xx:core
+[  942.377451] qsee_fp: dev-PROBE2-100a str[12]: configure spi mode failed(0).
+[  942.377453] qsee_fp: dev-PROBE2-100a str[13]: &focaltech:ft93xx:core
+[  942.377454] qsee_fp: dev-PROBE2-100a str[14]: configure spi mode failed(0).
+[  942.377455] qsee_fp: dev-PROBE2-100a str[15]: &focaltech:ft93xx:core
+[  942.377457] qsee_fp: dev-PROBE2-100a str[16]: configure spi mode failed(0).
+[  942.377458] qsee_fp: dev-PROBE2-100a str[17]: &focaltech:ft93xx:core
+[  942.377460] qsee_fp: dev-PROBE2-100a str[18]: got undesired device id: 0x0000
+[  942.377462] qsee_fp: dev-PROBE2-100a str[19]: &focaltech:ft93xx:core
+[  942.377463] qsee_fp: dev-PROBE2-100a str[20]: got undesired device id: 0x0000
+[  942.377465] qsee_fp: dev-PROBE2-100a str[21]: &focaltech:ft93xx:core
+[  942.377466] qsee_fp: dev-PROBE2-100a str[22]: got undesired device id: 0x0000
+[  942.377467] qsee_fp: dev-PROBE2-100a str[23]: &focaltech:ft9362:core
+[  942.377469] qsee_fp: dev-PROBE2-100a st=0x8000100a first8=0a100080 3c000000
+[  942.377479] qsee_fp: dev-PROBE2-100a str[0]: um":0,"spi_on_demand":true},"device":{"preferred_device_id":37841,"spi_default_bps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":f
+[  942.377480] qsee_fp: dev-PROBE2-100a str[1]: alse,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"common":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/li
+[  942.377482] qsee_fp: dev-PROBE2-100a str[2]: b/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"enable_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.377496] qsee_fp: dev-PROBE2-100a LOGCONT begin len=810
+[  942.377498] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[  942.377500] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v success
+[  942.377501] qsee_fp: dev-PROBE2-100a LOG:  again....
+[  942.377502] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377503] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[  942.377506] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v fail, try again....
+[  942.377507] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377509] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[  942.377511] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v fail, try again....
+[  942.377512] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377513] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[  942.377515] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v fail, try again....
+[  942.377516] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377517] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:afe
+[  942.377519] qsee_fp: dev-PROBE2-100a LOG: set chip vio 1.8v fail, try again....
+[  942.377520] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377521] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377523] qsee_fp: dev-PROBE2-100a LOG: configure spi mode failed(0).
+[  942.377524] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377525] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377527] qsee_fp: dev-PROBE2-100a LOG: configure spi mode failed(0).
+[  942.377528] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377529] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377530] qsee_fp: dev-PROBE2-100a LOG: configure spi mode failed(0).
+[  942.377531] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377532] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377534] qsee_fp: dev-PROBE2-100a LOG: got undesired device id: 0x0000
+[  942.377535] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377536] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377537] qsee_fp: dev-PROBE2-100a LOG: got undesired device id: 0x0000
+[  942.377538] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377540] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft93xx:core
+[  942.377541] qsee_fp: dev-PROBE2-100a LOG: got undesired device id: 0x0000
+[  942.377542] qsee_fp: dev-PROBE2-100a LOG: !
+[  942.377543] qsee_fp: dev-PROBE2-100a LOG: &focaltech:ft9362:core
+[  942.377544] qsee_fp: dev-PROBE2-100a LOGCONT end
+[  942.613721] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[  942.613725] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[  942.613729] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[  942.613731] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[  942.613733] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[  942.613735] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[  942.613737] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[  942.613739] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  942.613741] qsee_fp: dev-INIT_DEV-100b str[6]: focaltech:ta:file
+[  942.613745] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[  942.613747] qsee_fp: dev-INIT_DEV-100b str[8]: focaltech:ta:file
+[  942.613748] qsee_fp: dev-INIT_DEV-100b str[9]: error at ff_file_open[file.c:83]: 'I/O error'.
+[  942.613750] qsee_fp: dev-INIT_DEV-100b str[10]: focaltech:ta:device
+[  942.613752] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  942.613754] qsee_fp: dev-INIT_DEV-100b str[12]: focaltech:efc
+[  942.613756] qsee_fp: dev-INIT_DEV-100b str[13]: efc data not exist, skip.
+[  942.613757] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:afe
+[  942.613759] qsee_fp: dev-INIT_DEV-100b str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[  942.613761] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:afe
+[  942.613762] qsee_fp: dev-INIT_DEV-100b str[17]: chip feature, io controlleable and
+[  942.613763] qsee_fp: dev-INIT_DEV-100b st=0x8000100b first8=0b100080 3c000000
+[  942.613774] qsee_fp: dev-INIT_DEV-100b str[0]: um":0,"spi_on_demand":true},"device":{"preferred_device_id":37841,"spi_default_bps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":f
+[  942.613776] qsee_fp: dev-INIT_DEV-100b str[1]: alse,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"common":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/li
+[  942.613777] qsee_fp: dev-INIT_DEV-100b str[2]: b/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"enable_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.613791] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[  942.613792] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[  942.613794] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[  942.613795] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613797] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[  942.613799] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[  942.613801] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613802] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[  942.613804] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  942.613805] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613806] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[  942.613810] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[  942.613811] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613812] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[  942.613815] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:83]: 'I/O error'.
+[  942.613816] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613817] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[  942.613820] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  942.613821] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613822] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:efc
+[  942.613824] qsee_fp: dev-INIT_DEV-100b LOG: efc data not exist, skip.
+[  942.613825] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613826] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[  942.613828] qsee_fp: dev-INIT_DEV-100b LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[  942.613830] qsee_fp: dev-INIT_DEV-100b LOG: !
+[  942.613831] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[  942.613833] qsee_fp: dev-INIT_DEV-100b LOG: chip feature, io controlle
+[  942.613833] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[  942.629435] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  942.629440] qsee_fp: dev-CHIP_INIT-1022 st=0xde first8=de000000 00666f63
+[  942.629444] qsee_fp: dev-CHIP_INIT-1022 str[0]: focaltech:ta:device
+[  942.629447] qsee_fp: dev-CHIP_INIT-1022 str[1]: initializing the device...
+[  942.629450] qsee_fp: dev-CHIP_INIT-1022 str[2]: focaltech:ta:device
+[  942.629453] qsee_fp: dev-CHIP_INIT-1022 str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[  942.629455] qsee_fp: dev-CHIP_INIT-1022 str[4]: &focaltech:ft93xx:core
+[  942.629458] qsee_fp: dev-CHIP_INIT-1022 str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  942.629460] qsee_fp: dev-CHIP_INIT-1022 str[6]: focal
+[  942.629462] qsee_fp: dev-CHIP_INIT-1022 st=0x80001022 first8=22100080 8c000000
+[  942.629471] qsee_fp: dev-CHIP_INIT-1022 str[0]: ps":4000000,"spi_mode":0,"vio_is_1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enabl
+[  942.629473] qsee_fp: dev-CHIP_INIT-1022 str[1]: e_secret_data_backup":false},"common":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_lev
+[  942.629474] qsee_fp: dev-CHIP_INIT-1022 str[2]: el":3,"firmware_log_level":3,"enable_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.629488] qsee_fp: dev-CHIP_INIT-1022 LOGCONT begin len=222
+[  942.629490] qsee_fp: dev-CHIP_INIT-1022 LOG: focaltech:ta:device
+[  942.629492] qsee_fp: dev-CHIP_INIT-1022 LOG: initializing the device...
+[  942.629493] qsee_fp: dev-CHIP_INIT-1022 LOG: !
+[  942.629495] qsee_fp: dev-CHIP_INIT-1022 LOG: focaltech:ta:device
+[  942.629498] qsee_fp: dev-CHIP_INIT-1022 LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[  942.629499] qsee_fp: dev-CHIP_INIT-1022 LOG: !
+[  942.629500] qsee_fp: dev-CHIP_INIT-1022 LOG: &focaltech:ft93xx:core
+[  942.629503] qsee_fp: dev-CHIP_INIT-1022 LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  942.629504] qsee_fp: dev-CHIP_INIT-1022 LOG: !
+[  942.629505] qsee_fp: dev-CHIP_INIT-1022 LOGCONT end
+[  942.677733] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[  942.677738] qsee_fp: dev-INIT-1004 st=0x42a first8=2a040000 00666f63
+[  942.677742] qsee_fp: dev-INIT-1004 str[0]: focaltech:ta:config
+[  942.677744] qsee_fp: dev-INIT-1004 str[1]: no key named 'common.image_processing_cols', use default value.
+[  942.677746] qsee_fp: dev-INIT-1004 str[2]: focaltech:ta:config
+[  942.677749] qsee_fp: dev-INIT-1004 str[3]: no key named 'common.image_processing_rows', use default value.
+[  942.677750] qsee_fp: dev-INIT-1004 str[4]: focaltech:ta:config
+[  942.677752] qsee_fp: dev-INIT-1004 str[5]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.677753] qsee_fp: dev-INIT-1004 str[6]: focaltech:ta:config
+[  942.677756] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.677757] qsee_fp: dev-INIT-1004 str[8]: focaltech:ta:config
+[  942.677759] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.677760] qsee_fp: dev-INIT-1004 str[10]: focaltech:ta:config
+[  942.677762] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.677764] qsee_fp: dev-INIT-1004 str[12]: focaltech:ta:config
+[  942.677766] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.677767] qsee_fp: dev-INIT-1004 str[14]: focaltech:ta:config
+[  942.677769] qsee_fp: dev-INIT-1004 str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.677770] qsee_fp: dev-INIT-1004 str[16]: focaltech:ta:config
+[  942.677772] qsee_fp: dev-INIT-1004 str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.677774] qsee_fp: dev-INIT-1004 str[18]: focaltech:ta:config
+[  942.677775] qsee_fp: dev-INIT-1004 str[19]: no key named 'algorithm.min_identify_cond_threshold
+[  942.677776] qsee_fp: dev-INIT-1004 st=0x80001004 first8=04100080 c0000000
+[  942.677779] qsee_fp: dev-INIT-1004 str[0]: v1.1.22_0.0.3_001-20230214
+[  942.677781] qsee_fp: dev-INIT-1004 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.677784] qsee_fp: dev-INIT-1004 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.677790] qsee_fp: dev-INIT-1004 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.677792] qsee_fp: dev-INIT-1004 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.677793] qsee_fp: dev-INIT-1004 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.677807] qsee_fp: dev-INIT-1004 LOGCONT begin len=1066
+[  942.677809] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677811] qsee_fp: dev-INIT-1004 LOG: no key named 'common.image_processing_cols', use default value.
+[  942.677812] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677814] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677817] qsee_fp: dev-INIT-1004 LOG: no key named 'common.image_processing_rows', use default value.
+[  942.677818] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677819] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677822] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.677823] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677824] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677827] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.677828] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677829] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677832] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.677833] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677834] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677837] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.677838] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677840] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677841] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.677842] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677844] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677846] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.677847] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677848] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677850] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.677851] qsee_fp: dev-INIT-1004 LOG: !
+[  942.677853] qsee_fp: dev-INIT-1004 LOG: focaltech:ta:config
+[  942.677854] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_cond_t
+[  942.677855] qsee_fp: dev-INIT-1004 LOGCONT end
+[  942.693448] qsee_fp: ION HIT dev-SYNC_CALIB-100f ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[  942.693454] qsee_fp: dev-SYNC_CALIB-100f st=0xde first8=de000000 00666f63
+[  942.693458] qsee_fp: dev-SYNC_CALIB-100f str[0]: focaltech:ta:config
+[  942.693461] qsee_fp: dev-SYNC_CALIB-100f str[1]: no key named 'common.image_processing_cols', use default value.
+[  942.693465] qsee_fp: dev-SYNC_CALIB-100f str[2]: focaltech:ta:config
+[  942.693467] qsee_fp: dev-SYNC_CALIB-100f str[3]: no key named 'common.image_processing_rows', use default value.
+[  942.693468] qsee_fp: dev-SYNC_CALIB-100f str[4]: focaltech:ta:config
+[  942.693470] qsee_fp: dev-SYNC_CALIB-100f st=0x8000100f first8=0f100080 00000000
+[  942.693472] qsee_fp: dev-SYNC_CALIB-100f str[0]: v1.1.22_0.0.3_001-20230214
+[  942.693474] qsee_fp: dev-SYNC_CALIB-100f str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.693476] qsee_fp: dev-SYNC_CALIB-100f str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.693482] qsee_fp: dev-SYNC_CALIB-100f str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.693484] qsee_fp: dev-SYNC_CALIB-100f str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.693485] qsee_fp: dev-SYNC_CALIB-100f str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.693499] qsee_fp: dev-SYNC_CALIB-100f LOGCONT begin len=222
+[  942.693500] qsee_fp: dev-SYNC_CALIB-100f LOG: focaltech:ta:config
+[  942.693503] qsee_fp: dev-SYNC_CALIB-100f LOG: no key named 'common.image_processing_cols', use default value.
+[  942.693504] qsee_fp: dev-SYNC_CALIB-100f LOG: !
+[  942.693506] qsee_fp: dev-SYNC_CALIB-100f LOG: focaltech:ta:config
+[  942.693508] qsee_fp: dev-SYNC_CALIB-100f LOG: no key named 'common.image_processing_rows', use default value.
+[  942.693509] qsee_fp: dev-SYNC_CALIB-100f LOG: !
+[  942.693510] qsee_fp: dev-SYNC_CALIB-100f LOG: focaltech:ta:co
+[  942.693511] qsee_fp: dev-SYNC_CALIB-100f LOGCONT end
+[  942.709326] qsee_fp: ION HIT dev-SYNC_STATS-100e ret=0 req0=0x8000100e rsp0=0x32a err=0x0 rsp8=0x65746c61
+[  942.709331] qsee_fp: dev-SYNC_STATS-100e st=0x32a first8=2a030000 00666f63
+[  942.709334] qsee_fp: dev-SYNC_STATS-100e str[0]: focaltech:ta:stats
+[  942.709336] qsee_fp: dev-SYNC_STATS-100e str[1]: statistical data is synced to TA.
+[  942.709338] qsee_fp: dev-SYNC_STATS-100e str[2]: ng_cols', use default value.
+[  942.709341] qsee_fp: dev-SYNC_STATS-100e str[3]: focaltech:ta:config
+[  942.709343] qsee_fp: dev-SYNC_STATS-100e str[4]: no key named 'common.image_processing_rows', use default value.
+[  942.709345] qsee_fp: dev-SYNC_STATS-100e str[5]: focaltech:ta:config
+[  942.709347] qsee_fp: dev-SYNC_STATS-100e str[6]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.709348] qsee_fp: dev-SYNC_STATS-100e str[7]: focaltech:ta:config
+[  942.709350] qsee_fp: dev-SYNC_STATS-100e str[8]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.709351] qsee_fp: dev-SYNC_STATS-100e str[9]: focaltech:ta:config
+[  942.709354] qsee_fp: dev-SYNC_STATS-100e str[10]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.709355] qsee_fp: dev-SYNC_STATS-100e str[11]: focaltech:ta:config
+[  942.709357] qsee_fp: dev-SYNC_STATS-100e str[12]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.709358] qsee_fp: dev-SYNC_STATS-100e str[13]: focaltech:ta:config
+[  942.709360] qsee_fp: dev-SYNC_STATS-100e str[14]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.709362] qsee_fp: dev-SYNC_STATS-100e str[15]: focaltech:ta:config
+[  942.709363] qsee_fp: dev-SYNC_STATS-100e str[16]: no key named 'algorith
+[  942.709364] qsee_fp: dev-SYNC_STATS-100e st=0x8000100e first8=0e100080 00000000
+[  942.709366] qsee_fp: dev-SYNC_STATS-100e str[0]: v1.1.22_0.0.3_001-20230214
+[  942.709369] qsee_fp: dev-SYNC_STATS-100e str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.709371] qsee_fp: dev-SYNC_STATS-100e str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.709376] qsee_fp: dev-SYNC_STATS-100e str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.709378] qsee_fp: dev-SYNC_STATS-100e str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.709379] qsee_fp: dev-SYNC_STATS-100e str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.709393] qsee_fp: dev-SYNC_STATS-100e LOGCONT begin len=810
+[  942.709395] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:stats
+[  942.709396] qsee_fp: dev-SYNC_STATS-100e LOG: statistical data is synced to TA.
+[  942.709398] qsee_fp: dev-SYNC_STATS-100e LOG: ng_cols', use default value.
+[  942.709399] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709400] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709403] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'common.image_processing_rows', use default value.
+[  942.709404] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709406] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709408] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.709410] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709411] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709413] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.709415] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709416] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709418] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.709419] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709420] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709422] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.709423] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709424] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709426] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.709427] qsee_fp: dev-SYNC_STATS-100e LOG: !
+[  942.709428] qsee_fp: dev-SYNC_STATS-100e LOG: focaltech:ta:config
+[  942.709430] qsee_fp: dev-SYNC_STATS-100e LOG: no key named '
+[  942.709431] qsee_fp: dev-SYNC_STATS-100e LOGCONT end
+[  942.770031] qsee_fp: ION HIT dev-DEAD_PIXEL-1020 ret=0 req0=0x80001020 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  942.770036] qsee_fp: dev-DEAD_PIXEL-1020 st=0xde first8=de000000 00666f63
+[  942.770040] qsee_fp: dev-DEAD_PIXEL-1020 str[0]: focaltech:ta:stats
+[  942.770042] qsee_fp: dev-DEAD_PIXEL-1020 str[1]: statistical data is synced to TA.
+[  942.770043] qsee_fp: dev-DEAD_PIXEL-1020 str[2]: ng_cols', use default value.
+[  942.770046] qsee_fp: dev-DEAD_PIXEL-1020 str[3]: focaltech:ta:config
+[  942.770048] qsee_fp: dev-DEAD_PIXEL-1020 str[4]: no key named 'common.image_processing_rows', use default value.
+[  942.770049] qsee_fp: dev-DEAD_PIXEL-1020 str[5]: focaltech:ta:config
+[  942.770051] qsee_fp: dev-DEAD_PIXEL-1020 st=0x80001020 first8=20100080 24000000
+[  942.770055] qsee_fp: dev-DEAD_PIXEL-1020 str[0]: v1.1.22_0.0.3_001-20230214
+[  942.770057] qsee_fp: dev-DEAD_PIXEL-1020 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.770059] qsee_fp: dev-DEAD_PIXEL-1020 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.770065] qsee_fp: dev-DEAD_PIXEL-1020 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.770067] qsee_fp: dev-DEAD_PIXEL-1020 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.770068] qsee_fp: dev-DEAD_PIXEL-1020 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.770082] qsee_fp: dev-DEAD_PIXEL-1020 LOGCONT begin len=222
+[  942.770084] qsee_fp: dev-DEAD_PIXEL-1020 LOG: focaltech:ta:stats
+[  942.770086] qsee_fp: dev-DEAD_PIXEL-1020 LOG: statistical data is synced to TA.
+[  942.770087] qsee_fp: dev-DEAD_PIXEL-1020 LOG: ng_cols', use default value.
+[  942.770089] qsee_fp: dev-DEAD_PIXEL-1020 LOG: !
+[  942.770090] qsee_fp: dev-DEAD_PIXEL-1020 LOG: focaltech:ta:config
+[  942.770093] qsee_fp: dev-DEAD_PIXEL-1020 LOG: no key named 'common.image_processing_rows', use default value.
+[  942.770094] qsee_fp: dev-DEAD_PIXEL-1020 LOG: !
+[  942.770095] qsee_fp: dev-DEAD_PIXEL-1020 LOG: focaltech:ta:co
+[  942.770096] qsee_fp: dev-DEAD_PIXEL-1020 LOGCONT end
+[  942.785307] qsee_fp: ION HIT dev-FP_IS_TYPE-1021 ret=0 req0=0x80001021 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  942.785311] qsee_fp: dev-FP_IS_TYPE-1021 st=0xde first8=de000000 00666f63
+[  942.785315] qsee_fp: dev-FP_IS_TYPE-1021 str[0]: focaltech:ta:stats
+[  942.785317] qsee_fp: dev-FP_IS_TYPE-1021 str[1]: statistical data is synced to TA.
+[  942.785319] qsee_fp: dev-FP_IS_TYPE-1021 str[2]: ng_cols', use default value.
+[  942.785321] qsee_fp: dev-FP_IS_TYPE-1021 str[3]: focaltech:ta:config
+[  942.785324] qsee_fp: dev-FP_IS_TYPE-1021 str[4]: no key named 'common.image_processing_rows', use default value.
+[  942.785325] qsee_fp: dev-FP_IS_TYPE-1021 str[5]: focaltech:ta:config
+[  942.785326] qsee_fp: dev-FP_IS_TYPE-1021 st=0x80001021 first8=21100080 00000000
+[  942.785329] qsee_fp: dev-FP_IS_TYPE-1021 str[0]: .22_0.0.3_001-20230214
+[  942.785331] qsee_fp: dev-FP_IS_TYPE-1021 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.785333] qsee_fp: dev-FP_IS_TYPE-1021 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.785339] qsee_fp: dev-FP_IS_TYPE-1021 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.785340] qsee_fp: dev-FP_IS_TYPE-1021 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.785341] qsee_fp: dev-FP_IS_TYPE-1021 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.785355] qsee_fp: dev-FP_IS_TYPE-1021 LOGCONT begin len=222
+[  942.785357] qsee_fp: dev-FP_IS_TYPE-1021 LOG: focaltech:ta:stats
+[  942.785359] qsee_fp: dev-FP_IS_TYPE-1021 LOG: statistical data is synced to TA.
+[  942.785360] qsee_fp: dev-FP_IS_TYPE-1021 LOG: ng_cols', use default value.
+[  942.785361] qsee_fp: dev-FP_IS_TYPE-1021 LOG: !
+[  942.785363] qsee_fp: dev-FP_IS_TYPE-1021 LOG: focaltech:ta:config
+[  942.785365] qsee_fp: dev-FP_IS_TYPE-1021 LOG: no key named 'common.image_processing_rows', use default value.
+[  942.785366] qsee_fp: dev-FP_IS_TYPE-1021 LOG: !
+[  942.785368] qsee_fp: dev-FP_IS_TYPE-1021 LOG: focaltech:ta:co
+[  942.785368] qsee_fp: dev-FP_IS_TYPE-1021 LOGCONT end
+[  942.874657] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[  942.874663] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[  942.874667] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[  942.874670] qsee_fp: dev-HEALTH-1016 str[1]: last:694 695 693 685   0   0   0   0
+[  942.874673] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[  942.874676] qsee_fp: dev-HEALTH-1016 str[3]: curr:699 693 692 687 55916   0   0   0
+[  942.874677] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[  942.874679] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[  942.874681] qsee_fp: dev-HEALTH-1016 str[6]: tech:ta:config
+[  942.874683] qsee_fp: dev-HEALTH-1016 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.874685] qsee_fp: dev-HEALTH-1016 str[8]: focaltech:ta:config
+[  942.874687] qsee_fp: dev-HEALTH-1016 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.874689] qsee_fp: dev-HEALTH-1016 str[10]: focaltech:ta:config
+[  942.874691] qsee_fp: dev-HEALTH-1016 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.874693] qsee_fp: dev-HEALTH-1016 str[12]: focaltech:ta:config
+[  942.874695] qsee_fp: dev-HEALTH-1016 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.874697] qsee_fp: dev-HEALTH-1016 str[14]: focaltech:ta:config
+[  942.874699] qsee_fp: dev-HEALTH-1016 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.874700] qsee_fp: dev-HEALTH-1016 str[16]: focaltech:ta:config
+[  942.874701] qsee_fp: dev-HEALTH-1016 str[17]: no key named 'algorith
+[  942.874702] qsee_fp: dev-HEALTH-1016 st=0x80001016 first8=16100080 00000000
+[  942.874705] qsee_fp: dev-HEALTH-1016 str[0]: .22_0.0.3_001-20230214
+[  942.874707] qsee_fp: dev-HEALTH-1016 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.874709] qsee_fp: dev-HEALTH-1016 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.874714] qsee_fp: dev-HEALTH-1016 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.874716] qsee_fp: dev-HEALTH-1016 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.874717] qsee_fp: dev-HEALTH-1016 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.874731] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[  942.874733] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[  942.874735] qsee_fp: dev-HEALTH-1016 LOG: last:694 695 693 685   0   0   0   0
+[  942.874736] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874737] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[  942.874740] qsee_fp: dev-HEALTH-1016 LOG: curr:699 693 692 687 55916   0   0   0
+[  942.874741] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874742] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[  942.874744] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[  942.874745] qsee_fp: dev-HEALTH-1016 LOG: tech:ta:config
+[  942.874748] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  942.874749] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874750] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  942.874753] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  942.874754] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874755] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  942.874758] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  942.874759] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874760] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  942.874763] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  942.874764] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874765] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  942.874767] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  942.874768] qsee_fp: dev-HEALTH-1016 LOG: !
+[  942.874769] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  942.874770] qsee_fp: dev-HEALTH-1016 LOG: no key named '
+[  942.874771] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[  942.894896] qsee_fp: ION HIT dev-PROBE-id-98ff9024 ret=0 req0=0x8000100a rsp0=0xde err=0xfffffff5 rsp8=0x746c6163
+[  942.894901] qsee_fp: dev-PROBE-id-98ff9024 st=0xde first8=de000000 0026666f
+[  942.894904] qsee_fp: dev-PROBE-id-98ff9024 str[0]: &focaltech:ft93xx:afe
+[  942.894906] qsee_fp: dev-PROBE-id-98ff9024 str[1]: last:694 695 693 685   0   0   0   0
+[  942.894910] qsee_fp: dev-PROBE-id-98ff9024 str[2]: &focaltech:ft93xx:afe
+[  942.894911] qsee_fp: dev-PROBE-id-98ff9024 str[3]: curr:699 693 692 687 55916   0   0   0
+[  942.894913] qsee_fp: dev-PROBE-id-98ff9024 str[4]: &focaltech:ft93xx:core
+[  942.894915] qsee_fp: dev-PROBE-id-98ff9024 str[5]: switch to 'SLEEP' mode.
+[  942.894916] qsee_fp: dev-PROBE-id-98ff9024 str[6]: tech:ta:config
+[  942.894918] qsee_fp: dev-PROBE-id-98ff9024 st=0x8000100a first8=0a100080 3c000000
+[  942.894920] qsee_fp: dev-PROBE-id-98ff9024 str[0]: .22_0.0.3_001-20230214
+[  942.894923] qsee_fp: dev-PROBE-id-98ff9024 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.894925] qsee_fp: dev-PROBE-id-98ff9024 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.894930] qsee_fp: dev-PROBE-id-98ff9024 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.894932] qsee_fp: dev-PROBE-id-98ff9024 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.894933] qsee_fp: dev-PROBE-id-98ff9024 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.894947] qsee_fp: dev-PROBE-id-98ff9024 LOGCONT begin len=222
+[  942.894949] qsee_fp: dev-PROBE-id-98ff9024 LOG: &focaltech:ft93xx:afe
+[  942.894951] qsee_fp: dev-PROBE-id-98ff9024 LOG: last:694 695 693 685   0   0   0   0
+[  942.894952] qsee_fp: dev-PROBE-id-98ff9024 LOG: !
+[  942.894953] qsee_fp: dev-PROBE-id-98ff9024 LOG: &focaltech:ft93xx:afe
+[  942.894955] qsee_fp: dev-PROBE-id-98ff9024 LOG: curr:699 693 692 687 55916   0   0   0
+[  942.894957] qsee_fp: dev-PROBE-id-98ff9024 LOG: !
+[  942.894958] qsee_fp: dev-PROBE-id-98ff9024 LOG: &focaltech:ft93xx:core
+[  942.894960] qsee_fp: dev-PROBE-id-98ff9024 LOG: switch to 'SLEEP' mode.
+[  942.894961] qsee_fp: dev-PROBE-id-98ff9024 LOG: tech:ta:co
+[  942.894962] qsee_fp: dev-PROBE-id-98ff9024 LOGCONT end
+[  942.948145] qsee_fp: ION HIT dev-PROBE-id-00009024 ret=0 req0=0x8000100a rsp0=0x42a err=0xfffffff5 rsp8=0x746c6163
+[  942.948150] qsee_fp: dev-PROBE-id-00009024 st=0x42a first8=2a040000 0026666f
+[  942.948153] qsee_fp: dev-PROBE-id-00009024 str[0]: &focaltech:ft93xx:afe
+[  942.948155] qsee_fp: dev-PROBE-id-00009024 str[1]: set chip vio 1.8v fail, try again....
+[  942.948158] qsee_fp: dev-PROBE-id-00009024 str[2]: &focaltech:ft93xx:afe
+[  942.948160] qsee_fp: dev-PROBE-id-00009024 str[3]: set chip vio 1.8v fail, try again....
+[  942.948161] qsee_fp: dev-PROBE-id-00009024 str[4]: &focaltech:ft93xx:afe
+[  942.948163] qsee_fp: dev-PROBE-id-00009024 str[5]: set chip vio 1.8v fail, try again....
+[  942.948164] qsee_fp: dev-PROBE-id-00009024 str[6]: &focaltech:ft93xx:afe
+[  942.948166] qsee_fp: dev-PROBE-id-00009024 str[7]: set chip vio 1.8v fail, try again....
+[  942.948168] qsee_fp: dev-PROBE-id-00009024 str[8]: &focaltech:ft93xx:afe
+[  942.948169] qsee_fp: dev-PROBE-id-00009024 str[9]: set chip vio 1.8v fail, try again....
+[  942.948171] qsee_fp: dev-PROBE-id-00009024 str[10]: &focaltech:ft93xx:core
+[  942.948172] qsee_fp: dev-PROBE-id-00009024 str[11]: configure spi mode failed(0).
+[  942.948174] qsee_fp: dev-PROBE-id-00009024 str[12]: &focaltech:ft93xx:core
+[  942.948175] qsee_fp: dev-PROBE-id-00009024 str[13]: configure spi mode failed(0).
+[  942.948177] qsee_fp: dev-PROBE-id-00009024 str[14]: &focaltech:ft93xx:core
+[  942.948178] qsee_fp: dev-PROBE-id-00009024 str[15]: configure spi mode failed(0).
+[  942.948180] qsee_fp: dev-PROBE-id-00009024 str[16]: &focaltech:ft93xx:core
+[  942.948181] qsee_fp: dev-PROBE-id-00009024 str[17]: got undesired device id: 0x0000
+[  942.948183] qsee_fp: dev-PROBE-id-00009024 str[18]: &focaltech:ft93xx:core
+[  942.948184] qsee_fp: dev-PROBE-id-00009024 str[19]: got undesired device id: 0x0000
+[  942.948186] qsee_fp: dev-PROBE-id-00009024 str[20]: &focaltech:ft93xx:core
+[  942.948188] qsee_fp: dev-PROBE-id-00009024 str[21]: got undesired device id: 0x0000
+[  942.948190] qsee_fp: dev-PROBE-id-00009024 str[22]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.948191] qsee_fp: dev-PROBE-id-00009024 str[23]: focaltech:ta:config
+[  942.948194] qsee_fp: dev-PROBE-id-00009024 str[24]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.948195] qsee_fp: dev-PROBE-id-00009024 str[25]: focaltech:ta:config
+[  942.948197] qsee_fp: dev-PROBE-id-00009024 str[26]: no key named 'algorithm.min_identify_cond_threshold
+[  942.948198] qsee_fp: dev-PROBE-id-00009024 st=0x8000100a first8=0a100080 3c000000
+[  942.948201] qsee_fp: dev-PROBE-id-00009024 str[0]: .22_0.0.3_001-20230214
+[  942.948203] qsee_fp: dev-PROBE-id-00009024 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.948205] qsee_fp: dev-PROBE-id-00009024 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.948211] qsee_fp: dev-PROBE-id-00009024 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.948213] qsee_fp: dev-PROBE-id-00009024 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.948214] qsee_fp: dev-PROBE-id-00009024 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.948228] qsee_fp: dev-PROBE-id-00009024 LOGCONT begin len=1066
+[  942.948229] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:afe
+[  942.948231] qsee_fp: dev-PROBE-id-00009024 LOG: set chip vio 1.8v fail, try again....
+[  942.948232] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948234] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:afe
+[  942.948237] qsee_fp: dev-PROBE-id-00009024 LOG: set chip vio 1.8v fail, try again....
+[  942.948238] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948239] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:afe
+[  942.948241] qsee_fp: dev-PROBE-id-00009024 LOG: set chip vio 1.8v fail, try again....
+[  942.948243] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948244] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:afe
+[  942.948246] qsee_fp: dev-PROBE-id-00009024 LOG: set chip vio 1.8v fail, try again....
+[  942.948247] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948248] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:afe
+[  942.948250] qsee_fp: dev-PROBE-id-00009024 LOG: set chip vio 1.8v fail, try again....
+[  942.948251] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948252] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948254] qsee_fp: dev-PROBE-id-00009024 LOG: configure spi mode failed(0).
+[  942.948255] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948256] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948257] qsee_fp: dev-PROBE-id-00009024 LOG: configure spi mode failed(0).
+[  942.948259] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948260] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948261] qsee_fp: dev-PROBE-id-00009024 LOG: configure spi mode failed(0).
+[  942.948262] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948264] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948265] qsee_fp: dev-PROBE-id-00009024 LOG: got undesired device id: 0x0000
+[  942.948267] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948268] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948269] qsee_fp: dev-PROBE-id-00009024 LOG: got undesired device id: 0x0000
+[  942.948270] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948271] qsee_fp: dev-PROBE-id-00009024 LOG: &focaltech:ft93xx:core
+[  942.948273] qsee_fp: dev-PROBE-id-00009024 LOG: got undesired device id: 0x0000
+[  942.948276] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.948277] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948278] qsee_fp: dev-PROBE-id-00009024 LOG: focaltech:ta:config
+[  942.948281] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.948282] qsee_fp: dev-PROBE-id-00009024 LOG: !
+[  942.948283] qsee_fp: dev-PROBE-id-00009024 LOG: focaltech:ta:config
+[  942.948285] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_cond_t
+[  942.948286] qsee_fp: dev-PROBE-id-00009024 LOGCONT end
+[  942.981609] qsee_fp: ION HIT dev-PROBE-id-00009391 ret=0 req0=0x8000100a rsp0=0x52a err=0xffffff33 rsp8=0x65746c61
+[  942.981614] qsee_fp: dev-PROBE-id-00009391 st=0x52a first8=2a050000 00666f63
+[  942.981618] qsee_fp: dev-PROBE-id-00009391 str[0]: focaltech:ta:device
+[  942.981621] qsee_fp: dev-PROBE-id-00009391 str[1]: error at ff_device_probe[device.c:102]: failed to probe focaltech fingerprint device.
+[  942.981624] qsee_fp: dev-PROBE-id-00009391 str[2]: focaltech:ta:device
+[  942.981626] qsee_fp: dev-PROBE-id-00009391 str[3]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  942.981629] qsee_fp: dev-PROBE-id-00009391 str[4]: ...
+[  942.981631] qsee_fp: dev-PROBE-id-00009391 str[5]: &focaltech:ft93xx:afe
+[  942.981634] qsee_fp: dev-PROBE-id-00009391 str[6]: set chip vio 1.8v fail, try again....
+[  942.981636] qsee_fp: dev-PROBE-id-00009391 str[7]: &focaltech:ft93xx:afe
+[  942.981638] qsee_fp: dev-PROBE-id-00009391 str[8]: set chip vio 1.8v fail, try again....
+[  942.981640] qsee_fp: dev-PROBE-id-00009391 str[9]: &focaltech:ft93xx:core
+[  942.981642] qsee_fp: dev-PROBE-id-00009391 str[10]: configure spi mode failed(0).
+[  942.981645] qsee_fp: dev-PROBE-id-00009391 str[11]: &focaltech:ft93xx:core
+[  942.981647] qsee_fp: dev-PROBE-id-00009391 str[12]: configure spi mode failed(0).
+[  942.981649] qsee_fp: dev-PROBE-id-00009391 str[13]: &focaltech:ft93xx:core
+[  942.981651] qsee_fp: dev-PROBE-id-00009391 str[14]: configure spi mode failed(0).
+[  942.981653] qsee_fp: dev-PROBE-id-00009391 str[15]: &focaltech:ft93xx:core
+[  942.981654] qsee_fp: dev-PROBE-id-00009391 str[16]: got undesired device id: 0x0000
+[  942.981656] qsee_fp: dev-PROBE-id-00009391 str[17]: &focaltech:ft93xx:core
+[  942.981657] qsee_fp: dev-PROBE-id-00009391 str[18]: got undesired device id: 0x0000
+[  942.981658] qsee_fp: dev-PROBE-id-00009391 str[19]: &focaltech:ft93xx:core
+[  942.981660] qsee_fp: dev-PROBE-id-00009391 str[20]: got undesired device id: 0x0000
+[  942.981662] qsee_fp: dev-PROBE-id-00009391 str[21]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.981664] qsee_fp: dev-PROBE-id-00009391 str[22]: focaltech:ta:config
+[  942.981666] qsee_fp: dev-PROBE-id-00009391 str[23]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.981668] qsee_fp: dev-PROBE-id-00009391 str[24]: focaltech:ta:config
+[  942.981670] qsee_fp: dev-PROBE-id-00009391 str[25]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[  942.981671] qsee_fp: dev-PROBE-id-00009391 str[26]: focaltech:ta:config
+[  942.981673] qsee_fp: dev-PROBE-id-00009391 str[27]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[  942.981675] qsee_fp: dev-PROBE-id-00009391 str[28]: focaltech:ta:config
+[  942.981676] qsee_fp: dev-PROBE-id-00009391 str[29]: no key named 'algorithm.non_finger_net_mode', use default value.
+[  942.981678] qsee_fp: dev-PROBE-id-00009391 str[30]: focaltech:t
+[  942.981679] qsee_fp: dev-PROBE-id-00009391 st=0x8000100a first8=0a100080 3c000000
+[  942.981683] qsee_fp: dev-PROBE-id-00009391 str[0]: .22_0.0.3_001-20230214
+[  942.981685] qsee_fp: dev-PROBE-id-00009391 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  942.981686] qsee_fp: dev-PROBE-id-00009391 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  942.981693] qsee_fp: dev-PROBE-id-00009391 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  942.981694] qsee_fp: dev-PROBE-id-00009391 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  942.981696] qsee_fp: dev-PROBE-id-00009391 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  942.981709] qsee_fp: dev-PROBE-id-00009391 LOGCONT begin len=1322
+[  942.981711] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:device
+[  942.981714] qsee_fp: dev-PROBE-id-00009391 LOG: error at ff_device_probe[device.c:102]: failed to probe focaltech fingerprint device.
+[  942.981715] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981716] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:device
+[  942.981719] qsee_fp: dev-PROBE-id-00009391 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  942.981720] qsee_fp: dev-PROBE-id-00009391 LOG: ...
+[  942.981721] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981723] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:afe
+[  942.981725] qsee_fp: dev-PROBE-id-00009391 LOG: set chip vio 1.8v fail, try again....
+[  942.981726] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981728] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:afe
+[  942.981730] qsee_fp: dev-PROBE-id-00009391 LOG: set chip vio 1.8v fail, try again....
+[  942.981731] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981732] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981735] qsee_fp: dev-PROBE-id-00009391 LOG: configure spi mode failed(0).
+[  942.981736] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981737] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981738] qsee_fp: dev-PROBE-id-00009391 LOG: configure spi mode failed(0).
+[  942.981740] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981741] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981742] qsee_fp: dev-PROBE-id-00009391 LOG: configure spi mode failed(0).
+[  942.981744] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981745] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981747] qsee_fp: dev-PROBE-id-00009391 LOG: got undesired device id: 0x0000
+[  942.981748] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981750] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981752] qsee_fp: dev-PROBE-id-00009391 LOG: got undesired device id: 0x0000
+[  942.981753] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981754] qsee_fp: dev-PROBE-id-00009391 LOG: &focaltech:ft93xx:core
+[  942.981756] qsee_fp: dev-PROBE-id-00009391 LOG: got undesired device id: 0x0000
+[  942.981758] qsee_fp: dev-PROBE-id-00009391 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  942.981760] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981762] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:config
+[  942.981764] qsee_fp: dev-PROBE-id-00009391 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  942.981765] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981767] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:config
+[  942.981768] qsee_fp: dev-PROBE-id-00009391 LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[  942.981770] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981771] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:config
+[  942.981773] qsee_fp: dev-PROBE-id-00009391 LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[  942.981774] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981775] qsee_fp: dev-PROBE-id-00009391 LOG: focaltech:ta:config
+[  942.981777] qsee_fp: dev-PROBE-id-00009391 LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[  942.981778] qsee_fp: dev-PROBE-id-00009391 LOG: !
+[  942.981779] qsee_fp: dev-PROBE-id-00009391 LOG: foc
+[  942.981780] qsee_fp: dev-PROBE-id-00009391 LOGCONT end
+[  943.010945] qsee_fp: ION HIT dev-PROBE-id-00009362 ret=0 req0=0x8000100a rsp0=0xde err=0xfffffff5 rsp8=0x65746c61
+[  943.010950] qsee_fp: dev-PROBE-id-00009362 st=0xde first8=de000000 00666f63
+[  943.010954] qsee_fp: dev-PROBE-id-00009362 str[0]: focaltech:ta:device
+[  943.010956] qsee_fp: dev-PROBE-id-00009362 str[1]: error at ff_device_probe[device.c:102]: failed to probe focaltech fingerprint device.
+[  943.010959] qsee_fp: dev-PROBE-id-00009362 str[2]: focaltech:ta:device
+[  943.010961] qsee_fp: dev-PROBE-id-00009362 str[3]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.010963] qsee_fp: dev-PROBE-id-00009362 str[4]: ...
+[  943.010964] qsee_fp: dev-PROBE-id-00009362 st=0x8000100a first8=0a100080 3c000000
+[  943.010967] qsee_fp: dev-PROBE-id-00009362 str[0]: .22_0.0.3_001-20230214
+[  943.010969] qsee_fp: dev-PROBE-id-00009362 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.010971] qsee_fp: dev-PROBE-id-00009362 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.010977] qsee_fp: dev-PROBE-id-00009362 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.010978] qsee_fp: dev-PROBE-id-00009362 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.010980] qsee_fp: dev-PROBE-id-00009362 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.010993] qsee_fp: dev-PROBE-id-00009362 LOGCONT begin len=222
+[  943.010995] qsee_fp: dev-PROBE-id-00009362 LOG: focaltech:ta:device
+[  943.010997] qsee_fp: dev-PROBE-id-00009362 LOG: error at ff_device_probe[device.c:102]: failed to probe focaltech fingerprint device.
+[  943.010998] qsee_fp: dev-PROBE-id-00009362 LOG: !
+[  943.011000] qsee_fp: dev-PROBE-id-00009362 LOG: focaltech:ta:device
+[  943.011003] qsee_fp: dev-PROBE-id-00009362 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.011004] qsee_fp: dev-PROBE-id-00009362 LOG: .
+[  943.011004] qsee_fp: dev-PROBE-id-00009362 LOGCONT end
+[  943.034314] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[  943.034319] qsee_fp: dev-SET_GROUP-0 st=0x32a first8=2a030000 00666f63
+[  943.034323] qsee_fp: dev-SET_GROUP-0 str[0]: focaltech:ta:interface
+[  943.034326] qsee_fp: dev-SET_GROUP-0 str[1]: loading templates for gid = 0...
+[  943.034329] qsee_fp: dev-SET_GROUP-0 str[2]: focaltech:ta:interface
+[  943.034331] qsee_fp: dev-SET_GROUP-0 str[3]: there is 0 template loaded.
+[  943.034333] qsee_fp: dev-SET_GROUP-0 str[4]: h:ta:device
+[  943.034335] qsee_fp: dev-SET_GROUP-0 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.034337] qsee_fp: dev-SET_GROUP-0 str[6]: ...
+[  943.034338] qsee_fp: dev-SET_GROUP-0 str[7]: &focaltech:ft93xx:afe
+[  943.034340] qsee_fp: dev-SET_GROUP-0 str[8]: set chip vio 1.8v fail, try again....
+[  943.034342] qsee_fp: dev-SET_GROUP-0 str[9]: &focaltech:ft93xx:afe
+[  943.034343] qsee_fp: dev-SET_GROUP-0 str[10]: set chip vio 1.8v fail, try again....
+[  943.034345] qsee_fp: dev-SET_GROUP-0 str[11]: &focaltech:ft93xx:core
+[  943.034347] qsee_fp: dev-SET_GROUP-0 str[12]: configure spi mode failed(0).
+[  943.034349] qsee_fp: dev-SET_GROUP-0 str[13]: &focaltech:ft93xx:core
+[  943.034350] qsee_fp: dev-SET_GROUP-0 str[14]: configure spi mode failed(0).
+[  943.034352] qsee_fp: dev-SET_GROUP-0 str[15]: &focaltech:ft93xx:core
+[  943.034353] qsee_fp: dev-SET_GROUP-0 str[16]: configure spi mode failed(0).
+[  943.034355] qsee_fp: dev-SET_GROUP-0 str[17]: &focaltech:ft93xx:core
+[  943.034357] qsee_fp: dev-SET_GROUP-0 str[18]: got undesired device id: 0x0000
+[  943.034358] qsee_fp: dev-SET_GROUP-0 str[19]: &focaltech:ft93xx:core
+[  943.034360] qsee_fp: dev-SET_GROUP-0 str[20]: got undesired device id: 0x0000
+[  943.034361] qsee_fp: dev-SET_GROUP-0 str[21]: &focaltech:ft93xx:core
+[  943.034363] qsee_fp: dev-SET_GROUP-0 str[22]: got undesired device id: 0x0000
+[  943.034365] qsee_fp: dev-SET_GROUP-0 str[23]: no key named 'algorith
+[  943.034366] qsee_fp: dev-SET_GROUP-0 st=0x80002007 first8=07200080 00000000
+[  943.034369] qsee_fp: dev-SET_GROUP-0 str[0]: /var/lib/fp5-fp
+[  943.034371] qsee_fp: dev-SET_GROUP-0 str[1]: 230214
+[  943.034372] qsee_fp: dev-SET_GROUP-0 str[2]: v2.5.3.0-cdf0f80-230614@0928
+[  943.034374] qsee_fp: dev-SET_GROUP-0 str[3]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.034381] qsee_fp: dev-SET_GROUP-0 str[4]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.034383] qsee_fp: dev-SET_GROUP-0 str[5]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.034384] qsee_fp: dev-SET_GROUP-0 str[6]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.034398] qsee_fp: dev-SET_GROUP-0 LOGCONT begin len=810
+[  943.034400] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[  943.034402] qsee_fp: dev-SET_GROUP-0 LOG: loading templates for gid = 0...
+[  943.034404] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034405] qsee_fp: dev-SET_GROUP-0 LOG: focaltech:ta:interface
+[  943.034408] qsee_fp: dev-SET_GROUP-0 LOG: there is 0 template loaded.
+[  943.034409] qsee_fp: dev-SET_GROUP-0 LOG: h:ta:device
+[  943.034412] qsee_fp: dev-SET_GROUP-0 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.034413] qsee_fp: dev-SET_GROUP-0 LOG: ...
+[  943.034414] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034415] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:afe
+[  943.034418] qsee_fp: dev-SET_GROUP-0 LOG: set chip vio 1.8v fail, try again....
+[  943.034419] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034421] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:afe
+[  943.034423] qsee_fp: dev-SET_GROUP-0 LOG: set chip vio 1.8v fail, try again....
+[  943.034424] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034426] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034427] qsee_fp: dev-SET_GROUP-0 LOG: configure spi mode failed(0).
+[  943.034428] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034430] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034431] qsee_fp: dev-SET_GROUP-0 LOG: configure spi mode failed(0).
+[  943.034433] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034434] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034435] qsee_fp: dev-SET_GROUP-0 LOG: configure spi mode failed(0).
+[  943.034437] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034438] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034440] qsee_fp: dev-SET_GROUP-0 LOG: got undesired device id: 0x0000
+[  943.034441] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034442] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034444] qsee_fp: dev-SET_GROUP-0 LOG: got undesired device id: 0x0000
+[  943.034445] qsee_fp: dev-SET_GROUP-0 LOG: !
+[  943.034446] qsee_fp: dev-SET_GROUP-0 LOG: &focaltech:ft93xx:core
+[  943.034448] qsee_fp: dev-SET_GROUP-0 LOG: got undesired device id: 0x0000
+[  943.034450] qsee_fp: dev-SET_GROUP-0 LOG: no key named '
+[  943.034451] qsee_fp: dev-SET_GROUP-0 LOGCONT end
+[  943.071998] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[  943.072007] qsee_fp: dev-SET_GROUP-1 st=0x32a first8=2a030000 00666f63
+[  943.072012] qsee_fp: dev-SET_GROUP-1 str[0]: focaltech:ta:interface
+[  943.072015] qsee_fp: dev-SET_GROUP-1 str[1]: loading templates for gid = 0...
+[  943.072017] qsee_fp: dev-SET_GROUP-1 str[2]: focaltech:ta:interface
+[  943.072019] qsee_fp: dev-SET_GROUP-1 str[3]: there is 0 template loaded.
+[  943.072021] qsee_fp: dev-SET_GROUP-1 str[4]: h:ta:device
+[  943.072024] qsee_fp: dev-SET_GROUP-1 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.072026] qsee_fp: dev-SET_GROUP-1 str[6]: ...
+[  943.072028] qsee_fp: dev-SET_GROUP-1 str[7]: &focaltech:ft93xx:afe
+[  943.072031] qsee_fp: dev-SET_GROUP-1 str[8]: set chip vio 1.8v fail, try again....
+[  943.072033] qsee_fp: dev-SET_GROUP-1 str[9]: &focaltech:ft93xx:afe
+[  943.072035] qsee_fp: dev-SET_GROUP-1 str[10]: set chip vio 1.8v fail, try again....
+[  943.072038] qsee_fp: dev-SET_GROUP-1 str[11]: &focaltech:ft93xx:core
+[  943.072040] qsee_fp: dev-SET_GROUP-1 str[12]: configure spi mode failed(0).
+[  943.072042] qsee_fp: dev-SET_GROUP-1 str[13]: &focaltech:ft93xx:core
+[  943.072044] qsee_fp: dev-SET_GROUP-1 str[14]: configure spi mode failed(0).
+[  943.072046] qsee_fp: dev-SET_GROUP-1 str[15]: &focaltech:ft93xx:core
+[  943.072048] qsee_fp: dev-SET_GROUP-1 str[16]: configure spi mode failed(0).
+[  943.072050] qsee_fp: dev-SET_GROUP-1 str[17]: &focaltech:ft93xx:core
+[  943.072052] qsee_fp: dev-SET_GROUP-1 str[18]: got undesired device id: 0x0000
+[  943.072054] qsee_fp: dev-SET_GROUP-1 str[19]: &focaltech:ft93xx:core
+[  943.072056] qsee_fp: dev-SET_GROUP-1 str[20]: got undesired device id: 0x0000
+[  943.072058] qsee_fp: dev-SET_GROUP-1 str[21]: &focaltech:ft93xx:core
+[  943.072060] qsee_fp: dev-SET_GROUP-1 str[22]: got undesired device id: 0x0000
+[  943.072062] qsee_fp: dev-SET_GROUP-1 str[23]: no key named 'algorith
+[  943.072063] qsee_fp: dev-SET_GROUP-1 st=0x80002007 first8=07200080 00000000
+[  943.072067] qsee_fp: dev-SET_GROUP-1 str[0]: /data/vendor_de/0/fpdata
+[  943.072069] qsee_fp: dev-SET_GROUP-1 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.072072] qsee_fp: dev-SET_GROUP-1 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.072079] qsee_fp: dev-SET_GROUP-1 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.072081] qsee_fp: dev-SET_GROUP-1 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.072083] qsee_fp: dev-SET_GROUP-1 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.072101] qsee_fp: dev-SET_GROUP-1 LOGCONT begin len=810
+[  943.072103] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[  943.072106] qsee_fp: dev-SET_GROUP-1 LOG: loading templates for gid = 0...
+[  943.072107] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072109] qsee_fp: dev-SET_GROUP-1 LOG: focaltech:ta:interface
+[  943.072112] qsee_fp: dev-SET_GROUP-1 LOG: there is 0 template loaded.
+[  943.072114] qsee_fp: dev-SET_GROUP-1 LOG: h:ta:device
+[  943.072117] qsee_fp: dev-SET_GROUP-1 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.072118] qsee_fp: dev-SET_GROUP-1 LOG: ...
+[  943.072120] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072122] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:afe
+[  943.072124] qsee_fp: dev-SET_GROUP-1 LOG: set chip vio 1.8v fail, try again....
+[  943.072126] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072127] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:afe
+[  943.072130] qsee_fp: dev-SET_GROUP-1 LOG: set chip vio 1.8v fail, try again....
+[  943.072132] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072133] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072136] qsee_fp: dev-SET_GROUP-1 LOG: configure spi mode failed(0).
+[  943.072137] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072139] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072141] qsee_fp: dev-SET_GROUP-1 LOG: configure spi mode failed(0).
+[  943.072142] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072144] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072145] qsee_fp: dev-SET_GROUP-1 LOG: configure spi mode failed(0).
+[  943.072147] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072149] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072150] qsee_fp: dev-SET_GROUP-1 LOG: got undesired device id: 0x0000
+[  943.072152] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072153] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072155] qsee_fp: dev-SET_GROUP-1 LOG: got undesired device id: 0x0000
+[  943.072157] qsee_fp: dev-SET_GROUP-1 LOG: !
+[  943.072158] qsee_fp: dev-SET_GROUP-1 LOG: &focaltech:ft93xx:core
+[  943.072160] qsee_fp: dev-SET_GROUP-1 LOG: got undesired device id: 0x0000
+[  943.072162] qsee_fp: dev-SET_GROUP-1 LOG: no key named '
+[  943.072163] qsee_fp: dev-SET_GROUP-1 LOGCONT end
+[  943.107971] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[  943.107981] qsee_fp: dev-SET_GROUP-2 st=0x32a first8=2a030000 00666f63
+[  943.107988] qsee_fp: dev-SET_GROUP-2 str[0]: focaltech:ta:interface
+[  943.107991] qsee_fp: dev-SET_GROUP-2 str[1]: loading templates for gid = 0...
+[  943.107994] qsee_fp: dev-SET_GROUP-2 str[2]: focaltech:ta:interface
+[  943.107996] qsee_fp: dev-SET_GROUP-2 str[3]: there is 0 template loaded.
+[  943.107999] qsee_fp: dev-SET_GROUP-2 str[4]: h:ta:device
+[  943.108002] qsee_fp: dev-SET_GROUP-2 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.108005] qsee_fp: dev-SET_GROUP-2 str[6]: ...
+[  943.108007] qsee_fp: dev-SET_GROUP-2 str[7]: &focaltech:ft93xx:afe
+[  943.108010] qsee_fp: dev-SET_GROUP-2 str[8]: set chip vio 1.8v fail, try again....
+[  943.108013] qsee_fp: dev-SET_GROUP-2 str[9]: &focaltech:ft93xx:afe
+[  943.108015] qsee_fp: dev-SET_GROUP-2 str[10]: set chip vio 1.8v fail, try again....
+[  943.108018] qsee_fp: dev-SET_GROUP-2 str[11]: &focaltech:ft93xx:core
+[  943.108021] qsee_fp: dev-SET_GROUP-2 str[12]: configure spi mode failed(0).
+[  943.108024] qsee_fp: dev-SET_GROUP-2 str[13]: &focaltech:ft93xx:core
+[  943.108026] qsee_fp: dev-SET_GROUP-2 str[14]: configure spi mode failed(0).
+[  943.108028] qsee_fp: dev-SET_GROUP-2 str[15]: &focaltech:ft93xx:core
+[  943.108030] qsee_fp: dev-SET_GROUP-2 str[16]: configure spi mode failed(0).
+[  943.108033] qsee_fp: dev-SET_GROUP-2 str[17]: &focaltech:ft93xx:core
+[  943.108035] qsee_fp: dev-SET_GROUP-2 str[18]: got undesired device id: 0x0000
+[  943.108038] qsee_fp: dev-SET_GROUP-2 str[19]: &focaltech:ft93xx:core
+[  943.108040] qsee_fp: dev-SET_GROUP-2 str[20]: got undesired device id: 0x0000
+[  943.108043] qsee_fp: dev-SET_GROUP-2 str[21]: &focaltech:ft93xx:core
+[  943.108045] qsee_fp: dev-SET_GROUP-2 str[22]: got undesired device id: 0x0000
+[  943.108048] qsee_fp: dev-SET_GROUP-2 str[23]: no key named 'algorith
+[  943.108049] qsee_fp: dev-SET_GROUP-2 st=0x80002007 first8=07200080 00000000
+[  943.108054] qsee_fp: dev-SET_GROUP-2 str[0]: /data/vendor/focaltech
+[  943.108057] qsee_fp: dev-SET_GROUP-2 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.108060] qsee_fp: dev-SET_GROUP-2 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.108069] qsee_fp: dev-SET_GROUP-2 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.108072] qsee_fp: dev-SET_GROUP-2 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.108074] qsee_fp: dev-SET_GROUP-2 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.108095] qsee_fp: dev-SET_GROUP-2 LOGCONT begin len=810
+[  943.108098] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[  943.108101] qsee_fp: dev-SET_GROUP-2 LOG: loading templates for gid = 0...
+[  943.108103] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108105] qsee_fp: dev-SET_GROUP-2 LOG: focaltech:ta:interface
+[  943.108109] qsee_fp: dev-SET_GROUP-2 LOG: there is 0 template loaded.
+[  943.108111] qsee_fp: dev-SET_GROUP-2 LOG: h:ta:device
+[  943.108114] qsee_fp: dev-SET_GROUP-2 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.108116] qsee_fp: dev-SET_GROUP-2 LOG: ...
+[  943.108118] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108121] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:afe
+[  943.108124] qsee_fp: dev-SET_GROUP-2 LOG: set chip vio 1.8v fail, try again....
+[  943.108126] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108128] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:afe
+[  943.108132] qsee_fp: dev-SET_GROUP-2 LOG: set chip vio 1.8v fail, try again....
+[  943.108134] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108136] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108139] qsee_fp: dev-SET_GROUP-2 LOG: configure spi mode failed(0).
+[  943.108141] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108143] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108146] qsee_fp: dev-SET_GROUP-2 LOG: configure spi mode failed(0).
+[  943.108147] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108149] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108151] qsee_fp: dev-SET_GROUP-2 LOG: configure spi mode failed(0).
+[  943.108153] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108155] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108157] qsee_fp: dev-SET_GROUP-2 LOG: got undesired device id: 0x0000
+[  943.108159] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108161] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108163] qsee_fp: dev-SET_GROUP-2 LOG: got undesired device id: 0x0000
+[  943.108165] qsee_fp: dev-SET_GROUP-2 LOG: !
+[  943.108166] qsee_fp: dev-SET_GROUP-2 LOG: &focaltech:ft93xx:core
+[  943.108169] qsee_fp: dev-SET_GROUP-2 LOG: got undesired device id: 0x0000
+[  943.108171] qsee_fp: dev-SET_GROUP-2 LOG: no key named '
+[  943.108173] qsee_fp: dev-SET_GROUP-2 LOGCONT end
+[  943.142552] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[  943.142566] qsee_fp: dev-ENUM st=0xde first8=de000000 00666f63
+[  943.142571] qsee_fp: dev-ENUM str[0]: focaltech:ta:interface
+[  943.142575] qsee_fp: dev-ENUM str[1]: loading templates for gid = 0...
+[  943.142579] qsee_fp: dev-ENUM str[2]: focaltech:ta:interface
+[  943.142582] qsee_fp: dev-ENUM str[3]: there is 0 template loaded.
+[  943.142585] qsee_fp: dev-ENUM str[4]: h:ta:device
+[  943.142589] qsee_fp: dev-ENUM str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.142592] qsee_fp: dev-ENUM str[6]: ...
+[  943.142594] qsee_fp: dev-ENUM st=0x80001028 first8=28100080 00000000
+[  943.142600] qsee_fp: dev-ENUM str[0]: /data/vendor/focaltech
+[  943.142603] qsee_fp: dev-ENUM str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.142607] qsee_fp: dev-ENUM str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.142616] qsee_fp: dev-ENUM str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.142619] qsee_fp: dev-ENUM str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.142622] qsee_fp: dev-ENUM str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.142641] qsee_fp: dev-ENUM LOGCONT begin len=222
+[  943.142644] qsee_fp: dev-ENUM LOG: focaltech:ta:interface
+[  943.142647] qsee_fp: dev-ENUM LOG: loading templates for gid = 0...
+[  943.142650] qsee_fp: dev-ENUM LOG: !
+[  943.142652] qsee_fp: dev-ENUM LOG: focaltech:ta:interface
+[  943.142656] qsee_fp: dev-ENUM LOG: there is 0 template loaded.
+[  943.142658] qsee_fp: dev-ENUM LOG: h:ta:device
+[  943.142662] qsee_fp: dev-ENUM LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.142664] qsee_fp: dev-ENUM LOG: .
+[  943.142665] qsee_fp: dev-ENUM LOGCONT end
+[  943.157977] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[  943.157988] qsee_fp: dev-AUTH_ID st=0xde first8=de000000 00666f63
+[  943.158001] qsee_fp: dev-AUTH_ID str[0]: focaltech:ta:interface
+[  943.158014] qsee_fp: dev-AUTH_ID str[1]: loading templates for gid = 0...
+[  943.158025] qsee_fp: dev-AUTH_ID str[2]: focaltech:ta:interface
+[  943.158037] qsee_fp: dev-AUTH_ID str[3]: there is 0 template loaded.
+[  943.158043] qsee_fp: dev-AUTH_ID str[4]: h:ta:device
+[  943.158060] qsee_fp: dev-AUTH_ID str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.158066] qsee_fp: dev-AUTH_ID str[6]: ...
+[  943.158073] qsee_fp: dev-AUTH_ID st=0x80001026 first8=26100080 00000000
+[  943.158088] qsee_fp: dev-AUTH_ID str[0]: /data/vendor/focaltech
+[  943.158105] qsee_fp: dev-AUTH_ID str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.158124] qsee_fp: dev-AUTH_ID str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.158211] qsee_fp: dev-AUTH_ID str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.158220] qsee_fp: dev-AUTH_ID str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.158227] qsee_fp: dev-AUTH_ID str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.158467] qsee_fp: dev-AUTH_ID LOGCONT begin len=222
+[  943.158475] qsee_fp: dev-AUTH_ID LOG: focaltech:ta:interface
+[  943.158486] qsee_fp: dev-AUTH_ID LOG: loading templates for gid = 0...
+[  943.158490] qsee_fp: dev-AUTH_ID LOG: !
+[  943.158498] qsee_fp: dev-AUTH_ID LOG: focaltech:ta:interface
+[  943.158509] qsee_fp: dev-AUTH_ID LOG: there is 0 template loaded.
+[  943.158516] qsee_fp: dev-AUTH_ID LOG: h:ta:device
+[  943.158532] qsee_fp: dev-AUTH_ID LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.158536] qsee_fp: dev-AUTH_ID LOG: .
+[  943.158539] qsee_fp: dev-AUTH_ID LOGCONT end
+[  943.173940] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.173952] qsee_fp: dev-SCAN st=0xde first8=de000000 00666f63
+[  943.173968] qsee_fp: dev-SCAN str[0]: focaltech:ta:interface
+[  943.173984] qsee_fp: dev-SCAN str[1]: loading templates for gid = 0...
+[  943.173997] qsee_fp: dev-SCAN str[2]: focaltech:ta:interface
+[  943.174011] qsee_fp: dev-SCAN str[3]: there is 0 template loaded.
+[  943.174021] qsee_fp: dev-SCAN str[4]: h:ta:device
+[  943.174043] qsee_fp: dev-SCAN str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.174051] qsee_fp: dev-SCAN str[6]: ...
+[  943.174059] qsee_fp: dev-SCAN st=0x80001012 first8=12100080 30000000
+[  943.174091] qsee_fp: dev-SCAN str[0]: v2.5.3.0-cdf0f80-230614@0928
+[  943.174115] qsee_fp: dev-SCAN str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.174223] qsee_fp: dev-SCAN str[2]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.174233] qsee_fp: dev-SCAN str[3]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.174241] qsee_fp: dev-SCAN str[4]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.174545] qsee_fp: dev-SCAN LOGCONT begin len=222
+[  943.174556] qsee_fp: dev-SCAN LOG: focaltech:ta:interface
+[  943.174569] qsee_fp: dev-SCAN LOG: loading templates for gid = 0...
+[  943.174575] qsee_fp: dev-SCAN LOG: !
+[  943.174586] qsee_fp: dev-SCAN LOG: focaltech:ta:interface
+[  943.174598] qsee_fp: dev-SCAN LOG: there is 0 template loaded.
+[  943.174606] qsee_fp: dev-SCAN LOG: h:ta:device
+[  943.174626] qsee_fp: dev-SCAN LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.174632] qsee_fp: dev-SCAN LOG: .
+[  943.174636] qsee_fp: dev-SCAN LOGCONT end
+[  943.198049] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.198065] qsee_fp: dev-QEVENT st=0xde first8=de000000 00666f63
+[  943.198082] qsee_fp: dev-QEVENT str[0]: focaltech:ta:interface
+[  943.198100] qsee_fp: dev-QEVENT str[1]: loading templates for gid = 0...
+[  943.198114] qsee_fp: dev-QEVENT str[2]: focaltech:ta:interface
+[  943.198131] qsee_fp: dev-QEVENT str[3]: there is 0 template loaded.
+[  943.198142] qsee_fp: dev-QEVENT str[4]: h:ta:device
+[  943.198166] qsee_fp: dev-QEVENT str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.198175] qsee_fp: dev-QEVENT str[6]: ...
+[  943.198184] qsee_fp: dev-QEVENT st=0x8000101c first8=1c100080 00000000
+[  943.198219] qsee_fp: dev-QEVENT str[0]: v2.5.3.0-cdf0f80-230614@0928
+[  943.198244] qsee_fp: dev-QEVENT str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.198355] qsee_fp: dev-QEVENT str[2]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.198367] qsee_fp: dev-QEVENT str[3]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.198376] qsee_fp: dev-QEVENT str[4]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.198685] qsee_fp: dev-QEVENT LOGCONT begin len=222
+[  943.198697] qsee_fp: dev-QEVENT LOG: focaltech:ta:interface
+[  943.198712] qsee_fp: dev-QEVENT LOG: loading templates for gid = 0...
+[  943.198719] qsee_fp: dev-QEVENT LOG: !
+[  943.198730] qsee_fp: dev-QEVENT LOG: focaltech:ta:interface
+[  943.198744] qsee_fp: dev-QEVENT LOG: there is 0 template loaded.
+[  943.198753] qsee_fp: dev-QEVENT LOG: h:ta:device
+[  943.198774] qsee_fp: dev-QEVENT LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.198781] qsee_fp: dev-QEVENT LOG: .
+[  943.198786] qsee_fp: dev-QEVENT LOGCONT end
+[  943.214555] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.214572] qsee_fp: dev-PRE_ENROLL st=0xde first8=de000000 00666f63
+[  943.214589] qsee_fp: dev-PRE_ENROLL str[0]: focaltech:ta:interface
+[  943.214604] qsee_fp: dev-PRE_ENROLL str[1]: loading templates for gid = 0...
+[  943.214618] qsee_fp: dev-PRE_ENROLL str[2]: focaltech:ta:interface
+[  943.214632] qsee_fp: dev-PRE_ENROLL str[3]: there is 0 template loaded.
+[  943.214642] qsee_fp: dev-PRE_ENROLL str[4]: h:ta:device
+[  943.214662] qsee_fp: dev-PRE_ENROLL str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.214672] qsee_fp: dev-PRE_ENROLL str[6]: ...
+[  943.214682] qsee_fp: dev-PRE_ENROLL st=0x80002000 first8=00200080 08000000
+[  943.214700] qsee_fp: dev-PRE_ENROLL str[0]: RwX
+[  943.214720] qsee_fp: dev-PRE_ENROLL str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.214740] qsee_fp: dev-PRE_ENROLL str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.214819] qsee_fp: dev-PRE_ENROLL str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.214833] qsee_fp: dev-PRE_ENROLL str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.214845] qsee_fp: dev-PRE_ENROLL str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.215060] qsee_fp: dev-PRE_ENROLL LOGCONT begin len=222
+[  943.215072] qsee_fp: dev-PRE_ENROLL LOG: focaltech:ta:interface
+[  943.215086] qsee_fp: dev-PRE_ENROLL LOG: loading templates for gid = 0...
+[  943.215094] qsee_fp: dev-PRE_ENROLL LOG: !
+[  943.215105] qsee_fp: dev-PRE_ENROLL LOG: focaltech:ta:interface
+[  943.215118] qsee_fp: dev-PRE_ENROLL LOG: there is 0 template loaded.
+[  943.215128] qsee_fp: dev-PRE_ENROLL LOG: h:ta:device
+[  943.215145] qsee_fp: dev-PRE_ENROLL LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.215154] qsee_fp: dev-PRE_ENROLL LOG: .
+[  943.215160] qsee_fp: dev-PRE_ENROLL LOGCONT end
+[  943.215167] qsee_fp: PRE_ENROLL er=0 challenge=0x587752e0c8813674 skip_enroll=1
+[  943.238326] qsee_fp: ION HIT dev-PWR0 ret=0 req0=0x8000101e rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.238345] qsee_fp: dev-PWR0 st=0xde first8=de000000 00666f63
+[  943.238367] qsee_fp: dev-PWR0 str[0]: focaltech:ta:interface
+[  943.238386] qsee_fp: dev-PWR0 str[1]: loading templates for gid = 0...
+[  943.238403] qsee_fp: dev-PWR0 str[2]: focaltech:ta:interface
+[  943.238421] qsee_fp: dev-PWR0 str[3]: there is 0 template loaded.
+[  943.238434] qsee_fp: dev-PWR0 str[4]: h:ta:device
+[  943.238460] qsee_fp: dev-PWR0 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.238472] qsee_fp: dev-PWR0 str[6]: ...
+[  943.238484] qsee_fp: dev-PWR0 st=0x8000101e first8=1e100080 00000000
+[  943.238503] qsee_fp: dev-PWR0 str[0]: RwX
+[  943.238531] qsee_fp: dev-PWR0 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.238560] qsee_fp: dev-PWR0 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.238675] qsee_fp: dev-PWR0 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.238690] qsee_fp: dev-PWR0 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.238703] qsee_fp: dev-PWR0 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.239021] qsee_fp: dev-PWR0 LOGCONT begin len=222
+[  943.239036] qsee_fp: dev-PWR0 LOG: focaltech:ta:interface
+[  943.239052] qsee_fp: dev-PWR0 LOG: loading templates for gid = 0...
+[  943.239061] qsee_fp: dev-PWR0 LOG: !
+[  943.239075] qsee_fp: dev-PWR0 LOG: focaltech:ta:interface
+[  943.239091] qsee_fp: dev-PWR0 LOG: there is 0 template loaded.
+[  943.239102] qsee_fp: dev-PWR0 LOG: h:ta:device
+[  943.239126] qsee_fp: dev-PWR0 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.239136] qsee_fp: dev-PWR0 LOG: .
+[  943.239144] qsee_fp: dev-PWR0 LOGCONT end
+[  943.258313] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.258335] qsee_fp: dev-WMODE-0 st=0xde first8=de000000 00666f63
+[  943.258359] qsee_fp: dev-WMODE-0 str[0]: focaltech:ta:interface
+[  943.258381] qsee_fp: dev-WMODE-0 str[1]: loading templates for gid = 0...
+[  943.258400] qsee_fp: dev-WMODE-0 str[2]: focaltech:ta:interface
+[  943.258420] qsee_fp: dev-WMODE-0 str[3]: there is 0 template loaded.
+[  943.258434] qsee_fp: dev-WMODE-0 str[4]: h:ta:device
+[  943.258462] qsee_fp: dev-WMODE-0 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.258475] qsee_fp: dev-WMODE-0 str[6]: ...
+[  943.258488] qsee_fp: dev-WMODE-0 st=0x8000101f first8=1f100080 00000000
+[  943.258510] qsee_fp: dev-WMODE-0 str[0]: RwX
+[  943.258539] qsee_fp: dev-WMODE-0 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.258569] qsee_fp: dev-WMODE-0 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.258687] qsee_fp: dev-WMODE-0 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.258705] qsee_fp: dev-WMODE-0 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.258719] qsee_fp: dev-WMODE-0 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.259044] qsee_fp: dev-WMODE-0 LOGCONT begin len=222
+[  943.259059] qsee_fp: dev-WMODE-0 LOG: focaltech:ta:interface
+[  943.259079] qsee_fp: dev-WMODE-0 LOG: loading templates for gid = 0...
+[  943.259088] qsee_fp: dev-WMODE-0 LOG: !
+[  943.259104] qsee_fp: dev-WMODE-0 LOG: focaltech:ta:interface
+[  943.259121] qsee_fp: dev-WMODE-0 LOG: there is 0 template loaded.
+[  943.259133] qsee_fp: dev-WMODE-0 LOG: h:ta:device
+[  943.259159] qsee_fp: dev-WMODE-0 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.259169] qsee_fp: dev-WMODE-0 LOG: .
+[  943.259177] qsee_fp: dev-WMODE-0 LOGCONT end
+[  943.259185] qsee_fp: WMODE 0 er=0
+[  943.274317] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.274339] qsee_fp: dev-WMODE-1 st=0xde first8=de000000 00666f63
+[  943.274362] qsee_fp: dev-WMODE-1 str[0]: focaltech:ta:interface
+[  943.274384] qsee_fp: dev-WMODE-1 str[1]: loading templates for gid = 0...
+[  943.274402] qsee_fp: dev-WMODE-1 str[2]: focaltech:ta:interface
+[  943.274423] qsee_fp: dev-WMODE-1 str[3]: there is 0 template loaded.
+[  943.274438] qsee_fp: dev-WMODE-1 str[4]: h:ta:device
+[  943.274466] qsee_fp: dev-WMODE-1 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.274480] qsee_fp: dev-WMODE-1 str[6]: ...
+[  943.274493] qsee_fp: dev-WMODE-1 st=0x8000101f first8=1f100080 00000000
+[  943.274516] qsee_fp: dev-WMODE-1 str[0]: RwX
+[  943.274546] qsee_fp: dev-WMODE-1 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.274575] qsee_fp: dev-WMODE-1 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.274693] qsee_fp: dev-WMODE-1 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.274712] qsee_fp: dev-WMODE-1 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.274727] qsee_fp: dev-WMODE-1 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.275052] qsee_fp: dev-WMODE-1 LOGCONT begin len=222
+[  943.275068] qsee_fp: dev-WMODE-1 LOG: focaltech:ta:interface
+[  943.275087] qsee_fp: dev-WMODE-1 LOG: loading templates for gid = 0...
+[  943.275096] qsee_fp: dev-WMODE-1 LOG: !
+[  943.275112] qsee_fp: dev-WMODE-1 LOG: focaltech:ta:interface
+[  943.275130] qsee_fp: dev-WMODE-1 LOG: there is 0 template loaded.
+[  943.275142] qsee_fp: dev-WMODE-1 LOG: h:ta:device
+[  943.275168] qsee_fp: dev-WMODE-1 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.275178] qsee_fp: dev-WMODE-1 LOG: .
+[  943.275186] qsee_fp: dev-WMODE-1 LOGCONT end
+[  943.275194] qsee_fp: WMODE 1 er=0
+[  943.290321] qsee_fp: ION HIT dev-WMODE-2 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.290344] qsee_fp: dev-WMODE-2 st=0xde first8=de000000 00666f63
+[  943.290368] qsee_fp: dev-WMODE-2 str[0]: focaltech:ta:interface
+[  943.290390] qsee_fp: dev-WMODE-2 str[1]: loading templates for gid = 0...
+[  943.290409] qsee_fp: dev-WMODE-2 str[2]: focaltech:ta:interface
+[  943.290429] qsee_fp: dev-WMODE-2 str[3]: there is 0 template loaded.
+[  943.290444] qsee_fp: dev-WMODE-2 str[4]: h:ta:device
+[  943.290471] qsee_fp: dev-WMODE-2 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.290485] qsee_fp: dev-WMODE-2 str[6]: ...
+[  943.290499] qsee_fp: dev-WMODE-2 st=0x8000101f first8=1f100080 00000000
+[  943.290521] qsee_fp: dev-WMODE-2 str[0]: RwX
+[  943.290552] qsee_fp: dev-WMODE-2 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.290581] qsee_fp: dev-WMODE-2 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.290700] qsee_fp: dev-WMODE-2 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.290718] qsee_fp: dev-WMODE-2 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.290734] qsee_fp: dev-WMODE-2 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.291058] qsee_fp: dev-WMODE-2 LOGCONT begin len=222
+[  943.291074] qsee_fp: dev-WMODE-2 LOG: focaltech:ta:interface
+[  943.291093] qsee_fp: dev-WMODE-2 LOG: loading templates for gid = 0...
+[  943.291102] qsee_fp: dev-WMODE-2 LOG: !
+[  943.291118] qsee_fp: dev-WMODE-2 LOG: focaltech:ta:interface
+[  943.291136] qsee_fp: dev-WMODE-2 LOG: there is 0 template loaded.
+[  943.291147] qsee_fp: dev-WMODE-2 LOG: h:ta:device
+[  943.291174] qsee_fp: dev-WMODE-2 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.291185] qsee_fp: dev-WMODE-2 LOG: .
+[  943.291194] qsee_fp: dev-WMODE-2 LOGCONT end
+[  943.291203] qsee_fp: WMODE 2 er=0
+[  943.306322] qsee_fp: ION HIT dev-WMODE-3 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.306344] qsee_fp: dev-WMODE-3 st=0xde first8=de000000 00666f63
+[  943.306368] qsee_fp: dev-WMODE-3 str[0]: focaltech:ta:interface
+[  943.306390] qsee_fp: dev-WMODE-3 str[1]: loading templates for gid = 0...
+[  943.306409] qsee_fp: dev-WMODE-3 str[2]: focaltech:ta:interface
+[  943.306430] qsee_fp: dev-WMODE-3 str[3]: there is 0 template loaded.
+[  943.306445] qsee_fp: dev-WMODE-3 str[4]: h:ta:device
+[  943.306473] qsee_fp: dev-WMODE-3 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.306487] qsee_fp: dev-WMODE-3 str[6]: ...
+[  943.306500] qsee_fp: dev-WMODE-3 st=0x8000101f first8=1f100080 00000000
+[  943.306522] qsee_fp: dev-WMODE-3 str[0]: RwX
+[  943.306551] qsee_fp: dev-WMODE-3 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.306581] qsee_fp: dev-WMODE-3 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.306700] qsee_fp: dev-WMODE-3 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.306719] qsee_fp: dev-WMODE-3 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.306735] qsee_fp: dev-WMODE-3 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.307060] qsee_fp: dev-WMODE-3 LOGCONT begin len=222
+[  943.307076] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[  943.307095] qsee_fp: dev-WMODE-3 LOG: loading templates for gid = 0...
+[  943.307105] qsee_fp: dev-WMODE-3 LOG: !
+[  943.307120] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[  943.307138] qsee_fp: dev-WMODE-3 LOG: there is 0 template loaded.
+[  943.307150] qsee_fp: dev-WMODE-3 LOG: h:ta:device
+[  943.307176] qsee_fp: dev-WMODE-3 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.307186] qsee_fp: dev-WMODE-3 LOG: .
+[  943.307194] qsee_fp: dev-WMODE-3 LOGCONT end
+[  943.307203] qsee_fp: WMODE 3 er=0
+[  943.322317] qsee_fp: ION HIT dev-WMODE-4 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.322340] qsee_fp: dev-WMODE-4 st=0xde first8=de000000 00666f63
+[  943.322364] qsee_fp: dev-WMODE-4 str[0]: focaltech:ta:interface
+[  943.322387] qsee_fp: dev-WMODE-4 str[1]: loading templates for gid = 0...
+[  943.322406] qsee_fp: dev-WMODE-4 str[2]: focaltech:ta:interface
+[  943.322426] qsee_fp: dev-WMODE-4 str[3]: there is 0 template loaded.
+[  943.322441] qsee_fp: dev-WMODE-4 str[4]: h:ta:device
+[  943.322469] qsee_fp: dev-WMODE-4 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.322483] qsee_fp: dev-WMODE-4 str[6]: ...
+[  943.322495] qsee_fp: dev-WMODE-4 st=0x8000101f first8=1f100080 00000000
+[  943.322517] qsee_fp: dev-WMODE-4 str[0]: RwX
+[  943.322547] qsee_fp: dev-WMODE-4 str[1]: v2.5.3.0-cdf0f80-230614@0928
+[  943.322577] qsee_fp: dev-WMODE-4 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.322695] qsee_fp: dev-WMODE-4 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.322712] qsee_fp: dev-WMODE-4 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.322727] qsee_fp: dev-WMODE-4 str[5]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.323051] qsee_fp: dev-WMODE-4 LOGCONT begin len=222
+[  943.323067] qsee_fp: dev-WMODE-4 LOG: focaltech:ta:interface
+[  943.323086] qsee_fp: dev-WMODE-4 LOG: loading templates for gid = 0...
+[  943.323096] qsee_fp: dev-WMODE-4 LOG: !
+[  943.323111] qsee_fp: dev-WMODE-4 LOG: focaltech:ta:interface
+[  943.323129] qsee_fp: dev-WMODE-4 LOG: there is 0 template loaded.
+[  943.323141] qsee_fp: dev-WMODE-4 LOG: h:ta:device
+[  943.323166] qsee_fp: dev-WMODE-4 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.323177] qsee_fp: dev-WMODE-4 LOG: .
+[  943.323185] qsee_fp: dev-WMODE-4 LOGCONT end
+[  943.323193] qsee_fp: WMODE 4 er=0
+[  943.338317] qsee_fp: ION HIT dev-SCAN2 ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.338339] qsee_fp: dev-SCAN2 st=0xde first8=de000000 00666f63
+[  943.338362] qsee_fp: dev-SCAN2 str[0]: focaltech:ta:interface
+[  943.338384] qsee_fp: dev-SCAN2 str[1]: loading templates for gid = 0...
+[  943.338402] qsee_fp: dev-SCAN2 str[2]: focaltech:ta:interface
+[  943.338422] qsee_fp: dev-SCAN2 str[3]: there is 0 template loaded.
+[  943.338436] qsee_fp: dev-SCAN2 str[4]: h:ta:device
+[  943.338464] qsee_fp: dev-SCAN2 str[5]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.338477] qsee_fp: dev-SCAN2 str[6]: ...
+[  943.338490] qsee_fp: dev-SCAN2 st=0x80001012 first8=12100080 30000000
+[  943.338531] qsee_fp: dev-SCAN2 str[0]: v2.5.3.0-cdf0f80-230614@0928
+[  943.338561] qsee_fp: dev-SCAN2 str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.338679] qsee_fp: dev-SCAN2 str[2]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.338697] qsee_fp: dev-SCAN2 str[3]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.338712] qsee_fp: dev-SCAN2 str[4]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.339037] qsee_fp: dev-SCAN2 LOGCONT begin len=222
+[  943.339054] qsee_fp: dev-SCAN2 LOG: focaltech:ta:interface
+[  943.339073] qsee_fp: dev-SCAN2 LOG: loading templates for gid = 0...
+[  943.339083] qsee_fp: dev-SCAN2 LOG: !
+[  943.339099] qsee_fp: dev-SCAN2 LOG: focaltech:ta:interface
+[  943.339117] qsee_fp: dev-SCAN2 LOG: there is 0 template loaded.
+[  943.339129] qsee_fp: dev-SCAN2 LOG: h:ta:device
+[  943.339155] qsee_fp: dev-SCAN2 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.339165] qsee_fp: dev-SCAN2 LOG: .
+[  943.339173] qsee_fp: dev-SCAN2 LOGCONT end
+[  943.339182] qsee_fp: SCAN2 er=0
+[  943.374374] qsee_fp: ION HIT dev-cap-zero ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.374396] qsee_fp: dev-cap-zero st=0x52a first8=2a050000 00666f63
+[  943.374418] qsee_fp: dev-cap-zero str[0]: focaltech:ta:core
+[  943.374451] qsee_fp: dev-cap-zero str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.374469] qsee_fp: dev-cap-zero str[2]:  is 0 template loaded.
+[  943.374484] qsee_fp: dev-cap-zero str[3]: h:ta:device
+[  943.374512] qsee_fp: dev-cap-zero str[4]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.374525] qsee_fp: dev-cap-zero str[5]: ...
+[  943.374543] qsee_fp: dev-cap-zero str[6]: &focaltech:ft93xx:afe
+[  943.374566] qsee_fp: dev-cap-zero str[7]: set chip vio 1.8v fail, try again....
+[  943.374584] qsee_fp: dev-cap-zero str[8]: &focaltech:ft93xx:afe
+[  943.374607] qsee_fp: dev-cap-zero str[9]: set chip vio 1.8v fail, try again....
+[  943.374625] qsee_fp: dev-cap-zero str[10]: &focaltech:ft93xx:core
+[  943.374645] qsee_fp: dev-cap-zero str[11]: configure spi mode failed(0).
+[  943.374664] qsee_fp: dev-cap-zero str[12]: &focaltech:ft93xx:core
+[  943.374685] qsee_fp: dev-cap-zero str[13]: configure spi mode failed(0).
+[  943.374703] qsee_fp: dev-cap-zero str[14]: &focaltech:ft93xx:core
+[  943.374723] qsee_fp: dev-cap-zero str[15]: configure spi mode failed(0).
+[  943.374742] qsee_fp: dev-cap-zero str[16]: &focaltech:ft93xx:core
+[  943.374764] qsee_fp: dev-cap-zero str[17]: got undesired device id: 0x0000
+[  943.374782] qsee_fp: dev-cap-zero str[18]: &focaltech:ft93xx:core
+[  943.374803] qsee_fp: dev-cap-zero str[19]: got undesired device id: 0x0000
+[  943.374821] qsee_fp: dev-cap-zero str[20]: &focaltech:ft93xx:core
+[  943.374843] qsee_fp: dev-cap-zero str[21]: got undesired device id: 0x0000
+[  943.374875] qsee_fp: dev-cap-zero str[22]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  943.374893] qsee_fp: dev-cap-zero str[23]: focaltech:ta:config
+[  943.374926] qsee_fp: dev-cap-zero str[24]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  943.374945] qsee_fp: dev-cap-zero str[25]: focaltech:ta:config
+[  943.374977] qsee_fp: dev-cap-zero str[26]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[  943.374997] qsee_fp: dev-cap-zero str[27]: focaltech:ta:config
+[  943.375030] qsee_fp: dev-cap-zero str[28]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[  943.375049] qsee_fp: dev-cap-zero str[29]: focaltech:ta:config
+[  943.375080] qsee_fp: dev-cap-zero str[30]: no key named 'algorithm.non_finger_net_mode', use default value.
+[  943.375096] qsee_fp: dev-cap-zero str[31]: focaltech:t
+[  943.375108] qsee_fp: dev-cap-zero st=0x80001013 first8=13100080 24000000
+[  943.375150] qsee_fp: dev-cap-zero str[0]: v2.5.3.0-cdf0f80-230614@0928
+[  943.375180] qsee_fp: dev-cap-zero str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.375298] qsee_fp: dev-cap-zero str[2]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.375316] qsee_fp: dev-cap-zero str[3]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_level":3,"en
+[  943.375330] qsee_fp: dev-cap-zero str[4]: able_logcat_trustlet":true,"enable_trustlet_native_log":true}}
+[  943.375655] qsee_fp: dev-cap-zero LOGCONT begin len=1322
+[  943.375670] qsee_fp: dev-cap-zero LOG: focaltech:ta:core
+[  943.375699] qsee_fp: dev-cap-zero LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.375715] qsee_fp: dev-cap-zero LOG:  is 0 template loaded.
+[  943.375728] qsee_fp: dev-cap-zero LOG: h:ta:device
+[  943.375755] qsee_fp: dev-cap-zero LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.375766] qsee_fp: dev-cap-zero LOG: ...
+[  943.375776] qsee_fp: dev-cap-zero LOG: !
+[  943.375791] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:afe
+[  943.375812] qsee_fp: dev-cap-zero LOG: set chip vio 1.8v fail, try again....
+[  943.375822] qsee_fp: dev-cap-zero LOG: !
+[  943.375836] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:afe
+[  943.375857] qsee_fp: dev-cap-zero LOG: set chip vio 1.8v fail, try again....
+[  943.375866] qsee_fp: dev-cap-zero LOG: !
+[  943.375881] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.375899] qsee_fp: dev-cap-zero LOG: configure spi mode failed(0).
+[  943.375909] qsee_fp: dev-cap-zero LOG: !
+[  943.375924] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.375942] qsee_fp: dev-cap-zero LOG: configure spi mode failed(0).
+[  943.375952] qsee_fp: dev-cap-zero LOG: !
+[  943.375967] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.375986] qsee_fp: dev-cap-zero LOG: configure spi mode failed(0).
+[  943.375996] qsee_fp: dev-cap-zero LOG: !
+[  943.376010] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.376029] qsee_fp: dev-cap-zero LOG: got undesired device id: 0x0000
+[  943.376039] qsee_fp: dev-cap-zero LOG: !
+[  943.376054] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.376073] qsee_fp: dev-cap-zero LOG: got undesired device id: 0x0000
+[  943.376083] qsee_fp: dev-cap-zero LOG: !
+[  943.376099] qsee_fp: dev-cap-zero LOG: &focaltech:ft93xx:core
+[  943.376119] qsee_fp: dev-cap-zero LOG: got undesired device id: 0x0000
+[  943.376148] qsee_fp: dev-cap-zero LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  943.376160] qsee_fp: dev-cap-zero LOG: !
+[  943.376174] qsee_fp: dev-cap-zero LOG: focaltech:ta:config
+[  943.376203] qsee_fp: dev-cap-zero LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  943.376214] qsee_fp: dev-cap-zero LOG: !
+[  943.376228] qsee_fp: dev-cap-zero LOG: focaltech:ta:config
+[  943.376257] qsee_fp: dev-cap-zero LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[  943.376268] qsee_fp: dev-cap-zero LOG: !
+[  943.376282] qsee_fp: dev-cap-zero LOG: focaltech:ta:config
+[  943.376313] qsee_fp: dev-cap-zero LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[  943.376324] qsee_fp: dev-cap-zero LOG: !
+[  943.376338] qsee_fp: dev-cap-zero LOG: focaltech:ta:config
+[  943.376367] qsee_fp: dev-cap-zero LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[  943.376378] qsee_fp: dev-cap-zero LOG: !
+[  943.376388] qsee_fp: dev-cap-zero LOG: foc
+[  943.376398] qsee_fp: dev-cap-zero LOGCONT end
+[  943.376408] qsee_fp: cap-zero er=0 err=0xffffff37
+[  943.418696] qsee_fp: ION HIT dev-0x1017 ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.418730] qsee_fp: dev-0x1017 st=0xde first8=de000000 00666f63
+[  943.418750] qsee_fp: dev-0x1017 str[0]: focaltech:ta:core
+[  943.418777] qsee_fp: dev-0x1017 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.418794] qsee_fp: dev-0x1017 str[2]:  is 0 template loaded.
+[  943.418808] qsee_fp: dev-0x1017 str[3]: h:ta:device
+[  943.418832] qsee_fp: dev-0x1017 str[4]: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.418845] qsee_fp: dev-0x1017 str[5]: ...
+[  943.418858] qsee_fp: dev-0x1017 st=0x80001017 first8=17100080 e0020000
+[  943.418899] qsee_fp: dev-0x1017 str[0]: 0.0.3_00
+[  943.418923] qsee_fp: dev-0x1017 str[1]: -cdf0f80-230614@0928
+[  943.418948] qsee_fp: dev-0x1017 str[2]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[  943.419024] qsee_fp: dev-0x1017 str[3]: _1p8":true,"enable_re_power_b4_probing":true},"trustlet":{"enable_trusted_enrollment":false,"enable_authenticate_token":false,"enable_fingerprint_payment":false,"enable_secret_data_backup":false},"co
+[  943.419042] qsee_fp: dev-0x1017 str[4]: mmon":{"max_enrolling_fingers":5,"max_enrolling_samples":8,"default_data_home":"/var/lib/fp5-fp","persist_data_home":"/var/lib/fp5-fp"},"diagnosis":{"framework_log_level":3,"firmware_log_le
+[  943.419282] qsee_fp: dev-0x1017 LOGCONT begin len=222
+[  943.419296] qsee_fp: dev-0x1017 LOG: focaltech:ta:core
+[  943.419320] qsee_fp: dev-0x1017 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.419335] qsee_fp: dev-0x1017 LOG:  is 0 template loaded.
+[  943.419346] qsee_fp: dev-0x1017 LOG: h:ta:device
+[  943.419368] qsee_fp: dev-0x1017 LOG: error at ff_device_probe[device.c:103]: 'Device not found'.
+[  943.419378] qsee_fp: dev-0x1017 LOG: .
+[  943.419387] qsee_fp: dev-0x1017 LOGCONT end
+[  943.419396] qsee_fp: 0x1017 er=0 err=0x0
+[  943.463019] qsee_fp: ION HIT dev-cap-meta-96x96 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.463049] qsee_fp: dev-cap-meta-96x96 st=0x52a first8=2a050000 00666f63
+[  943.463071] qsee_fp: dev-cap-meta-96x96 str[0]: focaltech:ta:core
+[  943.463098] qsee_fp: dev-cap-meta-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.463316] qsee_fp: dev-cap-meta-96x96 st=0x80001013 first8=13100080 24000000
+[  943.463676] qsee_fp: dev-cap-meta-96x96 str: (none printable)
+[  943.463686] qsee_fp: dev-cap-meta-96x96 LOGCONT begin len=1322
+[  943.463700] qsee_fp: dev-cap-meta-96x96 LOG: focaltech:ta:core
+[  943.463725] qsee_fp: dev-cap-meta-96x96 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.463938] qsee_fp: dev-cap-meta-96x96 LOGCONT end
+[  943.463948] qsee_fp: dev-cap-meta-96x96 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.507927] qsee_fp: ION HIT dev-cap-big-96x96 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.507963] qsee_fp: dev-cap-big-96x96 st=0x52a first8=2a050000 00666f63
+[  943.507987] qsee_fp: dev-cap-big-96x96 str[0]: focaltech:ta:core
+[  943.508021] qsee_fp: dev-cap-big-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.508310] qsee_fp: dev-cap-big-96x96 st=0x80001013 first8=13100080 24000000
+[  943.508902] qsee_fp: dev-cap-big-96x96 str: (none printable)
+[  943.508915] qsee_fp: dev-cap-big-96x96 LOGCONT begin len=1322
+[  943.508930] qsee_fp: dev-cap-big-96x96 LOG: focaltech:ta:core
+[  943.508960] qsee_fp: dev-cap-big-96x96 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.509240] qsee_fp: dev-cap-big-96x96 LOGCONT end
+[  943.509249] qsee_fp: dev-cap-big-96x96 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.556089] qsee_fp: ION HIT dev-cap-meta-112x88 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.556119] qsee_fp: dev-cap-meta-112x88 st=0x52a first8=2a050000 00666f63
+[  943.556142] qsee_fp: dev-cap-meta-112x88 str[0]: focaltech:ta:core
+[  943.556175] qsee_fp: dev-cap-meta-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.556462] qsee_fp: dev-cap-meta-112x88 st=0x80001013 first8=13100080 24000000
+[  943.557158] qsee_fp: dev-cap-meta-112x88 str: (none printable)
+[  943.557171] qsee_fp: dev-cap-meta-112x88 LOGCONT begin len=1322
+[  943.557187] qsee_fp: dev-cap-meta-112x88 LOG: focaltech:ta:core
+[  943.557216] qsee_fp: dev-cap-meta-112x88 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.557497] qsee_fp: dev-cap-meta-112x88 LOGCONT end
+[  943.557507] qsee_fp: dev-cap-meta-112x88 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.603935] qsee_fp: ION HIT dev-cap-big-112x88 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.603968] qsee_fp: dev-cap-big-112x88 st=0x52a first8=2a050000 00666f63
+[  943.603992] qsee_fp: dev-cap-big-112x88 str[0]: focaltech:ta:core
+[  943.604025] qsee_fp: dev-cap-big-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.604313] qsee_fp: dev-cap-big-112x88 st=0x80001013 first8=13100080 24000000
+[  943.604908] qsee_fp: dev-cap-big-112x88 str: (none printable)
+[  943.604921] qsee_fp: dev-cap-big-112x88 LOGCONT begin len=1322
+[  943.604937] qsee_fp: dev-cap-big-112x88 LOG: focaltech:ta:core
+[  943.604966] qsee_fp: dev-cap-big-112x88 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.605248] qsee_fp: dev-cap-big-112x88 LOGCONT end
+[  943.605257] qsee_fp: dev-cap-big-112x88 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.652993] qsee_fp: ION HIT dev-cap-meta-80x80 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.653021] qsee_fp: dev-cap-meta-80x80 st=0x52a first8=2a050000 00666f63
+[  943.653044] qsee_fp: dev-cap-meta-80x80 str[0]: focaltech:ta:core
+[  943.653077] qsee_fp: dev-cap-meta-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.653363] qsee_fp: dev-cap-meta-80x80 st=0x80001013 first8=13100080 24000000
+[  943.653841] qsee_fp: dev-cap-meta-80x80 str: (none printable)
+[  943.653850] qsee_fp: dev-cap-meta-80x80 LOGCONT begin len=1322
+[  943.653865] qsee_fp: dev-cap-meta-80x80 LOG: focaltech:ta:core
+[  943.653896] qsee_fp: dev-cap-meta-80x80 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.654179] qsee_fp: dev-cap-meta-80x80 LOGCONT end
+[  943.654189] qsee_fp: dev-cap-meta-80x80 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.699925] qsee_fp: ION HIT dev-cap-big-80x80 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.699960] qsee_fp: dev-cap-big-80x80 st=0x52a first8=2a050000 00666f63
+[  943.699984] qsee_fp: dev-cap-big-80x80 str[0]: focaltech:ta:core
+[  943.700017] qsee_fp: dev-cap-big-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.700305] qsee_fp: dev-cap-big-80x80 st=0x80001013 first8=13100080 24000000
+[  943.700953] qsee_fp: dev-cap-big-80x80 str: (none printable)
+[  943.700966] qsee_fp: dev-cap-big-80x80 LOGCONT begin len=1322
+[  943.700982] qsee_fp: dev-cap-big-80x80 LOG: focaltech:ta:core
+[  943.701011] qsee_fp: dev-cap-big-80x80 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.701292] qsee_fp: dev-cap-big-80x80 LOGCONT end
+[  943.701301] qsee_fp: dev-cap-big-80x80 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.748033] qsee_fp: ION HIT dev-cap-meta-160x160 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.748063] qsee_fp: dev-cap-meta-160x160 st=0x52a first8=2a050000 00666f63
+[  943.748088] qsee_fp: dev-cap-meta-160x160 str[0]: focaltech:ta:core
+[  943.748121] qsee_fp: dev-cap-meta-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.748409] qsee_fp: dev-cap-meta-160x160 st=0x80001013 first8=13100080 24000000
+[  943.749025] qsee_fp: dev-cap-meta-160x160 str: (none printable)
+[  943.749038] qsee_fp: dev-cap-meta-160x160 LOGCONT begin len=1322
+[  943.749054] qsee_fp: dev-cap-meta-160x160 LOG: focaltech:ta:core
+[  943.749083] qsee_fp: dev-cap-meta-160x160 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.749364] qsee_fp: dev-cap-meta-160x160 LOGCONT end
+[  943.749373] qsee_fp: dev-cap-meta-160x160 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.795057] qsee_fp: ION HIT dev-cap-big-160x160 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  943.795086] qsee_fp: dev-cap-big-160x160 st=0x52a first8=2a050000 00666f63
+[  943.795111] qsee_fp: dev-cap-big-160x160 str[0]: focaltech:ta:core
+[  943.795145] qsee_fp: dev-cap-big-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.795433] qsee_fp: dev-cap-big-160x160 st=0x80001013 first8=13100080 24000000
+[  943.795909] qsee_fp: dev-cap-big-160x160 str: (none printable)
+[  943.795917] qsee_fp: dev-cap-big-160x160 LOGCONT begin len=1322
+[  943.795933] qsee_fp: dev-cap-big-160x160 LOG: focaltech:ta:core
+[  943.795963] qsee_fp: dev-cap-big-160x160 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.796246] qsee_fp: dev-cap-big-160x160 LOGCONT end
+[  943.796255] qsee_fp: dev-cap-big-160x160 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  943.863203] qsee_fp: ION HIT dev-QEVENT2 ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.863239] qsee_fp: dev-QEVENT2 st=0xde first8=de000000 00666f63
+[  943.863262] qsee_fp: dev-QEVENT2 str[0]: focaltech:ta:core
+[  943.863295] qsee_fp: dev-QEVENT2 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.863335] qsee_fp: dev-QEVENT2 st=0x8000101c first8=1c100080 00000000
+[  943.863810] qsee_fp: dev-QEVENT2 str: (none printable)
+[  943.863818] qsee_fp: dev-QEVENT2 LOGCONT begin len=222
+[  943.863835] qsee_fp: dev-QEVENT2 LOG: focaltech:ta:core
+[  943.863864] qsee_fp: dev-QEVENT2 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.863899] qsee_fp: dev-QEVENT2 LOGCONT end
+[  943.882328] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  943.882349] qsee_fp: dev-QFINGER st=0xde first8=de000000 00666f63
+[  943.882372] qsee_fp: dev-QFINGER str[0]: focaltech:ta:core
+[  943.882405] qsee_fp: dev-QFINGER str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.882446] qsee_fp: dev-QFINGER st=0x8000101d first8=1d100080 00000000
+[  943.882923] qsee_fp: dev-QFINGER str: (none printable)
+[  943.882931] qsee_fp: dev-QFINGER LOGCONT begin len=222
+[  943.882946] qsee_fp: dev-QFINGER LOG: focaltech:ta:core
+[  943.882976] qsee_fp: dev-QFINGER LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.883012] qsee_fp: dev-QFINGER LOGCONT end
+[  943.902316] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.902339] qsee_fp: dev-HEALTH-post-cap st=0xde first8=de000000 00666f63
+[  943.902362] qsee_fp: dev-HEALTH-post-cap str[0]: focaltech:ta:core
+[  943.902395] qsee_fp: dev-HEALTH-post-cap str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.902435] qsee_fp: dev-HEALTH-post-cap st=0x80001016 first8=16100080 00000000
+[  943.902912] qsee_fp: dev-HEALTH-post-cap str: (none printable)
+[  943.902921] qsee_fp: dev-HEALTH-post-cap LOGCONT begin len=222
+[  943.902937] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:core
+[  943.902966] qsee_fp: dev-HEALTH-post-cap LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.903002] qsee_fp: dev-HEALTH-post-cap LOGCONT end
+[  943.903012] qsee_fp: HEALTH after capture path er=0
+[  943.903021] qsee_fp: skip_enroll=1 — not sending ENROLL (keeps TA alive)
+[  943.904320] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  943.904343] qsee_fp: dev-HEALTH-final st=0xde first8=de000000 00666f63
+[  943.904366] qsee_fp: dev-HEALTH-final str[0]: focaltech:ta:core
+[  943.904398] qsee_fp: dev-HEALTH-final str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.904439] qsee_fp: dev-HEALTH-final st=0x80001016 first8=16100080 00000000
+[  943.905017] qsee_fp: dev-HEALTH-final str: (none printable)
+[  943.905030] qsee_fp: dev-HEALTH-final LOGCONT begin len=222
+[  943.905046] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:core
+[  943.905076] qsee_fp: dev-HEALTH-final LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  943.905112] qsee_fp: dev-HEALTH-final LOGCONT end
+[  943.905121] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[  943.905524] qsee_fp: device-TA probe+auth-path complete
+[  943.905536] qsee_fp: done

@@ -1,0 +1,30 @@
+insmod_ok
+[  142.625704] qsee_fp: REGISTER_LISTENER id=10 pa=0xff200000 len=0x10000 ret=-22 result=0x0 type=0x0 data=0x0
+[  142.625774] qsee_fp: REGISTER_LISTENER(cmd6) ret=-22 result=0x0 data=0x0
+[  142.625781] qsee_fp: listener register failed — SFS will stay broken
+[  142.842594] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[  143.103294] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[  143.472152] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  143.472157] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[  143.472164] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  143.472189] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[  143.472194] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERI
+[  143.472204] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  143.984820] qsee_fp: dev-cap-meta-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.028704] qsee_fp: dev-cap-big-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.074439] qsee_fp: dev-cap-meta-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.117266] qsee_fp: dev-cap-big-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.161496] qsee_fp: dev-cap-meta-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.205351] qsee_fp: dev-cap-big-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.250295] qsee_fp: dev-cap-meta-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.294423] qsee_fp: dev-cap-big-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.362330] qsee_fp: dev-QEVENT2 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.362415] qsee_fp: dev-QEVENT2 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.380789] qsee_fp: dev-QFINGER str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.381150] qsee_fp: dev-QFINGER LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.400677] qsee_fp: dev-HEALTH-post-cap str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.400749] qsee_fp: dev-HEALTH-post-cap LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.402143] qsee_fp: dev-HEALTH-final str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.402214] qsee_fp: dev-HEALTH-final LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  144.402251] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[  144.402620] qsee_fp: done

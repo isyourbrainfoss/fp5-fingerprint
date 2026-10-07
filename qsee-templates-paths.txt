@@ -1,0 +1,46 @@
+[   20.995122] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x0
+[   20.995129] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00000000
+[   20.995134] qsee_fp: dev-INIT_SPI-1006 str: (none printable)
+[   20.995135] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[   20.995139] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[   21.295706] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   21.295742] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   21.489980] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x42a err=0xfffffffe rsp8=0x65746c61
+[   21.489986] qsee_fp: dev-SET_GROUP-0 st=0x42a first8=2a040000 00666f63
+[   21.489989] qsee_fp: dev-SET_GROUP-0 str[0]: focaltech:ta:config
+[   21.489992] qsee_fp: dev-SET_GROUP-0 str[1]: no key named 'common.max_enrolling_fingers', use default value.
+[   21.489995] qsee_fp: dev-SET_GROUP-0 str[2]: focaltech:ta:interface
+[   21.489997] qsee_fp: dev-SET_GROUP-0 str[3]: loading templates for gid = 0...
+[   21.489999] qsee_fp: dev-SET_GROUP-0 str[4]: focaltech:ta:config
+[   21.490001] qsee_fp: dev-SET_GROUP-0 str[5]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   21.490003] qsee_fp: dev-SET_GROUP-0 str[6]: focaltech:ta:interface
+[   21.490005] qsee_fp: dev-SET_GROUP-0 str[7]: there is 0 template loaded.
+[   21.490007] qsee_fp: dev-SET_GROUP-0 str[8]: focaltech:ta:config
+[   21.490009] qsee_fp: dev-SET_GROUP-0 str[9]: no key named 'trustlet.enable_fingerprint_payment', use default value.
+[   21.527274] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x42a err=0xfffffffe rsp8=0x65746c61
+[   21.527282] qsee_fp: dev-SET_GROUP-1 st=0x42a first8=2a040000 00666f63
+[   21.527286] qsee_fp: dev-SET_GROUP-1 str[0]: focaltech:ta:config
+[   21.527288] qsee_fp: dev-SET_GROUP-1 str[1]: no key named 'common.max_enrolling_fingers', use default value.
+[   21.527291] qsee_fp: dev-SET_GROUP-1 str[2]: focaltech:ta:interface
+[   21.527292] qsee_fp: dev-SET_GROUP-1 str[3]: loading templates for gid = 0...
+[   21.527294] qsee_fp: dev-SET_GROUP-1 str[4]: focaltech:ta:config
+[   21.527297] qsee_fp: dev-SET_GROUP-1 str[5]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   21.527298] qsee_fp: dev-SET_GROUP-1 str[6]: focaltech:ta:interface
+[   21.527300] qsee_fp: dev-SET_GROUP-1 str[7]: there is 0 template loaded.
+[   21.527302] qsee_fp: dev-SET_GROUP-1 str[8]: focaltech:ta:config
+[   21.527304] qsee_fp: dev-SET_GROUP-1 str[9]: no key named 'trustlet.enable_fingerprint_payment', use default value.
+[   21.563456] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x42a err=0xfffffffe rsp8=0x65746c61
+[   21.563466] qsee_fp: dev-SET_GROUP-2 st=0x42a first8=2a040000 00666f63
+[   21.563471] qsee_fp: dev-SET_GROUP-2 str[0]: focaltech:ta:config
+[   21.563473] qsee_fp: dev-SET_GROUP-2 str[1]: no key named 'common.max_enrolling_fingers', use default value.
+[   21.563476] qsee_fp: dev-SET_GROUP-2 str[2]: focaltech:ta:interface
+[   21.563478] qsee_fp: dev-SET_GROUP-2 str[3]: loading templates for gid = 0...
+[   21.563480] qsee_fp: dev-SET_GROUP-2 str[4]: focaltech:ta:config
+[   21.563483] qsee_fp: dev-SET_GROUP-2 str[5]: no key named 'trustlet.enable_secret_data_backup', use default value.
+[   21.563484] qsee_fp: dev-SET_GROUP-2 str[6]: focaltech:ta:interface
+[   21.563486] qsee_fp: dev-SET_GROUP-2 str[7]: there is 0 template loaded.
+[   21.563488] qsee_fp: dev-SET_GROUP-2 str[8]: focaltech:ta:config
+[   21.563490] qsee_fp: dev-SET_GROUP-2 str[9]: no key named 'trustlet.enable_fingerprint_payment', use default value.
+[   21.639180] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x0
+[   21.688385] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[   21.716689] qsee_fp: ION fp-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0

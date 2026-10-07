@@ -1,0 +1,650 @@
+[ 1502.144154] qsee_fp: init
+[ 1502.160283] qsee_fp: ===== DEVICE TA id=4 aux=5 ion 0x78000/0x8040 cfg_len=971 spi_bus=14 spidev=0 =====
+[ 1502.166069] qsee_fp: aux-base-205 ret=0 st=0xffffffff
+[ 1502.191549] qsee_fp: aux-entry-1011 ret=0 st=0xffffffff
+[ 1502.212788] qsee_fp: big sess pa=0xff200000
+[ 1502.213626] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0xde err=0xffffff35 rsp8=0x0
+[ 1502.214349] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[ 1502.215573] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1502.237550] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1502.268882] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1502.269075] qsee_fp: dev-PROBE1-100a MARK: vio 1.8v success
+[ 1502.300955] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1502.301148] qsee_fp: dev-PROBE2-100a MARK: vio 1.8v success
+[ 1502.562947] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[ 1502.563066] qsee_fp: dev-INIT_DEV-100b MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 1503.093217] qsee_fp: ION HIT dev-LOGCAT-post-initdev ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1503.093343] qsee_fp: dev-LOGCAT-post-initdev MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 1504.597969] qsee_fp: ION HIT dev-LOGCAT-post-initdev2 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1504.598093] qsee_fp: dev-LOGCAT-post-initdev2 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 1505.109437] qsee_fp: ION HIT dev-LOGCAT1-1003 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1505.109567] qsee_fp: dev-LOGCAT1-1003 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 1505.129206] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1505.129354] qsee_fp: dev-CHIP_INIT-1022 MARK: sn num: 0b0a6944171209070800fb120d1e1dff22
+[ 1505.186404] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1505.389128] qsee_fp: ION HIT dev-LOGCAT2-1003 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1505.413064] qsee_fp: ION HIT dev-SYNC_CALIB-100f ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1505.433155] qsee_fp: ION HIT dev-SYNC_STATS-100e ret=0 req0=0x8000100e rsp0=0x32a err=0x0 rsp8=0x65746c61
+[ 1505.506944] qsee_fp: ION HIT dev-DEAD_PIXEL-1020 ret=0 req0=0x80001020 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1505.528620] qsee_fp: ION HIT dev-FP_IS_TYPE-1021 ret=0 req0=0x80001021 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1505.630551] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1505.649389] qsee_fp: ION HIT dev-SET_GROUP-0 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 1505.685975] qsee_fp: ION HIT dev-SET_GROUP-1 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 1505.725697] qsee_fp: ION HIT dev-SET_GROUP-2 ret=0 req0=0x80002007 rsp0=0x32a err=0xfffffffe rsp8=0x65746c61
+[ 1505.761134] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1505.777069] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1505.807313] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1505.854434] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1505.854588] qsee_fp: dev-QEVENT MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1505.855276] qsee_fp: dev-QEVENT MARK: query event state: [unknow].
+[ 1505.873844] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1505.874012] qsee_fp: dev-PRE_ENROLL MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1505.874682] qsee_fp: dev-PRE_ENROLL MARK: query event state: [unknow].
+[ 1505.874839] qsee_fp: PRE_ENROLL er=0 challenge=0x8b22ac5e35e14daa skip_enroll=0
+[ 1505.915011] qsee_fp: ION HIT dev-PWR1 ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1505.915882] qsee_fp: dev-PWR1 MARK: query event state: [unknow].
+[ 1505.956565] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1505.957278] qsee_fp: dev-WMODE-0 MARK: query event state: [unknow].
+[ 1505.959836] qsee_fp: WMODE 0 er=0 err=0x0
+[ 1505.998229] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1505.999091] qsee_fp: dev-WMODE-1 MARK: query event state: [unknow].
+[ 1506.002177] qsee_fp: WMODE 1 er=0 err=0x0
+[ 1506.040710] qsee_fp: ION HIT dev-WMODE-2 ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1506.041575] qsee_fp: dev-WMODE-2 MARK: query event state: [unknow].
+[ 1506.044747] qsee_fp: WMODE 2 er=0 err=0x0
+[ 1506.064852] qsee_fp: ION HIT dev-WMODE-3 ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1506.065688] qsee_fp: dev-WMODE-3 MARK: query event state: [unknow].
+[ 1506.071180] qsee_fp: WMODE 3 er=0 err=0x0
+[ 1506.089018] qsee_fp: ION HIT dev-WMODE-4 ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1506.090068] qsee_fp: dev-WMODE-4 MARK: query event state: [unknow].
+[ 1506.096922] qsee_fp: WMODE 4 er=0 err=0x0
+[ 1506.134289] qsee_fp: ION HIT dev-SCAN2 ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1506.135354] qsee_fp: dev-SCAN2 MARK: query event state: [unknow].
+[ 1506.135552] qsee_fp: SCAN2 er=0
+[ 1506.169381] qsee_fp: ION HIT dev-cap-zero ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 1506.175239] qsee_fp: cap-zero er=0 err=0xffffff37
+[ 1506.233194] qsee_fp: ION HIT dev-LOGCAT-after-cap0 ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1509.355348] qsee_fp: ION HIT dev-cap-meta-p0-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1509.355387] qsee_fp: dev-cap-meta-p0-112x88 MARK: vio 1.8v success
+[ 1509.355790] qsee_fp: dev-cap-meta-p0-112x88 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1509.355889] qsee_fp: dev-cap-meta-p0-112x88 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1509.355896] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-112x88
+[ 1509.401020] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1509.401057] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 1510.042151] qsee_fp: ION HIT dev-cap-big-p0-112x88 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1510.042189] qsee_fp: dev-cap-big-p0-112x88 MARK: vio 1.8v success
+[ 1510.042590] qsee_fp: dev-cap-big-p0-112x88 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1510.042746] qsee_fp: dev-cap-big-p0-112x88 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1513.144696] qsee_fp: ION HIT dev-cap-meta-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1513.144736] qsee_fp: dev-cap-meta-p0-96x96 MARK: vio 1.8v success
+[ 1513.145126] qsee_fp: dev-cap-meta-p0-96x96 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1513.145231] qsee_fp: dev-cap-meta-p0-96x96 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1513.145237] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-96x96
+[ 1513.188583] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1513.188618] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 1513.829631] qsee_fp: ION HIT dev-cap-big-p0-96x96 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1513.829670] qsee_fp: dev-cap-big-p0-96x96 MARK: vio 1.8v success
+[ 1513.830060] qsee_fp: dev-cap-big-p0-96x96 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1513.830209] qsee_fp: dev-cap-big-p0-96x96 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1516.925269] qsee_fp: ION HIT dev-cap-meta-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1516.925308] qsee_fp: dev-cap-meta-p0-80x80 MARK: vio 1.8v success
+[ 1516.925647] qsee_fp: dev-cap-meta-p0-80x80 MARK: got fdt dac success: 126, middle: 701, lastmiddle: 695
+[ 1516.925805] qsee_fp: dev-cap-meta-p0-80x80 er=0 err=0x0 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1516.925811] qsee_fp: CAPTURE soft-success (no Null) dev-cap-meta-p0-80x80
+[ 1516.968350] qsee_fp: ION HIT dev-LOGCAT-post-fdt ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1516.968385] qsee_fp: dev-LOGCAT-post-fdt MARK: vio 1.8v success
+[ 1517.609894] qsee_fp: ION HIT dev-cap-big-p0-80x80 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1517.609931] qsee_fp: dev-cap-big-p0-80x80 MARK: vio 1.8v success
+[ 1517.610321] qsee_fp: dev-cap-big-p0-80x80 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1517.610470] qsee_fp: dev-cap-big-p0-80x80 er=0 err=0x0 na5=3840 nz=0 head=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[ 1517.686825] qsee_fp: ION HIT dev-INIT-after-fdt ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1517.792667] qsee_fp: ION HIT dev-SYNC_CALIB-after-fdt ret=0 req0=0x8000100f rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1517.849229] qsee_fp: ION HIT dev-LOGCAT-after-reinit ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[ 1517.884090] qsee_fp: capture path done fdt_ok=1
+[ 1517.947277] qsee_fp: ION HIT dev-QEVENT2 ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1517.947375] qsee_fp: dev-QEVENT2 MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1517.947499] qsee_fp: dev-QEVENT2 MARK: query event state: [unknow].
+[ 1517.982661] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0x32a err=0x1 rsp8=0x746c6163
+[ 1517.982700] qsee_fp: dev-QFINGER MARK: check finger status: touch
+[ 1517.982763] qsee_fp: dev-QFINGER MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1517.982885] qsee_fp: dev-QFINGER MARK: query event state: [unknow].
+[ 1518.079094] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1518.079262] qsee_fp: dev-HEALTH-post-cap MARK: query event state: [unknow].
+[ 1518.079668] qsee_fp: HEALTH after capture path er=0
+[ 1518.306983] qsee_fp: l2_reset_ic ret=0 (pre-ENROLL-esd)
+[ 1518.409690] qsee_fp: ION HIT dev-ESD-HANDLE-pre ret=0 req0=0x80001014 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1518.449215] qsee_fp: ION HIT dev-PRE_ENROLL2 ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1518.450303] qsee_fp: ENROLL attempt finger=0 force_cap=1 challenge=0x5a15dd434b2fe9a2
+[ 1518.450439] qsee_fp: L2 vdd+spiclk reassert before enroll resync=0
+[ 1518.474629] qsee_fp: ION HIT dev-WMODE-5-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1518.484001] qsee_fp: dev-WMODE-5-enroll MARK: query event state: [unknow].
+[ 1518.550552] qsee_fp: SEG dev-ENROLL-start[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 1518.550580] qsee_fp: dev-ENROLL-start st=0x32a first8=2a030000 00666f63
+[ 1518.550591] qsee_fp: dev-ENROLL-start str[0]: focaltech:ta:interface
+[ 1518.550604] qsee_fp: dev-ENROLL-start str[1]: new fid (= 1421009580) generated.
+[ 1518.550613] qsee_fp: dev-ENROLL-start str[2]: &focaltech:ft93xx:core
+[ 1518.550624] qsee_fp: dev-ENROLL-start str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 1518.550633] qsee_fp: dev-ENROLL-start str[4]: focaltech:ta:trans
+[ 1518.550653] qsee_fp: dev-ENROLL-start str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 1518.550662] qsee_fp: dev-ENROLL-start str[6]: uery event state: [unknow].
+[ 1518.550674] qsee_fp: dev-ENROLL-start str[7]: ]: expect 'JSON_STRING' but got 'JSON_INTEGER'.
+[ 1518.550682] qsee_fp: dev-ENROLL-start str[8]: focaltech:ta:config
+[ 1518.550701] qsee_fp: dev-ENROLL-start str[9]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1518.550709] qsee_fp: dev-ENROLL-start str[10]: focaltech:ta:config
+[ 1518.550718] qsee_fp: dev-ENROLL-start str[11]: no key named 'algo
+[ 1518.550722] qsee_fp: ENROLL start er=0 err=0x0 (expect one new fid)
+[ 1518.771686] qsee_fp: l2_reset_ic ret=0 (post-ENROLL-esd)
+[ 1518.829824] qsee_fp: ION HIT dev-ESD-HANDLE-post ret=0 req0=0x80001014 rsp0=0xde err=0x0 rsp8=0x65746c61
+[ 1518.830000] qsee_fp: dev-ESD-HANDLE-post MARK: new fid (= 1421009580) generated.
+[ 1518.869440] qsee_fp: ION HIT dev-WMODE-5-post-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1518.917579] qsee_fp: ION HIT dev-SCAN-enroll-loop ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1518.941181] qsee_fp: ION HIT dev-cap-warmup ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[ 1518.950269] qsee_fp: enroll warmup 0 er=0 vio_ok=0 img_calib=0 err=0xffffff37
+[ 1522.119021] qsee_fp: ION HIT dev-cap-warmup ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1522.119058] qsee_fp: dev-cap-warmup MARK: vio 1.8v success
+[ 1522.119446] qsee_fp: dev-cap-warmup MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1522.119565] qsee_fp: enroll warmup 1 er=0 vio_ok=1 img_calib=0 err=0x0
+[ 1522.203852] qsee_fp: enroll SPI recovered after warmup (vio ok)
+[ 1522.218993] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-post-warmup ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1522.219415] qsee_fp: dev-WMODE-FDT_DOWN-post-warmup MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1522.253256] qsee_fp: ION HIT dev-SCAN-post-warmup ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1522.275822] qsee_fp: post-ENROLL in FDT_DOWN (mode 1) cap_img_bind=1
+[ 1522.275830] qsee_fp: *** HOLD FINGER NOW — 8 samples, up to ~40s waits + CAP (press/lift each) force_cap=1 ***
+[ 1522.275833] qsee_fp: *** tip: re-press each sample (edge); continuous hold may only fire once ***
+[ 1522.275835] qsee_fp: *** PRESS then LIFT finger sample 0/8 (edge) ***
+[ 1523.088378] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1523.088426] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1523.088557] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1523.088971] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1523.906867] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1523.907314] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1523.908175] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1523.910528] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1524.730270] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1524.730947] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1524.732051] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1524.734654] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1525.550611] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 1525.551126] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1525.552264] qsee_fp: dev-QEV-poll MARK: query event state: [esd].
+[ 1525.553922] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1525.556053] qsee_fp: dev-QEV-poll QES_LAST esd
+[ 1526.363226] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1526.363540] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1526.364534] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1526.365409] qsee_fp: dev-QEV-poll MARK: query event state: [esd].
+[ 1526.367706] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1526.368735] qsee_fp: dev-QEV-poll QES_LAST esd
+[ 1526.368752] qsee_fp: sample 0 no IRQ/DOWN — force CAP
+[ 1526.388814] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1526.389880] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [unknow].
+[ 1526.390691] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [esd].
+[ 1526.392814] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1526.393746] qsee_fp: dev-WMODE-FDT_DOWN-sample QES_LAST esd
+[ 1529.493025] qsee_fp: ION HIT dev-cap-enroll-0 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1529.493065] qsee_fp: dev-cap-enroll-0 MARK: vio 1.8v success
+[ 1529.493102] qsee_fp: dev-cap-enroll-0 MARK: configure spi mode failed(0).
+[ 1529.493145] qsee_fp: dev-cap-enroll-0 MARK: configure spi mode failed(0).
+[ 1529.493187] qsee_fp: dev-cap-enroll-0 MARK: configure spi mode failed(0).
+[ 1529.493705] qsee_fp: dev-cap-enroll-0 pix scan img_off=0x100 nz=0 na5=3968 avg=0 min=0 max=0 mid_nz=0
+[ 1529.493707] qsee_fp: dev-cap-enroll-0 er=0 err=0x0 ta_down=0 edge=0 vio_ok=1 burst=0 pix_nz=0 bind=1 pa=0
+[ 1529.494157] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1529.494185] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1529.494222] qsee_fp: dev-LOGCAT-enroll-pre MARK: configure spi mode failed(0).
+[ 1529.494266] qsee_fp: dev-LOGCAT-enroll-pre MARK: configure spi mode failed(0).
+[ 1530.152721] qsee_fp: ION HIT dev-cap-enroll-big-0 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1530.152754] qsee_fp: dev-cap-enroll-big-0 MARK: vio 1.8v success
+[ 1530.153139] qsee_fp: dev-cap-enroll-big-0 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1530.153389] qsee_fp: dev-cap-enroll-big-0 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1530.153391] qsee_fp: dev-cap-enroll-big-0 er=0 err=0x0 pix_nz=0
+[ 1530.153949] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1530.153977] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1530.154523] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1530.154550] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1530.375864] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1530.376286] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1530.410814] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1530.410955] qsee_fp: *** PRESS then LIFT finger sample 1/8 (edge) ***
+[ 1531.213121] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1531.213293] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1531.213979] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1531.216231] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1532.203097] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1532.203129] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x10(1=idle 2=down 4=up 8=man 10=inv 20=data 40=
+[ 1532.203443] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1532.519814] qsee_fp: sample 1 IRQ 39->41
+[ 1532.532320] qsee_fp: ION HIT dev-QEV-s ret=0 req0=0x8000101c rsp0=0x32a err=0x5 rsp8=0x746c6163
+[ 1532.532354] qsee_fp: dev-QEV-s MARK: interrupt type: 0x2(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1532.532456] qsee_fp: dev-QEV-s MARK: query event state: [finger touch].
+[ 1532.532472] qsee_fp: dev-QEV-s MARK: finger touch].
+[ 1532.532679] qsee_fp: dev-QEV-s MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1532.532896] qsee_fp: dev-QEV-s QES_LAST finger_touch
+[ 1532.532898] qsee_fp: dev-QEV-s FINGER_DOWN itype=0x2
+[ 1532.532899] qsee_fp: sample 1 TA DOWN (IRQ edge)
+[ 1532.546799] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1532.546920] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [finger touch].
+[ 1532.546937] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: finger touch].
+[ 1532.547142] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1532.547366] qsee_fp: dev-WMODE-FDT_DOWN-sample QES_LAST finger_touch
+[ 1535.649781] qsee_fp: ION HIT dev-cap-enroll-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1535.649822] qsee_fp: dev-cap-enroll-1 MARK: vio 1.8v success
+[ 1535.650209] qsee_fp: dev-cap-enroll-1 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1535.650479] qsee_fp: dev-cap-enroll-1 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1535.650481] qsee_fp: dev-cap-enroll-1 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=0 pix_nz=0 bind=1 pa=0
+[ 1535.650939] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1535.650967] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1536.268840] qsee_fp: ION HIT dev-cap-enroll-big-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1536.268874] qsee_fp: dev-cap-enroll-big-1 MARK: vio 1.8v success
+[ 1536.269271] qsee_fp: dev-cap-enroll-big-1 MARK: got fdt dac success: 127, middle: 705, lastmiddle: 698
+[ 1536.269538] qsee_fp: dev-cap-enroll-big-1 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1536.269539] qsee_fp: dev-cap-enroll-big-1 er=0 err=0x0 pix_nz=0
+[ 1536.270022] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1536.270050] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1536.270790] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1536.271849] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1539.369650] qsee_fp: ION HIT dev-cap-enroll-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1539.369690] qsee_fp: dev-cap-enroll-1 MARK: vio 1.8v success
+[ 1539.370083] qsee_fp: dev-cap-enroll-1 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 700
+[ 1539.370353] qsee_fp: dev-cap-enroll-1 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1539.370355] qsee_fp: dev-cap-enroll-1 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=1 pix_nz=0 bind=1 pa=0
+[ 1539.370762] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1539.370790] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1539.999069] qsee_fp: ION HIT dev-cap-enroll-big-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1539.999104] qsee_fp: dev-cap-enroll-big-1 MARK: vio 1.8v success
+[ 1539.999444] qsee_fp: dev-cap-enroll-big-1 MARK: got fdt dac success: 126, middle: 701, lastmiddle: 694
+[ 1539.999747] qsee_fp: dev-cap-enroll-big-1 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1539.999748] qsee_fp: dev-cap-enroll-big-1 er=0 err=0x0 pix_nz=0
+[ 1540.000534] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1540.000562] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1540.001360] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1540.002337] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1543.117628] qsee_fp: ION HIT dev-cap-enroll-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1543.117669] qsee_fp: dev-cap-enroll-1 MARK: vio 1.8v success
+[ 1543.118059] qsee_fp: dev-cap-enroll-1 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 698
+[ 1543.118324] qsee_fp: dev-cap-enroll-1 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1543.118327] qsee_fp: dev-cap-enroll-1 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=2 pix_nz=0 bind=1 pa=0
+[ 1543.118727] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1543.118755] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1543.736800] qsee_fp: ION HIT dev-cap-enroll-big-1 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1543.736834] qsee_fp: dev-cap-enroll-big-1 MARK: vio 1.8v success
+[ 1543.737234] qsee_fp: dev-cap-enroll-big-1 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1543.737505] qsee_fp: dev-cap-enroll-big-1 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1543.737507] qsee_fp: dev-cap-enroll-big-1 er=0 err=0x0 pix_nz=0
+[ 1543.737913] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1543.737942] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1543.738403] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1543.739050] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1543.741902] qsee_fp: sample 1 — LIFT finger, then re-press for next
+[ 1543.863775] qsee_fp: ION HIT dev-QEV-lift ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1543.863810] qsee_fp: dev-QEV-lift MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1543.863905] qsee_fp: dev-QEV-lift MARK: query event state: [unknow].
+[ 1543.864207] qsee_fp: dev-QEV-lift MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1543.877693] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1543.877807] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: query event state: [unknow].
+[ 1543.878112] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1543.912889] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1543.913010] qsee_fp: dev-SCAN-next MARK: query event state: [unknow].
+[ 1543.913034] qsee_fp: *** PRESS then LIFT finger sample 2/8 (edge) ***
+[ 1544.718699] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1544.718743] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1544.718867] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1544.719287] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1545.544942] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1545.545584] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1545.546508] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1545.549087] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1546.368530] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1546.369054] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1546.369794] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1546.371875] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1547.192119] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1547.192585] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1547.193259] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1547.195442] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1548.003267] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 1548.003928] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1548.005277] qsee_fp: dev-QEV-poll MARK: query event state: [esd].
+[ 1548.008188] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1548.010774] qsee_fp: dev-QEV-poll QES_LAST esd
+[ 1548.010790] qsee_fp: sample 2 no IRQ/DOWN — force CAP
+[ 1548.029620] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1548.030227] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1548.031892] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [esd].
+[ 1548.033927] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1548.034857] qsee_fp: dev-WMODE-FDT_DOWN-sample QES_LAST esd
+[ 1551.138491] qsee_fp: ION HIT dev-cap-enroll-2 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1551.138529] qsee_fp: dev-cap-enroll-2 MARK: vio 1.8v fail, try again....
+[ 1551.138580] qsee_fp: dev-cap-enroll-2 MARK: vio 1.8v fail, try again....
+[ 1551.138629] qsee_fp: dev-cap-enroll-2 MARK: vio 1.8v fail, try again....
+[ 1551.138677] qsee_fp: dev-cap-enroll-2 MARK: vio 1.8v fail, try again....
+[ 1551.138727] qsee_fp: dev-cap-enroll-2 MARK: vio 1.8v fail, try again....
+[ 1551.138771] qsee_fp: dev-cap-enroll-2 MARK: configure spi mode failed(0).
+[ 1551.138814] qsee_fp: dev-cap-enroll-2 MARK: configure spi mode failed(0).
+[ 1551.138860] qsee_fp: dev-cap-enroll-2 MARK: configure spi mode failed(0).
+[ 1551.139378] qsee_fp: dev-cap-enroll-2 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1551.139381] qsee_fp: dev-cap-enroll-2 er=0 err=0x0 ta_down=0 edge=0 vio_ok=0 burst=0 pix_nz=0 bind=1 pa=0
+[ 1551.139845] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1551.139874] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1551.139922] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1551.139970] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1551.782717] qsee_fp: ION HIT dev-cap-enroll-big-2 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1551.782753] qsee_fp: dev-cap-enroll-big-2 MARK: vio 1.8v success
+[ 1551.783156] qsee_fp: dev-cap-enroll-big-2 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1551.783408] qsee_fp: dev-cap-enroll-big-2 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1551.783410] qsee_fp: dev-cap-enroll-big-2 er=0 err=0x0 pix_nz=0
+[ 1551.783946] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1551.783975] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1551.784399] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1551.784426] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1552.007004] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1552.007423] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1552.045254] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1552.045394] qsee_fp: *** PRESS then LIFT finger sample 3/8 (edge) ***
+[ 1552.849757] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1552.849932] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1552.850639] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1552.853046] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1553.669085] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1553.669766] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1553.670735] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1553.673432] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1554.492157] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1554.492639] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1554.493328] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1554.495231] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1555.329341] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1555.330020] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1555.331111] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1555.333661] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1556.157619] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1556.158164] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1556.159042] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1556.161111] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1556.163301] qsee_fp: sample 3 no IRQ/DOWN — force CAP
+[ 1556.180883] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1556.181335] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1556.181990] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [unknow].
+[ 1556.183811] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1559.299721] qsee_fp: ION HIT dev-cap-enroll-3 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1559.299763] qsee_fp: dev-cap-enroll-3 MARK: vio 1.8v fail, try again....
+[ 1559.299813] qsee_fp: dev-cap-enroll-3 MARK: vio 1.8v fail, try again....
+[ 1559.299863] qsee_fp: dev-cap-enroll-3 MARK: vio 1.8v fail, try again....
+[ 1559.299913] qsee_fp: dev-cap-enroll-3 MARK: vio 1.8v fail, try again....
+[ 1559.299963] qsee_fp: dev-cap-enroll-3 MARK: vio 1.8v fail, try again....
+[ 1559.300006] qsee_fp: dev-cap-enroll-3 MARK: configure spi mode failed(0).
+[ 1559.300050] qsee_fp: dev-cap-enroll-3 MARK: configure spi mode failed(0).
+[ 1559.300095] qsee_fp: dev-cap-enroll-3 MARK: configure spi mode failed(0).
+[ 1559.300623] qsee_fp: dev-cap-enroll-3 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1559.300625] qsee_fp: dev-cap-enroll-3 er=0 err=0x0 ta_down=0 edge=0 vio_ok=0 burst=0 pix_nz=0 bind=1 pa=0
+[ 1559.301035] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1559.301064] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1559.301114] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1559.301163] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1559.936629] qsee_fp: ION HIT dev-cap-enroll-big-3 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1559.936662] qsee_fp: dev-cap-enroll-big-3 MARK: vio 1.8v success
+[ 1559.937051] qsee_fp: dev-cap-enroll-big-3 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1559.937320] qsee_fp: dev-cap-enroll-big-3 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1559.937322] qsee_fp: dev-cap-enroll-big-3 er=0 err=0x0 pix_nz=0
+[ 1559.937728] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1559.937756] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1559.938170] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1559.938198] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1560.158039] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1560.158457] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1560.193117] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1560.193265] qsee_fp: *** PRESS then LIFT finger sample 4/8 (edge) ***
+[ 1560.985567] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0xb rsp8=0x746c6163
+[ 1560.985736] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1560.986725] qsee_fp: dev-QEV-poll MARK: query event state: [esd].
+[ 1560.988654] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1560.989373] qsee_fp: dev-QEV-poll QES_LAST esd
+[ 1561.805544] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1561.805716] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1561.806404] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1561.806716] qsee_fp: dev-QEV-poll MARK: query event state: [esd].
+[ 1561.809303] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1561.810312] qsee_fp: dev-QEV-poll QES_LAST esd
+[ 1562.783972] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1562.784005] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x10(1=idle 2=down 4=up 8=man 10=inv 20=data 40=
+[ 1562.784305] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1563.604967] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1563.605097] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1563.605252] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1563.605511] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1563.605962] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1564.424450] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1564.425093] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1564.426017] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1564.427656] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1564.430288] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1564.431136] qsee_fp: sample 4 no IRQ/DOWN — force CAP
+[ 1564.450217] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1564.450702] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1564.451578] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [unknow].
+[ 1564.452754] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1567.602032] qsee_fp: ION HIT dev-cap-enroll-4 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1567.602072] qsee_fp: dev-cap-enroll-4 MARK: vio 1.8v fail, try again....
+[ 1567.602120] qsee_fp: dev-cap-enroll-4 MARK: vio 1.8v fail, try again....
+[ 1567.602169] qsee_fp: dev-cap-enroll-4 MARK: vio 1.8v fail, try again....
+[ 1567.602218] qsee_fp: dev-cap-enroll-4 MARK: vio 1.8v fail, try again....
+[ 1567.602267] qsee_fp: dev-cap-enroll-4 MARK: vio 1.8v fail, try again....
+[ 1567.602309] qsee_fp: dev-cap-enroll-4 MARK: configure spi mode failed(0).
+[ 1567.602352] qsee_fp: dev-cap-enroll-4 MARK: configure spi mode failed(0).
+[ 1567.602397] qsee_fp: dev-cap-enroll-4 MARK: configure spi mode failed(0).
+[ 1567.602922] qsee_fp: dev-cap-enroll-4 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1567.602925] qsee_fp: dev-cap-enroll-4 er=0 err=0x0 ta_down=0 edge=0 vio_ok=0 burst=0 pix_nz=0 bind=1 pa=0
+[ 1567.603443] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1567.603472] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1567.603520] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1567.603567] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1568.220954] qsee_fp: ION HIT dev-cap-enroll-big-4 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1568.220988] qsee_fp: dev-cap-enroll-big-4 MARK: vio 1.8v success
+[ 1568.221370] qsee_fp: dev-cap-enroll-big-4 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1568.221641] qsee_fp: dev-cap-enroll-big-4 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1568.221642] qsee_fp: dev-cap-enroll-big-4 er=0 err=0x0 pix_nz=0
+[ 1568.222192] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1568.222219] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1568.222956] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1568.222983] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1568.442739] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1568.443161] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1568.479849] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1568.479988] qsee_fp: *** PRESS then LIFT finger sample 5/8 (edge) ***
+[ 1569.294243] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1569.294412] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1569.295157] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1569.297495] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1570.117298] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1570.117978] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1570.119202] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1570.121744] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1570.920242] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x5 rsp8=0x746c6163
+[ 1570.920544] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x2(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1570.921513] qsee_fp: dev-QEV-poll MARK: query event state: [finger touch].
+[ 1570.921661] qsee_fp: dev-QEV-poll MARK: finger touch].
+[ 1570.921996] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1570.926454] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1570.927784] qsee_fp: dev-QEV-poll FINGER_DOWN itype=0x2
+[ 1570.927801] qsee_fp: sample 5 TA DOWN (poll)
+[ 1570.948023] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1570.948831] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [finger touch].
+[ 1570.948934] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: finger touch].
+[ 1570.949165] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [unknow].
+[ 1570.951853] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1574.056328] qsee_fp: ION HIT dev-cap-enroll-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1574.056366] qsee_fp: dev-cap-enroll-5 MARK: vio 1.8v success
+[ 1574.056756] qsee_fp: dev-cap-enroll-5 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1574.057024] qsee_fp: dev-cap-enroll-5 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1574.057026] qsee_fp: dev-cap-enroll-5 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=0 pix_nz=0 bind=1 pa=0
+[ 1574.057432] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1574.057460] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1574.667664] qsee_fp: ION HIT dev-cap-enroll-big-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1574.667698] qsee_fp: dev-cap-enroll-big-5 MARK: vio 1.8v success
+[ 1574.668033] qsee_fp: dev-cap-enroll-big-5 MARK: got fdt dac success: 126, middle: 701, lastmiddle: 694
+[ 1574.668358] qsee_fp: dev-cap-enroll-big-5 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1574.668359] qsee_fp: dev-cap-enroll-big-5 er=0 err=0x0 pix_nz=0
+[ 1574.668747] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1574.668774] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1574.669225] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1574.669873] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1577.768570] qsee_fp: ION HIT dev-cap-enroll-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1577.768610] qsee_fp: dev-cap-enroll-5 MARK: vio 1.8v success
+[ 1577.768999] qsee_fp: dev-cap-enroll-5 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1577.769267] qsee_fp: dev-cap-enroll-5 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1577.769270] qsee_fp: dev-cap-enroll-5 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=1 pix_nz=0 bind=1 pa=0
+[ 1577.769657] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1577.769685] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1578.396852] qsee_fp: ION HIT dev-cap-enroll-big-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1578.396886] qsee_fp: dev-cap-enroll-big-5 MARK: vio 1.8v success
+[ 1578.397286] qsee_fp: dev-cap-enroll-big-5 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1578.397552] qsee_fp: dev-cap-enroll-big-5 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1578.397553] qsee_fp: dev-cap-enroll-big-5 er=0 err=0x0 pix_nz=0
+[ 1578.397970] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1578.397998] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1578.398448] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1578.399496] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1581.496740] qsee_fp: ION HIT dev-cap-enroll-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1581.496778] qsee_fp: dev-cap-enroll-5 MARK: vio 1.8v success
+[ 1581.497165] qsee_fp: dev-cap-enroll-5 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1581.497418] qsee_fp: dev-cap-enroll-5 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1581.497420] qsee_fp: dev-cap-enroll-5 er=0 err=0x0 ta_down=1 edge=1 vio_ok=1 burst=2 pix_nz=0 bind=1 pa=0
+[ 1581.498282] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1581.498310] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v success
+[ 1582.143062] qsee_fp: ION HIT dev-cap-enroll-big-5 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1582.143095] qsee_fp: dev-cap-enroll-big-5 MARK: vio 1.8v success
+[ 1582.143478] qsee_fp: dev-cap-enroll-big-5 MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1582.143742] qsee_fp: dev-cap-enroll-big-5 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1582.143743] qsee_fp: dev-cap-enroll-big-5 er=0 err=0x0 pix_nz=0
+[ 1582.144239] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1582.144266] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1582.144824] qsee_fp: ION HIT dev-SAVE-enroll ret=0 req0=0x80001015 rsp0=0x22a err=0x0 rsp8=0x746c6163
+[ 1582.145565] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1582.148407] qsee_fp: sample 5 — LIFT finger, then re-press for next
+[ 1582.271137] qsee_fp: ION HIT dev-QEV-lift ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1582.271170] qsee_fp: dev-QEV-lift MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1582.271263] qsee_fp: dev-QEV-lift MARK: query event state: [unknow].
+[ 1582.271562] qsee_fp: dev-QEV-lift MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1582.285020] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1582.285135] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: query event state: [unknow].
+[ 1582.285445] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1582.319135] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1582.319254] qsee_fp: dev-SCAN-next MARK: query event state: [unknow].
+[ 1582.319278] qsee_fp: *** PRESS then LIFT finger sample 6/8 (edge) ***
+[ 1583.127692] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1583.127904] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1583.128772] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1583.131559] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1584.144096] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1584.144129] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x10(1=idle 2=down 4=up 8=man 10=inv 20=data 40=
+[ 1584.144438] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 1584.960351] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1584.960456] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1584.960578] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1584.960785] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 1584.961140] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1585.779208] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1585.779667] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1585.780324] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1585.781424] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 705, lastmiddle: 699
+[ 1585.783383] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1586.095160] qsee_fp: sample 6 IRQ 47->49
+[ 1586.285078] qsee_fp: ION HIT dev-QEV-s ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1586.285111] qsee_fp: dev-QEV-s MARK: interrupt type: 0x10(1=idle 2=down 4=up 8=man 10=inv 20=data 40=
+[ 1586.285308] qsee_fp: dev-QEV-s MARK: got fdt dac success: 127, middle: 698, lastmiddle: 705
+[ 1586.299964] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1586.300179] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 698, lastmiddle: 705
+[ 1589.396410] qsee_fp: ION HIT dev-cap-enroll-6 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1589.396449] qsee_fp: dev-cap-enroll-6 MARK: vio 1.8v fail, try again....
+[ 1589.396499] qsee_fp: dev-cap-enroll-6 MARK: vio 1.8v fail, try again....
+[ 1589.396548] qsee_fp: dev-cap-enroll-6 MARK: vio 1.8v fail, try again....
+[ 1589.396596] qsee_fp: dev-cap-enroll-6 MARK: vio 1.8v fail, try again....
+[ 1589.396647] qsee_fp: dev-cap-enroll-6 MARK: vio 1.8v fail, try again....
+[ 1589.396690] qsee_fp: dev-cap-enroll-6 MARK: configure spi mode failed(0).
+[ 1589.396734] qsee_fp: dev-cap-enroll-6 MARK: configure spi mode failed(0).
+[ 1589.396779] qsee_fp: dev-cap-enroll-6 MARK: configure spi mode failed(0).
+[ 1589.397304] qsee_fp: dev-cap-enroll-6 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1589.397307] qsee_fp: dev-cap-enroll-6 er=0 err=0x0 ta_down=0 edge=1 vio_ok=0 burst=0 pix_nz=0 bind=1 pa=0
+[ 1589.397705] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1589.397735] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1589.397784] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1589.397832] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1590.041681] qsee_fp: ION HIT dev-cap-enroll-big-6 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1590.041714] qsee_fp: dev-cap-enroll-big-6 MARK: vio 1.8v success
+[ 1590.042102] qsee_fp: dev-cap-enroll-big-6 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1590.042387] qsee_fp: dev-cap-enroll-big-6 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1590.042390] qsee_fp: dev-cap-enroll-big-6 er=0 err=0x0 pix_nz=0
+[ 1590.043065] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1590.043093] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1590.043685] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1590.043711] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1590.268116] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1590.268537] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1590.304141] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1590.304282] qsee_fp: *** PRESS then LIFT finger sample 7/8 (edge) ***
+[ 1591.107649] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1591.107694] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1591.107814] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1591.108197] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1591.926802] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1591.927251] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1591.927891] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1591.929634] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 703, lastmiddle: 700
+[ 1592.911289] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1592.911320] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x10(1=idle 2=down 4=up 8=man 10=inv 20=data 40=
+[ 1592.911613] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1593.729587] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1593.729688] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1593.729817] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1593.730031] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1593.730419] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1594.546880] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1594.547494] qsee_fp: dev-QEV-poll MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1594.548380] qsee_fp: dev-QEV-poll MARK: query event state: [unknow].
+[ 1594.549850] qsee_fp: dev-QEV-poll MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1594.552485] qsee_fp: dev-QEV-poll MARK: img calibration->try: 1, AVG DAC_Temp:122, ucLastDAC:122, usMidd
+[ 1594.553272] qsee_fp: sample 7 no IRQ/DOWN — force CAP
+[ 1594.571346] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-sample ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1594.571810] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=a
+[ 1594.572500] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: query event state: [unknow].
+[ 1594.573655] qsee_fp: dev-WMODE-FDT_DOWN-sample MARK: got fdt dac success: 127, middle: 704, lastmiddle: 698
+[ 1597.680224] qsee_fp: ION HIT dev-cap-enroll-7 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1597.680264] qsee_fp: dev-cap-enroll-7 MARK: vio 1.8v fail, try again....
+[ 1597.680314] qsee_fp: dev-cap-enroll-7 MARK: vio 1.8v fail, try again....
+[ 1597.680362] qsee_fp: dev-cap-enroll-7 MARK: vio 1.8v fail, try again....
+[ 1597.680411] qsee_fp: dev-cap-enroll-7 MARK: vio 1.8v fail, try again....
+[ 1597.680460] qsee_fp: dev-cap-enroll-7 MARK: vio 1.8v fail, try again....
+[ 1597.680503] qsee_fp: dev-cap-enroll-7 MARK: configure spi mode failed(0).
+[ 1597.680546] qsee_fp: dev-cap-enroll-7 MARK: configure spi mode failed(0).
+[ 1597.680591] qsee_fp: dev-cap-enroll-7 MARK: configure spi mode failed(0).
+[ 1597.681116] qsee_fp: dev-cap-enroll-7 pix scan img_off=0x100 nz=0 na5=112 avg=0 min=0 max=0 mid_nz=0
+[ 1597.681118] qsee_fp: dev-cap-enroll-7 er=0 err=0x0 ta_down=0 edge=0 vio_ok=0 burst=0 pix_nz=0 bind=1 pa=0
+[ 1597.681538] qsee_fp: ION HIT dev-LOGCAT-enroll-pre ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1597.681568] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1597.681617] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1597.681663] qsee_fp: dev-LOGCAT-enroll-pre MARK: vio 1.8v fail, try again....
+[ 1598.333882] qsee_fp: ION HIT dev-cap-enroll-big-7 ret=0 req0=0x80001013 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1598.333918] qsee_fp: dev-cap-enroll-big-7 MARK: vio 1.8v success
+[ 1598.334323] qsee_fp: dev-cap-enroll-big-7 MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1598.334576] qsee_fp: dev-cap-enroll-big-7 pix scan img_off=0x24 nz=0 na5=0 avg=0 min=0 max=0 mid_nz=0
+[ 1598.334578] qsee_fp: dev-cap-enroll-big-7 er=0 err=0x0 pix_nz=0
+[ 1598.335286] qsee_fp: ION HIT dev-REPORT-enroll ret=0 req0=0x80001017 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1598.335313] qsee_fp: dev-REPORT-enroll MARK: vio 1.8v success
+[ 1598.335941] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1598.335969] qsee_fp: dev-LOGCAT-enroll-sample MARK: vio 1.8v success
+[ 1598.559824] qsee_fp: ION HIT dev-WMODE-FDT_DOWN-next ret=0 req0=0x8000101f rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1598.560247] qsee_fp: dev-WMODE-FDT_DOWN-next MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1598.595840] qsee_fp: ION HIT dev-SCAN-next ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1598.595978] qsee_fp: enroll sample loop done rem_seen=0
+[ 1598.596276] qsee_fp: ION HIT dev-POST_ENROLL ret=0 req0=0x80002002 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1598.651883] qsee_fp: ION HIT dev-ENUM-after-enroll ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1598.716368] qsee_fp: ION HIT dev-AUTH ret=0 req0=0x80002008 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1598.716425] qsee_fp: dev-AUTH MARK: broken off.
+[ 1598.716704] qsee_fp: dev-AUTH MARK: check finger status: release
+[ 1598.716855] qsee_fp: dev-AUTH MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1598.717152] qsee_fp: AUTH er=0 err=0x0 rem_seen=0
+[ 1598.793974] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1598.794266] qsee_fp: dev-HEALTH-final MARK: check finger status: release
+[ 1598.794399] qsee_fp: dev-HEALTH-final MARK: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1598.794496] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[ 1598.794537] qsee_fp: device-TA probe+auth-path complete
+[ 1598.794539] qsee_fp: done

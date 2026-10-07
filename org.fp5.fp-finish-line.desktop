@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=FP Finish Line
+Comment=L2 + QSEE health + optional enroll (terminal)
+Exec=kgx -e "sudo fp-finish-line full; echo; read -p 'Enter to close'"
+# fallback if no kgx:
+# Exec=sh -c "sudo fp-finish-line full; read x"
+Icon=fingerprint
+Terminal=true
+Type=Application
+Categories=System;Utility;

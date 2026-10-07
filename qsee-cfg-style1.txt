@@ -1,0 +1,7 @@
+=== STYLE1 ===
+[  169.860340] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=377 spi_bus=14 spidev=0 =====
+[  169.863035] qsee_fp: dev-base-205 str[3]: error at __config_get_node[config.c:84]: 'Null pointer'.
+[  169.863093] qsee_fp: dev-base-205 str[7]: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[  169.863696] qsee_fp: dev-base-205 LOG: error at __config_get_node[config.c:84]: 'Null pointer'.
+[  169.863755] qsee_fp: dev-base-205 LOG: error at __open_spi[spi.c:75]: qsee_spi_open(0) = -1.
+[  169.865973] qsee_fp: ION HIT dev-CREATE-1001 ret=0 req0=0x80001001 rsp0=0xde err=0xffffff35 rsp8=0x0

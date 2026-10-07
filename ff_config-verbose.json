@@ -1,0 +1,53 @@
+{
+  "common": {
+    "configuration_uuid": "912829f6-1be2-49a1-9503-a92a763822ca",
+    "trustlet_path": "/vendor/firmware_mnt/image/focal32",
+    "keymaster_path": "/vendor/firmware_mnt/image/keymaster64",
+    "persist_data_home": "/vendor/focaltech",
+    "dumping_data_home": "/data/vendor/focaltech/dump",
+    "max_enrolling_fingers": 5,
+    "max_enrolling_samples": 20,
+    "enrolling_break_after_n_samples": 0
+  },
+  "driver": {
+    "enable_spidev": false,
+    "spi_bus_num": 14,
+    "spi_c_s_num": 0,
+    "spi_on_demand": true
+  },
+  "device": {
+    "preferred_device_id": 37777,
+    "spi_default_bps": 4000000,
+    "spi_mode": 0,
+    "vio_is_1p8": true,
+    "enable_re_power_b4_probing": true,
+    "enable_hw_reset_b4_scanning": false,
+    "enable_prev_hw_process": true,
+    "enable_post_hw_process": true,
+    "image_acquisition_mode": "polling-driven",
+    "burst_acquisition_num": 3,
+    "burst_acquisition_mode": 1
+  },
+  "extension": {
+    "enable_power_key_solution": true,
+    "enable_fast_screen_unlock": true,
+    "enable_vndbinder_service": true
+  },
+  "trustlet": {
+    "enable_trusted_enrollment": true,
+    "enable_authenticate_token": true
+  },
+  "diagnosis": {
+    "enable_logcat_trustlet": true,
+    "enable_logcat_driver": true,
+    "enable_logcat_spi_data": true,
+    "enable_logcat_more_data": true,
+    "enable_trustlet_native_log": true,
+    "enable_firmware_log": true,
+    "enable_algorithm_log": true,
+    "framework_log_level": 3,
+    "firmware_log_level": 3,
+    "algorithm_log_level": 3,
+    "enable_statistics": true
+  }
+}

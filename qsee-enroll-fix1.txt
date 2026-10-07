@@ -1,0 +1,22 @@
+focaltech_fp_life      24576  0
+qsee_probe_fp5         12288  0
+/lib/firmware/qsee/fingerpr.b00
+/lib/firmware/qsee/fingerpr.b01
+/lib/firmware/qsee/fingerpr.b02
+/lib/firmware/qsee/fingerpr.b03
+/lib/firmware/qsee/fingerpr.b04
+/lib/firmware/qsee/fingerpr.b05
+/lib/firmware/qsee/fingerpr.b06
+/lib/firmware/qsee/fingerpr.b07
+/lib/firmware/qsee/fingerpr.mdt
+/lib/firmware/qsee/focal32.b00
+=== ENROLL DIAG ===
+[  437.709118] qsee_fp: exit
+[  438.094793] qsee_fp: init
+[  438.168637] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  438.168650] qsee_fp: START focal32 ret=-22 res=0xfffffffffffffed3 id=0x0
+[  438.168753] qsee_fp: START focal32 -22
+[  438.218115] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  438.218123] qsee_fp: START fingerpr ret=-22 res=0xfffffffffffffed3 id=0x0
+[  438.218339] qsee_fp: START fingerpr -22 (device path may still work)
+[  438.218341] qsee_fp: no TA ids

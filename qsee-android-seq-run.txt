@@ -1,0 +1,26 @@
+[   92.909473] qsee_fp: init
+[   93.025112] qsee_fp: START fingerpr ret=0 res=0x0 id=0x4
+[   93.161020] qsee_fp: START focal32 ret=0 res=0x0 id=0x5
+[   93.161104] qsee_fp: ===== Android seq fingerpr=4 f32=5 ion 0x78000/0x8040 =====
+[   93.162229] qsee_fp: HIT f32-base-205 ret=0
+[   93.162232] qsee_fp: f32-base-205 st=0x22a first8=2a020000 00666f63
+[   93.162241] qsee_fp: f32-base-205 str: focaltech:ta:base|version: 'v2.5.3.0-cdf0f80-230614@0928'.|focaltech:ta:base|TEE environment checking...|focaltech:ta:base|testing timing...0(0)ms.|focaltech:ta
+[   93.186104] qsee_fp: HIT f32-entry-1011 ret=0
+[   93.186108] qsee_fp: f32-entry-1011 st=0x32a first8=2a030000 00666f63
+[   93.186118] qsee_fp: f32-entry-1011 str: focaltech:ta:entry|keymaster identity: ''.|focaltech:ta:entry|encapsulated key data (0):|focaltech:ta:entry|decapsulated key data (32):|focaltech:util|0000  00 
+[   93.209618] qsee_fp: big sess pa=0xff200000
+[   93.211600] qsee_fp: ION fp-base-205 ret=0 req0=0x205 rsp0=0xffffffff
+[   93.213476] qsee_fp: ION fp-entry-1011 ret=0 req0=0x1011 rsp0=0xffffffff
+[   93.214947] qsee_fp: ION seq-CREATE-1001 ret=0 req0=0x1001 rsp0=0xffffffff
+[   93.230631] qsee_fp: ION seq-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff
+[   93.246822] qsee_fp: ION seq-SYNC_CFG-100d ret=0 req0=0x100d rsp0=0xffffffff
+[   93.262578] qsee_fp: ION seq-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff
+[   93.278819] qsee_fp: ION seq-PROBE-100a ret=0 req0=0x100a rsp0=0xffffffff
+[   93.294540] qsee_fp: ION seq-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff
+[   93.311300] qsee_fp: ION seq-CHIP_INIT-1023 ret=0 req0=0x1023 rsp0=0xffffffff
+[   93.326811] qsee_fp: ION seq-HEALTH-1016 ret=0 req0=0x1016 rsp0=0xffffffff
+[   93.342855] qsee_fp: ION seq-PROBE-9391 ret=0 req0=0x100a rsp0=0xffffffff
+[   93.345414] qsee_fp: ION seq-PROBE-98FF9024 ret=0 req0=0x100a rsp0=0xffffffff
+[   93.347745] qsee_fp: CUS sm-PROBE ret=0 req0=0x100a rsp0=0xffffffff
+[   93.347966] qsee_fp: Android-seq probe complete
+[   93.347972] qsee_fp: done

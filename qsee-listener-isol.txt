@@ -1,0 +1,8 @@
+qsee_probe_fp5         12288  0
+AFTER_INSMOD
+[  774.581931] qsee_fp: exit
+[  774.642254] qsee_fp: init
+[  774.655967] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[  774.656156] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[  774.656159] qsee_fp: FILE_SERVICE listener registered OK
+[  774.656161] qsee_fp: no TA ids

@@ -1,0 +1,27 @@
+=== KEY ===
+[   18.062235] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   18.079339] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x0
+[   18.110510] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   18.135458] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   18.374893] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   18.374916] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   18.374953] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   18.426907] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   18.443599] qsee_fp: ION HIT dev-CHIP_INIT-1022 ret=0 req0=0x80001022 rsp0=0xde err=0x0 rsp8=0x0
+[   18.542752] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   18.542774] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[   18.542794] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[   18.566123] qsee_fp: ION HIT dev-SET_GROUP ret=0 req0=0x80002007 rsp0=0x42a err=0xfffffffe rsp8=0x65746c61
+[   18.587426] qsee_fp: ION HIT dev-ENUM ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   18.603744] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   18.619356] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.635278] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.647339] qsee_fp: ION HIT dev-WMODE-2 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.659877] qsee_fp: ION HIT dev-WMODE-3 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.671969] qsee_fp: ION HIT dev-WMODE-4 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.683972] qsee_fp: ION HIT dev-WMODE-5 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.695831] qsee_fp: ION HIT dev-WMODE-6 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.707922] qsee_fp: ION HIT dev-WMODE-7 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.719897] qsee_fp: ION HIT dev-SCAN ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x0
+[   18.743394] qsee_fp: ION HIT dev-QFINGER ret=0 req0=0x8000101d rsp0=0xde err=0xffffffff rsp8=0x0
+[   18.759411] qsee_fp: ION HIT dev-QEVENT ret=0 req0=0x8000101c rsp0=0xde err=0x0 rsp8=0x0

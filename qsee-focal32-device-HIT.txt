@@ -1,0 +1,73 @@
+[   32.545818] qsee_fp: init
+[   32.727814] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   32.855695] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   32.856216] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=779 =====
+[   32.857685] qsee_fp: big sess pa=0xff200000
+[   32.859715] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a req8=0xffffff35 rsp8=0x65746c61
+[   32.859734] qsee_fp: dev-base-205 st=0x22a first8=2a020000 00666f63
+[   32.859748] qsee_fp: dev-base-205 str: focaltech:ta:base|version: 'v2.5.3.0-cdf0f80-230614@0928'.|focaltech:ta:base|TEE environme
+[   32.859750] qsee_fp: req-side st=0x80000205 first8=05020080 02000000
+[   32.861135] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a req8=0xff000feb rsp8=0x65746c61
+[   32.861141] qsee_fp: dev-entry-1011 st=0x32a first8=2a030000 00666f63
+[   32.861148] qsee_fp: dev-entry-1011 str: focaltech:ta:entry|keymaster identity: ''.|focaltech:ta:entry|encapsulated key data (0):
+[   32.861149] qsee_fp: req-side st=0x80001011 first8=11100080 00000000
+[   32.862454] qsee_fp: ION HIT dev-CREATE-1001 ret=0 req0=0x80001001 rsp0=0xeeeeeede req8=0xffffff35 rsp8=0xeeeeeeee
+[   32.862462] qsee_fp: dev-CREATE-1001 st=0xeeeeeede first8=deeeeeee eeeeeeee
+[   32.862468] qsee_fp: dev-CREATE-1001 str: focaltech:ta:entry|encapsulated key data (0):
+[   32.862469] qsee_fp: req-side st=0x80001001 first8=01100080 00000000
+[   32.880345] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x52a req8=0xffffffff rsp8=0x65746c61
+[   32.880375] qsee_fp: dev-INIT-1004 st=0x52a first8=2a050000 00666f63
+[   32.880388] qsee_fp: dev-INIT-1004 str: focaltech:ta:core|error at ff_trustlet_init[trustlet_core.c:174]: assertion 'g_device->chip.query_device_stat
+[   32.880390] qsee_fp: req-side st=0x80001004 first8=04100080 c0000000
+[   32.900003] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a req8=0x0 rsp8=0x65746c61
+[   32.900015] qsee_fp: dev-SYNC_CFG-100d st=0x42a first8=2a040000 00666f63
+[   32.900022] qsee_fp: dev-SYNC_CFG-100d str: focaltech:ta:config|no key named 'diagnosis.framework_log_level', use default value.|focaltech:ta:config
+[   32.900023] qsee_fp: req-side st=0x8000100d first8=0d100080 00000000
+[   32.900028] qsee_fp: req-side str: {"common.trustlet_path":"/lib/firmware/qsee/foca
+[   32.919798] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x12a req8=0xfffffffb rsp8=0x65746c61
+[   32.919809] qsee_fp: dev-INIT_SPI-1006 st=0x12a first8=2a010000 00666f63
+[   32.919818] qsee_fp: dev-INIT_SPI-1006 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   32.919819] qsee_fp: req-side st=0x80001006 first8=06100080 00000000
+[   32.980798] qsee_fp: ION HIT dev-PROBE-100a ret=0 req0=0x8000100a rsp0=0x12a req8=0xffffff33 rsp8=0x65746c61
+[   32.980808] qsee_fp: dev-PROBE-100a st=0x12a first8=2a010000 00666f63
+[   32.980815] qsee_fp: dev-PROBE-100a str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   32.980816] qsee_fp: req-side st=0x8000100a first8=0a100080 3c000000
+[   32.999769] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x12a req8=0xffffffff rsp8=0x65746c61
+[   32.999780] qsee_fp: dev-INIT_DEV-100b st=0x12a first8=2a010000 00666f63
+[   32.999789] qsee_fp: dev-INIT_DEV-100b str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   32.999791] qsee_fp: req-side st=0x8000100b first8=0b100080 3c000000
+[   33.020117] qsee_fp: ION HIT dev-CHIP_INIT-1023 ret=0 req0=0x80001023 rsp0=0x12a req8=0xffffffff rsp8=0x65746c61
+[   33.020125] qsee_fp: dev-CHIP_INIT-1023 st=0x12a first8=2a010000 00666f63
+[   33.020133] qsee_fp: dev-CHIP_INIT-1023 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   33.020134] qsee_fp: req-side st=0x80001023 first8=23100080 00000000
+[   33.036292] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x12a req8=0x0 rsp8=0x65746c61
+[   33.036304] qsee_fp: dev-HEALTH-1016 st=0x12a first8=2a010000 00666f63
+[   33.036314] qsee_fp: dev-HEALTH-1016 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   33.036316] qsee_fp: req-side st=0x80001016 first8=16100080 00000000
+[   33.056361] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0x12a req8=0xfffffff5 rsp8=0x65746c61
+[   33.056389] qsee_fp: dev-PROBE-9391 st=0x12a first8=2a010000 00666f63
+[   33.056408] qsee_fp: dev-PROBE-9391 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trust
+[   33.056410] qsee_fp: req-side st=0x8000100a first8=0a100080 3c000000
+[   33.098835] qsee_fp: HIT dev-sm-PROBE ret=0
+[   33.098843] qsee_fp: dev-sm-PROBE st=0x0 first8=00000000 00000000
+[   33.098910] qsee_fp: device-TA probe complete
+[   33.098913] qsee_fp: ===== DEVICE TA id=5 aux=4 ion 0x78000/0x8040 cfg_len=779 =====
+[   33.099972] qsee_fp: HIT aux-base-205 ret=0
+[   33.099980] qsee_fp: aux-base-205 st=0x0 first8=00000000 00000000
+[   33.124346] qsee_fp: HIT aux-entry-1011 ret=0
+[   33.124378] qsee_fp: aux-entry-1011 st=0x0 first8=00000000 00000000
+[   33.152344] qsee_fp: big sess pa=0xff200000
+[   33.155950] qsee_fp: ION dev-base-205 ret=0 req0=0x205 rsp0=0xffffffff
+[   33.158465] qsee_fp: ION dev-entry-1011 ret=0 req0=0x1011 rsp0=0xffffffff
+[   33.161901] qsee_fp: ION dev-CREATE-1001 ret=0 req0=0x1001 rsp0=0xffffffff
+[   33.178336] qsee_fp: ION dev-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff
+[   33.195742] qsee_fp: ION dev-SYNC_CFG-100d ret=0 req0=0x100d rsp0=0xffffffff
+[   33.215303] qsee_fp: ION dev-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff
+[   33.234307] qsee_fp: ION dev-PROBE-100a ret=0 req0=0x100a rsp0=0xffffffff
+[   33.251213] qsee_fp: ION dev-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff
+[   33.272045] qsee_fp: ION dev-CHIP_INIT-1023 ret=0 req0=0x1023 rsp0=0xffffffff
+[   33.290316] qsee_fp: ION dev-HEALTH-1016 ret=0 req0=0x1016 rsp0=0xffffffff
+[   33.307125] qsee_fp: ION dev-PROBE-9391 ret=0 req0=0x100a rsp0=0xffffffff
+[   33.310332] qsee_fp: dev-sm-PROBE ret=0 st=0xffffffff
+[   33.310848] qsee_fp: device-TA probe complete
+[   33.310857] qsee_fp: done

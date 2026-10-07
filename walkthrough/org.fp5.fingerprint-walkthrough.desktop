@@ -1,0 +1,15 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=FP Fingerprint Lab
+GenericName=Fingerprint walkthrough
+Comment=Old walkthrough — hidden. Use FP Fingerprint.
+Exec=/usr/local/bin/fp-walkthrough
+Icon=fingerprint
+Terminal=false
+Categories=Utility;System;Science;
+Keywords=fingerprint;lab;fp5;sensor;
+StartupNotify=true
+Hidden=true
+NoDisplay=true
+X-Purism-FormFactor=Mobile;Workstation;

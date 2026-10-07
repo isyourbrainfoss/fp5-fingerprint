@@ -1,0 +1,369 @@
+=== CAPTURE TRIALS ===
+[  164.111419] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  164.111461] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  164.261396] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[  164.261401] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[  164.261405] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[  164.261407] qsee_fp: dev-HEALTH-1016 str[1]: last:696 694 690 685   0   0   0   0
+[  164.261410] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[  164.261413] qsee_fp: dev-HEALTH-1016 str[3]: curr:693 691 690 684 5137   0   0   0
+[  164.261414] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[  164.261416] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[  164.261417] qsee_fp: dev-HEALTH-1016 str[6]: ltech:ta:config
+[  164.261420] qsee_fp: dev-HEALTH-1016 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.261421] qsee_fp: dev-HEALTH-1016 str[8]: focaltech:ta:config
+[  164.261423] qsee_fp: dev-HEALTH-1016 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.261425] qsee_fp: dev-HEALTH-1016 str[10]: focaltech:ta:config
+[  164.261427] qsee_fp: dev-HEALTH-1016 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.261429] qsee_fp: dev-HEALTH-1016 str[12]: focaltech:ta:config
+[  164.261430] qsee_fp: dev-HEALTH-1016 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.261432] qsee_fp: dev-HEALTH-1016 str[14]: focaltech:ta:config
+[  164.261434] qsee_fp: dev-HEALTH-1016 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.261435] qsee_fp: dev-HEALTH-1016 str[16]: focaltech:ta:config
+[  164.261436] qsee_fp: dev-HEALTH-1016 str[17]: no key named 'algorith
+[  164.261437] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[  164.261439] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[  164.261441] qsee_fp: dev-HEALTH-1016 LOG: last:696 694 690 685   0   0   0   0
+[  164.261442] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261444] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[  164.261446] qsee_fp: dev-HEALTH-1016 LOG: curr:693 691 690 684 5137   0   0   0
+[  164.261447] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261449] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[  164.261451] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[  164.261453] qsee_fp: dev-HEALTH-1016 LOG: ltech:ta:config
+[  164.261455] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.261457] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261458] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  164.261460] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.261461] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261463] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  164.261466] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.261467] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261468] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  164.261470] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.261471] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261472] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  164.261474] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.261475] qsee_fp: dev-HEALTH-1016 LOG: !
+[  164.261476] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[  164.261477] qsee_fp: dev-HEALTH-1016 LOG: no key named '
+[  164.261478] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[  164.461206] qsee_fp: PRE_ENROLL er=0 challenge=0xda10b087bf0fc19 skip_enroll=1
+[  164.504859] qsee_fp: ION HIT dev-WMODE-0 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  164.504870] qsee_fp: dev-WMODE-0 st=0xde first8=de000000 00666f63
+[  164.504882] qsee_fp: dev-WMODE-0 str[0]: focaltech:ta:interface
+[  164.504894] qsee_fp: dev-WMODE-0 str[1]: loading templates for gid = 0...
+[  164.504904] qsee_fp: dev-WMODE-0 str[2]: focaltech:ta:interface
+[  164.504915] qsee_fp: dev-WMODE-0 str[3]: there is 0 template loaded.
+[  164.504923] qsee_fp: dev-WMODE-0 str[4]:    0   0   0
+[  164.504933] qsee_fp: dev-WMODE-0 str[5]: &focaltech:ft93xx:core
+[  164.504944] qsee_fp: dev-WMODE-0 str[6]: switch to 'SLEEP' mode.
+[  164.504952] qsee_fp: dev-WMODE-0 str[7]: ltech:ta:config
+[  164.504970] qsee_fp: dev-WMODE-0 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[  164.504987] qsee_fp: dev-WMODE-0 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[  164.505004] qsee_fp: dev-WMODE-0 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[  164.505021] qsee_fp: dev-WMODE-0 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[  164.505038] qsee_fp: dev-WMODE-0 HEX[128]: 6f 61 64 65 64 2e 00 de 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 6c 
+[  164.505055] qsee_fp: dev-WMODE-0 HEX[160]: 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 68 
+[  164.505071] qsee_fp: dev-WMODE-0 HEX[192]: 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[  164.505081] qsee_fp: dev-WMODE-0 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[  164.505085] qsee_fp: dev-WMODE-0 LOGCONT begin len=222
+[  164.505093] qsee_fp: dev-WMODE-0 LOG: focaltech:ta:interface
+[  164.505104] qsee_fp: dev-WMODE-0 LOG: loading templates for gid = 0...
+[  164.505108] qsee_fp: dev-WMODE-0 LOG: !
+[  164.505116] qsee_fp: dev-WMODE-0 LOG: focaltech:ta:interface
+[  164.505126] qsee_fp: dev-WMODE-0 LOG: there is 0 template loaded.
+[  164.505131] qsee_fp: dev-WMODE-0 LOG:    0   0   0
+[  164.505135] qsee_fp: dev-WMODE-0 LOG: !
+[  164.505143] qsee_fp: dev-WMODE-0 LOG: &focaltech:ft93xx:core
+[  164.505151] qsee_fp: dev-WMODE-0 LOG: switch to 'SLEEP' mode.
+[  164.505157] qsee_fp: dev-WMODE-0 LOG: ltech:ta:co
+[  164.505160] qsee_fp: dev-WMODE-0 LOGCONT end
+[  164.505164] qsee_fp: WMODE 0 er=0
+[  164.520894] qsee_fp: ION HIT dev-WMODE-1 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  164.520907] qsee_fp: dev-WMODE-1 st=0xde first8=de000000 00666f63
+[  164.520922] qsee_fp: dev-WMODE-1 str[0]: focaltech:ta:interface
+[  164.520936] qsee_fp: dev-WMODE-1 str[1]: loading templates for gid = 0...
+[  164.520948] qsee_fp: dev-WMODE-1 str[2]: focaltech:ta:interface
+[  164.520962] qsee_fp: dev-WMODE-1 str[3]: there is 0 template loaded.
+[  164.520971] qsee_fp: dev-WMODE-1 str[4]:    0   0   0
+[  164.520983] qsee_fp: dev-WMODE-1 str[5]: &focaltech:ft93xx:core
+[  164.520996] qsee_fp: dev-WMODE-1 str[6]: switch to 'SLEEP' mode.
+[  164.521005] qsee_fp: dev-WMODE-1 str[7]: ltech:ta:config
+[  164.521025] qsee_fp: dev-WMODE-1 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[  164.521046] qsee_fp: dev-WMODE-1 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[  164.521066] qsee_fp: dev-WMODE-1 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[  164.521087] qsee_fp: dev-WMODE-1 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[  164.521106] qsee_fp: dev-WMODE-1 HEX[128]: 6f 61 64 65 64 2e 00 de 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 6c 
+[  164.521127] qsee_fp: dev-WMODE-1 HEX[160]: 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 68 
+[  164.521147] qsee_fp: dev-WMODE-1 HEX[192]: 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[  164.521159] qsee_fp: dev-WMODE-1 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[  164.521164] qsee_fp: dev-WMODE-1 LOGCONT begin len=222
+[  164.521174] qsee_fp: dev-WMODE-1 LOG: focaltech:ta:interface
+[  164.521187] qsee_fp: dev-WMODE-1 LOG: loading templates for gid = 0...
+[  164.521193] qsee_fp: dev-WMODE-1 LOG: !
+[  164.521203] qsee_fp: dev-WMODE-1 LOG: focaltech:ta:interface
+[  164.521216] qsee_fp: dev-WMODE-1 LOG: there is 0 template loaded.
+[  164.521224] qsee_fp: dev-WMODE-1 LOG:    0   0   0
+[  164.521229] qsee_fp: dev-WMODE-1 LOG: !
+[  164.521238] qsee_fp: dev-WMODE-1 LOG: &focaltech:ft93xx:core
+[  164.521249] qsee_fp: dev-WMODE-1 LOG: switch to 'SLEEP' mode.
+[  164.521257] qsee_fp: dev-WMODE-1 LOG: ltech:ta:co
+[  164.521261] qsee_fp: dev-WMODE-1 LOGCONT end
+[  164.521265] qsee_fp: WMODE 1 er=0
+[  164.537037] qsee_fp: ION HIT dev-WMODE-2 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  164.537051] qsee_fp: dev-WMODE-2 st=0xde first8=de000000 00666f63
+[  164.537068] qsee_fp: dev-WMODE-2 str[0]: focaltech:ta:interface
+[  164.537085] qsee_fp: dev-WMODE-2 str[1]: loading templates for gid = 0...
+[  164.537099] qsee_fp: dev-WMODE-2 str[2]: focaltech:ta:interface
+[  164.537115] qsee_fp: dev-WMODE-2 str[3]: there is 0 template loaded.
+[  164.537125] qsee_fp: dev-WMODE-2 str[4]:    0   0   0
+[  164.537138] qsee_fp: dev-WMODE-2 str[5]: &focaltech:ft93xx:core
+[  164.537153] qsee_fp: dev-WMODE-2 str[6]: switch to 'SLEEP' mode.
+[  164.537164] qsee_fp: dev-WMODE-2 str[7]: ltech:ta:config
+[  164.537188] qsee_fp: dev-WMODE-2 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[  164.537212] qsee_fp: dev-WMODE-2 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[  164.537236] qsee_fp: dev-WMODE-2 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[  164.537261] qsee_fp: dev-WMODE-2 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[  164.537285] qsee_fp: dev-WMODE-2 HEX[128]: 6f 61 64 65 64 2e 00 de 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 6c 
+[  164.537309] qsee_fp: dev-WMODE-2 HEX[160]: 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 68 
+[  164.537333] qsee_fp: dev-WMODE-2 HEX[192]: 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[  164.537349] qsee_fp: dev-WMODE-2 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[  164.537355] qsee_fp: dev-WMODE-2 LOGCONT begin len=222
+[  164.537367] qsee_fp: dev-WMODE-2 LOG: focaltech:ta:interface
+[  164.537382] qsee_fp: dev-WMODE-2 LOG: loading templates for gid = 0...
+[  164.537388] qsee_fp: dev-WMODE-2 LOG: !
+[  164.537400] qsee_fp: dev-WMODE-2 LOG: focaltech:ta:interface
+[  164.537415] qsee_fp: dev-WMODE-2 LOG: there is 0 template loaded.
+[  164.537425] qsee_fp: dev-WMODE-2 LOG:    0   0   0
+[  164.537431] qsee_fp: dev-WMODE-2 LOG: !
+[  164.537442] qsee_fp: dev-WMODE-2 LOG: &focaltech:ft93xx:core
+[  164.537455] qsee_fp: dev-WMODE-2 LOG: switch to 'SLEEP' mode.
+[  164.537463] qsee_fp: dev-WMODE-2 LOG: ltech:ta:co
+[  164.537468] qsee_fp: dev-WMODE-2 LOGCONT end
+[  164.537474] qsee_fp: WMODE 2 er=0
+[  164.553333] qsee_fp: ION HIT dev-WMODE-3 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  164.553350] qsee_fp: dev-WMODE-3 st=0xde first8=de000000 00666f63
+[  164.553369] qsee_fp: dev-WMODE-3 str[0]: focaltech:ta:interface
+[  164.553388] qsee_fp: dev-WMODE-3 str[1]: loading templates for gid = 0...
+[  164.553403] qsee_fp: dev-WMODE-3 str[2]: focaltech:ta:interface
+[  164.553420] qsee_fp: dev-WMODE-3 str[3]: there is 0 template loaded.
+[  164.553432] qsee_fp: dev-WMODE-3 str[4]:    0   0   0
+[  164.553448] qsee_fp: dev-WMODE-3 str[5]: &focaltech:ft93xx:core
+[  164.553464] qsee_fp: dev-WMODE-3 str[6]: switch to 'SLEEP' mode.
+[  164.553476] qsee_fp: dev-WMODE-3 str[7]: ltech:ta:config
+[  164.553504] qsee_fp: dev-WMODE-3 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[  164.553532] qsee_fp: dev-WMODE-3 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[  164.553560] qsee_fp: dev-WMODE-3 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[  164.553589] qsee_fp: dev-WMODE-3 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[  164.553616] qsee_fp: dev-WMODE-3 HEX[128]: 6f 61 64 65 64 2e 00 de 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 6c 
+[  164.553644] qsee_fp: dev-WMODE-3 HEX[160]: 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 68 
+[  164.553672] qsee_fp: dev-WMODE-3 HEX[192]: 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[  164.553689] qsee_fp: dev-WMODE-3 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[  164.553697] qsee_fp: dev-WMODE-3 LOGCONT begin len=222
+[  164.553709] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[  164.553725] qsee_fp: dev-WMODE-3 LOG: loading templates for gid = 0...
+[  164.553733] qsee_fp: dev-WMODE-3 LOG: !
+[  164.553745] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[  164.553760] qsee_fp: dev-WMODE-3 LOG: there is 0 template loaded.
+[  164.553770] qsee_fp: dev-WMODE-3 LOG:    0   0   0
+[  164.553779] qsee_fp: dev-WMODE-3 LOG: !
+[  164.553791] qsee_fp: dev-WMODE-3 LOG: &focaltech:ft93xx:core
+[  164.553805] qsee_fp: dev-WMODE-3 LOG: switch to 'SLEEP' mode.
+[  164.553815] qsee_fp: dev-WMODE-3 LOG: ltech:ta:co
+[  164.553821] qsee_fp: dev-WMODE-3 LOGCONT end
+[  164.553827] qsee_fp: WMODE 3 er=0
+[  164.569287] qsee_fp: ION HIT dev-WMODE-4 ret=0 req0=0x8000101f rsp0=0xde err=0xffffffff rsp8=0x65746c61
+[  164.569308] qsee_fp: dev-WMODE-4 st=0xde first8=de000000 00666f63
+[  164.569331] qsee_fp: dev-WMODE-4 str[0]: focaltech:ta:interface
+[  164.569353] qsee_fp: dev-WMODE-4 str[1]: loading templates for gid = 0...
+[  164.569371] qsee_fp: dev-WMODE-4 str[2]: focaltech:ta:interface
+[  164.569391] qsee_fp: dev-WMODE-4 str[3]: there is 0 template loaded.
+[  164.569405] qsee_fp: dev-WMODE-4 str[4]:    0   0   0
+[  164.569423] qsee_fp: dev-WMODE-4 str[5]: &focaltech:ft93xx:core
+[  164.569441] qsee_fp: dev-WMODE-4 str[6]: switch to 'SLEEP' mode.
+[  164.569456] qsee_fp: dev-WMODE-4 str[7]: ltech:ta:config
+[  164.569492] qsee_fp: dev-WMODE-4 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 65 00 00 00 00 00 
+[  164.569527] qsee_fp: dev-WMODE-4 HEX[032]: 00 00 00 00 00 6c 6f 61 64 69 6e 67 20 74 65 6d 70 6c 61 74 65 73 20 66 6f 72 20 67 69 64 20 3d 
+[  164.569563] qsee_fp: dev-WMODE-4 HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[  164.569598] qsee_fp: dev-WMODE-4 HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[  164.569634] qsee_fp: dev-WMODE-4 HEX[128]: 6f 61 64 65 64 2e 00 de 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 6c 
+[  164.569670] qsee_fp: dev-WMODE-4 HEX[160]: 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 68 
+[  164.569705] qsee_fp: dev-WMODE-4 HEX[192]: 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[  164.569727] qsee_fp: dev-WMODE-4 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[  164.569738] qsee_fp: dev-WMODE-4 LOGCONT begin len=222
+[  164.569754] qsee_fp: dev-WMODE-4 LOG: focaltech:ta:interface
+[  164.569773] qsee_fp: dev-WMODE-4 LOG: loading templates for gid = 0...
+[  164.569783] qsee_fp: dev-WMODE-4 LOG: !
+[  164.569798] qsee_fp: dev-WMODE-4 LOG: focaltech:ta:interface
+[  164.569815] qsee_fp: dev-WMODE-4 LOG: there is 0 template loaded.
+[  164.569829] qsee_fp: dev-WMODE-4 LOG:    0   0   0
+[  164.569839] qsee_fp: dev-WMODE-4 LOG: !
+[  164.569855] qsee_fp: dev-WMODE-4 LOG: &focaltech:ft93xx:core
+[  164.569871] qsee_fp: dev-WMODE-4 LOG: switch to 'SLEEP' mode.
+[  164.569883] qsee_fp: dev-WMODE-4 LOG: ltech:ta:co
+[  164.569892] qsee_fp: dev-WMODE-4 LOGCONT end
+[  164.569899] qsee_fp: WMODE 4 er=0
+[  164.621396] qsee_fp: ION HIT dev-cap-zeros ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  164.621418] qsee_fp: dev-cap-zeros st=0x52a first8=2a050000 00666f63
+[  164.621443] qsee_fp: dev-cap-zeros str[0]: focaltech:ta:core
+[  164.621476] qsee_fp: dev-cap-zeros str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.621495] qsee_fp: dev-cap-zeros str[2]:  is 0 template loaded.
+[  164.621509] qsee_fp: dev-cap-zeros str[3]:    0   0   0
+[  164.621527] qsee_fp: dev-cap-zeros str[4]: &focaltech:ft93xx:core
+[  164.621547] qsee_fp: dev-cap-zeros str[5]: switch to 'SLEEP' mode.
+[  164.621562] qsee_fp: dev-cap-zeros str[6]: ltech:ta:config
+[  164.621593] qsee_fp: dev-cap-zeros str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.621612] qsee_fp: dev-cap-zeros str[8]: focaltech:ta:config
+[  164.621644] qsee_fp: dev-cap-zeros str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.621663] qsee_fp: dev-cap-zeros str[10]: focaltech:ta:config
+[  164.621697] qsee_fp: dev-cap-zeros str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.621715] qsee_fp: dev-cap-zeros str[12]: focaltech:ta:config
+[  164.621747] qsee_fp: dev-cap-zeros str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.621765] qsee_fp: dev-cap-zeros str[14]: focaltech:ta:config
+[  164.621796] qsee_fp: dev-cap-zeros str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.621817] qsee_fp: dev-cap-zeros str[16]: focaltech:ta:config
+[  164.621848] qsee_fp: dev-cap-zeros str[17]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  164.621867] qsee_fp: dev-cap-zeros str[18]: focaltech:ta:config
+[  164.621900] qsee_fp: dev-cap-zeros str[19]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  164.621918] qsee_fp: dev-cap-zeros str[20]: focaltech:ta:config
+[  164.621933] qsee_fp: dev-cap-zeros er=0 err=0xffffff37
+[  164.621943] qsee_fp: dev-cap-zeros img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.679049] qsee_fp: ION HIT dev-cap-off-len ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  164.679080] qsee_fp: dev-cap-off-len st=0x52a first8=2a050000 00666f63
+[  164.679101] qsee_fp: dev-cap-off-len str[0]: focaltech:ta:core
+[  164.679129] qsee_fp: dev-cap-off-len str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.679146] qsee_fp: dev-cap-off-len str[2]:  is 0 template loaded.
+[  164.679159] qsee_fp: dev-cap-off-len str[3]:    0   0   0
+[  164.679174] qsee_fp: dev-cap-off-len str[4]: &focaltech:ft93xx:core
+[  164.679190] qsee_fp: dev-cap-off-len str[5]: switch to 'SLEEP' mode.
+[  164.679204] qsee_fp: dev-cap-off-len str[6]: ltech:ta:config
+[  164.679230] qsee_fp: dev-cap-off-len str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.679246] qsee_fp: dev-cap-off-len str[8]: focaltech:ta:config
+[  164.679272] qsee_fp: dev-cap-off-len str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.679288] qsee_fp: dev-cap-off-len str[10]: focaltech:ta:config
+[  164.679316] qsee_fp: dev-cap-off-len str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.679332] qsee_fp: dev-cap-off-len str[12]: focaltech:ta:config
+[  164.679357] qsee_fp: dev-cap-off-len str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.679373] qsee_fp: dev-cap-off-len str[14]: focaltech:ta:config
+[  164.679399] qsee_fp: dev-cap-off-len str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.679416] qsee_fp: dev-cap-off-len str[16]: focaltech:ta:config
+[  164.679441] qsee_fp: dev-cap-off-len str[17]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  164.679458] qsee_fp: dev-cap-off-len str[18]: focaltech:ta:config
+[  164.679483] qsee_fp: dev-cap-off-len str[19]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  164.679499] qsee_fp: dev-cap-off-len str[20]: focaltech:ta:config
+[  164.679514] qsee_fp: dev-cap-off-len er=0 err=0xffffff37
+[  164.679524] qsee_fp: dev-cap-off-len img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.733857] qsee_fp: ION HIT dev-cap-flag1 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  164.733887] qsee_fp: dev-cap-flag1 st=0x52a first8=2a050000 00666f63
+[  164.733909] qsee_fp: dev-cap-flag1 str[0]: focaltech:ta:core
+[  164.733936] qsee_fp: dev-cap-flag1 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.733951] qsee_fp: dev-cap-flag1 str[2]:  is 0 template loaded.
+[  164.733964] qsee_fp: dev-cap-flag1 str[3]:    0   0   0
+[  164.733980] qsee_fp: dev-cap-flag1 str[4]: &focaltech:ft93xx:core
+[  164.733996] qsee_fp: dev-cap-flag1 str[5]: switch to 'SLEEP' mode.
+[  164.734010] qsee_fp: dev-cap-flag1 str[6]: ltech:ta:config
+[  164.734035] qsee_fp: dev-cap-flag1 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.734052] qsee_fp: dev-cap-flag1 str[8]: focaltech:ta:config
+[  164.734078] qsee_fp: dev-cap-flag1 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.734094] qsee_fp: dev-cap-flag1 str[10]: focaltech:ta:config
+[  164.734122] qsee_fp: dev-cap-flag1 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.734139] qsee_fp: dev-cap-flag1 str[12]: focaltech:ta:config
+[  164.734165] qsee_fp: dev-cap-flag1 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.734181] qsee_fp: dev-cap-flag1 str[14]: focaltech:ta:config
+[  164.734207] qsee_fp: dev-cap-flag1 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.734225] qsee_fp: dev-cap-flag1 str[16]: focaltech:ta:config
+[  164.734250] qsee_fp: dev-cap-flag1 str[17]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  164.734267] qsee_fp: dev-cap-flag1 str[18]: focaltech:ta:config
+[  164.734294] qsee_fp: dev-cap-flag1 str[19]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  164.734310] qsee_fp: dev-cap-flag1 str[20]: focaltech:ta:config
+[  164.734325] qsee_fp: dev-cap-flag1 er=0 err=0xffffff37
+[  164.734336] qsee_fp: dev-cap-flag1 img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.790130] qsee_fp: SEG dev-cap-seg-off[0] ret=0 cmd=0x1013 chunk=36 rem_after=0 req0=0x80001013 rsp0=0x52a err=0xffffff37
+[  164.790166] qsee_fp: dev-cap-seg-off st=0x52a first8=2a050000 00666f63
+[  164.790189] qsee_fp: dev-cap-seg-off str[0]: focaltech:ta:core
+[  164.790222] qsee_fp: dev-cap-seg-off str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.790241] qsee_fp: dev-cap-seg-off str[2]: focaltech:ta:trans
+[  164.790277] qsee_fp: dev-cap-seg-off str[3]: The response data should be placed in shared memory or another piece of malloc memory.
+[  164.790309] qsee_fp: dev-cap-seg-off str[4]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.790328] qsee_fp: dev-cap-seg-off str[5]: focaltech:ta:config
+[  164.790360] qsee_fp: dev-cap-seg-off str[6]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.790379] qsee_fp: dev-cap-seg-off str[7]: focaltech:ta:config
+[  164.790404] qsee_fp: dev-cap-seg-off str[8]: no key named 'algorithm.min_enrolling_coverage_thres
+[  164.790416] qsee_fp: dev-cap-seg-off er=0 err=0xffffff37
+[  164.790426] qsee_fp: dev-cap-seg-off img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.845865] qsee_fp: ION HIT dev-cap-plen0 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  164.845898] qsee_fp: dev-cap-plen0 st=0x52a first8=2a050000 00666f63
+[  164.845920] qsee_fp: dev-cap-plen0 str[0]: focaltech:ta:core
+[  164.845949] qsee_fp: dev-cap-plen0 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.845966] qsee_fp: dev-cap-plen0 str[2]: focaltech:ta:trans
+[  164.845994] qsee_fp: dev-cap-plen0 str[3]: The response data should be placed in shared memory or another piece of malloc memory.
+[  164.846021] qsee_fp: dev-cap-plen0 str[4]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.846038] qsee_fp: dev-cap-plen0 str[5]: focaltech:ta:config
+[  164.846065] qsee_fp: dev-cap-plen0 str[6]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.846081] qsee_fp: dev-cap-plen0 str[7]: focaltech:ta:config
+[  164.846109] qsee_fp: dev-cap-plen0 str[8]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.846125] qsee_fp: dev-cap-plen0 str[9]: focaltech:ta:config
+[  164.846151] qsee_fp: dev-cap-plen0 str[10]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.846169] qsee_fp: dev-cap-plen0 str[11]: focaltech:ta:config
+[  164.846194] qsee_fp: dev-cap-plen0 str[12]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.846213] qsee_fp: dev-cap-plen0 str[13]: focaltech:ta:config
+[  164.846239] qsee_fp: dev-cap-plen0 str[14]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  164.846256] qsee_fp: dev-cap-plen0 str[15]: focaltech:ta:config
+[  164.846284] qsee_fp: dev-cap-plen0 str[16]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  164.846301] qsee_fp: dev-cap-plen0 str[17]: focaltech:ta:config
+[  164.846315] qsee_fp: dev-cap-plen0 er=0 err=0xffffff37
+[  164.846326] qsee_fp: dev-cap-plen0 img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.903589] qsee_fp: ION HIT dev-cap-off-phys ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  164.903626] qsee_fp: dev-cap-off-phys st=0x52a first8=2a050000 00666f63
+[  164.903648] qsee_fp: dev-cap-off-phys str[0]: focaltech:ta:core
+[  164.903681] qsee_fp: dev-cap-off-phys str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.903700] qsee_fp: dev-cap-off-phys str[2]: focaltech:ta:trans
+[  164.903736] qsee_fp: dev-cap-off-phys str[3]: The response data should be placed in shared memory or another piece of malloc memory.
+[  164.903900] qsee_fp: dev-cap-off-phys str[4]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  164.903922] qsee_fp: dev-cap-off-phys str[5]: focaltech:ta:config
+[  164.903955] qsee_fp: dev-cap-off-phys str[6]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  164.903973] qsee_fp: dev-cap-off-phys str[7]: focaltech:ta:config
+[  164.904005] qsee_fp: dev-cap-off-phys str[8]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  164.904022] qsee_fp: dev-cap-off-phys str[9]: focaltech:ta:config
+[  164.904054] qsee_fp: dev-cap-off-phys str[10]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[  164.904072] qsee_fp: dev-cap-off-phys str[11]: focaltech:ta:config
+[  164.904102] qsee_fp: dev-cap-off-phys str[12]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[  164.904120] qsee_fp: dev-cap-off-phys str[13]: focaltech:ta:config
+[  164.904151] qsee_fp: dev-cap-off-phys str[14]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[  164.904169] qsee_fp: dev-cap-off-phys str[15]: focaltech:ta:config
+[  164.904200] qsee_fp: dev-cap-off-phys str[16]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[  164.904217] qsee_fp: dev-cap-off-phys str[17]: focaltech:ta:config
+[  164.904231] qsee_fp: dev-cap-off-phys er=0 err=0xffffff37
+[  164.904241] qsee_fp: dev-cap-off-phys img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  164.987185] qsee_fp: dev-QEVENT2 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  164.987296] qsee_fp: dev-QEVENT2 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.005377] qsee_fp: dev-QFINGER str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.005763] qsee_fp: dev-QFINGER LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.025283] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  165.025304] qsee_fp: dev-HEALTH-post-cap st=0xde first8=de000000 00666f63
+[  165.025328] qsee_fp: dev-HEALTH-post-cap str[0]: focaltech:ta:core
+[  165.025360] qsee_fp: dev-HEALTH-post-cap str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.025378] qsee_fp: dev-HEALTH-post-cap str[2]: focaltech:ta:trans
+[  165.025413] qsee_fp: dev-HEALTH-post-cap str[3]: The response data should be placed in shared memory or another piece of malloc mem
+[  165.025426] qsee_fp: dev-HEALTH-post-cap LOGCONT begin len=222
+[  165.025441] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:core
+[  165.025470] qsee_fp: dev-HEALTH-post-cap LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.025486] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:trans
+[  165.025515] qsee_fp: dev-HEALTH-post-cap LOG: The response data should be placed in shared memory or another piece of ma
+[  165.025525] qsee_fp: dev-HEALTH-post-cap LOGCONT end
+[  165.025533] qsee_fp: HEALTH after capture path er=0
+[  165.026786] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  165.026808] qsee_fp: dev-HEALTH-final st=0xde first8=de000000 00666f63
+[  165.026829] qsee_fp: dev-HEALTH-final str[0]: focaltech:ta:core
+[  165.026862] qsee_fp: dev-HEALTH-final str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.026880] qsee_fp: dev-HEALTH-final str[2]: focaltech:ta:trans
+[  165.026913] qsee_fp: dev-HEALTH-final str[3]: The response data should be placed in shared memory or another piece of malloc mem
+[  165.026924] qsee_fp: dev-HEALTH-final LOGCONT begin len=222
+[  165.026939] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:core
+[  165.026968] qsee_fp: dev-HEALTH-final LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  165.026983] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:trans
+[  165.027012] qsee_fp: dev-HEALTH-final LOG: The response data should be placed in shared memory or another piece of ma
+[  165.027021] qsee_fp: dev-HEALTH-final LOGCONT end
+[  165.027030] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[  165.027431] qsee_fp: done

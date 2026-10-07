@@ -1,0 +1,80 @@
+[  129.592145] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x12a err=0xffffff35 rsp8=0x65746c61
+[  129.593500] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x12a err=0xff000feb rsp8=0x65746c61
+[  129.595459] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x12a err=0x0 rsp8=0x65746c61
+[  129.649882] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x12a err=0xffffff33 rsp8=0x65746c61
+[  129.649891] qsee_fp: dev-PROBE1-100a st=0x12a first8=2a010000 00666f63
+[  129.649902] qsee_fp: dev-PROBE1-100a str[0]: focaltech:ta:entry
+[  129.649916] qsee_fp: dev-PROBE1-100a str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.649925] qsee_fp: dev-PROBE1-100a str[2]: focaltech:ta:entry
+[  129.649941] qsee_fp: dev-PROBE1-100a str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[  129.649950] qsee_fp: dev-PROBE1-100a str[4]: focaltech:ta:trans
+[  129.649966] qsee_fp: dev-PROBE1-100a str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.649973] qsee_fp: dev-PROBE1-100a str[6]: focaltech:ta:trans
+[  129.649978] qsee_fp: dev-PROBE1-100a LOGCONT begin len=298
+[  129.649984] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:entry
+[  129.649996] qsee_fp: dev-PROBE1-100a LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.650000] qsee_fp: dev-PROBE1-100a LOG: !
+[  129.650006] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:entry
+[  129.650021] qsee_fp: dev-PROBE1-100a LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[  129.650025] qsee_fp: dev-PROBE1-100a LOG: !
+[  129.650031] qsee_fp: dev-PROBE1-100a LOG: focaltech:ta:trans
+[  129.650045] qsee_fp: dev-PROBE1-100a LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.650048] qsee_fp: dev-PROBE1-100a LOG: !
+[  129.650053] qsee_fp: dev-PROBE1-100a LOG: focaltech:t
+[  129.650057] qsee_fp: dev-PROBE1-100a LOGCONT end
+[  129.666080] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x12a err=0xfffffffb rsp8=0x65746c61
+[  129.666089] qsee_fp: dev-INIT_SPI-1006 st=0x12a first8=2a010000 00666f63
+[  129.666095] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:entry
+[  129.666099] qsee_fp: dev-INIT_SPI-1006 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.666103] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:entry
+[  129.666106] qsee_fp: dev-INIT_SPI-1006 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_SPI
+[  129.666109] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:trans
+[  129.666112] qsee_fp: dev-INIT_SPI-1006 str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.666115] qsee_fp: dev-INIT_SPI-1006 str[6]: focaltech:ta:trans
+[  129.666116] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=298
+[  129.666119] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:entry
+[  129.666122] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.666124] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  129.666127] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:entry
+[  129.666131] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_SPI
+[  129.666134] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  129.666136] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:trans
+[  129.666139] qsee_fp: dev-INIT_SPI-1006 LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.666142] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  129.666143] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:tr
+[  129.666145] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[  129.721813] qsee_fp: ION HIT dev-PROBE2-100a ret=0 req0=0x8000100a rsp0=0x12a err=0xffffff33 rsp8=0x65746c61
+[  129.737376] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[  129.753785] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[  129.770129] qsee_fp: ION HIT dev-CHIP_INIT-1023 ret=0 req0=0x80001023 rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[  129.785883] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x12a err=0x0 rsp8=0x65746c61
+[  129.801796] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0x12a err=0xfffffff5 rsp8=0x65746c61
+[  209.065632] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x12a err=0xffffff35 rsp8=0x65746c61
+[  209.065786] qsee_fp: dev-base-205 HEX[000]: 2a 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[  209.065807] qsee_fp: dev-base-205 HEX[032]: 00 00 00 00 00 74 72 75 73 74 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 38 39 2c 20 27 74 7a 5f 61 70 
+[  209.065829] qsee_fp: dev-base-205 HEX[064]: 70 5f 63 6d 64 5f 68 61 6e 64 6c 65 72 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[  209.065850] qsee_fp: dev-base-205 HEX[096]: 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 72 75 73 74 
+[  209.065872] qsee_fp: dev-base-205 HEX[128]: 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 31 30 37 2c 20 6d 65 73 73 61 67 65 2d 3e 72 65 71 75 65 73 
+[  209.065894] qsee_fp: dev-base-205 HEX[160]: 74 2e 63 6d 64 20 3d 20 46 46 5f 43 4d 44 5f 54 41 5f 50 52 4f 42 45 5f 44 45 56 49 43 45 00 21 
+[  209.065916] qsee_fp: dev-base-205 HEX[192]: 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 00 
+[  209.065937] qsee_fp: dev-base-205 HEX[224]: 00 00 00 00 74 72 75 73 74 6c 65 74 5f 74 72 61 6e 73 2e 63 3a 35 35 38 2c 20 27 66 66 5f 74 72 
+[  209.065958] qsee_fp: dev-base-205 HEX[256]: 75 73 74 6c 65 74 5f 6d 65 73 73 61 67 65 5f 63 62 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 
+[  209.065976] qsee_fp: dev-base-205 HEX[288]: 6f 63 61 6c 74 65 63 68 3a 74 61 3a 74 72 61 6e 73 00 00 00 00 00 00 00 00 00 
+[  209.067042] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x12a err=0xff000feb rsp8=0x65746c61
+[  209.067202] qsee_fp: dev-entry-1011 HEX[000]: 2a 01 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 
+[  209.067224] qsee_fp: dev-entry-1011 HEX[032]: 00 00 00 00 00 74 72 75 73 74 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 38 39 2c 20 27 74 7a 5f 61 70 
+[  209.067246] qsee_fp: dev-entry-1011 HEX[064]: 70 5f 63 6d 64 5f 68 61 6e 64 6c 65 72 27 20 65 6e 74 65 72 2e 00 21 01 00 00 00 66 6f 63 61 6c 
+[  209.067267] qsee_fp: dev-entry-1011 HEX[096]: 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 72 75 73 74 
+[  209.067290] qsee_fp: dev-entry-1011 HEX[128]: 6c 65 74 5f 65 6e 74 72 79 2e 63 3a 31 30 37 2c 20 6d 65 73 73 61 67 65 2d 3e 72 65 71 75 65 73 
+[  209.067311] qsee_fp: dev-entry-1011 HEX[160]: 74 2e 63 6d 64 20 3d 20 46 46 5f 43 4d 44 5f 54 41 5f 53 45 54 5f 4b 4d 5f 4b 45 59 00 21 03 00 
+[  209.067332] qsee_fp: dev-entry-1011 HEX[192]: 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 
+[  209.067353] qsee_fp: dev-entry-1011 HEX[224]: 00 00 6b 65 79 6d 61 73 74 65 72 20 69 64 65 6e 74 69 74 79 3a 20 27 27 2e 00 21 03 00 00 00 66 
+[  209.067374] qsee_fp: dev-entry-1011 HEX[256]: 6f 63 61 6c 74 65 63 68 3a 74 61 3a 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 65 
+[  209.067392] qsee_fp: dev-entry-1011 HEX[288]: 6e 63 61 70 73 75 6c 61 74 65 64 20 6b 65 79 20 64 61 74 61 20 28 30 29 3a 00 
+[  209.069510] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x12a err=0x0 rsp8=0x65746c61
+[  209.126901] qsee_fp: ION HIT dev-PROBE1-100a ret=0 req0=0x8000100a rsp0=0x12a err=0xffffff33 rsp8=0x65746c61
+[  209.126911] qsee_fp: dev-PROBE1-100a st=0x12a first8=2a010000 00666f63
+[  209.126923] qsee_fp: dev-PROBE1-100a str[0]: focaltech:ta:entry
+[  209.126940] qsee_fp: dev-PROBE1-100a str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  209.126949] qsee_fp: dev-PROBE1-100a str[2]: focaltech:ta:entry
+[  209.126969] qsee_fp: dev-PROBE1-100a str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE

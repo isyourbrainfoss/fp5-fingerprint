@@ -1,0 +1,1793 @@
+[ 1009.225779] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 1009.225798] qsee_fp: L2 vdd+spiclk reassert before enroll
+[ 1009.264019] qsee_fp: ION HIT dev-PWR-enroll ret=0 req0=0x8000101e rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1009.264028] qsee_fp: dev-PWR-enroll st=0x32a first8=2a030000 0026666f
+[ 1009.264033] qsee_fp: dev-PWR-enroll str[0]: &focaltech:ft93xx:core
+[ 1009.264037] qsee_fp: dev-PWR-enroll str[1]: ...TryReadSysIntFlag: 0x0
+[ 1009.264041] qsee_fp: dev-PWR-enroll str[2]: &focaltech:ft93xx:core
+[ 1009.264044] qsee_fp: dev-PWR-enroll str[3]: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 1009.264047] qsee_fp: dev-PWR-enroll str[4]: &focaltech:ft93xx:core
+[ 1009.264050] qsee_fp: dev-PWR-enroll str[5]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 1009.264052] qsee_fp: dev-PWR-enroll str[6]: ' mode.
+[ 1009.264055] qsee_fp: dev-PWR-enroll str[7]: &focaltech:ft93xx:core
+[ 1009.264058] qsee_fp: dev-PWR-enroll str[8]: query event state: [gesture leave].
+[ 1009.264061] qsee_fp: dev-PWR-enroll str[9]: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.264064] qsee_fp: dev-PWR-enroll str[10]: focaltech:ta:config
+[ 1009.264068] qsee_fp: dev-PWR-enroll str[11]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.264071] qsee_fp: dev-PWR-enroll str[12]: focaltech:ta:config
+[ 1009.264075] qsee_fp: dev-PWR-enroll str[13]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.264077] qsee_fp: dev-PWR-enroll str[14]: focaltech:ta:config
+[ 1009.264080] qsee_fp: dev-PWR-enroll str[15]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.264084] qsee_fp: dev-PWR-enroll str[16]: focaltech:ta:config
+[ 1009.264087] qsee_fp: dev-PWR-enroll str[17]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.264090] qsee_fp: dev-PWR-enroll str[18]: focaltech:ta:con
+[ 1009.264092] qsee_fp: dev-PWR-enroll st=0x8000101e first8=1e100080 00000000
+[ 1009.264097] qsee_fp: dev-PWR-enroll str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 1009.264100] qsee_fp: dev-PWR-enroll str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1009.264129] qsee_fp: dev-PWR-enroll LOGCONT begin len=810
+[ 1009.264131] qsee_fp: dev-PWR-enroll LOG: &focaltech:ft93xx:core
+[ 1009.264135] qsee_fp: dev-PWR-enroll LOG: ...TryReadSysIntFlag: 0x0
+[ 1009.264137] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264140] qsee_fp: dev-PWR-enroll LOG: &focaltech:ft93xx:core
+[ 1009.264143] qsee_fp: dev-PWR-enroll LOG: switch to 'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 1009.264146] qsee_fp: dev-PWR-enroll LOG: &focaltech:ft93xx:core
+[ 1009.264149] qsee_fp: dev-PWR-enroll LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 1009.264151] qsee_fp: dev-PWR-enroll LOG: ' mode.
+[ 1009.264153] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264156] qsee_fp: dev-PWR-enroll LOG: &focaltech:ft93xx:core
+[ 1009.264160] qsee_fp: dev-PWR-enroll LOG: query event state: [gesture leave].
+[ 1009.264163] qsee_fp: dev-PWR-enroll LOG: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.264165] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264167] qsee_fp: dev-PWR-enroll LOG: focaltech:ta:config
+[ 1009.264171] qsee_fp: dev-PWR-enroll LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.264174] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264176] qsee_fp: dev-PWR-enroll LOG: focaltech:ta:config
+[ 1009.264180] qsee_fp: dev-PWR-enroll LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.264182] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264184] qsee_fp: dev-PWR-enroll LOG: focaltech:ta:config
+[ 1009.264187] qsee_fp: dev-PWR-enroll LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.264190] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264192] qsee_fp: dev-PWR-enroll LOG: focaltech:ta:config
+[ 1009.264195] qsee_fp: dev-PWR-enroll LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.264198] qsee_fp: dev-PWR-enroll LOG: !
+[ 1009.264200] qsee_fp: dev-PWR-enroll LOG: focaltec
+[ 1009.264201] qsee_fp: dev-PWR-enroll LOGCONT end
+[ 1009.287932] qsee_fp: ION HIT dev-WMODE-5-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1009.287943] qsee_fp: dev-WMODE-5-enroll st=0x52a first8=2a050000 0026666f
+[ 1009.287951] qsee_fp: dev-WMODE-5-enroll str[0]: &focaltech:ft93xx:core
+[ 1009.287957] qsee_fp: dev-WMODE-5-enroll str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.287962] qsee_fp: dev-WMODE-5-enroll str[2]:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 1009.287967] qsee_fp: dev-WMODE-5-enroll str[3]: &focaltech:ft93xx:core
+[ 1009.287971] qsee_fp: dev-WMODE-5-enroll str[4]: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 1009.287975] qsee_fp: dev-WMODE-5-enroll str[5]: ' mode.
+[ 1009.287980] qsee_fp: dev-WMODE-5-enroll str[6]: &focaltech:ft93xx:core
+[ 1009.287985] qsee_fp: dev-WMODE-5-enroll str[7]: query event state: [gesture leave].
+[ 1009.287989] qsee_fp: dev-WMODE-5-enroll str[8]: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.287994] qsee_fp: dev-WMODE-5-enroll str[9]: focaltech:ta:config
+[ 1009.287999] qsee_fp: dev-WMODE-5-enroll str[10]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.288004] qsee_fp: dev-WMODE-5-enroll str[11]: focaltech:ta:config
+[ 1009.288009] qsee_fp: dev-WMODE-5-enroll str[12]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.288013] qsee_fp: dev-WMODE-5-enroll str[13]: focaltech:ta:config
+[ 1009.288016] qsee_fp: dev-WMODE-5-enroll str[14]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.288019] qsee_fp: dev-WMODE-5-enroll str[15]: focaltech:ta:config
+[ 1009.288023] qsee_fp: dev-WMODE-5-enroll str[16]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.288026] qsee_fp: dev-WMODE-5-enroll str[17]: focaltech:ta:config
+[ 1009.288029] qsee_fp: dev-WMODE-5-enroll str[18]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 1009.288031] qsee_fp: dev-WMODE-5-enroll str[19]: focaltech:ta:config
+[ 1009.288035] qsee_fp: dev-WMODE-5-enroll str[20]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 1009.288038] qsee_fp: dev-WMODE-5-enroll str[21]: focaltech:ta:config
+[ 1009.288041] qsee_fp: dev-WMODE-5-enroll str[22]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 1009.288044] qsee_fp: dev-WMODE-5-enroll str[23]: focaltech:ta:config
+[ 1009.288047] qsee_fp: dev-WMODE-5-enroll str[24]: no key named 'algorithm.fake_finger_net_mode', use default value.
+[ 1009.288050] qsee_fp: dev-WMODE-5-enroll str[25]: focaltech:ta:config
+[ 1009.288053] qsee_fp: dev-WMODE-5-enroll str[26]: no key named 'algorithm.fake_finger_detect_mode', use default value.
+[ 1009.288056] qsee_fp: dev-WMODE-5-enroll st=0x8000101f first8=1f100080 00000000
+[ 1009.288062] qsee_fp: dev-WMODE-5-enroll str[0]: v2.5.3.0-cdf0f80-230614@0928
+[ 1009.288065] qsee_fp: dev-WMODE-5-enroll str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1009.288091] qsee_fp: dev-WMODE-5-enroll LOGCONT begin len=1322
+[ 1009.288094] qsee_fp: dev-WMODE-5-enroll LOG: &focaltech:ft93xx:core
+[ 1009.288098] qsee_fp: dev-WMODE-5-enroll LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.288100] qsee_fp: dev-WMODE-5-enroll LOG:  'FT93XX_FDT_DOWN_DETECT for power' mode.
+[ 1009.288104] qsee_fp: dev-WMODE-5-enroll LOG: &focaltech:ft93xx:core
+[ 1009.288108] qsee_fp: dev-WMODE-5-enroll LOG: switch to 'GESTURE_DOWN_DETECT' mode.
+[ 1009.288110] qsee_fp: dev-WMODE-5-enroll LOG: ' mode.
+[ 1009.288112] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288115] qsee_fp: dev-WMODE-5-enroll LOG: &focaltech:ft93xx:core
+[ 1009.288119] qsee_fp: dev-WMODE-5-enroll LOG: query event state: [gesture leave].
+[ 1009.288122] qsee_fp: dev-WMODE-5-enroll LOG: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.288124] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288126] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288131] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.288133] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288135] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288140] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.288142] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288144] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288148] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.288150] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288152] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288156] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.288158] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288160] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288163] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 1009.288166] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288168] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288171] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 1009.288174] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288176] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288179] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 1009.288181] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288184] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288186] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.fake_finger_net_mode', use default value.
+[ 1009.288189] qsee_fp: dev-WMODE-5-enroll LOG: !
+[ 1009.288191] qsee_fp: dev-WMODE-5-enroll LOG: focaltech:ta:config
+[ 1009.288194] qsee_fp: dev-WMODE-5-enroll LOG: no key named 'algorithm.fake_finger_detect_mode', use default val
+[ 1009.288196] qsee_fp: dev-WMODE-5-enroll LOGCONT end
+[ 1009.341047] qsee_fp: SEG dev-ENROLL-start[0] ret=0 cmd=0x2001 chunk=74 rem_after=0 req0=0x80002001 rsp0=0x32a err=0x0
+[ 1009.341061] qsee_fp: dev-ENROLL-start st=0x32a first8=2a030000 00666f63
+[ 1009.341071] qsee_fp: dev-ENROLL-start str[0]: focaltech:ta:interface
+[ 1009.341077] qsee_fp: dev-ENROLL-start str[1]: new fid (= 1377415170) generated.
+[ 1009.341084] qsee_fp: dev-ENROLL-start str[2]: &focaltech:ft93xx:core
+[ 1009.341089] qsee_fp: dev-ENROLL-start str[3]: switch to 'FDT_DOWN_DETECT' mode.
+[ 1009.341094] qsee_fp: dev-ENROLL-start str[4]: focaltech:ta:trans
+[ 1009.341101] qsee_fp: dev-ENROLL-start str[5]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 1009.341106] qsee_fp: dev-ENROLL-start str[6]: query event state: [gesture leave].
+[ 1009.341111] qsee_fp: dev-ENROLL-start str[7]: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.341116] qsee_fp: dev-ENROLL-start str[8]: focaltech:ta:config
+[ 1009.341122] qsee_fp: dev-ENROLL-start str[9]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.341126] qsee_fp: dev-ENROLL-start str[10]: focaltech:ta:config
+[ 1009.341129] qsee_fp: dev-ENROLL-start str[11]: no key named 'algo
+[ 1009.341132] qsee_fp: ENROLL start er=0 err=0x0 (expect one new fid)
+[ 1009.341578] qsee_fp: ION HIT dev-WMODE-5-post-enroll ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1009.341583] qsee_fp: dev-WMODE-5-post-enroll st=0x52a first8=2a050000 0026666f
+[ 1009.341588] qsee_fp: dev-WMODE-5-post-enroll str[0]: &focaltech:ft93xx:core
+[ 1009.341594] qsee_fp: dev-WMODE-5-post-enroll str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.341597] qsee_fp: dev-WMODE-5-post-enroll str[2]: witch to 'FDT_DOWN_DETECT' mode.
+[ 1009.341601] qsee_fp: dev-WMODE-5-post-enroll str[3]: focaltech:ta:trans
+[ 1009.341605] qsee_fp: dev-WMODE-5-post-enroll str[4]: The response data should be placed in shared memory or another piece of malloc memory.
+[ 1009.341610] qsee_fp: dev-WMODE-5-post-enroll str[5]: query event state: [gesture leave].
+[ 1009.341613] qsee_fp: dev-WMODE-5-post-enroll str[6]: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.341617] qsee_fp: dev-WMODE-5-post-enroll str[7]: focaltech:ta:config
+[ 1009.341621] qsee_fp: dev-WMODE-5-post-enroll str[8]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.341624] qsee_fp: dev-WMODE-5-post-enroll str[9]: focaltech:ta:config
+[ 1009.341628] qsee_fp: dev-WMODE-5-post-enroll str[10]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.341631] qsee_fp: dev-WMODE-5-post-enroll str[11]: focaltech:ta:config
+[ 1009.341635] qsee_fp: dev-WMODE-5-post-enroll str[12]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.341638] qsee_fp: dev-WMODE-5-post-enroll str[13]: focaltech:ta:config
+[ 1009.341642] qsee_fp: dev-WMODE-5-post-enroll str[14]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.341646] qsee_fp: dev-WMODE-5-post-enroll str[15]: focaltech:ta:config
+[ 1009.341649] qsee_fp: dev-WMODE-5-post-enroll str[16]: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 1009.341652] qsee_fp: dev-WMODE-5-post-enroll str[17]: focaltech:ta:config
+[ 1009.341656] qsee_fp: dev-WMODE-5-post-enroll str[18]: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 1009.341659] qsee_fp: dev-WMODE-5-post-enroll str[19]: focaltech:ta:config
+[ 1009.341664] qsee_fp: dev-WMODE-5-post-enroll str[20]: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 1009.341667] qsee_fp: dev-WMODE-5-post-enroll str[21]: focaltech:ta:config
+[ 1009.341670] qsee_fp: dev-WMODE-5-post-enroll str[22]: no key named 'algorithm.fake_finger_net_mode', use default value.
+[ 1009.341673] qsee_fp: dev-WMODE-5-post-enroll str[23]: focaltech:ta:config
+[ 1009.341677] qsee_fp: dev-WMODE-5-post-enroll str[24]: no key named 'algorithm.fake_finger_detect_mode', use default value.
+[ 1009.341680] qsee_fp: dev-WMODE-5-post-enroll st=0x8000101f first8=1f100080 00000000
+[ 1009.341686] qsee_fp: dev-WMODE-5-post-enroll str[0]: &r`o
+[ 1009.341692] qsee_fp: dev-WMODE-5-post-enroll str[1]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1009.341726] qsee_fp: dev-WMODE-5-post-enroll LOGCONT begin len=1322
+[ 1009.341729] qsee_fp: dev-WMODE-5-post-enroll LOG: &focaltech:ft93xx:core
+[ 1009.341734] qsee_fp: dev-WMODE-5-post-enroll LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.341737] qsee_fp: dev-WMODE-5-post-enroll LOG: witch to 'FDT_DOWN_DETECT' mode.
+[ 1009.341740] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341743] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:trans
+[ 1009.341748] qsee_fp: dev-WMODE-5-post-enroll LOG: The response data should be placed in shared memory or another piece of malloc memory.
+[ 1009.341753] qsee_fp: dev-WMODE-5-post-enroll LOG: query event state: [gesture leave].
+[ 1009.341756] qsee_fp: dev-WMODE-5-post-enroll LOG: SON_STRING' but got 'JSON_INTEGER'.
+[ 1009.341759] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341762] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341766] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1009.341769] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341772] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341777] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1009.341780] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341783] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341788] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1009.341790] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341793] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341799] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1009.341801] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341804] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341808] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.non_finger_net_mode', use default value.
+[ 1009.341811] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341813] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341818] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.non_finger_auth_sentivity', use default value.
+[ 1009.341820] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341823] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341827] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.non_finger_enroll_sentivity', use default value.
+[ 1009.341830] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341833] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341836] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.fake_finger_net_mode', use default value.
+[ 1009.341839] qsee_fp: dev-WMODE-5-post-enroll LOG: !
+[ 1009.341841] qsee_fp: dev-WMODE-5-post-enroll LOG: focaltech:ta:config
+[ 1009.341845] qsee_fp: dev-WMODE-5-post-enroll LOG: no key named 'algorithm.fake_finger_detect_mode', use default val
+[ 1009.341847] qsee_fp: dev-WMODE-5-post-enroll LOGCONT end
+[ 1009.379481] qsee_fp: ION HIT dev-SCAN-enroll-loop ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1009.379493] qsee_fp: dev-SCAN-enroll-loop st=0xde first8=de000000 0026666f
+[ 1009.379505] qsee_fp: dev-SCAN-enroll-loop str[0]: &focaltech:ft93xx:core
+[ 1009.379524] qsee_fp: dev-SCAN-enroll-loop str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.379536] qsee_fp: dev-SCAN-enroll-loop str[2]: witch to 'FDT_DOWN_DETECT' mode.
+[ 1009.379547] qsee_fp: dev-SCAN-enroll-loop str[3]: focaltech:ta:trans
+[ 1009.379563] qsee_fp: dev-SCAN-enroll-loop str[4]: The response data should be placed in shared memory
+[ 1009.379568] qsee_fp: dev-SCAN-enroll-loop st=0x80001012 first8=12100080 30000000
+[ 1009.379607] qsee_fp: dev-SCAN-enroll-loop str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1009.379925] qsee_fp: dev-SCAN-enroll-loop LOGCONT begin len=222
+[ 1009.379933] qsee_fp: dev-SCAN-enroll-loop LOG: &focaltech:ft93xx:core
+[ 1009.379952] qsee_fp: dev-SCAN-enroll-loop LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1009.379961] qsee_fp: dev-SCAN-enroll-loop LOG: witch to 'FDT_DOWN_DETECT' mode.
+[ 1009.379966] qsee_fp: dev-SCAN-enroll-loop LOG: !
+[ 1009.379973] qsee_fp: dev-SCAN-enroll-loop LOG: focaltech:ta:trans
+[ 1009.379986] qsee_fp: dev-SCAN-enroll-loop LOG: The response data should be placed in share
+[ 1009.379990] qsee_fp: dev-SCAN-enroll-loop LOGCONT end
+[ 1009.402670] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 1010.450686] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1010.450726] qsee_fp: dev-QEV-poll st=0x32a first8=2a030000 0026666f
+[ 1010.450751] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:core
+[ 1010.450794] qsee_fp: dev-QEV-poll str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1010.450815] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1010.450836] qsee_fp: dev-QEV-poll str[3]: query event state: [unknow].
+[ 1010.450860] qsee_fp: dev-QEV-poll str[4]:  memory or another piece of malloc memory.
+[ 1010.450882] qsee_fp: dev-QEV-poll str[5]: query event state: [gesture leave].
+[ 1010.450904] qsee_fp: dev-QEV-poll str[6]: SON_STRING' but got 'JSON_INTEGER'.
+[ 1010.450921] qsee_fp: dev-QEV-poll str[7]: focaltech:ta:config
+[ 1010.450954] qsee_fp: dev-QEV-poll str[8]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1010.450974] qsee_fp: dev-QEV-poll str[9]: focaltech:ta:config
+[ 1010.451007] qsee_fp: dev-QEV-poll str[10]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1010.451026] qsee_fp: dev-QEV-poll str[11]: focaltech:ta:config
+[ 1010.451057] qsee_fp: dev-QEV-poll str[12]: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1010.451076] qsee_fp: dev-QEV-poll str[13]: focaltech:ta:config
+[ 1010.451111] qsee_fp: dev-QEV-poll str[14]: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1010.451129] qsee_fp: dev-QEV-poll str[15]: focaltech:ta:con
+[ 1010.451141] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1010.451201] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1010.451630] qsee_fp: dev-QEV-poll LOGCONT begin len=810
+[ 1010.451646] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1010.451685] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1010.451697] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.451712] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1010.451731] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1010.451752] qsee_fp: dev-QEV-poll LOG:  memory or another piece of malloc memory.
+[ 1010.451771] qsee_fp: dev-QEV-poll LOG: query event state: [gesture leave].
+[ 1010.451789] qsee_fp: dev-QEV-poll LOG: SON_STRING' but got 'JSON_INTEGER'.
+[ 1010.451799] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.451814] qsee_fp: dev-QEV-poll LOG: focaltech:ta:config
+[ 1010.451843] qsee_fp: dev-QEV-poll LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[ 1010.451853] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.451867] qsee_fp: dev-QEV-poll LOG: focaltech:ta:config
+[ 1010.451897] qsee_fp: dev-QEV-poll LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[ 1010.451908] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.451923] qsee_fp: dev-QEV-poll LOG: focaltech:ta:config
+[ 1010.451951] qsee_fp: dev-QEV-poll LOG: no key named 'algorithm.min_identify_cond_threshold', use default value.
+[ 1010.451962] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.451977] qsee_fp: dev-QEV-poll LOG: focaltech:ta:config
+[ 1010.452008] qsee_fp: dev-QEV-poll LOG: no key named 'algorithm.enable_duplicated_finger_checking', use default value.
+[ 1010.452019] qsee_fp: dev-QEV-poll LOG: !
+[ 1010.452031] qsee_fp: dev-QEV-poll LOG: focaltec
+[ 1010.452041] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1010.452053] qsee_fp: sample 0 no IRQ/DOWN, CAP anyway
+[ 1013.537481] qsee_fp: ION HIT dev-cap-enroll-0 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1013.537489] qsee_fp: dev-cap-enroll-0 st=0x42a first8=2a040000 0026666f
+[ 1013.537493] qsee_fp: dev-cap-enroll-0 str[0]: &focaltech:ft93xx:afe
+[ 1013.537495] qsee_fp: dev-cap-enroll-0 str[1]: set chip vio 1.8v fail, try again....
+[ 1013.537497] qsee_fp: dev-cap-enroll-0 str[2]: &focaltech:ft93xx:afe
+[ 1013.537499] qsee_fp: dev-cap-enroll-0 str[3]: set chip vio 1.8v fail, try again....
+[ 1013.537500] qsee_fp: dev-cap-enroll-0 str[4]: &focaltech:ft93xx:afe
+[ 1013.537502] qsee_fp: dev-cap-enroll-0 str[5]: set chip vio 1.8v fail, try again....
+[ 1013.537503] qsee_fp: dev-cap-enroll-0 str[6]: &focaltech:ft93xx:afe
+[ 1013.537505] qsee_fp: dev-cap-enroll-0 str[7]: set chip vio 1.8v fail, try again....
+[ 1013.537506] qsee_fp: dev-cap-enroll-0 str[8]: &focaltech:ft93xx:afe
+[ 1013.537508] qsee_fp: dev-cap-enroll-0 str[9]: set chip vio 1.8v fail, try again....
+[ 1013.537509] qsee_fp: dev-cap-enroll-0 str[10]: &focaltech:ft93xx:core
+[ 1013.537512] qsee_fp: dev-cap-enroll-0 str[11]: configure spi mode failed(0).
+[ 1013.537513] qsee_fp: dev-cap-enroll-0 str[12]: &focaltech:ft93xx:core
+[ 1013.537515] qsee_fp: dev-cap-enroll-0 str[13]: configure spi mode failed(0).
+[ 1013.537516] qsee_fp: dev-cap-enroll-0 str[14]: &focaltech:ft93xx:core
+[ 1013.537518] qsee_fp: dev-cap-enroll-0 str[15]: configure spi mode failed(0).
+[ 1013.537519] qsee_fp: dev-cap-enroll-0 str[16]: &focaltech:ft93xx:afe
+[ 1013.537521] qsee_fp: dev-cap-enroll-0 str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1013.537523] qsee_fp: dev-cap-enroll-0 str[18]: &focaltech:ft93xx:afe
+[ 1013.537525] qsee_fp: dev-cap-enroll-0 str[19]: chip feature, io controlleable and open/short detectable
+[ 1013.537527] qsee_fp: dev-cap-enroll-0 str[20]: &focaltech:ft93xx:core
+[ 1013.537528] qsee_fp: dev-cap-enroll-0 str[21]: last time saved efc data: 144
+[ 1013.537530] qsee_fp: dev-cap-enroll-0 str[22]: &focaltech:ft93xx:fdt
+[ 1013.537531] qsee_fp: dev-cap-enroll-0 str[23]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1013.537533] qsee_fp: dev-cap-enroll-0 str[24]: &focaltech:ft93xx:fdt
+[ 1013.537535] qsee_fp: dev-cap-enroll-0 str[25]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1013.537536] qsee_fp: dev-cap-enroll-0 str[26]: &focaltech:ft93xx:fdt
+[ 1013.537537] qsee_fp: dev-cap-enroll-0 str[27]: fdt calibration->try: 3, dac: 1
+[ 1013.537539] qsee_fp: dev-cap-enroll-0 st=0x80001013 first8=13100080 24000000
+[ 1013.537544] qsee_fp: dev-cap-enroll-0 str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1013.537561] qsee_fp: dev-cap-enroll-0 LOGCONT begin len=1066
+[ 1013.537563] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537565] qsee_fp: dev-cap-enroll-0 LOG: set chip vio 1.8v fail, try again....
+[ 1013.537566] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537568] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537570] qsee_fp: dev-cap-enroll-0 LOG: set chip vio 1.8v fail, try again....
+[ 1013.537571] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537573] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537575] qsee_fp: dev-cap-enroll-0 LOG: set chip vio 1.8v fail, try again....
+[ 1013.537576] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537577] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537580] qsee_fp: dev-cap-enroll-0 LOG: set chip vio 1.8v fail, try again....
+[ 1013.537581] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537582] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537585] qsee_fp: dev-cap-enroll-0 LOG: set chip vio 1.8v fail, try again....
+[ 1013.537586] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537587] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:core
+[ 1013.537589] qsee_fp: dev-cap-enroll-0 LOG: configure spi mode failed(0).
+[ 1013.537590] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537591] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:core
+[ 1013.537592] qsee_fp: dev-cap-enroll-0 LOG: configure spi mode failed(0).
+[ 1013.537594] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537595] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:core
+[ 1013.537596] qsee_fp: dev-cap-enroll-0 LOG: configure spi mode failed(0).
+[ 1013.537597] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537598] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537600] qsee_fp: dev-cap-enroll-0 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1013.537601] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537602] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:afe
+[ 1013.537604] qsee_fp: dev-cap-enroll-0 LOG: chip feature, io controlleable and open/short detectable
+[ 1013.537605] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537606] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:core
+[ 1013.537608] qsee_fp: dev-cap-enroll-0 LOG: last time saved efc data: 144
+[ 1013.537609] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537610] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:fdt
+[ 1013.537612] qsee_fp: dev-cap-enroll-0 LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1013.537613] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537614] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:fdt
+[ 1013.537615] qsee_fp: dev-cap-enroll-0 LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1013.537617] qsee_fp: dev-cap-enroll-0 LOG: !
+[ 1013.537618] qsee_fp: dev-cap-enroll-0 LOG: &focaltech:ft93xx:fdt
+[ 1013.537619] qsee_fp: dev-cap-enroll-0 LOG: fdt calibration->try: 3
+[ 1013.537620] qsee_fp: dev-cap-enroll-0 LOGCONT end
+[ 1013.537621] qsee_fp: dev-cap-enroll-0 er=0 err=0x0 ta_down=0
+[ 1013.538022] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1013.538024] qsee_fp: dev-LOGCAT-enroll-sample st=0xde first8=de000000 0026666f
+[ 1013.538026] qsee_fp: dev-LOGCAT-enroll-sample str[0]: &focaltech:ft93xx:afe
+[ 1013.538028] qsee_fp: dev-LOGCAT-enroll-sample str[1]: set chip vio 1.8v fail, try again....
+[ 1013.538030] qsee_fp: dev-LOGCAT-enroll-sample str[2]: &focaltech:ft93xx:afe
+[ 1013.538031] qsee_fp: dev-LOGCAT-enroll-sample str[3]: set chip vio 1.8v fail, try again....
+[ 1013.538033] qsee_fp: dev-LOGCAT-enroll-sample str[4]: &focaltech:ft93xx:afe
+[ 1013.538034] qsee_fp: dev-LOGCAT-enroll-sample str[5]: set chip vio 1.8v fail, try again....
+[ 1013.538036] qsee_fp: dev-LOGCAT-enroll-sample st=0x80001003 first8=03100080 00000000
+[ 1013.538041] qsee_fp: dev-LOGCAT-enroll-sample str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1013.538059] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT begin len=222
+[ 1013.538061] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1013.538063] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1013.538064] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1013.538065] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1013.538067] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1013.538068] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1013.538069] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1013.538070] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again..
+[ 1013.538071] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT end
+[ 1013.799727] qsee_fp: ION HIT dev-WMODE-5-next ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1013.799735] qsee_fp: dev-WMODE-5-next st=0x52a first8=2a050000 0026666f
+[ 1013.799738] qsee_fp: dev-WMODE-5-next str[0]: &focaltech:ft93xx:core
+[ 1013.799741] qsee_fp: dev-WMODE-5-next str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1013.799743] qsee_fp: dev-WMODE-5-next str[2]: set chip vio 1.8v fail, try again....
+[ 1013.799745] qsee_fp: dev-WMODE-5-next str[3]: &focaltech:ft93xx:afe
+[ 1013.799747] qsee_fp: dev-WMODE-5-next str[4]: set chip vio 1.8v fail, try again....
+[ 1013.799749] qsee_fp: dev-WMODE-5-next str[5]: &focaltech:ft93xx:afe
+[ 1013.799751] qsee_fp: dev-WMODE-5-next str[6]: set chip vio 1.8v fail, try again....
+[ 1013.799752] qsee_fp: dev-WMODE-5-next str[7]: &focaltech:ft93xx:afe
+[ 1013.799754] qsee_fp: dev-WMODE-5-next str[8]: set chip vio 1.8v fail, try again....
+[ 1013.799755] qsee_fp: dev-WMODE-5-next str[9]: &focaltech:ft93xx:core
+[ 1013.799757] qsee_fp: dev-WMODE-5-next str[10]: configure spi mode failed(0).
+[ 1013.799758] qsee_fp: dev-WMODE-5-next str[11]: &focaltech:ft93xx:core
+[ 1013.799760] qsee_fp: dev-WMODE-5-next str[12]: configure spi mode failed(0).
+[ 1013.799761] qsee_fp: dev-WMODE-5-next str[13]: &focaltech:ft93xx:core
+[ 1013.799763] qsee_fp: dev-WMODE-5-next str[14]: configure spi mode failed(0).
+[ 1013.799764] qsee_fp: dev-WMODE-5-next str[15]: &focaltech:ft93xx:afe
+[ 1013.799766] qsee_fp: dev-WMODE-5-next str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1013.799768] qsee_fp: dev-WMODE-5-next str[17]: &focaltech:ft93xx:afe
+[ 1013.799770] qsee_fp: dev-WMODE-5-next str[18]: chip feature, io controlleable and open/short detectable
+[ 1013.799771] qsee_fp: dev-WMODE-5-next str[19]: &focaltech:ft93xx:core
+[ 1013.799773] qsee_fp: dev-WMODE-5-next str[20]: last time saved efc data: 144
+[ 1013.799774] qsee_fp: dev-WMODE-5-next str[21]: &focaltech:ft93xx:fdt
+[ 1013.799776] qsee_fp: dev-WMODE-5-next str[22]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1013.799777] qsee_fp: dev-WMODE-5-next str[23]: &focaltech:ft93xx:fdt
+[ 1013.799779] qsee_fp: dev-WMODE-5-next str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1013.799780] qsee_fp: dev-WMODE-5-next str[25]: &focaltech:ft93xx:fdt
+[ 1013.799782] qsee_fp: dev-WMODE-5-next str[26]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1013.799783] qsee_fp: dev-WMODE-5-next str[27]: &focaltech:ft93xx:fdt
+[ 1013.799785] qsee_fp: dev-WMODE-5-next str[28]: fdt calibration->try: 4, dac: 127, average: 703
+[ 1013.799786] qsee_fp: dev-WMODE-5-next str[29]: &focaltech:ft93xx:fdt
+[ 1013.799788] qsee_fp: dev-WMODE-5-next str[30]: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1013.799790] qsee_fp: dev-WMODE-5-next str[31]: &focaltech:ft93xx:fdt
+[ 1013.799791] qsee_fp: dev-WMODE-5-next str[32]: get fdt dac [success], au
+[ 1013.799792] qsee_fp: dev-WMODE-5-next st=0x8000101f first8=1f100080 00000000
+[ 1013.799797] qsee_fp: dev-WMODE-5-next str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1013.799815] qsee_fp: dev-WMODE-5-next LOGCONT begin len=1322
+[ 1013.799817] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1013.799819] qsee_fp: dev-WMODE-5-next LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1013.799821] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1013.799822] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799824] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1013.799827] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1013.799828] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799830] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1013.799831] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1013.799833] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799834] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1013.799835] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1013.799836] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799838] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1013.799839] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1013.799840] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799841] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1013.799843] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1013.799844] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799846] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1013.799847] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1013.799848] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799849] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1013.799851] qsee_fp: dev-WMODE-5-next LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1013.799853] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799854] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1013.799856] qsee_fp: dev-WMODE-5-next LOG: chip feature, io controlleable and open/short detectable
+[ 1013.799857] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799858] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1013.799860] qsee_fp: dev-WMODE-5-next LOG: last time saved efc data: 144
+[ 1013.799861] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799862] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799864] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1013.799865] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799866] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799868] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1013.799869] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799870] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799872] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1013.799873] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799874] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799875] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 4, dac: 127, average: 703
+[ 1013.799877] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799878] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799879] qsee_fp: dev-WMODE-5-next LOG: got fdt dac success: 127, middle: 703, lastmiddle: 699
+[ 1013.799880] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1013.799882] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1013.799883] qsee_fp: dev-WMODE-5-next LOG: get fdt dac [succ
+[ 1013.799884] qsee_fp: dev-WMODE-5-next LOGCONT end
+[ 1013.799925] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 1014.843037] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1014.843049] qsee_fp: dev-QEV-poll st=0x32a first8=2a030000 0026666f
+[ 1014.843055] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:core
+[ 1014.843060] qsee_fp: dev-QEV-poll str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1014.843064] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1014.843067] qsee_fp: dev-QEV-poll str[3]: query event state: [unknow].
+[ 1014.843071] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:afe
+[ 1014.843074] qsee_fp: dev-QEV-poll str[5]: set chip vio 1.8v fail, try again....
+[ 1014.843077] qsee_fp: dev-QEV-poll str[6]: &focaltech:ft93xx:afe
+[ 1014.843080] qsee_fp: dev-QEV-poll str[7]: set chip vio 1.8v fail, try again....
+[ 1014.843083] qsee_fp: dev-QEV-poll str[8]: &focaltech:ft93xx:core
+[ 1014.843086] qsee_fp: dev-QEV-poll str[9]: configure spi mode failed(0).
+[ 1014.843089] qsee_fp: dev-QEV-poll str[10]: &focaltech:ft93xx:core
+[ 1014.843091] qsee_fp: dev-QEV-poll str[11]: configure spi mode failed(0).
+[ 1014.843094] qsee_fp: dev-QEV-poll str[12]: &focaltech:ft93xx:core
+[ 1014.843097] qsee_fp: dev-QEV-poll str[13]: configure spi mode failed(0).
+[ 1014.843099] qsee_fp: dev-QEV-poll str[14]: &focaltech:ft93xx:afe
+[ 1014.843103] qsee_fp: dev-QEV-poll str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1014.843106] qsee_fp: dev-QEV-poll str[16]: &focaltech:ft93xx:afe
+[ 1014.843109] qsee_fp: dev-QEV-poll str[17]: chip feature, io controlleable and open/short detectable
+[ 1014.843112] qsee_fp: dev-QEV-poll str[18]: &focaltech:ft93xx:core
+[ 1014.843114] qsee_fp: dev-QEV-poll str[19]: last time sa
+[ 1014.843116] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1014.843125] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1014.843152] qsee_fp: dev-QEV-poll LOGCONT begin len=810
+[ 1014.843156] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843160] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1014.843163] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843167] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843170] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1014.843173] qsee_fp: dev-QEV-poll LOG: .
+[ 1014.843175] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843177] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1014.843181] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1014.843183] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843186] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1014.843189] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1014.843192] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843194] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843197] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1014.843199] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843201] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843204] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1014.843206] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843208] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843211] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1014.843213] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843215] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1014.843218] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1014.843221] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843223] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1014.843226] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1014.843228] qsee_fp: dev-QEV-poll LOG: !
+[ 1014.843230] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1014.843233] qsee_fp: dev-QEV-poll LOG: last
+[ 1014.843234] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1015.898701] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1015.898741] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1015.898766] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1015.898791] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1015.898810] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1015.898853] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1015.898874] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1015.898894] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1015.898908] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1015.898926] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1015.898948] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1015.898968] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1015.898987] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1015.899007] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1015.899028] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1015.899047] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1015.899068] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1015.899087] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1015.899116] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1015.899135] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1015.899164] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1015.899183] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1015.899205] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1015.899223] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1015.899248] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1015.899267] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1015.899292] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1015.899312] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1015.899333] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1015.899345] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1015.899407] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1015.899835] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1015.899852] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1015.899873] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1015.899883] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.899899] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.899937] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1015.899950] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.899966] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.899984] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1015.899996] qsee_fp: dev-QEV-poll LOG: ...
+[ 1015.900006] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900020] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1015.900041] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1015.900051] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900066] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.900085] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1015.900095] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900110] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.900129] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1015.900139] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900156] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.900174] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1015.900184] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900200] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1015.900225] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1015.900236] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900251] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1015.900276] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1015.900287] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900302] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1015.900321] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1015.900331] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900346] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1015.900368] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1015.900379] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900394] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1015.900416] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1015.900427] qsee_fp: dev-QEV-poll LOG: !
+[ 1015.900442] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1015.900459] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1015.900468] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1016.954703] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1016.954743] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1016.954767] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1016.954792] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1016.954811] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1016.954854] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1016.954876] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1016.954895] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1016.954908] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1016.954927] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1016.954950] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1016.954969] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1016.954989] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1016.955008] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1016.955028] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1016.955048] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1016.955069] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1016.955086] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1016.955115] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1016.955133] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1016.955161] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1016.955180] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1016.955201] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1016.955220] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1016.955246] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1016.955265] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1016.955289] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1016.955309] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1016.955330] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1016.955341] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1016.955402] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1016.955830] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1016.955847] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1016.955868] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1016.955878] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.955894] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.955933] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1016.955945] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.955960] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.955978] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1016.955988] qsee_fp: dev-QEV-poll LOG: ...
+[ 1016.955998] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956013] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1016.956033] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1016.956043] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956058] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.956076] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1016.956086] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956101] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.956119] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1016.956129] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956145] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.956163] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1016.956173] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956188] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1016.956214] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1016.956225] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956240] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1016.956265] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1016.956276] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956290] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1016.956309] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1016.956319] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956333] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1016.956355] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1016.956366] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956381] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1016.956403] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1016.956413] qsee_fp: dev-QEV-poll LOG: !
+[ 1016.956429] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1016.956446] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1016.956455] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1018.012691] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1018.012732] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1018.012756] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1018.012780] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1018.012799] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1018.012842] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1018.012864] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1018.012884] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1018.012898] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1018.012916] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1018.012938] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1018.012958] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1018.012978] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1018.012997] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1018.013018] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1018.013037] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1018.013058] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1018.013076] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1018.013105] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1018.013124] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1018.013151] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1018.013171] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1018.013191] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1018.013209] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1018.013235] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1018.013253] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1018.013278] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1018.013298] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1018.013319] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1018.013331] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1018.013392] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1018.013821] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1018.013837] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1018.013858] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1018.013868] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.013883] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.013921] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1018.013934] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.013950] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.013968] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1018.013980] qsee_fp: dev-QEV-poll LOG: ...
+[ 1018.013989] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014004] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1018.014025] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1018.014036] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014051] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.014177] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1018.014191] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014206] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.014225] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1018.014234] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014249] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.014267] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1018.014277] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014291] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1018.014316] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1018.014326] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014340] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1018.014364] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1018.014374] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014389] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1018.014407] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1018.014416] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014430] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1018.014451] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1018.014461] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014475] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1018.014497] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1018.014507] qsee_fp: dev-QEV-poll LOG: !
+[ 1018.014521] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1018.014537] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1018.014546] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1019.061865] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 1019.061904] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1019.061929] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1019.061953] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1019.061973] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1019.062015] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1019.062037] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1019.062057] qsee_fp: dev-QEV-poll str[5]: may be is esd, need to reset ic.
+[ 1019.062180] qsee_fp: dev-QEV-poll str[6]: &focaltech:ft93xx:core
+[ 1019.062202] qsee_fp: dev-QEV-poll str[7]: query event state: [esd].
+[ 1019.062217] qsee_fp: dev-QEV-poll str[8]: y again....
+[ 1019.062234] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1019.062254] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1019.062273] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1019.062293] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1019.062311] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1019.062331] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1019.062349] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1019.062376] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1019.062395] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1019.062421] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1019.062439] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1019.062459] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1019.062476] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1019.062501] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 670
+[ 1019.062518] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1019.062542] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1019.062561] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1019.062581] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1019.062592] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1019.062652] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1019.063076] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1019.063091] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1019.063112] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1019.063122] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063136] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063175] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1019.063186] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063200] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063219] qsee_fp: dev-QEV-poll LOG: may be is esd, need to reset ic.
+[ 1019.063229] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063244] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063262] qsee_fp: dev-QEV-poll LOG: query event state: [esd].
+[ 1019.063274] qsee_fp: dev-QEV-poll LOG: y again....
+[ 1019.063283] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063299] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063316] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1019.063326] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063340] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063357] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1019.063367] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063381] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063399] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1019.063409] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063424] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1019.063450] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1019.063460] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063475] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1019.063500] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1019.063511] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063526] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1019.063545] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1019.063555] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063569] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1019.063592] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 670
+[ 1019.063602] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063617] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1019.063639] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1019.063650] qsee_fp: dev-QEV-poll LOG: !
+[ 1019.063665] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1019.063682] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1019.063691] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1020.107719] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1020.107761] qsee_fp: dev-QEV-poll st=0x32a first8=2a030000 0026666f
+[ 1020.107786] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:core
+[ 1020.107829] qsee_fp: dev-QEV-poll str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1020.107850] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1020.107871] qsee_fp: dev-QEV-poll str[3]: query event state: [unknow].
+[ 1020.107885] qsee_fp: dev-QEV-poll str[4]: hort)
+[ 1020.107903] qsee_fp: dev-QEV-poll str[5]: &focaltech:ft93xx:core
+[ 1020.107924] qsee_fp: dev-QEV-poll str[6]: may be is esd, need to reset ic.
+[ 1020.107943] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:core
+[ 1020.107962] qsee_fp: dev-QEV-poll str[8]: query event state: [esd].
+[ 1020.107977] qsee_fp: dev-QEV-poll str[9]: y again....
+[ 1020.107995] qsee_fp: dev-QEV-poll str[10]: &focaltech:ft93xx:core
+[ 1020.108016] qsee_fp: dev-QEV-poll str[11]: configure spi mode failed(0).
+[ 1020.108035] qsee_fp: dev-QEV-poll str[12]: &focaltech:ft93xx:core
+[ 1020.108055] qsee_fp: dev-QEV-poll str[13]: configure spi mode failed(0).
+[ 1020.108074] qsee_fp: dev-QEV-poll str[14]: &focaltech:ft93xx:core
+[ 1020.108094] qsee_fp: dev-QEV-poll str[15]: configure spi mode failed(0).
+[ 1020.108112] qsee_fp: dev-QEV-poll str[16]: &focaltech:ft93xx:afe
+[ 1020.108140] qsee_fp: dev-QEV-poll str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1020.108159] qsee_fp: dev-QEV-poll str[18]: &focaltech:ft93xx:afe
+[ 1020.108186] qsee_fp: dev-QEV-poll str[19]: chip feature, io controlleable and open/short detectable
+[ 1020.108205] qsee_fp: dev-QEV-poll str[20]: &focaltech:ft93xx:core
+[ 1020.108220] qsee_fp: dev-QEV-poll str[21]: last time sa
+[ 1020.108232] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1020.108291] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1020.108719] qsee_fp: dev-QEV-poll LOGCONT begin len=810
+[ 1020.108736] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.108775] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1020.108788] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.108803] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.108821] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1020.108831] qsee_fp: dev-QEV-poll LOG: hort)
+[ 1020.108841] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.108857] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.108875] qsee_fp: dev-QEV-poll LOG: may be is esd, need to reset ic.
+[ 1020.108885] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.108900] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.108918] qsee_fp: dev-QEV-poll LOG: query event state: [esd].
+[ 1020.108930] qsee_fp: dev-QEV-poll LOG: y again....
+[ 1020.108940] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.108955] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.108973] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1020.108983] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.108998] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.109017] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1020.109027] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.109043] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.109062] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1020.109071] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.109086] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1020.109112] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1020.109123] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.109138] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1020.109163] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1020.109174] qsee_fp: dev-QEV-poll LOG: !
+[ 1020.109188] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1020.109201] qsee_fp: dev-QEV-poll LOG: last
+[ 1020.109209] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1020.109222] qsee_fp: sample 1 no IRQ/DOWN, CAP anyway
+[ 1023.193288] qsee_fp: ION HIT dev-cap-enroll-1 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1023.193296] qsee_fp: dev-cap-enroll-1 st=0x42a first8=2a040000 0026666f
+[ 1023.193299] qsee_fp: dev-cap-enroll-1 str[0]: &focaltech:ft93xx:afe
+[ 1023.193301] qsee_fp: dev-cap-enroll-1 str[1]: set chip vio 1.8v fail, try again....
+[ 1023.193304] qsee_fp: dev-cap-enroll-1 str[2]: &focaltech:ft93xx:afe
+[ 1023.193306] qsee_fp: dev-cap-enroll-1 str[3]: set chip vio 1.8v fail, try again....
+[ 1023.193307] qsee_fp: dev-cap-enroll-1 str[4]: &focaltech:ft93xx:afe
+[ 1023.193309] qsee_fp: dev-cap-enroll-1 str[5]: set chip vio 1.8v fail, try again....
+[ 1023.193310] qsee_fp: dev-cap-enroll-1 str[6]: &focaltech:ft93xx:afe
+[ 1023.193312] qsee_fp: dev-cap-enroll-1 str[7]: set chip vio 1.8v fail, try again....
+[ 1023.193313] qsee_fp: dev-cap-enroll-1 str[8]: &focaltech:ft93xx:afe
+[ 1023.193315] qsee_fp: dev-cap-enroll-1 str[9]: set chip vio 1.8v fail, try again....
+[ 1023.193317] qsee_fp: dev-cap-enroll-1 str[10]: &focaltech:ft93xx:core
+[ 1023.193319] qsee_fp: dev-cap-enroll-1 str[11]: configure spi mode failed(0).
+[ 1023.193321] qsee_fp: dev-cap-enroll-1 str[12]: &focaltech:ft93xx:core
+[ 1023.193322] qsee_fp: dev-cap-enroll-1 str[13]: configure spi mode failed(0).
+[ 1023.193324] qsee_fp: dev-cap-enroll-1 str[14]: &focaltech:ft93xx:core
+[ 1023.193325] qsee_fp: dev-cap-enroll-1 str[15]: configure spi mode failed(0).
+[ 1023.193327] qsee_fp: dev-cap-enroll-1 str[16]: &focaltech:ft93xx:afe
+[ 1023.193329] qsee_fp: dev-cap-enroll-1 str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1023.193331] qsee_fp: dev-cap-enroll-1 str[18]: &focaltech:ft93xx:afe
+[ 1023.193333] qsee_fp: dev-cap-enroll-1 str[19]: chip feature, io controlleable and open/short detectable
+[ 1023.193334] qsee_fp: dev-cap-enroll-1 str[20]: &focaltech:ft93xx:core
+[ 1023.193336] qsee_fp: dev-cap-enroll-1 str[21]: last time saved efc data: 144
+[ 1023.193337] qsee_fp: dev-cap-enroll-1 str[22]: &focaltech:ft93xx:fdt
+[ 1023.193339] qsee_fp: dev-cap-enroll-1 str[23]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1023.193341] qsee_fp: dev-cap-enroll-1 str[24]: &focaltech:ft93xx:fdt
+[ 1023.193342] qsee_fp: dev-cap-enroll-1 str[25]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1023.193344] qsee_fp: dev-cap-enroll-1 str[26]: &focaltech:ft93xx:fdt
+[ 1023.193345] qsee_fp: dev-cap-enroll-1 str[27]: fdt calibration->try: 3, dac: 1
+[ 1023.193346] qsee_fp: dev-cap-enroll-1 st=0x80001013 first8=13100080 24000000
+[ 1023.193351] qsee_fp: dev-cap-enroll-1 str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1023.193369] qsee_fp: dev-cap-enroll-1 LOGCONT begin len=1066
+[ 1023.193371] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193373] qsee_fp: dev-cap-enroll-1 LOG: set chip vio 1.8v fail, try again....
+[ 1023.193374] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193377] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193379] qsee_fp: dev-cap-enroll-1 LOG: set chip vio 1.8v fail, try again....
+[ 1023.193380] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193381] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193384] qsee_fp: dev-cap-enroll-1 LOG: set chip vio 1.8v fail, try again....
+[ 1023.193385] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193386] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193388] qsee_fp: dev-cap-enroll-1 LOG: set chip vio 1.8v fail, try again....
+[ 1023.193389] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193390] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193393] qsee_fp: dev-cap-enroll-1 LOG: set chip vio 1.8v fail, try again....
+[ 1023.193394] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193395] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:core
+[ 1023.193397] qsee_fp: dev-cap-enroll-1 LOG: configure spi mode failed(0).
+[ 1023.193398] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193400] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:core
+[ 1023.193402] qsee_fp: dev-cap-enroll-1 LOG: configure spi mode failed(0).
+[ 1023.193403] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193404] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:core
+[ 1023.193406] qsee_fp: dev-cap-enroll-1 LOG: configure spi mode failed(0).
+[ 1023.193407] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193408] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193411] qsee_fp: dev-cap-enroll-1 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1023.193412] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193413] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:afe
+[ 1023.193415] qsee_fp: dev-cap-enroll-1 LOG: chip feature, io controlleable and open/short detectable
+[ 1023.193416] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193418] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:core
+[ 1023.193419] qsee_fp: dev-cap-enroll-1 LOG: last time saved efc data: 144
+[ 1023.193420] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193422] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:fdt
+[ 1023.193424] qsee_fp: dev-cap-enroll-1 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1023.193425] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193426] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:fdt
+[ 1023.193428] qsee_fp: dev-cap-enroll-1 LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1023.193429] qsee_fp: dev-cap-enroll-1 LOG: !
+[ 1023.193431] qsee_fp: dev-cap-enroll-1 LOG: &focaltech:ft93xx:fdt
+[ 1023.193432] qsee_fp: dev-cap-enroll-1 LOG: fdt calibration->try: 3
+[ 1023.193433] qsee_fp: dev-cap-enroll-1 LOGCONT end
+[ 1023.193434] qsee_fp: dev-cap-enroll-1 er=0 err=0x0 ta_down=0
+[ 1023.193837] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1023.193840] qsee_fp: dev-LOGCAT-enroll-sample st=0xde first8=de000000 0026666f
+[ 1023.193842] qsee_fp: dev-LOGCAT-enroll-sample str[0]: &focaltech:ft93xx:afe
+[ 1023.193844] qsee_fp: dev-LOGCAT-enroll-sample str[1]: set chip vio 1.8v fail, try again....
+[ 1023.193846] qsee_fp: dev-LOGCAT-enroll-sample str[2]: &focaltech:ft93xx:afe
+[ 1023.193847] qsee_fp: dev-LOGCAT-enroll-sample str[3]: set chip vio 1.8v fail, try again....
+[ 1023.193849] qsee_fp: dev-LOGCAT-enroll-sample str[4]: &focaltech:ft93xx:afe
+[ 1023.193850] qsee_fp: dev-LOGCAT-enroll-sample str[5]: set chip vio 1.8v fail, try again....
+[ 1023.193851] qsee_fp: dev-LOGCAT-enroll-sample st=0x80001003 first8=03100080 00000000
+[ 1023.193856] qsee_fp: dev-LOGCAT-enroll-sample str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1023.193874] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT begin len=222
+[ 1023.193876] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1023.193877] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1023.193878] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1023.193880] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1023.193881] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1023.193882] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1023.193884] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1023.193885] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again..
+[ 1023.193886] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT end
+[ 1023.464143] qsee_fp: ION HIT dev-WMODE-5-next ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1023.464151] qsee_fp: dev-WMODE-5-next st=0x52a first8=2a050000 0026666f
+[ 1023.464156] qsee_fp: dev-WMODE-5-next str[0]: &focaltech:ft93xx:core
+[ 1023.464159] qsee_fp: dev-WMODE-5-next str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1023.464161] qsee_fp: dev-WMODE-5-next str[2]: set chip vio 1.8v fail, try again....
+[ 1023.464164] qsee_fp: dev-WMODE-5-next str[3]: &focaltech:ft93xx:afe
+[ 1023.464167] qsee_fp: dev-WMODE-5-next str[4]: set chip vio 1.8v fail, try again....
+[ 1023.464169] qsee_fp: dev-WMODE-5-next str[5]: &focaltech:ft93xx:afe
+[ 1023.464171] qsee_fp: dev-WMODE-5-next str[6]: set chip vio 1.8v fail, try again....
+[ 1023.464174] qsee_fp: dev-WMODE-5-next str[7]: &focaltech:ft93xx:afe
+[ 1023.464176] qsee_fp: dev-WMODE-5-next str[8]: set chip vio 1.8v fail, try again....
+[ 1023.464178] qsee_fp: dev-WMODE-5-next str[9]: &focaltech:ft93xx:core
+[ 1023.464180] qsee_fp: dev-WMODE-5-next str[10]: configure spi mode failed(0).
+[ 1023.464183] qsee_fp: dev-WMODE-5-next str[11]: &focaltech:ft93xx:core
+[ 1023.464186] qsee_fp: dev-WMODE-5-next str[12]: configure spi mode failed(0).
+[ 1023.464188] qsee_fp: dev-WMODE-5-next str[13]: &focaltech:ft93xx:core
+[ 1023.464190] qsee_fp: dev-WMODE-5-next str[14]: configure spi mode failed(0).
+[ 1023.464192] qsee_fp: dev-WMODE-5-next str[15]: &focaltech:ft93xx:afe
+[ 1023.464194] qsee_fp: dev-WMODE-5-next str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1023.464196] qsee_fp: dev-WMODE-5-next str[17]: &focaltech:ft93xx:afe
+[ 1023.464199] qsee_fp: dev-WMODE-5-next str[18]: chip feature, io controlleable and open/short detectable
+[ 1023.464201] qsee_fp: dev-WMODE-5-next str[19]: &focaltech:ft93xx:core
+[ 1023.464203] qsee_fp: dev-WMODE-5-next str[20]: last time saved efc data: 144
+[ 1023.464204] qsee_fp: dev-WMODE-5-next str[21]: &focaltech:ft93xx:fdt
+[ 1023.464206] qsee_fp: dev-WMODE-5-next str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1023.464207] qsee_fp: dev-WMODE-5-next str[23]: &focaltech:ft93xx:fdt
+[ 1023.464209] qsee_fp: dev-WMODE-5-next str[24]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1023.464210] qsee_fp: dev-WMODE-5-next str[25]: &focaltech:ft93xx:fdt
+[ 1023.464212] qsee_fp: dev-WMODE-5-next str[26]: fdt calibration->try: 3, dac: 126, average: 699
+[ 1023.464213] qsee_fp: dev-WMODE-5-next str[27]: &focaltech:ft93xx:fdt
+[ 1023.464215] qsee_fp: dev-WMODE-5-next str[28]: fdt calibration->try: 4, dac: 127, average: 704
+[ 1023.464216] qsee_fp: dev-WMODE-5-next str[29]: &focaltech:ft93xx:fdt
+[ 1023.464218] qsee_fp: dev-WMODE-5-next str[30]: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1023.464220] qsee_fp: dev-WMODE-5-next str[31]: &focaltech:ft93xx:fdt
+[ 1023.464221] qsee_fp: dev-WMODE-5-next str[32]: get fdt dac [success], au
+[ 1023.464222] qsee_fp: dev-WMODE-5-next st=0x8000101f first8=1f100080 00000000
+[ 1023.464227] qsee_fp: dev-WMODE-5-next str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1023.464245] qsee_fp: dev-WMODE-5-next LOGCONT begin len=1322
+[ 1023.464247] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1023.464249] qsee_fp: dev-WMODE-5-next LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1023.464251] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1023.464253] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464254] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1023.464257] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1023.464258] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464259] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1023.464262] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1023.464263] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464264] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1023.464265] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1023.464266] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464268] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1023.464269] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1023.464270] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464271] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1023.464273] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1023.464274] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464275] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1023.464276] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1023.464277] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464278] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1023.464280] qsee_fp: dev-WMODE-5-next LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1023.464281] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464282] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1023.464284] qsee_fp: dev-WMODE-5-next LOG: chip feature, io controlleable and open/short detectable
+[ 1023.464285] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464286] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1023.464288] qsee_fp: dev-WMODE-5-next LOG: last time saved efc data: 144
+[ 1023.464289] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464290] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464292] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1023.464293] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464294] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464295] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1023.464296] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464298] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464299] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 3, dac: 126, average: 699
+[ 1023.464300] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464301] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464303] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 4, dac: 127, average: 704
+[ 1023.464304] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464305] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464307] qsee_fp: dev-WMODE-5-next LOG: got fdt dac success: 127, middle: 704, lastmiddle: 699
+[ 1023.464308] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1023.464310] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1023.464311] qsee_fp: dev-WMODE-5-next LOG: get fdt dac [succ
+[ 1023.464312] qsee_fp: dev-WMODE-5-next LOGCONT end
+[ 1023.464362] focaltech_fp focaltech_fp: VDD ON (gpio consumer)
+[ 1024.505993] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1024.506006] qsee_fp: dev-QEV-poll st=0x32a first8=2a030000 0026666f
+[ 1024.506012] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:core
+[ 1024.506017] qsee_fp: dev-QEV-poll str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1024.506022] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1024.506025] qsee_fp: dev-QEV-poll str[3]: query event state: [unknow].
+[ 1024.506029] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:afe
+[ 1024.506032] qsee_fp: dev-QEV-poll str[5]: set chip vio 1.8v fail, try again....
+[ 1024.506036] qsee_fp: dev-QEV-poll str[6]: &focaltech:ft93xx:afe
+[ 1024.506038] qsee_fp: dev-QEV-poll str[7]: set chip vio 1.8v fail, try again....
+[ 1024.506041] qsee_fp: dev-QEV-poll str[8]: &focaltech:ft93xx:core
+[ 1024.506044] qsee_fp: dev-QEV-poll str[9]: configure spi mode failed(0).
+[ 1024.506047] qsee_fp: dev-QEV-poll str[10]: &focaltech:ft93xx:core
+[ 1024.506050] qsee_fp: dev-QEV-poll str[11]: configure spi mode failed(0).
+[ 1024.506052] qsee_fp: dev-QEV-poll str[12]: &focaltech:ft93xx:core
+[ 1024.506055] qsee_fp: dev-QEV-poll str[13]: configure spi mode failed(0).
+[ 1024.506058] qsee_fp: dev-QEV-poll str[14]: &focaltech:ft93xx:afe
+[ 1024.506093] qsee_fp: dev-QEV-poll str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1024.506096] qsee_fp: dev-QEV-poll str[16]: &focaltech:ft93xx:afe
+[ 1024.506100] qsee_fp: dev-QEV-poll str[17]: chip feature, io controlleable and open/short detectable
+[ 1024.506103] qsee_fp: dev-QEV-poll str[18]: &focaltech:ft93xx:core
+[ 1024.506106] qsee_fp: dev-QEV-poll str[19]: last time sa
+[ 1024.506108] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1024.506117] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1024.506144] qsee_fp: dev-QEV-poll LOGCONT begin len=810
+[ 1024.506148] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506153] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1024.506155] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506158] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506162] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1024.506164] qsee_fp: dev-QEV-poll LOG: .
+[ 1024.506166] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506169] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1024.506173] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1024.506175] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506178] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1024.506181] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1024.506183] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506186] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506189] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1024.506191] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506193] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506195] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1024.506197] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506199] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506202] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1024.506204] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506206] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1024.506210] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1024.506212] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506214] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1024.506217] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1024.506219] qsee_fp: dev-QEV-poll LOG: !
+[ 1024.506222] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1024.506224] qsee_fp: dev-QEV-poll LOG: last
+[ 1024.506226] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1025.562586] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1025.562622] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1025.562645] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1025.562667] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1025.562686] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1025.562727] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1025.562746] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1025.562765] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1025.562778] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1025.562794] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1025.562816] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1025.562833] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1025.562851] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1025.562868] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1025.562887] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1025.562904] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1025.562923] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1025.562940] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1025.562968] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1025.562986] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1025.563012] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1025.563030] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1025.563049] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1025.563067] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1025.563090] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1025.563107] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1025.563130] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1025.563148] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1025.563168] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1025.563179] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1025.563237] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1025.563658] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1025.563673] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1025.563692] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1025.563701] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563716] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.563752] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1025.563763] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563777] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.563793] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1025.563803] qsee_fp: dev-QEV-poll LOG: ...
+[ 1025.563811] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563824] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1025.563843] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1025.563852] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563866] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.563882] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1025.563891] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563905] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.563922] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1025.563930] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563945] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.563961] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1025.563970] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.563983] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1025.564007] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1025.564018] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.564031] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1025.564056] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1025.564066] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.564079] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1025.564097] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1025.564106] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.564119] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1025.564141] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1025.564150] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.564163] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1025.564185] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1025.564195] qsee_fp: dev-QEV-poll LOG: !
+[ 1025.564210] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1025.564226] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1025.564234] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1026.619693] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1026.619733] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1026.619758] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1026.619782] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1026.619802] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1026.619845] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1026.619866] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1026.619886] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1026.619899] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1026.619918] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1026.619941] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1026.619959] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1026.619980] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1026.619998] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1026.620018] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1026.620037] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1026.620058] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1026.620076] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1026.620105] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1026.620125] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1026.620152] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1026.620172] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1026.620192] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1026.620210] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1026.620236] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1026.620256] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1026.620280] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1026.620300] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1026.620321] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1026.620333] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1026.620394] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1026.620822] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1026.620839] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1026.620859] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1026.620870] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.620885] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.620924] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1026.620936] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.620952] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.620970] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1026.620981] qsee_fp: dev-QEV-poll LOG: ...
+[ 1026.620990] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621005] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1026.621026] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1026.621037] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621052] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.621071] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1026.621081] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621096] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.621114] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1026.621124] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621140] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.621158] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1026.621168] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621183] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1026.621209] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1026.621219] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621234] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1026.621259] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1026.621270] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621284] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1026.621302] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1026.621312] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621327] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1026.621349] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1026.621359] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621374] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1026.621397] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1026.621407] qsee_fp: dev-QEV-poll LOG: !
+[ 1026.621422] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1026.621439] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1026.621448] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1027.674697] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1027.674738] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1027.674764] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1027.674787] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1027.674808] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1027.674851] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1027.674871] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1027.674891] qsee_fp: dev-QEV-poll str[5]: query event state: [unknow].
+[ 1027.674905] qsee_fp: dev-QEV-poll str[6]: ...
+[ 1027.674924] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:afe
+[ 1027.674947] qsee_fp: dev-QEV-poll str[8]: set chip vio 1.8v fail, try again....
+[ 1027.674966] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1027.674987] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1027.675006] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1027.675026] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1027.675046] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1027.675067] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1027.675085] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1027.675113] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1027.675133] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1027.675160] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1027.675180] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1027.675201] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1027.675219] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1027.675245] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1027.675264] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1027.675289] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1027.675308] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1027.675329] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1027.675341] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1027.675403] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1027.675831] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1027.675847] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1027.675868] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1027.675879] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.675893] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.675932] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1027.675943] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.675959] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.675977] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1027.675987] qsee_fp: dev-QEV-poll LOG: ...
+[ 1027.675997] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676011] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1027.676032] qsee_fp: dev-QEV-poll LOG: set chip vio 1.8v fail, try again....
+[ 1027.676042] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676058] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.676076] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1027.676086] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676102] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.676121] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1027.676130] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676146] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.676164] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1027.676174] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676188] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1027.676214] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1027.676225] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676240] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1027.676265] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1027.676275] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676290] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1027.676308] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1027.676317] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676332] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1027.676355] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1027.676366] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676380] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1027.676403] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1027.676414] qsee_fp: dev-QEV-poll LOG: !
+[ 1027.676429] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1027.676447] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1027.676456] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1028.720344] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x42a err=0xb rsp8=0x746c6163
+[ 1028.720379] qsee_fp: dev-QEV-poll st=0x42a first8=2a040000 0026666f
+[ 1028.720402] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:afe
+[ 1028.720422] qsee_fp: dev-QEV-poll str[1]: got unnormal chip id (0x0000) at 0.
+[ 1028.720440] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1028.720476] qsee_fp: dev-QEV-poll str[3]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1028.720494] qsee_fp: dev-QEV-poll str[4]: &focaltech:ft93xx:core
+[ 1028.720512] qsee_fp: dev-QEV-poll str[5]: may be is esd, need to reset ic.
+[ 1028.720529] qsee_fp: dev-QEV-poll str[6]: &focaltech:ft93xx:core
+[ 1028.720546] qsee_fp: dev-QEV-poll str[7]: query event state: [esd].
+[ 1028.720561] qsee_fp: dev-QEV-poll str[8]: y again....
+[ 1028.720577] qsee_fp: dev-QEV-poll str[9]: &focaltech:ft93xx:core
+[ 1028.720594] qsee_fp: dev-QEV-poll str[10]: configure spi mode failed(0).
+[ 1028.720611] qsee_fp: dev-QEV-poll str[11]: &focaltech:ft93xx:core
+[ 1028.720629] qsee_fp: dev-QEV-poll str[12]: configure spi mode failed(0).
+[ 1028.720645] qsee_fp: dev-QEV-poll str[13]: &focaltech:ft93xx:core
+[ 1028.720662] qsee_fp: dev-QEV-poll str[14]: configure spi mode failed(0).
+[ 1028.720679] qsee_fp: dev-QEV-poll str[15]: &focaltech:ft93xx:afe
+[ 1028.720702] qsee_fp: dev-QEV-poll str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1028.720719] qsee_fp: dev-QEV-poll str[17]: &focaltech:ft93xx:afe
+[ 1028.720741] qsee_fp: dev-QEV-poll str[18]: chip feature, io controlleable and open/short detectable
+[ 1028.720758] qsee_fp: dev-QEV-poll str[19]: &focaltech:ft93xx:core
+[ 1028.720776] qsee_fp: dev-QEV-poll str[20]: last time saved efc data: 144
+[ 1028.720792] qsee_fp: dev-QEV-poll str[21]: &focaltech:ft93xx:fdt
+[ 1028.720813] qsee_fp: dev-QEV-poll str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1028.720830] qsee_fp: dev-QEV-poll str[23]: &focaltech:ft93xx:fdt
+[ 1028.720851] qsee_fp: dev-QEV-poll str[24]: fdt calibration->try: 2, dac: 125, average: 693
+[ 1028.720868] qsee_fp: dev-QEV-poll str[25]: &focaltech:ft93xx:fdt
+[ 1028.720886] qsee_fp: dev-QEV-poll str[26]: fdt calibration->try: 3, dac: 1
+[ 1028.720898] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1028.720945] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1028.721265] qsee_fp: dev-QEV-poll LOGCONT begin len=1066
+[ 1028.721280] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1028.721298] qsee_fp: dev-QEV-poll LOG: got unnormal chip id (0x0000) at 0.
+[ 1028.721307] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721321] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721353] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1028.721364] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721379] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721396] qsee_fp: dev-QEV-poll LOG: may be is esd, need to reset ic.
+[ 1028.721406] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721420] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721435] qsee_fp: dev-QEV-poll LOG: query event state: [esd].
+[ 1028.721446] qsee_fp: dev-QEV-poll LOG: y again....
+[ 1028.721456] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721469] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721485] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1028.721495] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721508] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721524] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1028.721534] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721548] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721564] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1028.721573] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721587] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1028.721608] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1028.721618] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721632] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1028.721653] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1028.721663] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721677] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1028.721693] qsee_fp: dev-QEV-poll LOG: last time saved efc data: 144
+[ 1028.721703] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721716] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1028.721735] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1028.721745] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721759] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1028.721778] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 2, dac: 125, average: 693
+[ 1028.721788] qsee_fp: dev-QEV-poll LOG: !
+[ 1028.721802] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:fdt
+[ 1028.721817] qsee_fp: dev-QEV-poll LOG: fdt calibration->try: 3
+[ 1028.721826] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1029.760256] qsee_fp: ION HIT dev-QEV-poll ret=0 req0=0x8000101c rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1029.760291] qsee_fp: dev-QEV-poll st=0x32a first8=2a030000 0026666f
+[ 1029.760313] qsee_fp: dev-QEV-poll str[0]: &focaltech:ft93xx:core
+[ 1029.760347] qsee_fp: dev-QEV-poll str[1]: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1029.760366] qsee_fp: dev-QEV-poll str[2]: &focaltech:ft93xx:core
+[ 1029.760385] qsee_fp: dev-QEV-poll str[3]: query event state: [unknow].
+[ 1029.760397] qsee_fp: dev-QEV-poll str[4]: hort)
+[ 1029.760413] qsee_fp: dev-QEV-poll str[5]: &focaltech:ft93xx:core
+[ 1029.760431] qsee_fp: dev-QEV-poll str[6]: may be is esd, need to reset ic.
+[ 1029.760447] qsee_fp: dev-QEV-poll str[7]: &focaltech:ft93xx:core
+[ 1029.760464] qsee_fp: dev-QEV-poll str[8]: query event state: [esd].
+[ 1029.760476] qsee_fp: dev-QEV-poll str[9]: y again....
+[ 1029.760492] qsee_fp: dev-QEV-poll str[10]: &focaltech:ft93xx:core
+[ 1029.760509] qsee_fp: dev-QEV-poll str[11]: configure spi mode failed(0).
+[ 1029.760526] qsee_fp: dev-QEV-poll str[12]: &focaltech:ft93xx:core
+[ 1029.760543] qsee_fp: dev-QEV-poll str[13]: configure spi mode failed(0).
+[ 1029.760560] qsee_fp: dev-QEV-poll str[14]: &focaltech:ft93xx:core
+[ 1029.760577] qsee_fp: dev-QEV-poll str[15]: configure spi mode failed(0).
+[ 1029.760593] qsee_fp: dev-QEV-poll str[16]: &focaltech:ft93xx:afe
+[ 1029.760616] qsee_fp: dev-QEV-poll str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1029.760632] qsee_fp: dev-QEV-poll str[18]: &focaltech:ft93xx:afe
+[ 1029.760655] qsee_fp: dev-QEV-poll str[19]: chip feature, io controlleable and open/short detectable
+[ 1029.760671] qsee_fp: dev-QEV-poll str[20]: &focaltech:ft93xx:core
+[ 1029.760685] qsee_fp: dev-QEV-poll str[21]: last time sa
+[ 1029.760696] qsee_fp: dev-QEV-poll st=0x8000101c first8=1c100080 00000000
+[ 1029.760744] qsee_fp: dev-QEV-poll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1029.761061] qsee_fp: dev-QEV-poll LOGCONT begin len=810
+[ 1029.761075] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761105] qsee_fp: dev-QEV-poll LOG: interrupt type: 0x0(1=idle 2=down 4=up 8=man 10=inv 20=data 40=afeD 80=halfF 100=fullE 200=rst 400=esd 800=open/short)
+[ 1029.761116] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761129] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761145] qsee_fp: dev-QEV-poll LOG: query event state: [unknow].
+[ 1029.761155] qsee_fp: dev-QEV-poll LOG: hort)
+[ 1029.761164] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761177] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761193] qsee_fp: dev-QEV-poll LOG: may be is esd, need to reset ic.
+[ 1029.761203] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761216] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761231] qsee_fp: dev-QEV-poll LOG: query event state: [esd].
+[ 1029.761242] qsee_fp: dev-QEV-poll LOG: y again....
+[ 1029.761251] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761264] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761279] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1029.761289] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761302] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761317] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1029.761327] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761339] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761355] qsee_fp: dev-QEV-poll LOG: configure spi mode failed(0).
+[ 1029.761365] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761377] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1029.761398] qsee_fp: dev-QEV-poll LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1029.761408] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761421] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:afe
+[ 1029.761442] qsee_fp: dev-QEV-poll LOG: chip feature, io controlleable and open/short detectable
+[ 1029.761452] qsee_fp: dev-QEV-poll LOG: !
+[ 1029.761466] qsee_fp: dev-QEV-poll LOG: &focaltech:ft93xx:core
+[ 1029.761477] qsee_fp: dev-QEV-poll LOG: last
+[ 1029.761486] qsee_fp: dev-QEV-poll LOGCONT end
+[ 1029.761497] qsee_fp: sample 2 no IRQ/DOWN, CAP anyway
+[ 1032.870591] qsee_fp: ION HIT dev-cap-enroll-2 ret=0 req0=0x80001013 rsp0=0x42a err=0x0 rsp8=0x746c6163
+[ 1032.870599] qsee_fp: dev-cap-enroll-2 st=0x42a first8=2a040000 0026666f
+[ 1032.870602] qsee_fp: dev-cap-enroll-2 str[0]: &focaltech:ft93xx:afe
+[ 1032.870605] qsee_fp: dev-cap-enroll-2 str[1]: set chip vio 1.8v fail, try again....
+[ 1032.870607] qsee_fp: dev-cap-enroll-2 str[2]: &focaltech:ft93xx:afe
+[ 1032.870608] qsee_fp: dev-cap-enroll-2 str[3]: set chip vio 1.8v fail, try again....
+[ 1032.870610] qsee_fp: dev-cap-enroll-2 str[4]: &focaltech:ft93xx:afe
+[ 1032.870612] qsee_fp: dev-cap-enroll-2 str[5]: set chip vio 1.8v fail, try again....
+[ 1032.870613] qsee_fp: dev-cap-enroll-2 str[6]: &focaltech:ft93xx:afe
+[ 1032.870615] qsee_fp: dev-cap-enroll-2 str[7]: set chip vio 1.8v fail, try again....
+[ 1032.870617] qsee_fp: dev-cap-enroll-2 str[8]: &focaltech:ft93xx:afe
+[ 1032.870618] qsee_fp: dev-cap-enroll-2 str[9]: set chip vio 1.8v fail, try again....
+[ 1032.870620] qsee_fp: dev-cap-enroll-2 str[10]: &focaltech:ft93xx:core
+[ 1032.870622] qsee_fp: dev-cap-enroll-2 str[11]: configure spi mode failed(0).
+[ 1032.870623] qsee_fp: dev-cap-enroll-2 str[12]: &focaltech:ft93xx:core
+[ 1032.870625] qsee_fp: dev-cap-enroll-2 str[13]: configure spi mode failed(0).
+[ 1032.870626] qsee_fp: dev-cap-enroll-2 str[14]: &focaltech:ft93xx:core
+[ 1032.870628] qsee_fp: dev-cap-enroll-2 str[15]: configure spi mode failed(0).
+[ 1032.870629] qsee_fp: dev-cap-enroll-2 str[16]: &focaltech:ft93xx:afe
+[ 1032.870631] qsee_fp: dev-cap-enroll-2 str[17]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1032.870633] qsee_fp: dev-cap-enroll-2 str[18]: &focaltech:ft93xx:afe
+[ 1032.870635] qsee_fp: dev-cap-enroll-2 str[19]: chip feature, io controlleable and open/short detectable
+[ 1032.870637] qsee_fp: dev-cap-enroll-2 str[20]: &focaltech:ft93xx:core
+[ 1032.870638] qsee_fp: dev-cap-enroll-2 str[21]: last time saved efc data: 144
+[ 1032.870640] qsee_fp: dev-cap-enroll-2 str[22]: &focaltech:ft93xx:fdt
+[ 1032.870642] qsee_fp: dev-cap-enroll-2 str[23]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1032.870644] qsee_fp: dev-cap-enroll-2 str[24]: &focaltech:ft93xx:fdt
+[ 1032.870645] qsee_fp: dev-cap-enroll-2 str[25]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1032.870647] qsee_fp: dev-cap-enroll-2 str[26]: &focaltech:ft93xx:fdt
+[ 1032.870648] qsee_fp: dev-cap-enroll-2 str[27]: fdt calibration->try: 3, dac: 1
+[ 1032.870649] qsee_fp: dev-cap-enroll-2 st=0x80001013 first8=13100080 24000000
+[ 1032.870655] qsee_fp: dev-cap-enroll-2 str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1032.870673] qsee_fp: dev-cap-enroll-2 LOGCONT begin len=1066
+[ 1032.870674] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870676] qsee_fp: dev-cap-enroll-2 LOG: set chip vio 1.8v fail, try again....
+[ 1032.870678] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870679] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870682] qsee_fp: dev-cap-enroll-2 LOG: set chip vio 1.8v fail, try again....
+[ 1032.870683] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870684] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870686] qsee_fp: dev-cap-enroll-2 LOG: set chip vio 1.8v fail, try again....
+[ 1032.870687] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870689] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870691] qsee_fp: dev-cap-enroll-2 LOG: set chip vio 1.8v fail, try again....
+[ 1032.870692] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870693] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870695] qsee_fp: dev-cap-enroll-2 LOG: set chip vio 1.8v fail, try again....
+[ 1032.870697] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870698] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:core
+[ 1032.870700] qsee_fp: dev-cap-enroll-2 LOG: configure spi mode failed(0).
+[ 1032.870701] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870702] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:core
+[ 1032.870704] qsee_fp: dev-cap-enroll-2 LOG: configure spi mode failed(0).
+[ 1032.870705] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870706] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:core
+[ 1032.870708] qsee_fp: dev-cap-enroll-2 LOG: configure spi mode failed(0).
+[ 1032.870709] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870710] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870712] qsee_fp: dev-cap-enroll-2 LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1032.870713] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870714] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:afe
+[ 1032.870716] qsee_fp: dev-cap-enroll-2 LOG: chip feature, io controlleable and open/short detectable
+[ 1032.870717] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870719] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:core
+[ 1032.870720] qsee_fp: dev-cap-enroll-2 LOG: last time saved efc data: 144
+[ 1032.870721] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870722] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:fdt
+[ 1032.870724] qsee_fp: dev-cap-enroll-2 LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1032.870725] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870726] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:fdt
+[ 1032.870728] qsee_fp: dev-cap-enroll-2 LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1032.870729] qsee_fp: dev-cap-enroll-2 LOG: !
+[ 1032.870730] qsee_fp: dev-cap-enroll-2 LOG: &focaltech:ft93xx:fdt
+[ 1032.870731] qsee_fp: dev-cap-enroll-2 LOG: fdt calibration->try: 3
+[ 1032.870732] qsee_fp: dev-cap-enroll-2 LOGCONT end
+[ 1032.870733] qsee_fp: dev-cap-enroll-2 er=0 err=0x0 ta_down=0
+[ 1032.871386] qsee_fp: ION HIT dev-LOGCAT-enroll-sample ret=0 req0=0x80001003 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1032.871389] qsee_fp: dev-LOGCAT-enroll-sample st=0xde first8=de000000 0026666f
+[ 1032.871391] qsee_fp: dev-LOGCAT-enroll-sample str[0]: &focaltech:ft93xx:afe
+[ 1032.871393] qsee_fp: dev-LOGCAT-enroll-sample str[1]: set chip vio 1.8v fail, try again....
+[ 1032.871394] qsee_fp: dev-LOGCAT-enroll-sample str[2]: &focaltech:ft93xx:afe
+[ 1032.871396] qsee_fp: dev-LOGCAT-enroll-sample str[3]: set chip vio 1.8v fail, try again....
+[ 1032.871398] qsee_fp: dev-LOGCAT-enroll-sample str[4]: &focaltech:ft93xx:afe
+[ 1032.871399] qsee_fp: dev-LOGCAT-enroll-sample str[5]: set chip vio 1.8v fail, try again....
+[ 1032.871400] qsee_fp: dev-LOGCAT-enroll-sample st=0x80001003 first8=03100080 00000000
+[ 1032.871405] qsee_fp: dev-LOGCAT-enroll-sample str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1032.871424] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT begin len=222
+[ 1032.871426] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1032.871428] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1032.871429] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1032.871431] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1032.871432] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again....
+[ 1032.871433] qsee_fp: dev-LOGCAT-enroll-sample LOG: !
+[ 1032.871435] qsee_fp: dev-LOGCAT-enroll-sample LOG: &focaltech:ft93xx:afe
+[ 1032.871436] qsee_fp: dev-LOGCAT-enroll-sample LOG: set chip vio 1.8v fail, try again..
+[ 1032.871437] qsee_fp: dev-LOGCAT-enroll-sample LOGCONT end
+[ 1033.128160] qsee_fp: ION HIT dev-WMODE-5-next ret=0 req0=0x8000101f rsp0=0x52a err=0x0 rsp8=0x746c6163
+[ 1033.128168] qsee_fp: dev-WMODE-5-next st=0x52a first8=2a050000 0026666f
+[ 1033.128173] qsee_fp: dev-WMODE-5-next str[0]: &focaltech:ft93xx:core
+[ 1033.128176] qsee_fp: dev-WMODE-5-next str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.128179] qsee_fp: dev-WMODE-5-next str[2]: set chip vio 1.8v fail, try again....
+[ 1033.128181] qsee_fp: dev-WMODE-5-next str[3]: &focaltech:ft93xx:afe
+[ 1033.128184] qsee_fp: dev-WMODE-5-next str[4]: set chip vio 1.8v fail, try again....
+[ 1033.128186] qsee_fp: dev-WMODE-5-next str[5]: &focaltech:ft93xx:afe
+[ 1033.128188] qsee_fp: dev-WMODE-5-next str[6]: set chip vio 1.8v fail, try again....
+[ 1033.128190] qsee_fp: dev-WMODE-5-next str[7]: &focaltech:ft93xx:afe
+[ 1033.128193] qsee_fp: dev-WMODE-5-next str[8]: set chip vio 1.8v fail, try again....
+[ 1033.128194] qsee_fp: dev-WMODE-5-next str[9]: &focaltech:ft93xx:core
+[ 1033.128196] qsee_fp: dev-WMODE-5-next str[10]: configure spi mode failed(0).
+[ 1033.128198] qsee_fp: dev-WMODE-5-next str[11]: &focaltech:ft93xx:core
+[ 1033.128200] qsee_fp: dev-WMODE-5-next str[12]: configure spi mode failed(0).
+[ 1033.128201] qsee_fp: dev-WMODE-5-next str[13]: &focaltech:ft93xx:core
+[ 1033.128202] qsee_fp: dev-WMODE-5-next str[14]: configure spi mode failed(0).
+[ 1033.128204] qsee_fp: dev-WMODE-5-next str[15]: &focaltech:ft93xx:afe
+[ 1033.128206] qsee_fp: dev-WMODE-5-next str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.128207] qsee_fp: dev-WMODE-5-next str[17]: &focaltech:ft93xx:afe
+[ 1033.128209] qsee_fp: dev-WMODE-5-next str[18]: chip feature, io controlleable and open/short detectable
+[ 1033.128211] qsee_fp: dev-WMODE-5-next str[19]: &focaltech:ft93xx:core
+[ 1033.128212] qsee_fp: dev-WMODE-5-next str[20]: last time saved efc data: 144
+[ 1033.128214] qsee_fp: dev-WMODE-5-next str[21]: &focaltech:ft93xx:fdt
+[ 1033.128215] qsee_fp: dev-WMODE-5-next str[22]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1033.128217] qsee_fp: dev-WMODE-5-next str[23]: &focaltech:ft93xx:fdt
+[ 1033.128218] qsee_fp: dev-WMODE-5-next str[24]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1033.128220] qsee_fp: dev-WMODE-5-next str[25]: &focaltech:ft93xx:fdt
+[ 1033.128221] qsee_fp: dev-WMODE-5-next str[26]: fdt calibration->try: 3, dac: 126, average: 700
+[ 1033.128223] qsee_fp: dev-WMODE-5-next str[27]: &focaltech:ft93xx:fdt
+[ 1033.128224] qsee_fp: dev-WMODE-5-next str[28]: fdt calibration->try: 4, dac: 127, average: 706
+[ 1033.128226] qsee_fp: dev-WMODE-5-next str[29]: &focaltech:ft93xx:fdt
+[ 1033.128227] qsee_fp: dev-WMODE-5-next str[30]: got fdt dac success: 127, middle: 706, lastmiddle: 700
+[ 1033.128229] qsee_fp: dev-WMODE-5-next str[31]: &focaltech:ft93xx:fdt
+[ 1033.128230] qsee_fp: dev-WMODE-5-next str[32]: get fdt dac [success], au
+[ 1033.128231] qsee_fp: dev-WMODE-5-next st=0x8000101f first8=1f100080 00000000
+[ 1033.128236] qsee_fp: dev-WMODE-5-next str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1033.128254] qsee_fp: dev-WMODE-5-next LOGCONT begin len=1322
+[ 1033.128256] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1033.128258] qsee_fp: dev-WMODE-5-next LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.128260] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1033.128262] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128263] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1033.128265] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1033.128266] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128267] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1033.128270] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1033.128271] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128272] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1033.128274] qsee_fp: dev-WMODE-5-next LOG: set chip vio 1.8v fail, try again....
+[ 1033.128275] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128277] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1033.128278] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1033.128279] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128280] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1033.128282] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1033.128283] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128284] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1033.128286] qsee_fp: dev-WMODE-5-next LOG: configure spi mode failed(0).
+[ 1033.128287] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128288] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1033.128290] qsee_fp: dev-WMODE-5-next LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.128291] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128292] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:afe
+[ 1033.128294] qsee_fp: dev-WMODE-5-next LOG: chip feature, io controlleable and open/short detectable
+[ 1033.128295] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128296] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:core
+[ 1033.128298] qsee_fp: dev-WMODE-5-next LOG: last time saved efc data: 144
+[ 1033.128299] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128300] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128301] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1033.128302] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128304] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128305] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1033.128306] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128308] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128309] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 3, dac: 126, average: 700
+[ 1033.128310] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128311] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128313] qsee_fp: dev-WMODE-5-next LOG: fdt calibration->try: 4, dac: 127, average: 706
+[ 1033.128314] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128315] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128316] qsee_fp: dev-WMODE-5-next LOG: got fdt dac success: 127, middle: 706, lastmiddle: 700
+[ 1033.128318] qsee_fp: dev-WMODE-5-next LOG: !
+[ 1033.128319] qsee_fp: dev-WMODE-5-next LOG: &focaltech:ft93xx:fdt
+[ 1033.128320] qsee_fp: dev-WMODE-5-next LOG: get fdt dac [succ
+[ 1033.128321] qsee_fp: dev-WMODE-5-next LOGCONT end
+[ 1033.128322] qsee_fp: enroll sample loop done rem_seen=0
+[ 1033.128646] qsee_fp: ION HIT dev-POST_ENROLL ret=0 req0=0x80002002 rsp0=0xde err=0x0 rsp8=0x746c6163
+[ 1033.128649] qsee_fp: dev-POST_ENROLL st=0xde first8=de000000 0026666f
+[ 1033.128651] qsee_fp: dev-POST_ENROLL str[0]: &focaltech:ft93xx:core
+[ 1033.128653] qsee_fp: dev-POST_ENROLL str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.128655] qsee_fp: dev-POST_ENROLL str[2]: set chip vio 1.8v fail, try again....
+[ 1033.128657] qsee_fp: dev-POST_ENROLL str[3]: &focaltech:ft93xx:afe
+[ 1033.128658] qsee_fp: dev-POST_ENROLL str[4]: set chip vio 1.8v fail, try again....
+[ 1033.128659] qsee_fp: dev-POST_ENROLL st=0x80002002 first8=02200080 00000000
+[ 1033.128665] qsee_fp: dev-POST_ENROLL str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1033.128683] qsee_fp: dev-POST_ENROLL LOGCONT begin len=222
+[ 1033.128685] qsee_fp: dev-POST_ENROLL LOG: &focaltech:ft93xx:core
+[ 1033.128687] qsee_fp: dev-POST_ENROLL LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.128688] qsee_fp: dev-POST_ENROLL LOG: set chip vio 1.8v fail, try again....
+[ 1033.128690] qsee_fp: dev-POST_ENROLL LOG: !
+[ 1033.128691] qsee_fp: dev-POST_ENROLL LOG: &focaltech:ft93xx:afe
+[ 1033.128693] qsee_fp: dev-POST_ENROLL LOG: set chip vio 1.8v fail, try again..
+[ 1033.128694] qsee_fp: dev-POST_ENROLL LOGCONT end
+[ 1033.185084] qsee_fp: ION HIT dev-ENUM-after-enroll ret=0 req0=0x80001028 rsp0=0xde err=0xffffff35 rsp8=0x746c6163
+[ 1033.185092] qsee_fp: dev-ENUM-after-enroll st=0xde first8=de000000 0026666f
+[ 1033.185094] qsee_fp: dev-ENUM-after-enroll str[0]: &focaltech:ft93xx:core
+[ 1033.185097] qsee_fp: dev-ENUM-after-enroll str[1]: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.185099] qsee_fp: dev-ENUM-after-enroll str[2]: set chip vio 1.8v fail, try again....
+[ 1033.185101] qsee_fp: dev-ENUM-after-enroll str[3]: &focaltech:ft93xx:afe
+[ 1033.185103] qsee_fp: dev-ENUM-after-enroll str[4]: set chip vio 1.8v fail, try again....
+[ 1033.185105] qsee_fp: dev-ENUM-after-enroll st=0x80001028 first8=28100080 00000000
+[ 1033.185111] qsee_fp: dev-ENUM-after-enroll str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1033.185129] qsee_fp: dev-ENUM-after-enroll LOGCONT begin len=222
+[ 1033.185131] qsee_fp: dev-ENUM-after-enroll LOG: &focaltech:ft93xx:core
+[ 1033.185134] qsee_fp: dev-ENUM-after-enroll LOG: error at ft93xx_config_device_mode[ft93xx.c:897]: unknown device mode.
+[ 1033.185136] qsee_fp: dev-ENUM-after-enroll LOG: set chip vio 1.8v fail, try again....
+[ 1033.185137] qsee_fp: dev-ENUM-after-enroll LOG: !
+[ 1033.185138] qsee_fp: dev-ENUM-after-enroll LOG: &focaltech:ft93xx:afe
+[ 1033.185141] qsee_fp: dev-ENUM-after-enroll LOG: set chip vio 1.8v fail, try again..
+[ 1033.185141] qsee_fp: dev-ENUM-after-enroll LOGCONT end
+[ 1033.244798] qsee_fp: ION HIT dev-AUTH ret=0 req0=0x80002008 rsp0=0x42a err=0x0 rsp8=0x65746c61
+[ 1033.244806] qsee_fp: dev-AUTH st=0x42a first8=2a040000 00666f63
+[ 1033.244811] qsee_fp: dev-AUTH str[0]: focaltech:ta:interface
+[ 1033.244815] qsee_fp: dev-AUTH str[1]: enrollment is unexpected broken off.
+[ 1033.244818] qsee_fp: dev-AUTH str[2]: @focaltech:libfp
+[ 1033.244821] qsee_fp: dev-AUTH str[3]: focal_DestroyEnrollImage...g_enrollImage is empty, do nothing!
+[ 1033.244823] qsee_fp: dev-AUTH str[4]: @focaltech:libfp
+[ 1033.244825] qsee_fp: dev-AUTH str[5]: focal_DestroyImageTpl...tplNodeList is empty, do nothing!
+[ 1033.244827] qsee_fp: dev-AUTH str[6]: @focaltech:libfp
+[ 1033.244829] qsee_fp: dev-AUTH str[7]: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 1033.244831] qsee_fp: dev-AUTH str[8]: @focaltech:libfp
+[ 1033.244833] qsee_fp: dev-AUTH str[9]: focal_DelFinger...leave, ret = 0
+[ 1033.244835] qsee_fp: dev-AUTH str[10]: &focaltech:ft93xx:core
+[ 1033.244837] qsee_fp: dev-AUTH str[11]: check finger status: release
+[ 1033.244839] qsee_fp: dev-AUTH str[12]: &focaltech:ft93xx:core
+[ 1033.244842] qsee_fp: dev-AUTH str[13]: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.244844] qsee_fp: dev-AUTH str[14]: &focaltech:ft93xx:afe
+[ 1033.244846] qsee_fp: dev-AUTH str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.244849] qsee_fp: dev-AUTH str[16]: &focaltech:ft93xx:afe
+[ 1033.244852] qsee_fp: dev-AUTH str[17]: chip feature, io controlleable and open/short detectable
+[ 1033.244854] qsee_fp: dev-AUTH str[18]: &focaltech:ft93xx:core
+[ 1033.244855] qsee_fp: dev-AUTH str[19]: last time saved efc data: 144
+[ 1033.244857] qsee_fp: dev-AUTH str[20]: &focaltech:ft93xx:fdt
+[ 1033.244859] qsee_fp: dev-AUTH str[21]: fdt calibration->try: 1, dac: 120, average: 669
+[ 1033.244861] qsee_fp: dev-AUTH str[22]: &focaltech:ft93xx:fdt
+[ 1033.244863] qsee_fp: dev-AUTH str[23]: fdt calibration->try: 2, dac: 125, average: 695
+[ 1033.244865] qsee_fp: dev-AUTH str[24]: &focaltech:ft93xx:fdt
+[ 1033.244867] qsee_fp: dev-AUTH str[25]: fdt calibration->try: 3, dac: 1
+[ 1033.244868] qsee_fp: dev-AUTH st=0x80002008 first8=08200080 00000000
+[ 1033.244874] qsee_fp: dev-AUTH str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1033.244897] qsee_fp: dev-AUTH LOGCONT begin len=1066
+[ 1033.244899] qsee_fp: dev-AUTH LOG: focaltech:ta:interface
+[ 1033.244901] qsee_fp: dev-AUTH LOG: enrollment is unexpected broken off.
+[ 1033.244903] qsee_fp: dev-AUTH LOG: !
+[ 1033.244904] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 1033.244908] qsee_fp: dev-AUTH LOG: focal_DestroyEnrollImage...g_enrollImage is empty, do nothing!
+[ 1033.244909] qsee_fp: dev-AUTH LOG: !
+[ 1033.244911] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 1033.244913] qsee_fp: dev-AUTH LOG: focal_DestroyImageTpl...tplNodeList is empty, do nothing!
+[ 1033.244915] qsee_fp: dev-AUTH LOG: !
+[ 1033.244916] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 1033.244920] qsee_fp: dev-AUTH LOG: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 1033.244921] qsee_fp: dev-AUTH LOG: !
+[ 1033.244922] qsee_fp: dev-AUTH LOG: @focaltech:libfp
+[ 1033.244925] qsee_fp: dev-AUTH LOG: focal_DelFinger...leave, ret = 0
+[ 1033.244926] qsee_fp: dev-AUTH LOG: !
+[ 1033.244928] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:core
+[ 1033.244930] qsee_fp: dev-AUTH LOG: check finger status: release
+[ 1033.244931] qsee_fp: dev-AUTH LOG: !
+[ 1033.244932] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:core
+[ 1033.244935] qsee_fp: dev-AUTH LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.244936] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:afe
+[ 1033.244938] qsee_fp: dev-AUTH LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.244940] qsee_fp: dev-AUTH LOG: !
+[ 1033.244942] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:afe
+[ 1033.244944] qsee_fp: dev-AUTH LOG: chip feature, io controlleable and open/short detectable
+[ 1033.244945] qsee_fp: dev-AUTH LOG: !
+[ 1033.244947] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:core
+[ 1033.244948] qsee_fp: dev-AUTH LOG: last time saved efc data: 144
+[ 1033.244950] qsee_fp: dev-AUTH LOG: !
+[ 1033.244951] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:fdt
+[ 1033.244954] qsee_fp: dev-AUTH LOG: fdt calibration->try: 1, dac: 120, average: 669
+[ 1033.244955] qsee_fp: dev-AUTH LOG: !
+[ 1033.244957] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:fdt
+[ 1033.244959] qsee_fp: dev-AUTH LOG: fdt calibration->try: 2, dac: 125, average: 695
+[ 1033.244960] qsee_fp: dev-AUTH LOG: !
+[ 1033.244962] qsee_fp: dev-AUTH LOG: &focaltech:ft93xx:fdt
+[ 1033.244964] qsee_fp: dev-AUTH LOG: fdt calibration->try: 3
+[ 1033.244965] qsee_fp: dev-AUTH LOGCONT end
+[ 1033.244966] qsee_fp: AUTH er=0 err=0x0 rem_seen=0
+[ 1033.321431] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[ 1033.321435] qsee_fp: dev-HEALTH-final st=0x32a first8=2a030000 0026666f
+[ 1033.321438] qsee_fp: dev-HEALTH-final str[0]: &focaltech:ft93xx:afe
+[ 1033.321440] qsee_fp: dev-HEALTH-final str[1]: last:695 696 691 682   0   0   0   0
+[ 1033.321443] qsee_fp: dev-HEALTH-final str[2]: &focaltech:ft93xx:afe
+[ 1033.321445] qsee_fp: dev-HEALTH-final str[3]: curr:694 695 693 683 59317   0   0   0
+[ 1033.321447] qsee_fp: dev-HEALTH-final str[4]: &focaltech:ft93xx:core
+[ 1033.321449] qsee_fp: dev-HEALTH-final str[5]: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.321451] qsee_fp: dev-HEALTH-final str[6]: oyImageTpl...tplNodeList is empty, do nothing!
+[ 1033.321452] qsee_fp: dev-HEALTH-final str[7]: @focaltech:libfp
+[ 1033.321454] qsee_fp: dev-HEALTH-final str[8]: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 1033.321456] qsee_fp: dev-HEALTH-final str[9]: @focaltech:libfp
+[ 1033.321458] qsee_fp: dev-HEALTH-final str[10]: focal_DelFinger...leave, ret = 0
+[ 1033.321459] qsee_fp: dev-HEALTH-final str[11]: &focaltech:ft93xx:core
+[ 1033.321461] qsee_fp: dev-HEALTH-final str[12]: check finger status: release
+[ 1033.321462] qsee_fp: dev-HEALTH-final str[13]: &focaltech:ft93xx:core
+[ 1033.321464] qsee_fp: dev-HEALTH-final str[14]: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.321465] qsee_fp: dev-HEALTH-final str[15]: &focaltech:ft93xx:afe
+[ 1033.321467] qsee_fp: dev-HEALTH-final str[16]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.321469] qsee_fp: dev-HEALTH-final str[17]: &focaltech:ft93xx:afe
+[ 1033.321470] qsee_fp: dev-HEALTH-final str[18]: chip feature, io controlleable and open/short detectable
+[ 1033.321472] qsee_fp: dev-HEALTH-final str[19]: &focaltech:ft93xx:core
+[ 1033.321473] qsee_fp: dev-HEALTH-final str[20]: last time sa
+[ 1033.321474] qsee_fp: dev-HEALTH-final st=0x80001016 first8=16100080 00000000
+[ 1033.321478] qsee_fp: dev-HEALTH-final str[0]: v1.6.6-ft@v1.5.78-r4806-qsee_32bit-20230221
+[ 1033.321496] qsee_fp: dev-HEALTH-final LOGCONT begin len=810
+[ 1033.321497] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1033.321499] qsee_fp: dev-HEALTH-final LOG: last:695 696 691 682   0   0   0   0
+[ 1033.321500] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321502] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1033.321504] qsee_fp: dev-HEALTH-final LOG: curr:694 695 693 683 59317   0   0   0
+[ 1033.321505] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321506] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1033.321508] qsee_fp: dev-HEALTH-final LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.321509] qsee_fp: dev-HEALTH-final LOG: oyImageTpl...tplNodeList is empty, do nothing!
+[ 1033.321510] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321512] qsee_fp: dev-HEALTH-final LOG: @focaltech:libfp
+[ 1033.321514] qsee_fp: dev-HEALTH-final LOG: focal_DestroyRescanImage...g_imageRescan is empty, do nothing!
+[ 1033.321516] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321517] qsee_fp: dev-HEALTH-final LOG: @focaltech:libfp
+[ 1033.321518] qsee_fp: dev-HEALTH-final LOG: focal_DelFinger...leave, ret = 0
+[ 1033.321519] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321521] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1033.321522] qsee_fp: dev-HEALTH-final LOG: check finger status: release
+[ 1033.321523] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321524] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1033.321526] qsee_fp: dev-HEALTH-final LOG: switch to 'FDT_DOWN_DETECT' mode.
+[ 1033.321527] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1033.321529] qsee_fp: dev-HEALTH-final LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[ 1033.321530] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321531] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:afe
+[ 1033.321533] qsee_fp: dev-HEALTH-final LOG: chip feature, io controlleable and open/short detectable
+[ 1033.321534] qsee_fp: dev-HEALTH-final LOG: !
+[ 1033.321535] qsee_fp: dev-HEALTH-final LOG: &focaltech:ft93xx:core
+[ 1033.321536] qsee_fp: dev-HEALTH-final LOG: last
+[ 1033.321537] qsee_fp: dev-HEALTH-final LOGCONT end
+[ 1033.321538] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[ 1033.321576] qsee_fp: device-TA probe+auth-path complete
+[ 1033.321578] qsee_fp: done

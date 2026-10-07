@@ -1,0 +1,160 @@
+=== RESULTS ===
+[   44.648647] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   44.648652] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[   44.648656] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[   44.648658] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[   44.648660] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[   44.648661] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[   44.648663] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[   44.648665] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   44.648666] qsee_fp: dev-INIT_DEV-100b str[6]: focaltech:ta:file
+[   44.648670] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   44.648672] qsee_fp: dev-INIT_DEV-100b str[8]: focaltech:ta:file
+[   44.648673] qsee_fp: dev-INIT_DEV-100b str[9]: error at ff_file_open[file.c:83]: 'I/O error'.
+[   44.648675] qsee_fp: dev-INIT_DEV-100b str[10]: focaltech:ta:device
+[   44.648677] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   44.648678] qsee_fp: dev-INIT_DEV-100b str[12]: focaltech:efc
+[   44.648680] qsee_fp: dev-INIT_DEV-100b str[13]: efc data not exist, skip.
+[   44.648682] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:afe
+[   44.648683] qsee_fp: dev-INIT_DEV-100b str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   44.648685] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:afe
+[   44.648686] qsee_fp: dev-INIT_DEV-100b str[17]: chip feature, io controlleable and
+[   44.648687] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[   44.648688] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   44.648690] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[   44.648691] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648693] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   44.648695] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[   44.648696] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648697] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   44.648699] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   44.648700] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648702] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   44.648705] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERI
+[   44.648706] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648708] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   44.648710] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:83]: 'I/O error'.
+[   44.648711] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648712] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   44.648714] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   44.648715] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648716] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:efc
+[   44.648718] qsee_fp: dev-INIT_DEV-100b LOG: efc data not exist, skip.
+[   44.648719] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648720] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   44.648722] qsee_fp: dev-INIT_DEV-100b LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   44.648723] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   44.648725] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   44.648726] qsee_fp: dev-INIT_DEV-100b LOG: chip feature, io controlle
+[   44.648726] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[   44.802968] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x32a err=0x0 rsp8=0x746c6163
+[   44.802976] qsee_fp: dev-HEALTH-1016 st=0x32a first8=2a030000 0026666f
+[   44.802979] qsee_fp: dev-HEALTH-1016 str[0]: &focaltech:ft93xx:afe
+[   44.802982] qsee_fp: dev-HEALTH-1016 str[1]: last:696 694 692 682   0   0   0   0
+[   44.802984] qsee_fp: dev-HEALTH-1016 str[2]: &focaltech:ft93xx:afe
+[   44.802985] qsee_fp: dev-HEALTH-1016 str[3]: curr:696 695 689 678 650   0   0   0
+[   44.802987] qsee_fp: dev-HEALTH-1016 str[4]: &focaltech:ft93xx:core
+[   44.802989] qsee_fp: dev-HEALTH-1016 str[5]: switch to 'SLEEP' mode.
+[   44.802990] qsee_fp: dev-HEALTH-1016 str[6]: altech:ta:config
+[   44.802993] qsee_fp: dev-HEALTH-1016 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   44.802995] qsee_fp: dev-HEALTH-1016 str[8]: focaltech:ta:config
+[   44.802997] qsee_fp: dev-HEALTH-1016 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   44.802998] qsee_fp: dev-HEALTH-1016 str[10]: focaltech:ta:config
+[   44.803001] qsee_fp: dev-HEALTH-1016 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   44.803003] qsee_fp: dev-HEALTH-1016 str[12]: focaltech:ta:config
+[   44.803004] qsee_fp: dev-HEALTH-1016 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   44.803006] qsee_fp: dev-HEALTH-1016 str[14]: focaltech:ta:config
+[   44.803008] qsee_fp: dev-HEALTH-1016 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   44.803009] qsee_fp: dev-HEALTH-1016 str[16]: focaltech:ta:config
+[   44.803010] qsee_fp: dev-HEALTH-1016 str[17]: no key named 'algorith
+[   44.803011] qsee_fp: dev-HEALTH-1016 LOGCONT begin len=810
+[   44.803013] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   44.803015] qsee_fp: dev-HEALTH-1016 LOG: last:696 694 692 682   0   0   0   0
+[   44.803016] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803017] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:afe
+[   44.803020] qsee_fp: dev-HEALTH-1016 LOG: curr:696 695 689 678 650   0   0   0
+[   44.803021] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803022] qsee_fp: dev-HEALTH-1016 LOG: &focaltech:ft93xx:core
+[   44.803024] qsee_fp: dev-HEALTH-1016 LOG: switch to 'SLEEP' mode.
+[   44.803025] qsee_fp: dev-HEALTH-1016 LOG: altech:ta:config
+[   44.803028] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   44.803029] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803030] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   44.803033] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   44.803035] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803036] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   44.803038] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   44.803039] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803041] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   44.803043] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   44.803044] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803045] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   44.803047] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   44.803048] qsee_fp: dev-HEALTH-1016 LOG: !
+[   44.803049] qsee_fp: dev-HEALTH-1016 LOG: focaltech:ta:config
+[   44.803051] qsee_fp: dev-HEALTH-1016 LOG: no key named '
+[   44.803051] qsee_fp: dev-HEALTH-1016 LOGCONT end
+[   45.001926] qsee_fp: PRE_ENROLL er=0 challenge=0x34858dca0faa22ae skip_enroll=1
+[   45.163035] qsee_fp: ION HIT dev-cap-meta-96x96 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.163057] qsee_fp: dev-cap-meta-96x96 st=0x52a first8=2a050000 00666f63
+[   45.163079] qsee_fp: dev-cap-meta-96x96 str[0]: focaltech:ta:core
+[   45.163108] qsee_fp: dev-cap-meta-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.163288] qsee_fp: dev-cap-meta-96x96 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.207015] qsee_fp: ION HIT dev-cap-big-96x96 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.207038] qsee_fp: dev-cap-big-96x96 st=0x52a first8=2a050000 00666f63
+[   45.207060] qsee_fp: dev-cap-big-96x96 str[0]: focaltech:ta:core
+[   45.207089] qsee_fp: dev-cap-big-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.207269] qsee_fp: dev-cap-big-96x96 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.252642] qsee_fp: ION HIT dev-cap-meta-112x88 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.252679] qsee_fp: dev-cap-meta-112x88 st=0x52a first8=2a050000 00666f63
+[   45.252701] qsee_fp: dev-cap-meta-112x88 str[0]: focaltech:ta:core
+[   45.252729] qsee_fp: dev-cap-meta-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.252909] qsee_fp: dev-cap-meta-112x88 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.296068] qsee_fp: ION HIT dev-cap-big-112x88 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.296100] qsee_fp: dev-cap-big-112x88 st=0x52a first8=2a050000 00666f63
+[   45.296122] qsee_fp: dev-cap-big-112x88 str[0]: focaltech:ta:core
+[   45.296150] qsee_fp: dev-cap-big-112x88 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.296331] qsee_fp: dev-cap-big-112x88 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.339455] qsee_fp: ION HIT dev-cap-meta-80x80 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.339476] qsee_fp: dev-cap-meta-80x80 st=0x52a first8=2a050000 00666f63
+[   45.339499] qsee_fp: dev-cap-meta-80x80 str[0]: focaltech:ta:core
+[   45.339527] qsee_fp: dev-cap-meta-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.339709] qsee_fp: dev-cap-meta-80x80 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.385005] qsee_fp: ION HIT dev-cap-big-80x80 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.385035] qsee_fp: dev-cap-big-80x80 st=0x52a first8=2a050000 00666f63
+[   45.385057] qsee_fp: dev-cap-big-80x80 str[0]: focaltech:ta:core
+[   45.385085] qsee_fp: dev-cap-big-80x80 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.385263] qsee_fp: dev-cap-big-80x80 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.428245] qsee_fp: ION HIT dev-cap-meta-160x160 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.428274] qsee_fp: dev-cap-meta-160x160 st=0x52a first8=2a050000 00666f63
+[   45.428296] qsee_fp: dev-cap-meta-160x160 str[0]: focaltech:ta:core
+[   45.428324] qsee_fp: dev-cap-meta-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.428505] qsee_fp: dev-cap-meta-160x160 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.472282] qsee_fp: ION HIT dev-cap-big-160x160 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   45.472310] qsee_fp: dev-cap-big-160x160 st=0x52a first8=2a050000 00666f63
+[   45.472332] qsee_fp: dev-cap-big-160x160 str[0]: focaltech:ta:core
+[   45.472360] qsee_fp: dev-cap-big-160x160 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.472541] qsee_fp: dev-cap-big-160x160 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   45.541153] qsee_fp: dev-QEVENT2 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.541230] qsee_fp: dev-QEVENT2 LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.559762] qsee_fp: dev-QFINGER str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.560110] qsee_fp: dev-QFINGER LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.579805] qsee_fp: ION HIT dev-HEALTH-post-cap ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[   45.579828] qsee_fp: dev-HEALTH-post-cap st=0xde first8=de000000 00666f63
+[   45.579849] qsee_fp: dev-HEALTH-post-cap str[0]: focaltech:ta:core
+[   45.579877] qsee_fp: dev-HEALTH-post-cap str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.579911] qsee_fp: dev-HEALTH-post-cap LOGCONT begin len=222
+[   45.579924] qsee_fp: dev-HEALTH-post-cap LOG: focaltech:ta:core
+[   45.579956] qsee_fp: dev-HEALTH-post-cap LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.579987] qsee_fp: dev-HEALTH-post-cap LOGCONT end
+[   45.579996] qsee_fp: HEALTH after capture path er=0
+[   45.581306] qsee_fp: ION HIT dev-HEALTH-final ret=0 req0=0x80001016 rsp0=0xde err=0x0 rsp8=0x65746c61
+[   45.581326] qsee_fp: dev-HEALTH-final st=0xde first8=de000000 00666f63
+[   45.581346] qsee_fp: dev-HEALTH-final str[0]: focaltech:ta:core
+[   45.581374] qsee_fp: dev-HEALTH-final str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.581408] qsee_fp: dev-HEALTH-final LOGCONT begin len=222
+[   45.581421] qsee_fp: dev-HEALTH-final LOG: focaltech:ta:core
+[   45.581449] qsee_fp: dev-HEALTH-final LOG: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   45.581480] qsee_fp: dev-HEALTH-final LOGCONT end
+[   45.581488] qsee_fp: HEALTH final er=0 (TA alive if 0)
+[   45.581886] qsee_fp: done

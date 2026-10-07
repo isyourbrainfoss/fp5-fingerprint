@@ -1,0 +1,76 @@
+=== TRY 4/5 ===
+[  459.403564] qsee_fp: exit
+[  459.478134] qsee_fp: init
+[  459.498500] qsee_fp: ===== DEVICE TA id=4 aux=5 ion 0x78000/0x8040 cfg_len=633 spi_bus=14 spidev=0 =====
+[  459.503820] qsee_fp: aux-base-205 ret=0 st=0xffffffff
+[  459.530564] qsee_fp: aux-entry-1011 ret=0 st=0xffffffff
+[  459.555339] qsee_fp: big sess pa=0xff200000
+[  459.555527] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.555549] qsee_fp: ION dev-base-205 ret=-22 req0=0x205 rsp0=0x0 err=0x0
+[  459.555694] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.555708] qsee_fp: ION dev-entry-1011 ret=-22 req0=0x1011 rsp0=0x0 err=0x0
+[  459.555851] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.555865] qsee_fp: ION dev-SYNC_CFG-100d ret=-22 req0=0x100d rsp0=0x0 err=0x0
+[  459.570276] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.570300] qsee_fp: ION dev-INIT_SPI-1006 ret=-22 req0=0x1006 rsp0=0x0 err=0x0
+[  459.586252] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.586275] qsee_fp: ION dev-PROBE1-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[  459.602256] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.602278] qsee_fp: ION dev-PROBE2-100a ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[  459.618061] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.618084] qsee_fp: ION dev-INIT_DEV-100b ret=-22 req0=0x100b rsp0=0x0 err=0x0
+[  459.634145] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.634169] qsee_fp: ION dev-INIT-1004 ret=-22 req0=0x1004 rsp0=0x0 err=0x0
+[  459.650035] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.650058] qsee_fp: ION dev-CHIP_INIT-1022 ret=-22 req0=0x1022 rsp0=0x0 err=0x0
+[  459.666041] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.666065] qsee_fp: ION dev-HEALTH-1016 ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[  459.682002] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.682024] qsee_fp: ION dev-PROBE-9391 ret=-22 req0=0x100a rsp0=0x0 err=0x0
+[  459.682189] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.682208] qsee_fp: ION dev-SET_GROUP-0 ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[  459.718125] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.718148] qsee_fp: ION dev-SET_GROUP-1 ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[  459.753947] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.753970] qsee_fp: ION dev-SET_GROUP-2 ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[  459.790021] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.790044] qsee_fp: ION dev-ENUM ret=-22 req0=0x1028 rsp0=0x0 err=0x0
+[  459.806022] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.806044] qsee_fp: ION dev-AUTH_ID ret=-22 req0=0x1026 rsp0=0x0 err=0x0
+[  459.822021] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.822043] qsee_fp: ION dev-SCAN ret=-22 req0=0x1012 rsp0=0x0 err=0x0
+[  459.846026] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.846049] qsee_fp: ION dev-QEVENT ret=-22 req0=0x101c rsp0=0x0 err=0x0
+[  459.862234] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.862257] qsee_fp: ION dev-SET_GROUP-store ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[  459.897996] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.898013] qsee_fp: ION dev-PRE_ENROLL ret=-22 req0=0x2000 rsp0=0x0 err=0x0
+[  459.922086] qsee_fp: PRE_ENROLL er=-22 challenge=0x0 (c1=0 c2=0 c3=0)
+[  459.922105] qsee_fp: PRE req[0..31]: 00 20 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  459.922132] qsee_fp: PRE rsp[0..31]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[  459.922330] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.922351] qsee_fp: ION dev-ENROLL-plen0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[  459.945829] qsee_fp: ENROLL plen0 er=-22
+[  459.946021] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  459.946042] qsee_fp: ION dev-ENROLL-s0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[  459.946056] qsee_fp: dev-ENROLL-s0 er=-22 (finger on sensor if waiting)
+[  460.359334] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  460.359381] qsee_fp: ION dev-ENROLL-s1 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[  460.359396] qsee_fp: dev-ENROLL-s1 er=-22 (finger on sensor if waiting)
+[  460.775333] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  460.775380] qsee_fp: ION dev-ENROLL-s2 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[  460.775394] qsee_fp: dev-ENROLL-s2 er=-22 (finger on sensor if waiting)
+[  461.191861] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  461.191910] qsee_fp: ION dev-POST_ENROLL ret=-22 req0=0x2002 rsp0=0x0 err=0x0
+[  461.191925] qsee_fp: POST_ENROLL er=-22
+[  461.214193] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  461.214215] qsee_fp: ION dev-SET_GROUP-after ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[  461.238148] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  461.238170] qsee_fp: ION dev-ENUM-after ret=-22 req0=0x1028 rsp0=0x0 err=0x0
+[  461.253991] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[  461.254013] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[  461.282947] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[  461.310123] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[  461.338253] qsee_fp: ION fp-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0
+[  461.362191] qsee_fp: device-TA probe+auth-path complete
+[  461.362206] qsee_fp: done

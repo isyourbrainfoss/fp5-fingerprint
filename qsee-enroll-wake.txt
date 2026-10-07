@@ -1,0 +1,51 @@
+=== WAKE+SEG ENROLL ===
+[   60.376624] qsee_fp: dev-WMODE-3 HEX[192]: 68 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[   60.376645] qsee_fp: dev-WMODE-3 HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[   60.376655] qsee_fp: dev-WMODE-3 LOGCONT begin len=222
+[   60.376668] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[   60.376684] qsee_fp: dev-WMODE-3 LOG: loading templates for gid = 0...
+[   60.376693] qsee_fp: dev-WMODE-3 LOG: !
+[   60.376705] qsee_fp: dev-WMODE-3 LOG: focaltech:ta:interface
+[   60.376719] qsee_fp: dev-WMODE-3 LOG: there is 0 template loaded.
+[   60.376730] qsee_fp: dev-WMODE-3 LOG: 4   0   0   0
+[   60.376739] qsee_fp: dev-WMODE-3 LOG: !
+[   60.376751] qsee_fp: dev-WMODE-3 LOG: &focaltech:ft93xx:core
+[   60.376764] qsee_fp: dev-WMODE-3 LOG: switch to 'SLEEP' mode.
+[   60.376775] qsee_fp: dev-WMODE-3 LOG: tech:ta:co
+[   60.376783] qsee_fp: dev-WMODE-3 LOGCONT end
+[   60.392053] qsee_fp: ION HIT dev-SCAN-pre-enroll ret=0 req0=0x80001012 rsp0=0xde err=0x0 rsp8=0x65746c61
+[   60.392075] qsee_fp: dev-SCAN-pre-enroll st=0xde first8=de000000 00666f63
+[   60.392097] qsee_fp: dev-SCAN-pre-enroll str[0]: focaltech:ta:interface
+[   60.392115] qsee_fp: dev-SCAN-pre-enroll str[1]: loading templates for gid = 0...
+[   60.392133] qsee_fp: dev-SCAN-pre-enroll str[2]: focaltech:ta:interface
+[   60.392150] qsee_fp: dev-SCAN-pre-enroll str[3]: there is 0 template loaded.
+[   60.392164] qsee_fp: dev-SCAN-pre-enroll str[4]: 4   0   0   0
+[   60.392179] qsee_fp: dev-SCAN-pre-enroll str[5]: &focaltech:ft93xx:core
+[   60.392195] qsee_fp: dev-SCAN-pre-enroll str[6]: switch to 'SLEEP' mode.
+[   60.392208] qsee_fp: dev-SCAN-pre-enroll str[7]: tech:ta:config
+[   60.392219] qsee_fp: dev-SCAN-pre-enroll LOGCONT begin len=222
+[   60.392233] qsee_fp: dev-SCAN-pre-enroll LOG: focaltech:ta:interface
+[   60.392250] qsee_fp: dev-SCAN-pre-enroll LOG: loading templates for gid = 0...
+[   60.392260] qsee_fp: dev-SCAN-pre-enroll LOG: !
+[   60.392273] qsee_fp: dev-SCAN-pre-enroll LOG: focaltech:ta:interface
+[   60.392288] qsee_fp: dev-SCAN-pre-enroll LOG: there is 0 template loaded.
+[   60.392300] qsee_fp: dev-SCAN-pre-enroll LOG: 4   0   0   0
+[   60.392308] qsee_fp: dev-SCAN-pre-enroll LOG: !
+[   60.392321] qsee_fp: dev-SCAN-pre-enroll LOG: &focaltech:ft93xx:core
+[   60.392335] qsee_fp: dev-SCAN-pre-enroll LOG: switch to 'SLEEP' mode.
+[   60.392346] qsee_fp: dev-SCAN-pre-enroll LOG: tech:ta:co
+[   60.392354] qsee_fp: dev-SCAN-pre-enroll LOGCONT end
+[   60.428607] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.428623] qsee_fp: SEG dev-ENROLL-seg[0] ret=-22 cmd=0x2001 chunk=74 rem_after=0 req0=0x1000 rsp0=0x0 err=0x0
+[   60.428633] qsee_fp: dev-ENROLL-seg er=-22
+[   60.428637] qsee_fp: trying segmented ENROLL wrapper on device if still alive
+[   60.428642] qsee_fp: ENROLL failed; skip POST to inspect if TA still alive
+[   60.428752] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.428763] qsee_fp: ION dev-HEALTH-after-enroll ret=-22 req0=0x1016 rsp0=0x0 err=0x0
+[   60.428770] qsee_fp: HEALTH after ENROLL er=-22
+[   60.428874] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.451110] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.467006] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.495528] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[   60.523183] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[   60.575409] qsee_fp: done

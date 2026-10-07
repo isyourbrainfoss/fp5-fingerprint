@@ -1,0 +1,3 @@
+[   45.906127] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=274 spi_bus=14 spidev=0 =====
+[   45.912056] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x12a err=0x0 rsp8=0x65746c61
+[   45.926861] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x42a err=0x0 rsp8=0x65746c61

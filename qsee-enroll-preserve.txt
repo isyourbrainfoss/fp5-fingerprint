@@ -1,0 +1,86 @@
+=== PRESERVE BUF ENROLL ===
+[   58.065702] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   58.322172] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   59.094805] qsee_fp: PRE_ENROLL er=0 challenge=0x8e4b536a8c909502 (c1=8e4b536a8c909502 c2=0 c3=8e4b536a8c909502)
+[   59.094825] qsee_fp: PRE req[0..31]: 00 20 00 80 08 00 00 00 00 00 00 00 01 00 00 00 02 95 90 8c 6a 53 4b 8e 2f 6c 69 62 2f 66 70 35
+[   59.094850] qsee_fp: PRE rsp[0..31]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   59.096450] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   59.096467] qsee_fp: ION dev-ENROLL-s0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   59.504410] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   59.504439] qsee_fp: ION dev-ENROLL-s1 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   59.920249] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   59.920288] qsee_fp: ION dev-ENROLL-s2 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   60.336138] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.336185] qsee_fp: ION dev-POST_ENROLL ret=-22 req0=0x2002 rsp0=0x0 err=0x0
+[   60.336199] qsee_fp: POST_ENROLL er=-22
+[   60.358876] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.383043] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.399046] qcom_scm firmware:scm: qseecom: scm call failed with error -22
+[   60.507091] qsee_fp: device-TA probe+auth-path complete
+[   60.507115] qsee_fp: done
+--- full enroll region ---
+[   58.979887] qsee_fp: ION HIT dev-AUTH_ID ret=0 req0=0x80001026 rsp0=0xde err=0xffffff35 rsp8=0x0
+[   58.979892] qsee_fp: dev-AUTH_ID st=0xde first8=de000000 00000000
+[   58.979897] qsee_fp: dev-AUTH_ID str[0]:  0...
+[   58.979900] qsee_fp: dev-AUTH_ID str[1]: focaltech:ta:interface
+[   58.979903] qsee_fp: dev-AUTH_ID str[2]: there is 0 template loaded.
+[   58.979905] qsee_fp: dev-AUTH_ID str[3]: 0   0   0   0
+[   58.979907] qsee_fp: dev-AUTH_ID str[4]: &focaltech:ft93xx:core
+[   58.979910] qsee_fp: dev-AUTH_ID str[5]: switch to 'SLEEP' mode.
+[   58.979912] qsee_fp: dev-AUTH_ID str[6]: tech:ta:config
+[   58.979921] qsee_fp: dev-AUTH_ID HEX[000]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   58.979930] qsee_fp: dev-AUTH_ID HEX[032]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[   58.979939] qsee_fp: dev-AUTH_ID HEX[064]: 20 30 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 69 6e 74 65 72 66 61 63 
+[   58.979948] qsee_fp: dev-AUTH_ID HEX[096]: 65 00 00 00 00 00 00 00 00 00 00 74 68 65 72 65 20 69 73 20 30 20 74 65 6d 70 6c 61 74 65 20 6c 
+[   58.979958] qsee_fp: dev-AUTH_ID HEX[128]: 6f 61 64 65 64 2e 00 de 30 20 20 20 30 20 20 20 30 20 20 20 30 00 21 03 00 00 00 26 66 6f 63 61 
+[   58.979967] qsee_fp: dev-AUTH_ID HEX[160]: 6c 74 65 63 68 3a 66 74 39 33 78 78 3a 63 6f 72 65 00 00 00 00 00 00 00 00 00 00 73 77 69 74 63 
+[   58.979977] qsee_fp: dev-AUTH_ID HEX[192]: 68 20 74 6f 20 27 53 4c 45 45 50 27 20 6d 6f 64 65 2e 00 de 74 65 63 68 3a 74 61 3a 63 6f 6e 66 
+[   58.979982] qsee_fp: dev-AUTH_ID HEX[224]: 69 67 00 00 00 00 00 00 00 00 00 00 00 00 
+[   58.979983] qsee_fp: dev-AUTH_ID LOGCONT begin len=222
+[   58.979986] qsee_fp: dev-AUTH_ID LOG:  0...
+[   58.979988] qsee_fp: dev-AUTH_ID LOG: !
+[   58.979990] qsee_fp: dev-AUTH_ID LOG: focaltech:ta:interface
+[   58.979993] qsee_fp: dev-AUTH_ID LOG: there is 0 template loaded.
+[   58.979994] qsee_fp: dev-AUTH_ID LOG: 0   0   0   0
+[   58.979996] qsee_fp: dev-AUTH_ID LOG: !
+[   58.979998] qsee_fp: dev-AUTH_ID LOG: &focaltech:ft93xx:core
+[   58.980000] qsee_fp: dev-AUTH_ID LOG: switch to 'SLEEP' mode.
+[   58.980002] qsee_fp: dev-AUTH_ID LOG: tech:ta:co
+[   58.980003] qsee_fp: dev-AUTH_ID LOGCONT end
+[   59.073437] qsee_fp: ION HIT dev-PRE_ENROLL ret=0 req0=0x80002000 rsp0=0xde err=0x0 rsp8=0x0
+[   59.073460] qsee_fp: dev-PRE_ENROLL st=0xde first8=de000000 00000000
+[   59.073479] qsee_fp: dev-PRE_ENROLL str[0]:  0...
+[   59.073490] qsee_fp: dev-PRE_ENROLL str[1]: focaltech:ta:interface
+[   59.073502] qsee_fp: dev-PRE_ENROLL str[2]: there is 0 template loaded.
+[   59.073510] qsee_fp: dev-PRE_ENROLL str[3]: 0   0   0   0
+[   59.073520] qsee_fp: dev-PRE_ENROLL str[4]: &focaltech:ft93xx:core
+[   59.073531] qsee_fp: dev-PRE_ENROLL str[5]: switch to 'SLEEP' mode.
+[   59.073538] qsee_fp: dev-PRE_ENROLL str[6]: tech:ta:config
+[   59.073543] qsee_fp: dev-PRE_ENROLL LOGCONT begin len=222
+[   59.073559] qsee_fp: dev-PRE_ENROLL LOG:  0...
+[   59.073563] qsee_fp: dev-PRE_ENROLL LOG: !
+[   59.073571] qsee_fp: dev-PRE_ENROLL LOG: focaltech:ta:interface
+[   59.073581] qsee_fp: dev-PRE_ENROLL LOG: there is 0 template loaded.
+[   59.073588] qsee_fp: dev-PRE_ENROLL LOG: 0   0   0   0
+[   59.073592] qsee_fp: dev-PRE_ENROLL LOG: !
+[   59.073599] qsee_fp: dev-PRE_ENROLL LOG: &focaltech:ft93xx:core
+[   59.073608] qsee_fp: dev-PRE_ENROLL LOG: switch to 'SLEEP' mode.
+[   59.073614] qsee_fp: dev-PRE_ENROLL LOG: tech:ta:co
+[   59.073618] qsee_fp: dev-PRE_ENROLL LOGCONT end
+[   59.094805] qsee_fp: PRE_ENROLL er=0 challenge=0x8e4b536a8c909502 (c1=8e4b536a8c909502 c2=0 c3=8e4b536a8c909502)
+[   59.094825] qsee_fp: PRE req[0..31]: 00 20 00 80 08 00 00 00 00 00 00 00 01 00 00 00 02 95 90 8c 6a 53 4b 8e 2f 6c 69 62 2f 66 70 35
+[   59.094850] qsee_fp: PRE rsp[0..31]: de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+[   59.096467] qsee_fp: ION dev-ENROLL-s0 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   59.096474] qsee_fp: dev-ENROLL-s0 er=-22 (finger on sensor if waiting)
+[   59.504439] qsee_fp: ION dev-ENROLL-s1 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   59.504448] qsee_fp: dev-ENROLL-s1 er=-22 (finger on sensor if waiting)
+[   59.920288] qsee_fp: ION dev-ENROLL-s2 ret=-22 req0=0x2001 rsp0=0x0 err=0x0
+[   59.920298] qsee_fp: dev-ENROLL-s2 er=-22 (finger on sensor if waiting)
+[   60.336185] qsee_fp: ION dev-POST_ENROLL ret=-22 req0=0x2002 rsp0=0x0 err=0x0
+[   60.336199] qsee_fp: POST_ENROLL er=-22
+[   60.358899] qsee_fp: ION dev-SET_GROUP-after ret=-22 req0=0x2007 rsp0=0x0 err=0x0
+[   60.383065] qsee_fp: ION dev-ENUM-after ret=-22 req0=0x1028 rsp0=0x0 err=0x0
+[   60.399069] qsee_fp: ION dev-AUTH ret=-22 req0=0x2008 rsp0=0x0 err=0x0
+[   60.427743] qsee_fp: ION fp-PRE_ENROLL ret=0 req0=0x2000 rsp0=0xffffffff err=0x0
+[   60.455208] qsee_fp: ION fp-ENROLL ret=0 req0=0x2001 rsp0=0xffffffff err=0x0
+[   60.483710] qsee_fp: ION fp-AUTH ret=0 req0=0x2008 rsp0=0xffffffff err=0x0

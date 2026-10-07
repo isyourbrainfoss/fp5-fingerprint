@@ -1,0 +1,63 @@
+/tmp/focaltech_fp_life.ko
+/tmp/qsee_fingerpr.ko
+ 22:02:29 up 1 min,  0 users,  load average: 1.08, 0.41, 0.14
+[   57.782027] qsee_fp: aux-entry-1011 blocked/incomplete result=1 type=0xee02 lid=10
+[   57.812397] qsee_fp: dev-base-205 str[9]: TA is successfully created.
+[   57.812473] qsee_fp: dev-base-205 LOG: TA is successfully created.
+[   57.814528] qsee_fp: dev-SYNC_CFG-100d str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   57.814658] qsee_fp: dev-SYNC_CFG-100d LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[   57.827997] qsee_fp: dev-INIT_SPI-1006 str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   57.828045] qsee_fp: dev-INIT_SPI-1006 LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[   58.134910] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   58.134915] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   58.134922] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   58.134974] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   58.134979] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   58.134989] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   58.151218] qsee_fp: dev-CHIP_INIT-1022 str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   58.151261] qsee_fp: dev-CHIP_INIT-1022 LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   58.199900] qsee_fp: dev-INIT-1004 str[5]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.199904] qsee_fp: dev-INIT-1004 str[7]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.199907] qsee_fp: dev-INIT-1004 str[9]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.199911] qsee_fp: dev-INIT-1004 str[11]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.199914] qsee_fp: dev-INIT-1004 str[13]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.199917] qsee_fp: dev-INIT-1004 str[15]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   58.199921] qsee_fp: dev-INIT-1004 str[17]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   58.199924] qsee_fp: dev-INIT-1004 str[19]: no key named 'algorithm.min_identify_cond_threshold
+[   58.199968] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.199973] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.199979] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.199984] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.199988] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.199992] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   58.199997] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   58.200001] qsee_fp: dev-INIT-1004 LOG: no key named 'algorithm.min_identify_cond_t
+[   58.231028] qsee_fp: dev-SYNC_STATS-100e str[6]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.231031] qsee_fp: dev-SYNC_STATS-100e str[8]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.231035] qsee_fp: dev-SYNC_STATS-100e str[10]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.231039] qsee_fp: dev-SYNC_STATS-100e str[12]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.231043] qsee_fp: dev-SYNC_STATS-100e str[14]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.231091] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.231095] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.231100] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.231103] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.231108] qsee_fp: dev-SYNC_STATS-100e LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.396894] qsee_fp: dev-HEALTH-1016 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.396897] qsee_fp: dev-HEALTH-1016 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.396901] qsee_fp: dev-HEALTH-1016 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.396904] qsee_fp: dev-HEALTH-1016 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.396908] qsee_fp: dev-HEALTH-1016 str[15]: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.396958] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enable_forced_enrollment', use default value.
+[   58.396963] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[   58.396968] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[   58.396973] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.min_enrolling_cond_threshold', use default value.
+[   58.396977] qsee_fp: dev-HEALTH-1016 LOG: no key named 'algorithm.enrolling_overlap_intervals', use default value.
+[   58.469366] qsee_fp: dev-PROBE-id-00009024 str[22]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   58.469370] qsee_fp: dev-PROBE-id-00009024 str[24]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   58.469373] qsee_fp: dev-PROBE-id-00009024 str[26]: no key named 'algorithm.min_identify_cond_threshold
+[   58.469450] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   58.469455] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   58.469459] qsee_fp: dev-PROBE-id-00009024 LOG: no key named 'algorithm.min_identify_cond_t
+[   58.502799] qsee_fp: dev-PROBE-id-00009391 str[21]: no key named 'algorithm.min_identify_quality_threshold', use default value.
+[   58.502802] qsee_fp: dev-PROBE-id-00009391 str[23]: no key named 'algorithm.min_identify_coverage_threshold', use default value.
+[   58.502806] qsee_fp: dev-PROBE-id-00009391 str[25]: no key named 'algorithm.min_identify_cond_threshold', use default value.

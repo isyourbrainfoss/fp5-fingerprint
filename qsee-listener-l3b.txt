@@ -1,0 +1,54 @@
+L3_DONE
+[  118.121686] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[  118.121863] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[  118.121865] qsee_fp: FILE_SERVICE listener registered OK
+[  118.123248] qsee_fp: ION HIT lvl3-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[  118.123253] qsee_fp: lvl3-205 st=0x22a first8=2a020000 00666f63
+[  118.123259] qsee_fp: lvl3-205 str[0]: focaltech:ta:base
+[  118.123262] qsee_fp: lvl3-205 str[1]: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[  118.123265] qsee_fp: lvl3-205 str[2]: focaltech:ta:base
+[  118.123269] qsee_fp: lvl3-205 str[3]: TEE environment checking...
+[  118.123271] qsee_fp: lvl3-205 str[4]: focaltech:ta:base
+[  118.123274] qsee_fp: lvl3-205 str[5]: testing timing...0(0)ms.
+[  118.123276] qsee_fp: lvl3-205 str[6]: focaltech:ta:base
+[  118.123279] qsee_fp: lvl3-205 str[7]: testing msleep(50)...50ms.
+[  118.123282] qsee_fp: lvl3-205 str[8]: focaltech:ta:base
+[  118.123284] qsee_fp: lvl3-205 str[9]: TA is successfully created.
+[  118.123287] qsee_fp: lvl3-205 str[10]: focaltech:ta:entry
+[  118.123290] qsee_fp: lvl3-205 str[11]: QSEE TA is ready.
+[  118.123305] qsee_fp: lvl3-205 HEX[000]: 2a 02 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 
+[  118.123317] qsee_fp: lvl3-205 HEX[032]: 00 00 00 00 00 76 65 72 73 69 6f 6e 3a 20 27 76 32 2e 35 2e 33 2e 30 2d 63 64 66 30 66 38 30 2d 
+[  118.123327] qsee_fp: lvl3-205 HEX[064]: 32 33 30 36 31 34 40 30 39 32 38 27 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[  118.123335] qsee_fp: lvl3-205 HEX[096]: 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 45 45 20 65 6e 76 69 72 6f 6e 6d 65 
+[  118.123344] qsee_fp: lvl3-205 HEX[128]: 6e 74 20 63 68 65 63 6b 69 6e 67 2e 2e 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 
+[  118.123353] qsee_fp: lvl3-205 HEX[160]: 3a 62 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 74 69 6d 69 
+[  118.123361] qsee_fp: lvl3-205 HEX[192]: 6e 67 2e 2e 2e 30 28 30 29 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[  118.123370] qsee_fp: lvl3-205 HEX[224]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 74 65 73 74 69 6e 67 20 6d 73 6c 65 65 70 
+[  118.123378] qsee_fp: lvl3-205 HEX[256]: 28 35 30 29 2e 2e 2e 35 30 6d 73 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 62 
+[  118.123387] qsee_fp: lvl3-205 HEX[288]: 61 73 65 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 54 41 20 69 73 20 73 75 63 63 65 73 73 66 
+[  118.123395] qsee_fp: lvl3-205 HEX[320]: 75 6c 6c 79 20 63 72 65 61 74 65 64 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 
+[  118.123404] qsee_fp: lvl3-205 HEX[352]: 65 6e 74 72 79 00 00 00 00 00 00 00 00 00 00 00 00 00 00 51 53 45 45 20 54 41 20 69 73 20 72 65 
+[  118.123413] qsee_fp: lvl3-205 HEX[384]: 61 64 79 2e 00 de 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  118.123422] qsee_fp: lvl3-205 HEX[416]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  118.123430] qsee_fp: lvl3-205 HEX[448]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  118.123439] qsee_fp: lvl3-205 HEX[480]: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+[  118.123440] qsee_fp: lvl3-205 LOGCONT begin len=554
+[  118.123442] qsee_fp: lvl3-205 LOG: focaltech:ta:base
+[  118.123445] qsee_fp: lvl3-205 LOG: version: 'v2.5.3.0-cdf0f80-230614@0928'.
+[  118.123446] qsee_fp: lvl3-205 LOG: !
+[  118.123448] qsee_fp: lvl3-205 LOG: focaltech:ta:base
+[  118.123451] qsee_fp: lvl3-205 LOG: TEE environment checking...
+[  118.123453] qsee_fp: lvl3-205 LOG: !
+[  118.123455] qsee_fp: lvl3-205 LOG: focaltech:ta:base
+[  118.123457] qsee_fp: lvl3-205 LOG: testing timing...0(0)ms.
+[  118.123459] qsee_fp: lvl3-205 LOG: !
+[  118.123460] qsee_fp: lvl3-205 LOG: focaltech:ta:base
+[  118.123463] qsee_fp: lvl3-205 LOG: testing msleep(50)...50ms.
+[  118.123464] qsee_fp: lvl3-205 LOG: !
+[  118.123466] qsee_fp: lvl3-205 LOG: focaltech:ta:base
+[  118.123469] qsee_fp: lvl3-205 LOG: TA is successfully created.
+[  118.123470] qsee_fp: lvl3-205 LOG: !
+[  118.123472] qsee_fp: lvl3-205 LOG: focaltech:ta:entry
+[  118.123474] qsee_fp: lvl3-205 LOG: QSEE TA is ready.
+[  118.123478] qsee_fp: lvl3-205 LOGCONT end
+[  118.123479] qsee_fp: level3 send_ion ret=0

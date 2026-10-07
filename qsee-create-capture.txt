@@ -1,0 +1,101 @@
+=== CREATE EXPERIMENT ===
+[   42.492101] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   42.743464] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   42.816100] qsee_fp: ION HIT dev-CREATE-1001 ret=0 req0=0x80001001 rsp0=0xde err=0xffffff35 rsp8=0x65746c61
+[   42.816114] qsee_fp: dev-CREATE-1001 st=0xde first8=de000000 00666f63
+[   42.816126] qsee_fp: dev-CREATE-1001 str[0]: focaltech:ta:config
+[   42.816145] qsee_fp: dev-CREATE-1001 str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   42.816154] qsee_fp: dev-CREATE-1001 str[2]: focaltech:ta:config
+[   42.816166] qsee_fp: dev-CREATE-1001 str[3]: configurations is synced to TA.
+[   42.816175] qsee_fp: dev-CREATE-1001 str[4]: focaltech:ta:config
+[   42.816185] qsee_fp: dev-CREATE-1001 str[5]: no key named 'extensio
+[   42.816201] qsee_fp: dev-CREATE-1001 HEX[000]: de 00 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 69 67 00 00 00 00 00 00 00 00 
+[   42.816217] qsee_fp: dev-CREATE-1001 HEX[032]: 00 00 00 00 00 6e 6f 20 6b 65 79 20 6e 61 6d 65 64 20 27 64 69 61 67 6e 6f 73 69 73 2e 61 6c 67 
+[   42.816235] qsee_fp: dev-CREATE-1001 HEX[064]: 6f 72 69 74 68 6d 5f 6c 6f 67 5f 6c 65 76 65 6c 27 2c 20 75 73 65 20 64 65 66 61 75 6c 74 20 76 
+[   42.816251] qsee_fp: dev-CREATE-1001 HEX[096]: 61 6c 75 65 2e 00 21 03 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 66 69 67 00 00 
+[   42.816268] qsee_fp: dev-CREATE-1001 HEX[128]: 00 00 00 00 00 00 00 00 00 00 00 63 6f 6e 66 69 67 75 72 61 74 69 6f 6e 73 20 69 73 20 73 79 6e 
+[   42.816285] qsee_fp: dev-CREATE-1001 HEX[160]: 63 65 64 20 74 6f 20 54 41 2e 00 21 04 00 00 00 66 6f 63 61 6c 74 65 63 68 3a 74 61 3a 63 6f 6e 
+[   42.816302] qsee_fp: dev-CREATE-1001 HEX[192]: 66 69 67 00 00 00 00 00 00 00 00 00 00 00 00 00 6e 6f 20 6b 65 79 20 6e 61 6d 65 64 20 27 65 78 
+[   42.816311] qsee_fp: dev-CREATE-1001 HEX[224]: 74 65 6e 73 69 6f 6e 2e 68 65 61 6c 74 68 
+[   42.816315] qsee_fp: dev-CREATE-1001 LOGCONT begin len=222
+[   42.816322] qsee_fp: dev-CREATE-1001 LOG: focaltech:ta:config
+[   42.816338] qsee_fp: dev-CREATE-1001 LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[   42.816343] qsee_fp: dev-CREATE-1001 LOG: !
+[   42.816350] qsee_fp: dev-CREATE-1001 LOG: focaltech:ta:config
+[   42.816361] qsee_fp: dev-CREATE-1001 LOG: configurations is synced to TA.
+[   42.816365] qsee_fp: dev-CREATE-1001 LOG: !
+[   42.816372] qsee_fp: dev-CREATE-1001 LOG: focaltech:ta:config
+[   42.816380] qsee_fp: dev-CREATE-1001 LOG: no key named '
+[   42.816383] qsee_fp: dev-CREATE-1001 LOGCONT end
+[   42.831673] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x65746c61
+[   42.831683] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00666f63
+[   42.831694] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:config
+[   42.831712] qsee_fp: dev-INIT_SPI-1006 str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[   42.831721] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:config
+[   42.831733] qsee_fp: dev-INIT_SPI-1006 str[3]: configurations is synced to TA.
+[   42.831743] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:config
+[   42.831753] qsee_fp: dev-INIT_SPI-1006 str[5]: no key named 'extensio
+[   42.831758] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[   42.831765] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[   42.831782] qsee_fp: dev-INIT_SPI-1006 LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[   42.831786] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[   42.831793] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[   42.831804] qsee_fp: dev-INIT_SPI-1006 LOG: configurations is synced to TA.
+[   42.831808] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[   42.831815] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[   42.831823] qsee_fp: dev-INIT_SPI-1006 LOG: no key named '
+[   42.831826] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[   43.157697] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x32a err=0x0 rsp8=0x65746c61
+[   43.157705] qsee_fp: dev-INIT_DEV-100b st=0x32a first8=2a030000 00666f63
+[   43.157708] qsee_fp: dev-INIT_DEV-100b str[0]: focaltech:ta:device
+[   43.157710] qsee_fp: dev-INIT_DEV-100b str[1]: initializing the device...
+[   43.157712] qsee_fp: dev-INIT_DEV-100b str[2]: focaltech:ta:device
+[   43.157715] qsee_fp: dev-INIT_DEV-100b str[3]: 'ft_fp_serial_id.bin' not exist, skip.
+[   43.157716] qsee_fp: dev-INIT_DEV-100b str[4]: &focaltech:ft93xx:core
+[   43.157718] qsee_fp: dev-INIT_DEV-100b str[5]: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   43.157720] qsee_fp: dev-INIT_DEV-100b str[6]: focaltech:ta:file
+[   43.157723] qsee_fp: dev-INIT_DEV-100b str[7]: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERIC: Generic failure error'.
+[   43.157725] qsee_fp: dev-INIT_DEV-100b str[8]: focaltech:ta:file
+[   43.157727] qsee_fp: dev-INIT_DEV-100b str[9]: error at ff_file_open[file.c:83]: 'I/O error'.
+[   43.157728] qsee_fp: dev-INIT_DEV-100b str[10]: focaltech:ta:device
+[   43.157731] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   43.157732] qsee_fp: dev-INIT_DEV-100b str[12]: focaltech:efc
+[   43.157734] qsee_fp: dev-INIT_DEV-100b str[13]: efc data not exist, skip.
+[   43.157736] qsee_fp: dev-INIT_DEV-100b str[14]: &focaltech:ft93xx:afe
+[   43.157738] qsee_fp: dev-INIT_DEV-100b str[15]: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   43.157740] qsee_fp: dev-INIT_DEV-100b str[16]: &focaltech:ft93xx:afe
+[   43.157741] qsee_fp: dev-INIT_DEV-100b str[17]: chip feature, io controlleable and
+[   43.157742] qsee_fp: dev-INIT_DEV-100b LOGCONT begin len=810
+[   43.157744] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   43.157746] qsee_fp: dev-INIT_DEV-100b LOG: initializing the device...
+[   43.157747] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157748] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   43.157751] qsee_fp: dev-INIT_DEV-100b LOG: 'ft_fp_serial_id.bin' not exist, skip.
+[   43.157752] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157754] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:core
+[   43.157756] qsee_fp: dev-INIT_DEV-100b LOG: sn num: 0b0a6944171209070800fb120d1e1dff22
+[   43.157757] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157758] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   43.157761] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:82]: qsee_sfs_open('/data/vendor_de/0/fpdata/ft_fp_serial_id.bin', ..) = 'SFS_ERROR_GENERI
+[   43.157763] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157764] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:file
+[   43.157766] qsee_fp: dev-INIT_DEV-100b LOG: error at ff_file_open[file.c:83]: 'I/O error'.
+[   43.157768] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157769] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:ta:device
+[   43.157772] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[   43.157773] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157774] qsee_fp: dev-INIT_DEV-100b LOG: focaltech:efc
+[   43.157776] qsee_fp: dev-INIT_DEV-100b LOG: efc data not exist, skip.
+[   43.157777] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157778] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   43.157780] qsee_fp: dev-INIT_DEV-100b LOG: cidri: 95 f: 3(0:U 1:S 2:D 3:N) v: 4(0:A 1:B 2:C 3:D 4:E 5:F)
+[   43.157781] qsee_fp: dev-INIT_DEV-100b LOG: !
+[   43.157783] qsee_fp: dev-INIT_DEV-100b LOG: &focaltech:ft93xx:afe
+[   43.157784] qsee_fp: dev-INIT_DEV-100b LOG: chip feature, io controlle
+[   43.157785] qsee_fp: dev-INIT_DEV-100b LOGCONT end
+[   43.668371] qsee_fp: ION HIT dev-cap-meta-96x96 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[   43.668392] qsee_fp: dev-cap-meta-96x96 st=0x52a first8=2a050000 00666f63
+[   43.668413] qsee_fp: dev-cap-meta-96x96 str[0]: focaltech:ta:core
+[   43.668439] qsee_fp: dev-cap-meta-96x96 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[   43.668600] qsee_fp: dev-cap-meta-96x96 er=0 err=0xffffff37 img=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[   44.086214] qsee_fp: HEALTH final er=0 (TA alive if 0)

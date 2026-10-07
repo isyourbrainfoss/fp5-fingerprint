@@ -1,0 +1,2 @@
+/tmp/qsee_fingerpr.ko
+Timeout, server 192.168.50.13 not responding.

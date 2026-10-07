@@ -1,0 +1,51 @@
+=== cmdline ===
+quiet splash plymouth.ignore-serial-consoles plymouth.prefer-fbcon pmos_boot_uuid=58CE-97EB pmos_root_uuid=c57778ab-2cde-4f1f-a2aa-9726320a4754 pmos_rootfsopts=defaults androidboot.verifiedbootstate=orange androidboot.keymaster=1 androidboot.vbmeta.device=PARTUUID=5cfaad23-ec16-09e3-0a7e-3760663aa750 androidboot.vbmeta.avb_version=1.0 androidboot.vbmeta.device_state=unlocked androidboot.vbmeta.hash_alg=sha256 androidboot.vbmeta.size=8960 androidboot.vbmeta.digest=f2bd0682d4871c39272d727284029c616d9659121b7b3e75f11557b4db0044a1 androidboot.vbmeta.invalidate_on_error=yes androidboot.veritymode=enforcing androidboot.bootdevice=1d84000.ufshc androidboot.fstab_suffix=default androidboot.boot_devices=soc/1d84000.ufshc androidboot.serialno=26680ab9 androidboot.baseband=msm msm_drm.dsi_display0=qcom,mdss_dsi_rm692e5_boe_amoled_cmd: androidboot.slot_suffix=_b rootwait ro init=/init androidboot.force_normal_boot=1 androidboot.CID=STD androidboot.LOCALE=en WifiMac=54:08:3B:C2:72:B3 androidboot.insecure=false androidboot.uartflag=false
+=== boot dtb? ===
+total 68768
+drwx------   19 root     root          4096 Jan  1  1970 .
+dr-xr-xr-x   18 root     root          4096 Jul 25 04:03 ..
+drwx------    2 root     root          4096 Jul 25 22:40 Alarms
+drwx------    3 root     root          4096 Jul 25 22:40 Android
+drwx------    2 root     root          4096 Jul 25 22:40 Audiobooks
+drwx------    2 root     root          4096 Jul 25 22:40 DCIM
+drwx------    2 root     root          4096 Jul 25 22:40 Documents
+drwx------    2 root     root          4096 Jul 25 22:40 Download
+drwx------    3 root     root          4096 Jul 25 04:03 EFI
+/sys/firmware/fdt
+
+/sys/firmware/devicetree:
+base
+/sys/bus/platform/devices/9c0000.geniqup
+/sys/bus/platform/devices/ac0000.geniqup
+9c0000.geniqup
+ac0000.geniqup
+[  129.576429] qsee_fp: init
+[  129.588898] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=778 spi_bus=14 spidev=1 =====
+[  129.590457] qsee_fp: big sess pa=0xff200000
+[  129.592145] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x12a err=0xffffff35 rsp8=0x65746c61
+[  129.592158] qsee_fp: dev-base-205 st=0x12a first8=2a010000 00666f63
+[  129.592173] qsee_fp: dev-base-205 str[0]: focaltech:ta:entry
+[  129.592192] qsee_fp: dev-base-205 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.592203] qsee_fp: dev-base-205 str[2]: focaltech:ta:entry
+[  129.592225] qsee_fp: dev-base-205 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[  129.592236] qsee_fp: dev-base-205 str[4]: focaltech:ta:trans
+[  129.592256] qsee_fp: dev-base-205 str[5]: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.592266] qsee_fp: dev-base-205 str[6]: focaltech:ta:trans
+[  129.592272] qsee_fp: dev-base-205 LOGCONT begin len=298
+[  129.592282] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[  129.592297] qsee_fp: dev-base-205 LOG: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.592303] qsee_fp: dev-base-205 LOG: !
+[  129.592311] qsee_fp: dev-base-205 LOG: focaltech:ta:entry
+[  129.592330] qsee_fp: dev-base-205 LOG: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE
+[  129.592335] qsee_fp: dev-base-205 LOG: !
+[  129.592344] qsee_fp: dev-base-205 LOG: focaltech:ta:trans
+[  129.592361] qsee_fp: dev-base-205 LOG: trustlet_trans.c:558, 'ff_trustlet_message_cb' enter.
+[  129.592366] qsee_fp: dev-base-205 LOG: !
+[  129.592374] qsee_fp: dev-base-205 LOG: focaltech:t
+[  129.592378] qsee_fp: dev-base-205 LOGCONT end
+[  129.593500] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x12a err=0xff000feb rsp8=0x65746c61
+[  129.593512] qsee_fp: dev-entry-1011 st=0x12a first8=2a010000 00666f63
+[  129.593527] qsee_fp: dev-entry-1011 str[0]: focaltech:ta:entry
+[  129.593544] qsee_fp: dev-entry-1011 str[1]: trustlet_entry.c:89, 'tz_app_cmd_handler' enter.
+[  129.593556] qsee_fp: dev-entry-1011 str[2]: focaltech:ta:entry
+[  129.593576] qsee_fp: dev-entry-1011 str[3]: trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_SET_KM_KEY

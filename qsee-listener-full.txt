@@ -1,0 +1,8 @@
+=== DMESG ===
+[  787.508110] qsee_fp: REGISTER_LISTENER attempt id=10 pa=0xff200000 len=0x10000
+[  787.508296] qsee_fp: REGISTER_LISTENER ret=0 result=0x0 type=0x0 data=0x0
+[  787.508300] qsee_fp: FILE_SERVICE listener registered OK
+[  787.564886] qsee_fp: START focal32 ret=-22 res=0xfffffffffffffed3 id=0x0
+[  787.564984] qsee_fp: START focal32 -22
+[  787.613789] qsee_fp: START fingerpr ret=-22 res=0xfffffffffffffed3 id=0x0
+[  787.613999] qsee_fp: START fingerpr -22 (device path may still work)

@@ -1,0 +1,42 @@
+[   33.963024] qsee_fp: init
+[   34.114314] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   34.222252] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   34.222508] qsee_fp: ===== DEVICE TA id=4 aux=0 ion 0x78000/0x8040 cfg_len=779 =====
+[   34.223190] qsee_fp: big sess pa=0xff200000
+[   34.223875] qsee_fp: ION HIT dev-base-205 ret=0 req0=0x80000205 rsp0=0x22a err=0xffffff35 rsp8=0x65746c61
+[   34.223879] qsee_fp: dev-base-205 st=0x22a first8=2a020000 00666f63
+[   34.223887] qsee_fp: dev-base-205 str: focaltech:ta:base|version: 'v2.5.3.0-cdf0f80-230614@0928'.|focaltech:ta:base|TEE environment checking...|focaltech:ta:base|testing timing...0(0)ms.|focaltech:ta
+[   34.224701] qsee_fp: ION HIT dev-entry-1011 ret=0 req0=0x80001011 rsp0=0x32a err=0xff000feb rsp8=0x65746c61
+[   34.224704] qsee_fp: dev-entry-1011 st=0x32a first8=2a030000 00666f63
+[   34.224712] qsee_fp: dev-entry-1011 str: focaltech:ta:entry|keymaster identity: ''.|focaltech:ta:entry|encapsulated key data (0):|focaltech:ta:entry|decapsulated key data (32):|focaltech:util|0000  00 
+[   34.225156] qsee_fp: ION HIT dev-CREATE-1001 ret=0 req0=0x80001001 rsp0=0xeeeeeede err=0xffffff35 rsp8=0xeeeeeeee
+[   34.225158] qsee_fp: dev-CREATE-1001 st=0xeeeeeede first8=deeeeeee eeeeeeee
+[   34.225164] qsee_fp: dev-CREATE-1001 str: focaltech:ta:entry|encapsulated key data (0):|focaltech:ta:entry|decapsulated key data (32):|focaltech:util|0000  00 00 00 00 00 00 00 00
+[   34.245130] qsee_fp: ION HIT dev-SYNC_CFG-100d ret=0 req0=0x8000100d rsp0=0x42a err=0x0 rsp8=0x65746c61
+[   34.245142] qsee_fp: dev-SYNC_CFG-100d st=0x42a first8=2a040000 00666f63
+[   34.245156] qsee_fp: dev-SYNC_CFG-100d str: focaltech:ta:config|no key named 'diagnosis.framework_log_level', use default value.|focaltech:ta:config|no key named 'diagnosis.firmware_log_level', use defaul
+[   34.264845] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0x12a err=0xfffffffb rsp8=0x65746c61
+[   34.264856] qsee_fp: dev-INIT_SPI-1006 st=0x12a first8=2a010000 00666f63
+[   34.264865] qsee_fp: dev-INIT_SPI-1006 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_SPI|focaltech
+[   34.323884] qsee_fp: ION HIT dev-PROBE-100a ret=0 req0=0x8000100a rsp0=0x12a err=0xffffff33 rsp8=0x65746c61
+[   34.323901] qsee_fp: dev-PROBE-100a st=0x12a first8=2a010000 00666f63
+[   34.323917] qsee_fp: dev-PROBE-100a str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE|focal
+[   34.342808] qsee_fp: ION HIT dev-INIT_DEV-100b ret=0 req0=0x8000100b rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[   34.342816] qsee_fp: dev-INIT_DEV-100b st=0x12a first8=2a010000 00666f63
+[   34.342822] qsee_fp: dev-INIT_DEV-100b str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT_DEVICE|focalt
+[   34.362570] qsee_fp: ION HIT dev-INIT-1004 ret=0 req0=0x80001004 rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[   34.362581] qsee_fp: dev-INIT-1004 st=0x12a first8=2a010000 00666f63
+[   34.362592] qsee_fp: dev-INIT-1004 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_INIT|focaltech:ta:
+[   34.383218] qsee_fp: ION HIT dev-CHIP_INIT-1023 ret=0 req0=0x80001023 rsp0=0x12a err=0xffffffff rsp8=0x65746c61
+[   34.383241] qsee_fp: dev-CHIP_INIT-1023 st=0x12a first8=2a010000 00666f63
+[   34.383264] qsee_fp: dev-CHIP_INIT-1023 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_CHIP_PARAMETER_INI
+[   34.399773] qsee_fp: ION HIT dev-HEALTH-1016 ret=0 req0=0x80001016 rsp0=0x12a err=0x0 rsp8=0x65746c61
+[   34.399785] qsee_fp: dev-HEALTH-1016 st=0x12a first8=2a010000 00666f63
+[   34.399795] qsee_fp: dev-HEALTH-1016 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_CHECK_HEALTH|focal
+[   34.417630] qsee_fp: ION HIT dev-PROBE-9391 ret=0 req0=0x8000100a rsp0=0x12a err=0xfffffff5 rsp8=0x65746c61
+[   34.417641] qsee_fp: dev-PROBE-9391 st=0x12a first8=2a010000 00666f63
+[   34.417651] qsee_fp: dev-PROBE-9391 str: focaltech:ta:entry|trustlet_entry.c:89, 'tz_app_cmd_handler' enter.|focaltech:ta:entry|trustlet_entry.c:107, message->request.cmd = FF_CMD_TA_PROBE_DEVICE|focal
+[   34.460026] qsee_fp: HIT dev-sm-PROBE ret=0
+[   34.460049] qsee_fp: dev-sm-PROBE st=0x0 first8=00000000 00000000
+[   34.460172] qsee_fp: device-TA probe complete
+[   34.460175] qsee_fp: done

@@ -1,0 +1,40 @@
+[  215.597532] qsee_fp: ION HIT dev-INIT_SPI-1006 ret=0 req0=0x80001006 rsp0=0xde err=0x0 rsp8=0x65746c61
+[  215.597551] qsee_fp: dev-INIT_SPI-1006 st=0xde first8=de000000 00666f63
+[  215.597571] qsee_fp: dev-INIT_SPI-1006 str[0]: focaltech:ta:config
+[  215.597599] qsee_fp: dev-INIT_SPI-1006 str[1]: no key named 'diagnosis.algorithm_log_level', use default value.
+[  215.597616] qsee_fp: dev-INIT_SPI-1006 str[2]: focaltech:ta:config
+[  215.597636] qsee_fp: dev-INIT_SPI-1006 str[3]: configurations is synced to TA.
+[  215.597653] qsee_fp: dev-INIT_SPI-1006 str[4]: focaltech:ta:config
+[  215.597670] qsee_fp: dev-INIT_SPI-1006 str[5]: no key named 'extensio
+[  215.597679] qsee_fp: dev-INIT_SPI-1006 LOGCONT begin len=222
+[  215.597693] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  215.597718] qsee_fp: dev-INIT_SPI-1006 LOG: no key named 'diagnosis.algorithm_log_level', use default value.
+[  215.597727] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  215.597740] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  215.597759] qsee_fp: dev-INIT_SPI-1006 LOG: configurations is synced to TA.
+[  215.597767] qsee_fp: dev-INIT_SPI-1006 LOG: !
+[  215.597780] qsee_fp: dev-INIT_SPI-1006 LOG: focaltech:ta:config
+[  215.597794] qsee_fp: dev-INIT_SPI-1006 LOG: no key named '
+[  215.597801] qsee_fp: dev-INIT_SPI-1006 LOGCONT end
+[  215.944464] qsee_fp: dev-INIT_DEV-100b str[11]: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  215.944503] qsee_fp: dev-INIT_DEV-100b LOG: error at __module_serial_sync[device.c:136]: 'Null pointer'.
+[  216.459301] qsee_fp: dev-cap-zeros str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  216.459772] qsee_fp: dev-cap-zeros img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  216.513581] qsee_fp: dev-cap-off-len str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  216.514048] qsee_fp: dev-cap-off-len img[0..15]=a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5 a5
+[  216.571793] qsee_fp: ION HIT dev-cap-flag1 ret=0 req0=0x80001013 rsp0=0x52a err=0xffffff37 rsp8=0x65746c61
+[  216.571831] qsee_fp: dev-cap-flag1 st=0x52a first8=2a050000 00666f63
+[  216.571857] qsee_fp: dev-cap-flag1 str[0]: focaltech:ta:core
+[  216.571890] qsee_fp: dev-cap-flag1 str[1]: error at ff_trustlet_capture_image[trustlet_core.c:1195]: 'Null pointer'.
+[  216.571910] qsee_fp: dev-cap-flag1 str[2]:  is 0 template loaded.
+[  216.571925] qsee_fp: dev-cap-flag1 str[3]: 2   0   0   0
+[  216.572097] qsee_fp: dev-cap-flag1 str[4]: &focaltech:ft93xx:core
+[  216.572119] qsee_fp: dev-cap-flag1 str[5]: switch to 'SLEEP' mode.
+[  216.572134] qsee_fp: dev-cap-flag1 str[6]: tech:ta:config
+[  216.572164] qsee_fp: dev-cap-flag1 str[7]: no key named 'algorithm.enable_forced_enrollment', use default value.
+[  216.572182] qsee_fp: dev-cap-flag1 str[8]: focaltech:ta:config
+[  216.572213] qsee_fp: dev-cap-flag1 str[9]: no key named 'algorithm.min_enrolling_quality_threshold', use default value.
+[  216.572231] qsee_fp: dev-cap-flag1 str[10]: focaltech:ta:config
+[  216.572265] qsee_fp: dev-cap-flag1 str[11]: no key named 'algorithm.min_enrolling_coverage_threshold', use default value.
+[  216.572282] qsee_fp: dev-cap-flag1 str[12]: focaltech:ta:config
+[  216.572314] qsee_fp: dev-cap-flag1 str[13]: no key named 'algorithm.min_enrolling_cond_threshold', use default value.

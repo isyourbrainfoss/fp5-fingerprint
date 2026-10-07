@@ -1,0 +1,16 @@
+[   40.122167] qsee_fp: START focal32 ret=0 res=0x0 id=0x4
+[   40.218775] qsee_fp: START fingerpr ret=0 res=0x0 id=0x5
+[   40.219986] qsee_fp: HIT f32-warmup ret=0
+[   40.219989] qsee_fp: f32-warmup st=0x22a first8=2a020000 00666f63
+[   40.219997] qsee_fp: f32-warmup str: focaltech:ta:base|version: 'v2.5.3.0-cdf0f80-230614@0928'.|focaltech:ta:base|TEE environment checking...|focaltech:ta:base|testing timing...0(0)ms.|focaltech:ta
+[   40.220971] qsee_fp: HIT f32-km ret=0
+[   40.221245] qsee_fp: REGION 2v-addr-sz ret=-22 res=0x0 type=0xee01 data=0x4
+[   40.221267] qsee_fp: REGION 2v-sz-addr ret=-22 res=0x0 type=0xee01 data=0x4
+[   40.221288] qsee_fp: REGION 3v-id-addr-sz ret=-12 res=0x0 type=0xee01 data=0x4
+[   40.221308] qsee_fp: REGION 2v-addr-1M ret=-22 res=0x0 type=0xee01 data=0x4
+[   40.221329] qsee_fp: REGION dt-sec-apps ret=-22 res=0x0 type=0xee01 data=0x4
+[   40.221349] qsee_fp: REGION dt-mem-f85 ret=-22 res=0x0 type=0xee01 data=0x4
+[   40.223638] qsee_fp: ION ion-INIT-1004 ret=0 req0=0x1004 rsp0=0xffffffff
+[   40.230157] qsee_fp: ION ion-INIT_SPI-1006 ret=0 req0=0x1006 rsp0=0xffffffff
+[   40.234491] qsee_fp: ION ion-INIT_DEV-100b ret=0 req0=0x100b rsp0=0xffffffff
+[   40.259297] qsee_fp: done
