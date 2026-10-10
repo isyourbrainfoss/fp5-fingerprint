@@ -3,7 +3,6 @@
 > **Note**
 > This is very experimental. Assume nothing here is written, or necessarily read through or fully understood, by a human unless stated, and that includes this text. Use it at your own risk, but you're encouraged to reuse any parts you find useful. The human work here is mainly ideas, testing in reality, and persistence with a vision.
 
-
 Linux bring-up for the power-button fingerprint sensor on Fairphone 5
 (Qualcomm SM7325 / sc7280, postmarketOS). An out-of-tree module talks to the
 signed `focal32` trustlet. The trustlet binary is not in this tree.
